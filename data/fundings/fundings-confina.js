@@ -1,7 +1,7 @@
 window.ceresFundingData = {
   "sourceWorkbook": "C:\\Users\\leonardo.silva\\Downloads\\funding confina.xlsx",
-  "positionDate": "2026-10-06",
-  "exportedAt": "2026-10-06T22:50:00+00:00",
+  "positionDate": "2026-10-05",
+  "exportedAt": "2026-10-07T00:10:00+00:00",
   "operations": [
     {
       "id": "confina-cra-65-200",
@@ -397,11 +397,11 @@ window.ceresFundingData = {
       "name": "Confina CRAs Carteira - 10/2026",
       "shortName": "CRAs Carteira 10/2026",
       "account": "A cadastrar",
-      "positionDate": "2026-10-06",
+      "positionDate": "2026-10-05",
       "sourceSheets": [
         "Confina CRAs Carteira 10/2026"
       ],
-      "issueDate": "2026-10-06",
+      "issueDate": "2026-10-05",
       "maturityDate": null,
       "fundingPrincipal": 75670517.84,
       "fundingBalance": 75670517.84,
@@ -427,7 +427,7 @@ window.ceresFundingData = {
           "sheet": "Confina CRAs Carteira 10/2026",
           "operationLabel": "CRAs Carteira 10/2026",
           "principal": 75670517.84,
-          "startDate": "2026-10-06",
+          "startDate": "2026-10-05",
           "accrueOnStartDate": false,
           "fundingBalance": 75670517.84,
           "fundingRate": 1.7,
@@ -437,7 +437,7 @@ window.ceresFundingData = {
           "spreadRate": null,
           "annualRate": 0.22419735005332386,
           "baseDays": 360,
-          "issueDate": "2026-10-06",
+          "issueDate": "2026-10-05",
           "maturityDate": null,
           "interestPaidToDate": 0,
           "amortizationPaidToDate": 0,

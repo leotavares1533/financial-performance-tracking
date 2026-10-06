@@ -37,7 +37,7 @@ OPERATION_START_DATES = {
     "confina-cra-65-80": "2026-08-21",
     "confina-cra-65-setembro": "2026-09-18",
     "confina-cra-42-65-setembro": "2026-09-25",
-    "confina-cras-carteira-10": "2026-10-06",
+    "confina-cras-carteira-10": "2026-10-05",
     "confina-cra-42-50": "2025-05-13",
     "confina-cras-carteira-100": "2026-04-01",
     "confina-cras-carteira-50": "2026-06-12",
@@ -84,6 +84,9 @@ ANNUAL_RATE_THRESHOLD = 0.10
 PORTFOLIO_ACCRUAL_BASE_DAYS = 360
 DEFAULT_ACCRUAL_DAY_COUNT = "calendar_inclusive"
 PARTNERSHIP_TARGET_MONTHLY_RATE = 0.017
+TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS = {
+    "confina-cras-carteira-10",
+}
 BRAZIL_MARKET_HOLIDAYS = {
     "2026-01-01",
     "2026-02-16",
@@ -903,6 +906,8 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             acquisition_value = round(parse_number(title_override.get("acquisitionValue")), 2)
         if title_override.get("faceValue") is not None:
             face_value = round(parse_number(title_override.get("faceValue")), 2)
+        if operation_id in TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS and not title_override:
+            acquisition_value = round(reported_present_value, 2)
         partial_liquidations: list[dict[str, Any]] = []
         has_intermediate_payments = bool(
             raw_settled_date

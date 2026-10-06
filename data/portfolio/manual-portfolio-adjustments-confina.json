@@ -2833,13 +2833,13 @@
       "note": "Titulo pago em 29/09/2026; manter a base historica de aquisicao e face para nao alterar o accrual anterior."
     },
     {
-      "id": "synthetic-cras10-2026-10-06-416108",
+      "id": "synthetic-cras10-2026-10-05-416108",
       "operationId": "confina-cras-carteira-10",
       "type": "synthetic_title",
       "titleId": "416108",
       "lastro": "416108",
-      "date": "2026-10-06",
-      "purchaseDate": "2026-10-06",
+      "date": "2026-10-05",
+      "purchaseDate": "2026-10-05",
       "sentDate": "2026-01-21",
       "issueDate": "2026-01-21",
       "maturityDate": "2027-01-21",
@@ -2860,13 +2860,13 @@
       "note": "Titulo de parceria ainda nao transferido para o CRA Carteira 10/2026; incluido no gerencial conforme orientacao do usuario."
     },
     {
-      "id": "synthetic-cras10-2026-10-06-447894",
+      "id": "synthetic-cras10-2026-10-05-447894",
       "operationId": "confina-cras-carteira-10",
       "type": "synthetic_title",
       "titleId": "447894",
       "lastro": "447894",
-      "date": "2026-10-06",
-      "purchaseDate": "2026-10-06",
+      "date": "2026-10-05",
+      "purchaseDate": "2026-10-05",
       "sentDate": "2026-04-15",
       "issueDate": "2026-04-15",
       "maturityDate": "2027-04-15",
@@ -2887,41 +2887,41 @@
       "note": "Titulo de parceria ainda nao transferido para o CRA Carteira 10/2026; incluido no gerencial conforme orientacao do usuario."
     },
     {
-      "id": "venda-cras10-2026-10-06-cprf-100",
+      "id": "venda-cras10-2026-10-05-cprf-100",
       "operationId": "confina-cprf-100",
-      "date": "2026-10-06",
-      "settledDate": "2026-10-06",
+      "date": "2026-10-05",
+      "settledDate": "2026-10-05",
       "type": "portfolio_liquidation",
       "mode": "replace_operation_day_type",
-      "titleId": "venda-cras10-2026-10-06-cprf-100",
+      "titleId": "venda-cras10-2026-10-05-cprf-100",
       "amount": 23519149.7,
       "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 conforme valor informado para Confina BTG 100 MM."
     },
     {
-      "id": "venda-cras10-2026-10-06-cprf-50",
+      "id": "venda-cras10-2026-10-05-cprf-50",
       "operationId": "confina-cprf-50",
-      "date": "2026-10-06",
-      "settledDate": "2026-10-06",
+      "date": "2026-10-05",
+      "settledDate": "2026-10-05",
       "type": "portfolio_liquidation",
       "mode": "replace_operation_day_type",
-      "titleId": "venda-cras10-2026-10-06-cprf-50",
+      "titleId": "venda-cras10-2026-10-05-cprf-50",
       "amount": 45064483.34,
       "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 conforme valor informado para Confina BTG 50MM - ABRIL/2026."
     },
     {
-      "id": "desagio-inicial-2026-10-06-cras-carteira-10",
+      "id": "agio-inicial-2026-10-05-cras-carteira-10",
       "operationId": "confina-cras-carteira-10",
-      "date": "2026-10-06",
-      "settledDate": "2026-10-06",
-      "type": "cash_adjustment",
+      "date": "2026-10-05",
+      "settledDate": "2026-10-05",
+      "type": "portfolio_purchase",
       "mode": "replace_same_day",
-      "titleId": "ajuste-caixa-cras10-2026-10-06",
-      "amount": 1628721.79,
-      "note": "Ajuste inicial para zerar o caixa do CRA Carteira 10/2026 no dia 0. Funding de R$ 75.670.517,84 contra carteira economica de R$ 77.299.239,63 incluindo os lastros 416108 e 447894."
+      "titleId": "agio-compra-cras10-2026-10-05",
+      "amount": 18006454.68,
+      "note": "Ajuste inicial para zerar o caixa do CRA Carteira 10/2026 no dia 0. Funding de R$ 75.670.517,84 contra carteira economica de R$ 57.664.063,16, usando VP de transferencia em 05/10/2026 e incluindo os lastros 416108 e 447894 no gerencial."
     }
   ],
   "totals": {
     "rows": 235,
-    "amount": 280322807.36
+    "amount": 296700540.25
   }
 }
