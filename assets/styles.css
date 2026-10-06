@@ -1649,6 +1649,7 @@ tfoot td,
   }
 
   .controls label {
+    grid-column: 1 / -1;
     font-size: 0.56rem;
   }
 
@@ -1662,6 +1663,11 @@ tfoot td,
     border-radius: 10px;
     font-size: 0.72rem;
     line-height: 1.05;
+  }
+
+  .controls select {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   main {
@@ -1789,38 +1795,56 @@ tfoot td,
     white-space: normal;
   }
 
+  .table-wrap,
+  .quote-table-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .wide-table,
   .evolution-panel .wide-table,
   .cash-wide-table,
   .premium-memory-table,
   .rationale-table,
-  .quote-table-scroll table,
-  .guarantee-management-table {
-    width: 100%;
-    min-width: 0;
+  .quote-table-scroll table {
+    width: max-content;
+    min-width: 690px;
+    table-layout: auto;
+  }
+
+  .table-card.wide table,
+  .detail-history-wrap table,
+  .history-wrap table {
+    width: max-content;
+    min-width: 680px;
+    table-layout: auto;
   }
 
   .guarantee-management-table {
-    font-size: 0.46rem;
+    width: max-content;
+    min-width: 980px;
+    table-layout: fixed;
+    font-size: 0.56rem;
   }
 
   .guarantee-management-table th,
   .guarantee-management-table td {
-    padding: 3px 2px;
+    padding: 5px 4px;
   }
 
   .guarantee-management-table th {
-    font-size: 0.41rem;
+    font-size: 0.48rem;
     letter-spacing: 0;
   }
 
   .guarantee-management-table td:first-child {
     max-width: none;
-    font-size: 0.45rem;
+    font-size: 0.52rem;
   }
 
   .guarantee-management-table td.num {
-    font-size: 0.44rem;
+    font-size: 0.5rem;
   }
 
   .coverage-summary,
@@ -1890,21 +1914,69 @@ tfoot td,
     font-size: 0.48rem;
   }
 
-  .partnership-insight {
+  .partnership-insights {
     padding: 9px;
   }
 
-  .partnership-card-metrics {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .partnership-tile {
+    gap: 8px;
+    padding: 9px;
+  }
+
+  .partnership-tile-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+    align-items: start;
+  }
+
+  .partnership-tile-head > strong {
+    overflow: visible;
+    font-size: 0.68rem;
+    text-overflow: clip;
+    white-space: normal;
+  }
+
+  .partnership-overall {
+    width: fit-content;
+    min-height: 20px;
+    padding: 0 7px;
+    font-size: 0.54rem;
+  }
+
+  .partnership-lights {
+    grid-template-columns: 1fr;
     gap: 6px;
   }
 
-  .partnership-card-metric {
-    padding: 7px;
+  .partnership-light {
+    min-height: 31px;
+    padding: 6px 7px;
+    gap: 6px;
   }
 
-  .partnership-card-metric strong {
-    font-size: 0.74rem;
+  .partnership-light strong {
+    font-size: 0.55rem;
+  }
+
+  .partnership-light small {
+    font-size: 0.54rem;
+  }
+
+  .partnership-foot {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  .partnership-foot span {
+    min-height: 35px;
+    padding: 6px;
+    font-size: 0.5rem;
+  }
+
+  .partnership-foot strong {
+    font-size: 0.62rem;
+    overflow-wrap: anywhere;
   }
 }
 
