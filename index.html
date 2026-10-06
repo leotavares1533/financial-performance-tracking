@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle Ceres Confinamento</title>
+  <link rel="stylesheet" href="./assets/styles.css?v=20260929-funding-rendimento">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">GCI</span>
+        <div>
+          <p class="eyebrow">Controle gerencial</p>
+          <h1>Controle Ceres Confinamento</h1>
+        </div>
+      </div>
+      <div class="controls">
+        <label>
+          <span>Data-base</span>
+          <input id="date-selector" type="date" value="2026-09-24">
+        </label>
+        <label id="operation-control">
+          <span>Funding</span>
+          <select id="funding-selector"></select>
+        </label>
+        <button id="management-button" type="button" aria-pressed="true">Controles gerenciais</button>
+        <button id="cash-button" type="button" aria-pressed="false">Caixa</button>
+        <button id="portfolio-button" type="button" aria-pressed="false">Carteira</button>
+        <button id="funding-evolution-button" type="button" aria-pressed="false">Evolucao funding</button>
+        <button id="quotes-button" type="button" aria-pressed="false">Cota&ccedil;&otilde;es @</button>
+        <a class="control-link" href="./premio/index.html">Pr&ecirc;mio</a>
+        <button id="print-button" type="button">Gerar PDF</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-strip" id="summary-strip"></section>
+
+      <section class="panel management-panel" id="management-view">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">visao gerencial</p>
+            <h2>Subordinada sint&eacute;tica consolidada dos fundings</h2>
+          </div>
+          <span id="management-date"></span>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Saldos de caixa por operacao</h3>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Operacao</th>
+                    <th class="num">Saldo total</th>
+                  </tr>
+                </thead>
+                <tbody id="cash-table"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="table-card result-card">
+            <div class="card-head">
+              <h3>Subordinada sint&eacute;tica por funding</h3>
+            </div>
+            <div class="table-wrap result-wrap">
+              <table class="compact-result-table">
+                <thead>
+                  <tr>
+                    <th>Investidor</th>
+                    <th>Veiculo</th>
+                    <th class="num" id="result-current-head">Resultado acumulado sub</th>
+                    <th class="num" id="result-day-head">Resultado no dia</th>
+                    <th class="num" id="result-month-head">Resultado 21 d.u.</th>
+                  </tr>
+                </thead>
+                <tbody id="result-table"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+
+        <div class="table-card wide sr-sub-card">
+          <div class="card-head">
+            <h3>Cobertura SR e subordinada</h3>
+            <span>Carteira + caixa x SR/funding</span>
+          </div>
+          <div class="funding-chart sr-sub-mini-chart" data-sr-sub-chart></div>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Historico da subordinada - ultimos 30 dias</h3>
+            <span>Valores acumulados diariamente</span>
+          </div>
+          <div class="table-wrap history-wrap">
+            <table class="wide-table">
+              <thead id="history-head"></thead>
+              <tbody id="history-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card wide partner-risk-card">
+          <div class="card-head">
+            <h3>Risco por parceiro</h3>
+            <span>Limites individuais por cedente</span>
+          </div>
+          <div class="partner-risk-chart" id="partner-risk-chart"></div>
+        </div>
+
+        <div class="table-card wide partnership-card">
+          <div class="card-head">
+            <h3>Parcerias de gado</h3>
+            <span>Titulos marcados por lastro - alvo 1,70% a.m.</span>
+          </div>
+          <div class="partnership-insights" id="partnership-insights"></div>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Cobertura de garantia - ativo biologico</h3>
+            <span id="guarantee-history-date">Historico da garantia por data-base</span>
+          </div>
+          <div class="table-wrap">
+            <table class="guarantee-management-table guarantee-management-screen-table">
+              <thead>
+                <tr>
+                  <th rowspan="2">Funding</th>
+                  <th class="num guarantee-head-live" colspan="3">Gado vivo</th>
+                  <th class="num guarantee-head-transit" colspan="3">Gado em transito</th>
+                  <th class="num guarantee-head-purchased" colspan="3">Comprado em transito</th>
+                  <th class="num guarantee-head-cash" rowspan="2">Caixa</th>
+                  <th class="num guarantee-head-total" rowspan="2">Total garantia</th>
+                  <th class="num" rowspan="2">Cobertura</th>
+                  <th class="num" rowspan="2">Sobra / deficit</th>
+                  <th rowspan="2">Status</th>
+                </tr>
+                <tr>
+                  <th class="num">Cab.</th>
+                  <th class="num">Peso</th>
+                  <th class="num">Valor garantia</th>
+                  <th class="num">Cab.</th>
+                  <th class="num">Peso</th>
+                  <th class="num">Valor garantia</th>
+                  <th class="num">Cab.</th>
+                  <th class="num">Peso</th>
+                  <th class="num">Valor garantia</th>
+                </tr>
+              </thead>
+              <tbody id="guarantee-management-table"></tbody>
+            </table>
+            <table class="guarantee-management-print-table print-only">
+              <thead>
+                <tr>
+                  <th rowspan="2">Funding</th>
+                  <th class="num guarantee-head-live" colspan="2">Gado vivo</th>
+                  <th class="num guarantee-head-transit" colspan="2">Gado em transito</th>
+                  <th class="num guarantee-head-purchased" colspan="2">Comprado em transito</th>
+                  <th class="num guarantee-head-cash" rowspan="2">Caixa</th>
+                  <th class="num guarantee-head-total" rowspan="2">Total garantia</th>
+                  <th class="num" rowspan="2">Cobertura</th>
+                  <th class="num" rowspan="2">Sobra / deficit</th>
+                </tr>
+                <tr>
+                  <th class="num">Cab.</th>
+                  <th class="num">Valor</th>
+                  <th class="num">Cab.</th>
+                  <th class="num">Valor</th>
+                  <th class="num">Cab.</th>
+                  <th class="num">Valor</th>
+                </tr>
+              </thead>
+              <tbody id="guarantee-management-print-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel cash-panel" id="cash-view" hidden>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">validacao caixa</p>
+            <h2>Caixa por fundo</h2>
+          </div>
+          <span id="cash-date"></span>
+        </div>
+
+        <div class="cash-kpis" id="cash-kpis"></div>
+
+        <div class="table-card wide sr-sub-card">
+          <div class="card-head">
+            <h3>Cobertura SR e subordinada</h3>
+            <span>Carteira + caixa x SR/funding</span>
+          </div>
+          <div class="funding-chart sr-sub-mini-chart" data-sr-sub-chart></div>
+        </div>
+
+        <div class="table-card wide print-keep">
+          <div class="card-head">
+            <h3>Racional do caixa</h3>
+            <span>Fluxo gerencial calculado diariamente</span>
+          </div>
+          <div class="table-wrap">
+            <table class="rationale-table">
+              <thead>
+                <tr>
+                  <th>Etapa</th>
+                  <th>Movimento</th>
+                  <th>Tratamento no caixa</th>
+                </tr>
+              </thead>
+              <tbody id="cash-rationale-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Verificacao por fundo</h3>
+            <span>Aportes, carteira, pagamentos funding e aplicacao</span>
+          </div>
+          <div class="table-wrap">
+            <table class="wide-table cash-wide-table">
+              <thead>
+                <tr>
+                  <th>Investidor</th>
+                  <th>Funding</th>
+                  <th class="num">Aporte investidor</th>
+                  <th class="num">Compras carteira</th>
+                  <th class="num">Valor pago carteira</th>
+                  <th class="num">Pagamentos funding</th>
+                  <th class="num">Rendimento caixa</th>
+                  <th class="num">Caixa atual</th>
+                  <th class="num">Aplicado 100%</th>
+                  <th class="num">Livre 10%</th>
+                  <th class="num">Eventos carteira</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="cash-funds-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Grafico de caixa</h3>
+              <span>Historico completo</span>
+            </div>
+            <div class="funding-chart" id="cash-chart"></div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Grafico de rendimento</h3>
+              <span>Rendimento acumulado do caixa</span>
+            </div>
+            <div class="funding-chart" id="cash-income-chart"></div>
+          </article>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Memoria diaria</h3>
+            <span>Desde o primeiro aporte</span>
+          </div>
+            <div class="table-wrap detail-history-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th class="num">Saldo inicial</th>
+                    <th class="num">Aporte</th>
+                    <th class="num">Compras</th>
+                    <th class="num">Valor pago</th>
+                    <th class="num">Pagamentos funding</th>
+                    <th class="num">Rendimento</th>
+                    <th class="num">Caixa final</th>
+                  </tr>
+                </thead>
+                <tbody id="cash-daily-table"></tbody>
+              </table>
+            </div>
+        </div>
+      </section>
+
+      <section class="panel portfolio-panel" id="portfolio-view" hidden>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">validacao carteira</p>
+            <h2>Carteira precificada por fundo</h2>
+          </div>
+          <span id="portfolio-date"></span>
+        </div>
+
+        <div class="cash-kpis" id="portfolio-kpis"></div>
+
+        <div class="table-card wide sr-sub-card">
+          <div class="card-head">
+            <h3>Cobertura SR e subordinada</h3>
+            <span>Carteira + caixa x SR/funding</span>
+          </div>
+          <div class="funding-chart sr-sub-mini-chart" data-sr-sub-chart></div>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Verificacao por fundo</h3>
+            <span>VP, taxa, prazo e fluxo da carteira</span>
+          </div>
+          <div class="table-wrap">
+            <table class="wide-table">
+              <thead>
+                <tr>
+                  <th>Investidor</th>
+                  <th>Funding</th>
+                  <th class="num">Titulos ativos</th>
+                  <th class="num">Valor nominal</th>
+                  <th class="num">Valor presente</th>
+                  <th class="num">Delta VP dia</th>
+                  <th class="num">Taxa media</th>
+                  <th class="num">Prazo medio</th>
+                  <th class="num">Compras caixa</th>
+                  <th class="num">Valor pago caixa</th>
+                  <th>Fonte</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="portfolio-funds-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Historico de VP</h3>
+              <span>Memoria calculada do arquivo</span>
+            </div>
+            <div class="funding-chart" id="portfolio-chart"></div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Memoria diaria</h3>
+              <span>Compras, valor pago e posicao</span>
+            </div>
+            <div class="table-wrap detail-history-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th class="num">Compras</th>
+                    <th class="num">Valor pago</th>
+                    <th class="num">Titulos</th>
+                    <th class="num">VN</th>
+                    <th class="num">VP</th>
+                    <th class="num">Delta VP dia</th>
+                  </tr>
+                </thead>
+                <tbody id="portfolio-daily-table"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Aging dos vencimentos</h3>
+            <span>Pr&oacute;ximos t&iacute;tulos em aberto</span>
+          </div>
+          <div class="table-wrap detail-history-wrap">
+            <table class="wide-table">
+              <thead>
+                <tr>
+                  <th>Funding</th>
+                  <th>Sacado</th>
+                  <th>Lastro</th>
+                  <th>Vencimento</th>
+                  <th class="num">Dias</th>
+                  <th class="num">VN</th>
+                  <th class="num">VP</th>
+                  <th>Faixa</th>
+                </tr>
+              </thead>
+              <tbody id="portfolio-aging-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Titulos ativos</h3>
+            <span>Aberto na data-base selecionada</span>
+          </div>
+          <div class="table-wrap detail-history-wrap">
+            <table class="wide-table">
+              <thead>
+                <tr>
+                  <th>Sacado</th>
+                  <th>Tipo</th>
+                  <th>Lastro</th>
+                  <th>Vencimento</th>
+                  <th class="num">VN</th>
+                  <th class="num">VP</th>
+                  <th class="num">Delta VP dia</th>
+                  <th class="num">Taxa</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="portfolio-titles-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel evolution-panel" id="funding-evolution-view" hidden>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">validacao funding</p>
+            <h2>Evolucao do funding</h2>
+          </div>
+          <span id="funding-evolution-date"></span>
+        </div>
+
+        <div class="evolution-kpis" id="funding-evolution-kpis"></div>
+
+        <div class="table-card wide sr-sub-card">
+          <div class="card-head">
+            <h3>Cobertura SR e subordinada</h3>
+            <span>Carteira + caixa x SR/funding</span>
+          </div>
+          <div class="funding-chart sr-sub-mini-chart" data-sr-sub-chart></div>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Acompanhamento por investidor</h3>
+            <span>Saldo calculado por taxa e eventos</span>
+          </div>
+          <div class="table-wrap">
+            <table class="wide-table">
+              <thead>
+                <tr>
+                  <th>Investidor</th>
+                  <th>Funding</th>
+                  <th>Taxa</th>
+                  <th>Inicio</th>
+                  <th class="num">Principal</th>
+                  <th class="num">Saldo D-1</th>
+                  <th class="num">Juros dia</th>
+                  <th class="num">Pagamento dia</th>
+                  <th class="num">Amort. dia</th>
+                  <th class="num">Saldo atual</th>
+                  <th class="num">21 d.u.</th>
+                  <th class="num">Eventos</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="funding-evolution-investor-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Grafico de saldo</h3>
+              <span>Ultimos 30 registros</span>
+            </div>
+            <div class="funding-chart" id="funding-evolution-chart"></div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Memoria diaria</h3>
+              <span>Juros, captacao e amortizacao</span>
+            </div>
+            <div class="table-wrap detail-history-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th class="num">Saldo inicial</th>
+                    <th class="num">Captacao</th>
+                    <th class="num">Juros</th>
+                    <th class="num">Pagamento</th>
+                    <th class="num">Amortizacao</th>
+                    <th class="num">Saldo final</th>
+                  </tr>
+                </thead>
+                <tbody id="funding-evolution-daily-table"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel quotes-panel" id="quotes-view" hidden>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">validacao pecuaria</p>
+            <h2>Cotacoes coletadas para garantia biologica</h2>
+          </div>
+          <span id="quotes-date"></span>
+        </div>
+
+        <div class="quote-kpis" id="quote-kpis"></div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Mapa regional - R$/@</h3>
+            <span>Boi, vaca e novilha por UF</span>
+          </div>
+          <div class="table-wrap">
+            <table class="quote-matrix">
+              <thead id="quotes-regional-head"></thead>
+              <tbody id="quotes-regional-matrix"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Boletim MT - R$/@</h3>
+              <span>Macro-regioes do estado</span>
+            </div>
+            <div class="quote-filters" aria-label="Filtros do boletim MT">
+              <label>
+                <span>Categoria</span>
+                <select id="quotes-mt-category-filter"></select>
+              </label>
+              <label>
+                <span>Regiao</span>
+                <select id="quotes-mt-region-filter"></select>
+              </label>
+            </div>
+            <div class="table-wrap quote-table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Categoria</th>
+                    <th>Regiao</th>
+                    <th class="num">Preco</th>
+                  </tr>
+                </thead>
+                <tbody id="quotes-mt-table"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Reposicao - R$/kg</h3>
+              <span>Grade extraida dos boletins</span>
+            </div>
+            <div class="quote-filters" aria-label="Filtros da reposicao">
+              <label>
+                <span>Categoria</span>
+                <select id="quotes-replacement-category-filter"></select>
+              </label>
+              <label>
+                <span>UF</span>
+                <select id="quotes-replacement-uf-filter"></select>
+              </label>
+              <label>
+                <span>Tipo</span>
+                <select id="quotes-replacement-type-filter"></select>
+              </label>
+            </div>
+            <div class="table-wrap quote-table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Categoria</th>
+                    <th>UF</th>
+                    <th>Tipo</th>
+                    <th class="num">Preco</th>
+                  </tr>
+                </thead>
+                <tbody id="quotes-replacement-table"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Registros regionais detalhados</h3>
+            <span>Preco, variacao e referencia por UF</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Data</th>
+                  <th>Categoria</th>
+                  <th>UF</th>
+                  <th class="num">Preco</th>
+                  <th class="num">Variacao</th>
+                  <th class="num">Referencia</th>
+                </tr>
+              </thead>
+              <tbody id="quotes-regional-detail-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel detail-panel" id="detail-view" hidden>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">visao individual</p>
+            <h2 id="detail-title">Funding individual</h2>
+          </div>
+          <span id="detail-status"></span>
+        </div>
+
+        <div class="detail-grid">
+          <article class="mini-card">
+            <span>Investidor</span>
+            <strong id="detail-investor"></strong>
+          </article>
+          <article class="mini-card">
+            <span>Taxa funding</span>
+            <strong id="detail-funding-rate"></strong>
+          </article>
+          <article class="mini-card">
+            <span>Taxa media carteira</span>
+            <strong id="detail-portfolio-rate"></strong>
+          </article>
+          <article class="mini-card">
+            <span>Data-base</span>
+            <strong id="detail-spread"></strong>
+          </article>
+        </div>
+
+        <div class="table-card wide sr-sub-card">
+          <div class="card-head">
+            <h3>Cobertura SR e subordinada</h3>
+            <span>Carteira + caixa x SR/funding</span>
+          </div>
+          <div class="funding-chart sr-sub-mini-chart" data-sr-sub-chart></div>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Rentabilidade da posicao</h3>
+              <span>Dia, 21 dias uteis e 30 dias</span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Componente</th>
+                    <th class="num">Saldo atual</th>
+                    <th class="num">Dia</th>
+                    <th class="num">21 d.u.</th>
+                    <th class="num">30 dias</th>
+                  </tr>
+                </thead>
+                <tbody id="performance-table"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Detalhamento da carteira</h3>
+              <span>Indicadores sinteticos</span>
+            </div>
+            <div class="portfolio-kpis" id="detail-portfolio-kpis"></div>
+          </article>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Componentes do funding</h3>
+              <span>Principal, taxa e saldo calculado</span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Componente</th>
+                    <th>Inicio</th>
+                    <th>Vencimento</th>
+                    <th>Taxa</th>
+                    <th class="num">Principal</th>
+                    <th class="num">Saldo</th>
+                    <th class="num">Eventos</th>
+                    <th>Conf.</th>
+                  </tr>
+                </thead>
+                <tbody id="funding-components-table"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Eventos do funding</h3>
+              <span>Pagamentos e amortizacoes informados</span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th>Componente</th>
+                    <th class="num">Pagamento</th>
+                    <th class="num">Juros</th>
+                    <th class="num">Amortizacao</th>
+                  </tr>
+                </thead>
+                <tbody id="funding-events-table"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+
+        <div class="table-card wide">
+          <div class="card-head">
+            <h3>Historico diario - ultimos 30 registros</h3>
+            <span>Rendimento do funding e da subordinada sintetica</span>
+          </div>
+          <div class="table-wrap detail-history-wrap">
+            <table class="wide-table">
+              <thead>
+                <tr>
+                  <th>Data</th>
+                  <th class="num">Funding dia</th>
+                  <th class="num">Sub. sintetica dia</th>
+                  <th class="num">Funding 21 d.u.</th>
+                  <th class="num">Sub. 21 d.u.</th>
+                  <th class="num">Saldo funding</th>
+                  <th class="num">Sub. sintetica</th>
+                </tr>
+              </thead>
+              <tbody id="detail-history-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="management-grid">
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Composicao da posicao</h3>
+              <span>Ativo, caixa e passivo</span>
+            </div>
+            <div class="waterfall" id="waterfall"></div>
+          </article>
+
+          <article class="table-card">
+            <div class="card-head">
+              <h3>Farol gerencial</h3>
+              <span>Resumo de atencao</span>
+            </div>
+            <div class="alert-list" id="alert-list"></div>
+          </article>
+        </div>
+
+        <div class="table-card wide print-keep">
+          <div class="card-head">
+            <h3>Concentracao da carteira</h3>
+            <span>Top produtores por VP</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Produtor</th>
+                  <th>Tipo principal</th>
+                  <th class="num">VN</th>
+                  <th class="num">VP</th>
+                  <th class="num">% carteira</th>
+                  <th class="num">Taxa media</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="portfolio-concentration-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card wide guarantee-detail-card">
+          <div class="card-head">
+            <h3>Garantia - ativo biologico</h3>
+            <span>Parcerias reconhecidas a 50% do gado; demais gados e caixa entram integralmente</span>
+          </div>
+          <div class="guarantee-overview" id="guarantee-overview"></div>
+          <div class="table-wrap">
+            <table class="guarantee-lots-print-table">
+              <thead>
+                <tr>
+                  <th class="print-hide-guarantee-local">Lote / local</th>
+                  <th>Categoria</th>
+                  <th class="num">Cabecas</th>
+                  <th class="num">Peso medio</th>
+                  <th class="num">Arrobas</th>
+                  <th class="num">Cotacao @</th>
+                  <th class="num">Valor garantia</th>
+                </tr>
+              </thead>
+              <tbody id="guarantee-lots-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card wide print-keep no-print">
+          <div class="card-head">
+            <h3>Carteira do funding</h3>
+            <span>Aguardando carteira real por titulo</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Produtor</th>
+                  <th>Tipo</th>
+                  <th class="num">VN</th>
+                  <th class="num">VP</th>
+                  <th class="num">Taxa a.m.</th>
+                  <th class="num">Spread</th>
+                  <th class="num">% carteira</th>
+                  <th>Vencimento</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="portfolio-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./data/pecuaria/cotacoes-pecuaria-latest.js?v=20261001-datagro"></script>
+  <script src="./data/fundings/fundings-confina.js?v=20260929-posicao-2809"></script>
+  <script src="./data/fundings/funding-events-confina.js?v=20260930-amortizacoes-2909"></script>
+  <script src="./data/portfolio/partnership-titles-confina.js?v=20260929-parcerias"></script>
+  <script src="./data/portfolio/portfolio-confina.js?v=20261002-carteira-posicao-0110"></script>
+  <script src="./data/biological/biological-assets-history-confina.js?v=20261002-historico-garantia-0110"></script>
+  <script src="./data/biological/biological-assets-confina.js?v=20261002-geranimal14-posicao-0110"></script>
+  <script src="./data/indices/di.js"></script>
+  <script src="./data/cash/cash-events-confina.js"></script>
+  <script src="./assets/app.js?v=20261002-delta-21du"></script>
+</body>
+</html>

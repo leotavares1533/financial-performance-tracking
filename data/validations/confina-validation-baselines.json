@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-09-22",
+  "description": "Marcos de validacao operacional aceitos pelo usuario para preservar historico e orientar novos processamentos do Controle Ceres Confina.",
+  "baselines": [
+    {
+      "operationId": "confina-cra-42-50",
+      "name": "Confina CRA 42a - 50MM",
+      "validationStatus": "validado_pelo_controle_do_prototipo",
+      "validatedAt": "2026-09-22",
+      "positionDate": "2026-09-17",
+      "userDecision": "Seguir com o controle do prototipo como base, aceitando as diferencas contra o controle paralelo nesta data.",
+      "prototypePosition": {
+        "portfolioVp": 38906907.39,
+        "cash": 7177130.13,
+        "fundingBalance": 40069455.07,
+        "syntheticSubordinated": 6014582.45
+      },
+      "controlComparisonAccepted": {
+        "portfolioVpControl": 39305202.22,
+        "portfolioVpDifferencePrototypeMinusControl": -398294.83,
+        "cashControl": 7869855.49,
+        "cashDifferencePrototypeMinusControl": -692725.36,
+        "fundingControl": 40069455.07,
+        "fundingDifferencePrototypeMinusControl": 0
+      },
+      "processingRule": "Nao reprocessar nem ajustar o historico ate 2026-09-17 para tentar bater com o controle paralelo. Novas bases devem ser tratadas da nova data de referencia para frente, preservando este baseline."
+    }
+  ]
+}

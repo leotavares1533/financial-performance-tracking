@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculo do Premio - Controle Ceres Confinamento</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d3947'/%3E%3Cpath d='M17 40c7-15 23-15 30 0' fill='none' stroke='%23fffaf4' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='26' r='8' fill='%23c76f2d'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/premio.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">GCI</span>
+        <div>
+          <p class="eyebrow">validacao premio</p>
+          <h1>Calculo do premio por abate</h1>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="print-button" type="button">Gerar PDF</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">arquivo e premissas</p>
+            <h2>Memoria de calculo da evidencia</h2>
+          </div>
+          <span id="premium-status">Aguardando arquivo</span>
+        </div>
+
+        <div class="premium-controls">
+          <label class="file-input-label">
+            <span>Relatorio ou planilha</span>
+            <input id="premium-file-input" type="file" accept=".csv,.txt,.xlsx,.xls">
+          </label>
+          <label>
+            <span>Data do abate</span>
+            <select id="premium-date-filter"></select>
+          </label>
+        </div>
+      </section>
+
+      <section class="premium-kpis" id="premium-kpis"></section>
+
+      <section class="table-card premium-allocation-card" id="premium-allocation-panel" hidden>
+        <div class="card-head">
+          <div>
+            <h3>Rateio do pagamento</h3>
+            <span id="premium-allocation-subtitle">Por quantidade de cabecas</span>
+          </div>
+        </div>
+        <div class="allocation-controls">
+          <label>
+            <span>Valor total pago</span>
+            <input id="premium-allocation-payment-input" type="text" inputmode="decimal" autocomplete="off" data-premium-mask="money">
+          </label>
+          <label>
+            <span>Valor total GTA</span>
+            <input id="premium-allocation-gta-input" type="text" inputmode="decimal" autocomplete="off" data-premium-mask="money">
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table class="wide-table allocation-table">
+            <thead>
+              <tr>
+                <th>Titulo</th>
+                <th class="num">Cabecas</th>
+                <th class="num">Part.</th>
+                <th class="num">Valor pago</th>
+                <th class="num">GTA</th>
+              </tr>
+            </thead>
+            <tbody id="premium-allocation-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="table-card">
+        <div class="card-head">
+          <div>
+            <h3>Memoria de calculo</h3>
+            <span id="premium-memory-subtitle">Agrupado por fazenda e titulo</span>
+          </div>
+        </div>
+        <div class="premium-memory-stack" id="premium-memory-table"></div>
+      </section>
+
+      <section class="table-card">
+        <div class="card-head">
+          <div>
+            <h3>Conferencia dos lotes</h3>
+            <span>Base animal usada na evidencia</span>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="wide-table">
+            <thead>
+              <tr>
+                <th>Fazenda</th>
+                <th>Parceiro</th>
+                <th>Titulo</th>
+                <th>Lastro</th>
+                <th>Lote</th>
+                <th>Pgto</th>
+                <th class="num">Cabecas</th>
+                <th class="num">Valor pago</th>
+                <th class="num">VP sistema</th>
+                <th class="num">Peso carcaca total</th>
+                <th class="num">Peso medio</th>
+              </tr>
+            </thead>
+            <tbody id="premium-lot-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./assets/jszip.min.js"></script>
+  <script src="./assets/premio.js?v=20260921-allocation"></script>
+</body>
+</html>
