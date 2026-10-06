@@ -1590,18 +1590,321 @@ tfoot td,
 }
 
 @media screen and (max-width: 720px) {
-  .app-shell {
-    width: min(900px, calc(100% - 18px));
-    min-width: 760px;
-    padding-top: 12px;
+  html {
+    font-size: 13px;
   }
 
   body {
-    overflow-x: auto;
+    overflow-x: hidden;
+  }
+
+  .app-shell {
+    width: 100%;
+    min-width: 0;
+    padding: 8px;
+  }
+
+  .topbar {
+    gap: 12px;
+    padding: 13px;
+    border-radius: 18px;
+  }
+
+  .brand {
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 42px;
+    height: 42px;
+    font-size: 0.82rem;
+  }
+
+  h1 {
+    font-size: clamp(1.35rem, 7vw, 2rem);
+  }
+
+  h2 {
+    font-size: 1.05rem;
+  }
+
+  h3 {
+    font-size: 0.82rem;
+  }
+
+  .controls {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  .controls label,
+  .controls input,
+  .controls select,
+  .controls button,
+  .controls .control-link {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .controls label {
+    font-size: 0.56rem;
+  }
+
+  .controls input,
+  .controls select,
+  .controls button,
+  .controls .control-link {
+    min-height: 33px;
+    justify-content: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    line-height: 1.05;
+  }
+
+  main {
+    margin-top: 8px;
   }
 
   .summary-strip {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+    margin-bottom: 8px;
+  }
+
+  .metric-card {
+    min-height: 70px;
+    gap: 5px;
+    padding: 9px;
+    border-radius: 14px;
+  }
+
+  .metric-card span,
+  .mini-card span,
+  .card-head span,
+  .section-head > span {
+    font-size: 0.56rem;
+    letter-spacing: 0.03em;
+  }
+
+  .metric-card strong {
+    font-size: 0.88rem;
+    overflow-wrap: anywhere;
+  }
+
+  .panel {
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .section-head,
+  .card-head {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .table-card {
+    border-radius: 14px;
+  }
+
+  .table-card .card-head {
+    padding: 9px 10px;
+  }
+
+  .management-grid,
+  .detail-grid,
+  .partnership-insights-grid {
+    gap: 8px;
+  }
+
+  .management-grid + .management-grid,
+  .table-card.wide {
+    margin-top: 8px;
+  }
+
+  .mini-card,
+  .portfolio-kpi,
+  .quote-kpi,
+  .evolution-kpi,
+  .cash-kpi,
+  .premium-kpi,
+  .guarantee-kpi {
+    min-height: 66px;
+    padding: 9px;
+    border-radius: 12px;
+  }
+
+  .mini-card strong,
+  .portfolio-kpi strong,
+  .quote-kpi strong,
+  .evolution-kpi strong,
+  .cash-kpi strong,
+  .premium-kpi strong,
+  .guarantee-kpi strong {
+    font-size: 0.82rem;
+  }
+
+  table {
+    table-layout: fixed;
+    font-size: 0.61rem;
+  }
+
+  th {
+    font-size: 0.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  th,
+  td {
+    padding: 5px 4px;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .num,
+  td.num,
+  th.num {
+    white-space: normal;
+  }
+
+  .pill {
+    min-width: 48px;
+    min-height: 20px;
+    font-size: 0.54rem;
+  }
+
+  .compact-result-table {
+    font-size: 0.58rem;
+  }
+
+  .compact-result-table th,
+  .compact-result-table td {
+    padding: 5px 3px;
+  }
+
+  .compact-result-table td.num {
+    font-size: 0.56rem;
+    white-space: normal;
+  }
+
+  .wide-table,
+  .evolution-panel .wide-table,
+  .cash-wide-table,
+  .premium-memory-table,
+  .rationale-table,
+  .quote-table-scroll table,
+  .guarantee-management-table {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .guarantee-management-table {
+    font-size: 0.46rem;
+  }
+
+  .guarantee-management-table th,
+  .guarantee-management-table td {
+    padding: 3px 2px;
+  }
+
+  .guarantee-management-table th {
+    font-size: 0.41rem;
+    letter-spacing: 0;
+  }
+
+  .guarantee-management-table td:first-child {
+    max-width: none;
+    font-size: 0.45rem;
+  }
+
+  .guarantee-management-table td.num {
+    font-size: 0.44rem;
+  }
+
+  .coverage-summary,
+  .quote-kpis,
+  .evolution-kpis,
+  .cash-kpis,
+  .premium-kpis,
+  .guarantee-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .funding-chart {
+    min-height: 210px;
+    padding: 8px;
+  }
+
+  .funding-line-chart {
+    min-height: 190px;
+  }
+
+  .sr-sub-mini-chart {
+    min-height: 112px;
+    padding: 5px 7px;
+  }
+
+  .sr-sub-mini-chart .funding-line-chart {
+    height: 104px;
+  }
+
+  .chart-legend {
+    gap: 6px 9px;
+    font-size: 0.56rem;
+  }
+
+  .chart-label {
+    font-size: 8px;
+  }
+
+  .partner-risk-chart {
+    max-height: 320px;
+    padding: 8px;
+  }
+
+  .partner-risk-scale,
+  .partner-risk-row {
+    grid-template-columns: minmax(86px, 0.34fr) minmax(120px, 1fr) minmax(54px, 0.16fr);
+    gap: 6px;
+  }
+
+  .partner-risk-name strong {
+    font-size: 0.62rem;
+    white-space: normal;
+  }
+
+  .partner-risk-name span,
+  .partner-risk-value span {
+    font-size: 0.52rem;
+  }
+
+  .partner-risk-value strong {
+    font-size: 0.62rem;
+  }
+
+  .partner-risk-bar-label,
+  .partner-risk-limit-label {
+    max-width: 58px;
+    font-size: 0.48rem;
+  }
+
+  .partnership-insight {
+    padding: 9px;
+  }
+
+  .partnership-card-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .partnership-card-metric {
+    padding: 7px;
+  }
+
+  .partnership-card-metric strong {
+    font-size: 0.74rem;
   }
 }
 
