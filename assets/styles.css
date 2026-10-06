@@ -295,8 +295,54 @@ main {
 }
 
 .table-wrap {
+  position: relative;
   width: 100%;
   overflow: auto;
+}
+
+@media screen {
+  .table-wrap th,
+  .quote-table-scroll th {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+  }
+
+  .table-wrap th:first-child,
+  .quote-table-scroll th:first-child {
+    left: 0;
+    z-index: 8;
+  }
+
+  .table-wrap td:first-child,
+  .quote-table-scroll td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 4;
+    background: rgba(255, 250, 244, 0.98);
+    box-shadow: 8px 0 14px -14px rgba(16, 32, 48, 0.7);
+  }
+
+  .table-wrap tbody tr:hover td:first-child,
+  .quote-table-scroll tbody tr:hover td:first-child {
+    background: #f3efe8;
+  }
+
+  .table-wrap tfoot td:first-child,
+  .table-wrap .total-row td:first-child,
+  .quote-table-scroll tfoot td:first-child,
+  .quote-table-scroll .total-row td:first-child {
+    background: var(--surface-soft);
+  }
+
+  .guarantee-management-table th[rowspan] {
+    top: 0;
+    z-index: 9;
+  }
+
+  .guarantee-management-table thead tr:nth-child(2) th {
+    top: 30px;
+  }
 }
 
 .guarantee-management-table,
@@ -1798,7 +1844,7 @@ tfoot td,
   .table-wrap,
   .quote-table-scroll {
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -1836,6 +1882,10 @@ tfoot td,
   .guarantee-management-table th {
     font-size: 0.48rem;
     letter-spacing: 0;
+  }
+
+  .guarantee-management-table thead tr:nth-child(2) th {
+    top: 22px;
   }
 
   .guarantee-management-table td:first-child {
