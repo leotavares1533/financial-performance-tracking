@@ -1,7 +1,7 @@
 window.ceresFundingData = {
   "sourceWorkbook": "C:\\Users\\leonardo.silva\\Downloads\\funding confina.xlsx",
-  "positionDate": "2026-09-28",
-  "exportedAt": "2026-09-29T16:21:55+00:00",
+  "positionDate": "2026-10-06",
+  "exportedAt": "2026-10-06T22:50:00+00:00",
   "operations": [
     {
       "id": "confina-cra-65-200",
@@ -386,6 +386,66 @@ window.ceresFundingData = {
           "rateSchedule": [],
           "workbookBalanceAtPosition": 63005198.33,
           "calculatedBalanceAtPosition": 63005198.33,
+          "validationDelta": 0
+        }
+      ],
+      "fundingControlMode": "calculated_in_browser"
+    },
+    {
+      "id": "confina-cras-carteira-10",
+      "investor": "Ceres",
+      "name": "Confina CRAs Carteira - 10/2026",
+      "shortName": "CRAs Carteira 10/2026",
+      "account": "A cadastrar",
+      "positionDate": "2026-10-06",
+      "sourceSheets": [
+        "Confina CRAs Carteira 10/2026"
+      ],
+      "issueDate": "2026-10-06",
+      "maturityDate": null,
+      "fundingPrincipal": 75670517.84,
+      "fundingBalance": 75670517.84,
+      "fundingPrevious": 0,
+      "fundingMonthStart": 0,
+      "fundingRate": 1.7,
+      "fundingRateLabel": "1.70% a.m.",
+      "fundingRateType": "monthly_fixed",
+      "baseDays": 360,
+      "cash": 0,
+      "portfolioVp": 0,
+      "portfolioVn": 0,
+      "portfolioRate": 0,
+      "duration": 0,
+      "overdue": 0,
+      "warning": "ok",
+      "syntheticSub": -75670517.84,
+      "previousSyntheticSub": 0,
+      "monthStartSyntheticSub": 0,
+      "portfolio": [],
+      "fundingComponents": [
+        {
+          "sheet": "Confina CRAs Carteira 10/2026",
+          "operationLabel": "CRAs Carteira 10/2026",
+          "principal": 75670517.84,
+          "startDate": "2026-10-06",
+          "accrueOnStartDate": false,
+          "fundingBalance": 75670517.84,
+          "fundingRate": 1.7,
+          "fundingRateLabel": "1.70% a.m.",
+          "fundingRateType": "monthly_fixed",
+          "cdiRate": null,
+          "spreadRate": null,
+          "annualRate": 0.22419735005332386,
+          "baseDays": 360,
+          "issueDate": "2026-10-06",
+          "maturityDate": null,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
+          "events": [],
+          "rateSchedule": [],
+          "workbookBalanceAtPosition": 75670517.84,
+          "calculatedBalanceAtPosition": 75670517.84,
           "validationDelta": 0
         }
       ],

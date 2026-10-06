@@ -23,6 +23,7 @@ OPERATION_MAP = {
     "65a confina cra setembro 2026": "confina-cra-65-setembro",
     "65 confina cra setembro 2026": "confina-cra-65-setembro",
     "42a 65a cra confina 09 2026": "confina-cra-42-65-setembro",
+    "confina cras carteira 10 2026": "confina-cras-carteira-10",
     "confina cra interno 50 mm junho 2026": "confina-cras-carteira-50",
     "confina cra s carteiras ceres": "confina-cras-carteira-100",
     "confina btg 100 mm": "confina-cprf-100",
@@ -36,6 +37,7 @@ OPERATION_START_DATES = {
     "confina-cra-65-80": "2026-08-21",
     "confina-cra-65-setembro": "2026-09-18",
     "confina-cra-42-65-setembro": "2026-09-25",
+    "confina-cras-carteira-10": "2026-10-06",
     "confina-cra-42-50": "2025-05-13",
     "confina-cras-carteira-100": "2026-04-01",
     "confina-cras-carteira-50": "2026-06-12",
@@ -48,6 +50,7 @@ OPERATION_ORDER = [
     "confina-cra-65-80",
     "confina-cra-65-setembro",
     "confina-cra-42-65-setembro",
+    "confina-cras-carteira-10",
     "confina-cra-42-50",
     "confina-cras-carteira-100",
     "confina-cras-carteira-50",
@@ -61,6 +64,7 @@ FILE_OPERATION_PATTERNS = [
     ("65a confina cra setembro 2026", "confina-cra-65-setembro"),
     ("65 confina cra setembro 2026", "confina-cra-65-setembro"),
     ("42a 65a cra confina 09 2026", "confina-cra-42-65-setembro"),
+    ("confina cras carteira 10 2026", "confina-cras-carteira-10"),
     ("super cra confina 50 mm cra 42", "confina-cra-42-50"),
     ("confina cra s carteiras 100mm", "confina-cras-carteira-100"),
     ("confina cra cartiera 50 mm", "confina-cras-carteira-50"),
@@ -868,6 +872,9 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         if title_override.get("maturityDate"):
             maturity = parse_date(title_override.get("maturityDate")) or maturity
         purchase = purchase_override or parse_date(row_get(master, column_map, "Data de cessao")) or sent or issue
+        operation_start = OPERATION_START_DATES.get(operation_id, "")
+        if operation_id == "confina-cras-carteira-10" and purchase and operation_start and date_key(purchase) < operation_start:
+            purchase = parse_date(operation_start) or purchase
         days_to_maturity = (maturity - position_day).days if maturity else int(parse_number(row_get(master, column_map, "Dias ate o vencimento")))
         payment_dates = [
             parse_date(row_get(row, column_map, "Data do pagamento"))
@@ -896,7 +903,6 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             acquisition_value = round(parse_number(title_override.get("acquisitionValue")), 2)
         if title_override.get("faceValue") is not None:
             face_value = round(parse_number(title_override.get("faceValue")), 2)
-        operation_start = OPERATION_START_DATES.get(operation_id, "")
         partial_liquidations: list[dict[str, Any]] = []
         has_intermediate_payments = bool(
             raw_settled_date
