@@ -2843,8 +2843,8 @@
       "sentDate": "2026-01-21",
       "issueDate": "2026-01-21",
       "maturityDate": "2027-01-21",
-      "acquisitionValue": 437439.99,
-      "faceValue": 437439.99,
+      "acquisitionValue": 411683.11,
+      "faceValue": 411683.11,
       "monthlyRate": 0.017,
       "rateSource": "taxa_origem_transferencia",
       "transferOriginValue": 411683.11,
@@ -2873,8 +2873,8 @@
       "sentDate": "2026-04-15",
       "issueDate": "2026-04-15",
       "maturityDate": "2027-04-15",
-      "acquisitionValue": 192033.02,
-      "faceValue": 192033.02,
+      "acquisitionValue": 172393.87,
+      "faceValue": 172393.87,
       "monthlyRate": 0.017,
       "rateSource": "taxa_origem_transferencia",
       "transferOriginValue": 172393.87,
@@ -2904,6 +2904,16 @@
       "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 pelo VP cessao informado para Confina BTG 100 MM."
     },
     {
+      "id": "ajuste-base-transferencia-cras10-2026-10-05-cprf-100",
+      "operationId": "confina-cprf-100",
+      "date": "2026-10-05",
+      "type": "synthetic_adjustment",
+      "mode": "replace_operation_day_type",
+      "titleId": "ajuste-base-transferencia-cras10-2026-10-05-cprf-100",
+      "amount": 1108934.48,
+      "note": "Ajuste sintetico sem efeito caixa: a baixa da transferencia ao CRA Carteira 10/2026 deve usar VP taxa origem R$ 23.399.346,07, enquanto o caixa recebido foi VP cessao."
+    },
+    {
       "id": "venda-cras10-2026-10-05-cprf-50",
       "operationId": "confina-cprf-50",
       "date": "2026-10-05",
@@ -2913,6 +2923,16 @@
       "titleId": "venda-cras10-2026-10-05-cprf-50",
       "amount": 45064483.35,
       "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 pelo VP cessao informado para Confina BTG 50MM - ABRIL/2026."
+    },
+    {
+      "id": "ajuste-base-transferencia-cras10-2026-10-05-cprf-50",
+      "operationId": "confina-cprf-50",
+      "date": "2026-10-05",
+      "type": "synthetic_adjustment",
+      "mode": "replace_operation_day_type",
+      "titleId": "ajuste-base-transferencia-cras10-2026-10-05-cprf-50",
+      "amount": 1963168.35,
+      "note": "Ajuste sintetico sem efeito caixa: a baixa da transferencia ao CRA Carteira 10/2026 deve usar VP taxa origem R$ 44.518.442,74, enquanto o caixa recebido foi VP cessao."
     },
     {
       "id": "compra-total-2026-10-05-cras-carteira-10",

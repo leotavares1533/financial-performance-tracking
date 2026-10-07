@@ -516,7 +516,12 @@ def apply_manual_adjustments(
         event_date = str(adjustment.get("date") or "").strip()
         title_id = str(adjustment.get("titleId") or adjustment.get("lastro") or "").strip()
         amount = round(parse_number(adjustment.get("amount")), 2)
-        if not event_type or not event_date or not title_id or amount <= 0:
+        is_synthetic_adjustment = event_type == "synthetic_adjustment"
+        if not event_type or not event_date or not title_id:
+            continue
+        if is_synthetic_adjustment and amount == 0:
+            continue
+        if not is_synthetic_adjustment and amount <= 0:
             continue
 
         title = title_by_id.get(title_id)
@@ -592,7 +597,8 @@ def apply_manual_adjustments(
     return {
         "file": MANUAL_ADJUSTMENTS_PATH.name,
         "eventsApplied": len(applied),
-        "cashImpact": round(sum(item["amount"] for item in applied), 2),
+        "cashImpact": round(sum(item["amount"] for item in applied if item["type"] != "synthetic_adjustment"), 2),
+        "syntheticImpact": round(sum(item["amount"] for item in applied if item["type"] == "synthetic_adjustment"), 2),
         "missingTitles": [item["titleId"] for item in applied if not item["titleFound"]],
         "skippedPrePurchaseLiquidations": skipped_pre_purchase_liquidations,
     }
@@ -797,6 +803,8 @@ def synthetic_title_from_adjustment(
         monthly_rate = PARTNERSHIP_TARGET_MONTHLY_RATE
     if transfer_values.get("monthlyRate"):
         monthly_rate = parse_number(transfer_values.get("monthlyRate"))
+    if transfer_values.get("acquisitionValue"):
+        acquisition_value = round(parse_number(transfer_values.get("acquisitionValue")), 2)
     base_days = int(parse_number(adjustment.get("accrualBaseDays")) or PORTFOLIO_ACCRUAL_BASE_DAYS)
     day_count = str(adjustment.get("accrualDayCount") or DEFAULT_ACCRUAL_DAY_COUNT).strip()
     annual_rate = (1 + monthly_rate) ** 12 - 1
@@ -874,6 +882,7 @@ def synthetic_title_from_adjustment(
         "validation": str(adjustment.get("validation") or "VÁLIDO").strip(),
         "transferSourceVehicle": str(transfer_values.get("sourceVehicle") or adjustment.get("transferSourceVehicle") or "").strip(),
         "transferOriginValue": round(parse_number(transfer_values.get("acquisitionValue")), 2),
+        "transferNewAcquisitionValue": round(parse_number(transfer_values.get("newAcquisitionValue")), 2),
         "transferCessionValue": round(parse_number(transfer_values.get("cessionValue")), 2),
         "isActive": bool(calculated_present_value > 0 and active_as_of_position),
         "syntheticTitle": True,
@@ -947,8 +956,6 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             effective_rate_annual = (1 + monthly_rate) ** 12 - 1
             daily_rate = daily_rate_from_monthly(monthly_rate, accrual_base_days)
             rate_source = "taxa_alvo_parceria"
-        if transfer_values.get("newAcquisitionValue"):
-            acquisition_value = round(parse_number(transfer_values.get("newAcquisitionValue")), 2)
         if transfer_values.get("monthlyRate"):
             monthly_rate = parse_number(transfer_values.get("monthlyRate"))
             effective_rate_annual = (1 + monthly_rate) ** 12 - 1
@@ -1002,8 +1009,8 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             face_value = round(parse_number(title_override.get("faceValue")), 2)
         if operation_id in TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS and not title_override:
             acquisition_value = round(reported_present_value, 2)
-        if transfer_values.get("newAcquisitionValue"):
-            acquisition_value = round(parse_number(transfer_values.get("newAcquisitionValue")), 2)
+        if transfer_values.get("acquisitionValue"):
+            acquisition_value = round(parse_number(transfer_values.get("acquisitionValue")), 2)
         partial_liquidations: list[dict[str, Any]] = []
         has_intermediate_payments = bool(
             raw_settled_date
@@ -1139,6 +1146,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
                 or transfer_source_vehicle_from_observation(row_get(master, column_map, "Observacao manual"))
             ).strip(),
             "transferOriginValue": round(parse_number(transfer_values.get("acquisitionValue")), 2),
+            "transferNewAcquisitionValue": round(parse_number(transfer_values.get("newAcquisitionValue")), 2),
             "transferCessionValue": round(parse_number(transfer_values.get("cessionValue")), 2),
         }
         title["isActive"] = bool(title["presentValue"] > 0 and active_as_of_position)

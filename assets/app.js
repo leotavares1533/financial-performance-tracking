@@ -1570,7 +1570,8 @@ function syntheticAtDate(operation, dateKey) {
   if (funding === null) return null;
   const portfolioPosition = operationPortfolioPositionAtDate(operation, dateKey);
   const cash = cashBalanceAtDate(operation, dateKey);
-  return roundMoney(Number(portfolioPosition.portfolioVp || 0) + cash - funding);
+  const syntheticAdjustment = operationSyntheticAdjustmentBalanceAtDate(operation, dateKey);
+  return roundMoney(Number(portfolioPosition.portfolioVp || 0) + cash + syntheticAdjustment - funding);
 }
 
 function syntheticAtOffset(operation, offset) {
@@ -2214,11 +2215,21 @@ function normalizeCashEventType(event) {
   if (["portfolio_liquidation", "carteira_liquidacao", "liquidacao_carteira", "liquidacao", "liquidation", "recebimento_carteira"].includes(type)) return "portfolioLiquidation";
   if (["investor_contribution", "aporte_investidor", "aporte"].includes(type)) return "investorInflow";
   if (["funding_amortization", "amortizacao_funding", "amortizacao"].includes(type)) return "fundingAmortization";
+  if (["synthetic_adjustment", "ajuste_subordinada", "ajuste_base_transferencia"].includes(type)) return "syntheticAdjustment";
   return "adjustment";
 }
 
 function cashEventAmount(event) {
   return Number(event.amount ?? event.value ?? event.valor ?? 0) || 0;
+}
+
+function operationSyntheticAdjustmentBalanceAtDate(operation, dateKey) {
+  return operationCashEvents(operation, dateKey).reduce((sum, event) => {
+    if (!event.date || event.date > dateKey) return sum;
+    return normalizeCashEventType(event) === "syntheticAdjustment"
+      ? sum + cashEventAmount(event)
+      : sum;
+  }, 0);
 }
 
 function operationCashEventActivity(operation, dateKey) {
@@ -2237,6 +2248,8 @@ function operationCashEventActivity(operation, dateKey) {
       total.investorInflow += amount;
     } else if (type === "fundingAmortization") {
       total.fundingAmortization += amount;
+    } else if (type === "syntheticAdjustment") {
+      total.syntheticAdjustment += amount;
     } else {
       total.adjustment += amount;
     }
@@ -2248,6 +2261,7 @@ function operationCashEventActivity(operation, dateKey) {
     portfolioPurchase: 0,
     portfolioLiquidation: 0,
     fundingAmortization: 0,
+    syntheticAdjustment: 0,
     adjustment: 0
   });
 }
@@ -2557,6 +2571,9 @@ function recalculateFundingPositions() {
     const cashPosition = operationCashPositionAtDate(operation, dateKey);
     const cashPrevious = cashBalanceAtDate(operation, previousKey);
     const cashMonthStart = cashBalanceAtDate(operation, monthStartKey);
+    const syntheticAdjustment = operationSyntheticAdjustmentBalanceAtDate(operation, dateKey);
+    const syntheticPreviousAdjustment = operationSyntheticAdjustmentBalanceAtDate(operation, previousKey);
+    const syntheticMonthStartAdjustment = operationSyntheticAdjustmentBalanceAtDate(operation, monthStartKey);
     operation.fundingBalance = roundMoney(fundingBalance);
     operation.fundingPrevious = roundMoney(fundingPrevious);
     operation.fundingMonthStart = roundMoney(fundingMonthStart);
@@ -2573,9 +2590,12 @@ function recalculateFundingPositions() {
     operation.cashApplied = roundMoney(cashPosition.appliedBalance);
     operation.cashFree = roundMoney(cashPosition.freeBalance);
     if (fundingRate !== null) operation.fundingRate = Number(fundingRate.toFixed(4));
-    operation.syntheticSub = roundMoney(operation.portfolioVp + operation.cash - operation.fundingBalance);
-    operation.previousSyntheticSub = roundMoney(operation.portfolioPreviousVp + operation.cashPrevious - operation.fundingPrevious);
-    operation.monthStartSyntheticSub = roundMoney(operation.portfolioMonthStartVp + operation.cashMonthStart - operation.fundingMonthStart);
+    operation.syntheticAdjustment = roundMoney(syntheticAdjustment);
+    operation.previousSyntheticAdjustment = roundMoney(syntheticPreviousAdjustment);
+    operation.monthStartSyntheticAdjustment = roundMoney(syntheticMonthStartAdjustment);
+    operation.syntheticSub = roundMoney(operation.portfolioVp + operation.cash + operation.syntheticAdjustment - operation.fundingBalance);
+    operation.previousSyntheticSub = roundMoney(operation.portfolioPreviousVp + operation.cashPrevious + operation.previousSyntheticAdjustment - operation.fundingPrevious);
+    operation.monthStartSyntheticSub = roundMoney(operation.portfolioMonthStartVp + operation.cashMonthStart + operation.monthStartSyntheticAdjustment - operation.fundingMonthStart);
     if (portfolioPosition.imported) {
       operation.duration = Math.max(0, Number(portfolioPosition.weightedDays || 0));
     } else if (operation.maturityDate) {

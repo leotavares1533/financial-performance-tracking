@@ -1,5 +1,5 @@
 window.ceresPortfolioData = {
-  "updatedAt": "2026-10-07T21:35:07+00:00",
+  "updatedAt": "2026-10-07T21:50:24+00:00",
   "sourceFiles": [
     {
       "file": "Relatório CONFINA - CRA INTERNO - 50 MM - JUNHO_2026 (10).csv",
@@ -155,6 +155,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -215,6 +216,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -275,6 +277,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -335,6 +338,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -395,6 +399,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -455,6 +460,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -515,6 +521,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -575,6 +582,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -635,6 +643,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -695,6 +704,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -755,6 +765,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -815,6 +826,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -875,6 +887,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -935,6 +948,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -995,6 +1009,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1055,6 +1070,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1115,6 +1131,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1175,6 +1192,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1235,6 +1253,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1295,6 +1314,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1355,6 +1375,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1415,6 +1436,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1475,6 +1497,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1535,6 +1558,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1595,6 +1619,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1655,6 +1680,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1715,6 +1741,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1775,6 +1802,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1848,6 +1876,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1908,6 +1937,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1968,6 +1998,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2028,6 +2059,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2088,6 +2120,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2148,6 +2181,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2221,6 +2255,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2281,6 +2316,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2341,6 +2377,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2414,6 +2451,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2479,6 +2517,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2539,6 +2578,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2608,6 +2648,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2668,6 +2709,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2728,6 +2770,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2788,6 +2831,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2848,6 +2892,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2913,6 +2958,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2973,6 +3019,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3033,6 +3080,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3093,6 +3141,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3153,6 +3202,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3213,6 +3263,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3278,6 +3329,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3338,6 +3390,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3398,6 +3451,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3458,6 +3512,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3518,6 +3573,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3578,6 +3634,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3643,6 +3700,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3703,6 +3761,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3768,6 +3827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3828,6 +3888,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3888,6 +3949,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3948,6 +4010,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4008,6 +4071,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4068,6 +4132,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4153,6 +4218,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4218,6 +4284,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4278,6 +4345,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4338,6 +4406,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4407,6 +4476,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4467,6 +4537,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4536,6 +4607,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4601,6 +4673,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4661,6 +4734,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4721,6 +4795,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4790,6 +4865,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4859,6 +4935,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4924,6 +5001,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4984,6 +5062,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5044,6 +5123,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5109,6 +5189,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5169,6 +5250,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5229,6 +5311,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5294,6 +5377,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5354,6 +5438,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5414,6 +5499,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5474,6 +5560,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5534,6 +5621,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5594,6 +5682,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5654,6 +5743,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5714,6 +5804,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5774,6 +5865,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5834,6 +5926,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5899,6 +5992,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5959,6 +6053,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6019,6 +6114,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6079,6 +6175,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6139,6 +6236,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6199,6 +6297,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6259,6 +6358,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6319,6 +6419,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6379,6 +6480,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6439,6 +6541,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6499,6 +6602,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6564,6 +6668,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6624,6 +6729,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6684,6 +6790,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6744,6 +6851,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6804,6 +6912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6864,6 +6973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6924,6 +7034,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6984,6 +7095,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7044,6 +7156,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7104,6 +7217,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7164,6 +7278,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7224,6 +7339,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7284,6 +7400,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7344,6 +7461,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7404,6 +7522,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7464,6 +7583,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7524,6 +7644,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7584,6 +7705,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7644,6 +7766,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7704,6 +7827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7764,6 +7888,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7837,6 +7962,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7897,6 +8023,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7957,6 +8084,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -8017,6 +8145,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8077,6 +8206,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8137,6 +8267,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8197,6 +8328,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -8257,6 +8389,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8317,6 +8450,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8377,6 +8511,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8442,6 +8577,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8502,6 +8638,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8562,6 +8699,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8622,6 +8760,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8682,6 +8821,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8742,6 +8882,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8802,6 +8943,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8862,6 +9004,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8922,6 +9065,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8982,6 +9126,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9042,6 +9187,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9102,6 +9248,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9162,6 +9309,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9222,6 +9370,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9282,6 +9431,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9342,6 +9492,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9402,6 +9553,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9462,6 +9614,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9522,6 +9675,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9582,6 +9736,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9642,6 +9797,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9702,6 +9858,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9762,6 +9919,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9822,6 +9980,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9882,6 +10041,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9942,6 +10102,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10002,6 +10163,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10062,6 +10224,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10122,6 +10285,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10182,6 +10346,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10242,6 +10407,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10302,6 +10468,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10362,6 +10529,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10422,6 +10590,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10482,6 +10651,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10542,6 +10712,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10602,6 +10773,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10662,6 +10834,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10722,6 +10895,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10782,6 +10956,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10842,6 +11017,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10902,6 +11078,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10962,6 +11139,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11022,6 +11200,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11082,6 +11261,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11142,6 +11322,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11202,6 +11383,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11262,6 +11444,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11322,6 +11505,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11382,6 +11566,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11442,6 +11627,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11502,6 +11688,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11562,6 +11749,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11622,6 +11810,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11682,6 +11871,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11742,6 +11932,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11802,6 +11993,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11862,6 +12054,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11922,6 +12115,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11982,6 +12176,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12042,6 +12237,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12102,6 +12298,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12162,6 +12359,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12222,6 +12420,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12282,6 +12481,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12342,6 +12542,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12402,6 +12603,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12462,6 +12664,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12522,6 +12725,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12582,6 +12786,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12642,6 +12847,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12702,6 +12908,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12762,6 +12969,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12822,6 +13030,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12882,6 +13091,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12942,6 +13152,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13002,6 +13213,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13062,6 +13274,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13122,6 +13335,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13182,6 +13396,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13242,6 +13457,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13302,6 +13518,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13362,6 +13579,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13422,6 +13640,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -13484,6 +13703,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13544,6 +13764,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Titulo removido da carteira conforme orientacao do usuario; entrada em 18/09/2026 estava incorreta.",
@@ -13606,6 +13827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13666,6 +13888,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13726,6 +13949,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13786,6 +14010,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13846,6 +14071,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13906,6 +14132,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         }
@@ -18386,6 +18613,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 18,
         "cashImpact": 15179710.09,
+        "syntheticImpact": 0,
         "missingTitles": [
           "aquisicao-controle-cra65-200-2026-07-06"
         ],
@@ -18485,6 +18713,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18545,6 +18774,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18605,6 +18835,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18665,6 +18896,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18725,6 +18957,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18785,6 +19018,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18845,6 +19079,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18905,6 +19140,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18965,6 +19201,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19025,6 +19262,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19085,6 +19323,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19145,6 +19384,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19205,6 +19445,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19265,6 +19506,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19325,6 +19567,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19385,6 +19628,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19445,6 +19689,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19505,6 +19750,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19565,6 +19811,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19625,6 +19872,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19685,6 +19933,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19745,6 +19994,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19805,6 +20055,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19865,6 +20116,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19925,6 +20177,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19985,6 +20238,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20045,6 +20299,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20105,6 +20360,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20165,6 +20421,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20225,6 +20482,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20285,6 +20543,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20345,6 +20604,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20405,6 +20665,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20465,6 +20726,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20525,6 +20787,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20585,6 +20848,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20645,6 +20909,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20705,6 +20970,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20765,6 +21031,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20825,6 +21092,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20885,6 +21153,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20945,6 +21214,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21005,6 +21275,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21065,6 +21336,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21125,6 +21397,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21185,6 +21458,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21245,6 +21519,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21305,6 +21580,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21365,6 +21641,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21425,6 +21702,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21485,6 +21763,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21545,6 +21824,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21605,6 +21885,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21665,6 +21946,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21725,6 +22007,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21785,6 +22068,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21845,6 +22129,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21905,6 +22190,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21965,6 +22251,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22025,6 +22312,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22085,6 +22373,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22145,6 +22434,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22205,6 +22495,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22265,6 +22556,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22325,6 +22617,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22385,6 +22678,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22445,6 +22739,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22505,6 +22800,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22565,6 +22861,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22625,6 +22922,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22685,6 +22983,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22745,6 +23044,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22805,6 +23105,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22865,6 +23166,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22925,6 +23227,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22985,6 +23288,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23045,6 +23349,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23105,6 +23410,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23165,6 +23471,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23225,6 +23532,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23285,6 +23593,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23345,6 +23654,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23405,6 +23715,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23465,6 +23776,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23525,6 +23837,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23585,6 +23898,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23645,6 +23959,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23705,6 +24020,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23765,6 +24081,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23825,6 +24142,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23885,6 +24203,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23945,6 +24264,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24005,6 +24325,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24065,6 +24386,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24125,6 +24447,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24185,6 +24508,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24245,6 +24569,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24305,6 +24630,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24365,6 +24691,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24425,6 +24752,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24485,6 +24813,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24545,6 +24874,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24605,6 +24935,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24665,6 +24996,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24725,6 +25057,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24785,6 +25118,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24845,6 +25179,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24905,6 +25240,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24965,6 +25301,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -25025,6 +25362,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -25085,6 +25423,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -25145,6 +25484,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -26656,6 +26996,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 1,
         "cashImpact": 945830.49,
+        "syntheticImpact": 0,
         "missingTitles": [
           "agio-compra-cra65-80-2026-08-21"
         ],
@@ -26745,6 +27086,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26805,6 +27147,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26865,6 +27208,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26925,6 +27269,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26985,6 +27330,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27045,6 +27391,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27105,6 +27452,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27165,6 +27513,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27225,6 +27574,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27285,6 +27635,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27345,6 +27696,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27405,6 +27757,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27465,6 +27818,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27525,6 +27879,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27585,6 +27940,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27645,6 +28001,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27705,6 +28062,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27765,6 +28123,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27825,6 +28184,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27885,6 +28245,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27945,6 +28306,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28005,6 +28367,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28065,6 +28428,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28125,6 +28489,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28185,6 +28550,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28245,6 +28611,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28305,6 +28672,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28365,6 +28733,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28425,6 +28794,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28485,6 +28855,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28545,6 +28916,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28605,6 +28977,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28665,6 +29038,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -29162,6 +29536,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 1,
         "cashImpact": 477492.52,
+        "syntheticImpact": 0,
         "missingTitles": [
           "agio-compra-cra65-setembro-2026-09-18"
         ],
@@ -29251,6 +29626,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29311,6 +29687,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29371,6 +29748,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29431,6 +29809,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29491,6 +29870,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29551,6 +29931,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29611,6 +29992,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29671,6 +30053,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29731,6 +30114,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29791,6 +30175,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29851,6 +30236,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29911,6 +30297,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29971,6 +30358,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30031,6 +30419,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30091,6 +30480,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30151,6 +30541,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30211,6 +30602,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30271,6 +30663,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30331,6 +30724,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30391,6 +30785,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30451,6 +30846,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30511,6 +30907,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30571,6 +30968,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30631,6 +31029,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30691,6 +31090,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30751,6 +31151,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30811,6 +31212,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30871,6 +31273,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30931,6 +31334,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30991,6 +31395,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31051,6 +31456,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31111,6 +31517,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31171,6 +31578,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31231,6 +31639,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31291,6 +31700,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31351,6 +31761,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31411,6 +31822,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31471,6 +31883,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31531,6 +31944,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31591,6 +32005,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31651,6 +32066,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31711,6 +32127,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31771,6 +32188,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31831,6 +32249,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31891,6 +32310,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31951,6 +32371,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32011,6 +32432,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32071,6 +32493,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32131,6 +32554,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32191,6 +32615,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32251,6 +32676,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32311,6 +32737,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32371,6 +32798,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32431,6 +32859,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32491,6 +32920,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32551,6 +32981,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32611,6 +33042,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32671,6 +33103,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32731,6 +33164,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32791,6 +33225,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -33502,6 +33937,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 1,
         "cashImpact": 472029.51,
+        "syntheticImpact": 0,
         "missingTitles": [
           "agio-compra-cra42-65-setembro-2026-09-25"
         ],
@@ -33520,11 +33956,11 @@ window.ceresPortfolioData = {
         "ignoredTitles": 0,
         "activeTitles": 59,
         "settledTitles": 0,
-        "portfolioVn": 81729784.53,
-        "portfolioVp": 76441024.81,
-        "acquisitionValue": 76441024.81,
-        "weightedRateMonthly": 0.01900953376687206,
-        "weightedDaysToMaturity": 138.38735257204618,
+        "portfolioVn": 81684388.5,
+        "portfolioVp": 74968856.43,
+        "acquisitionValue": 74968856.43,
+        "weightedRateMonthly": 0.018992516053415807,
+        "weightedDaysToMaturity": 136.47189855967767,
         "overdueVp": 0,
         "cashPurchases": 75670517.84,
         "cashLiquidations": 0,
@@ -33558,8 +33994,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 315503.82,
           "outstandingFaceValue": 315503.82,
-          "acquisitionValue": 315503.82,
-          "presentValue": 315503.82,
+          "acquisitionValue": 306074.33,
+          "presentValue": 306074.33,
           "reportedPresentValue": 315503.82,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33576,8 +34012,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 54,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -33591,6 +34027,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 306074.33,
+          "transferNewAcquisitionValue": 315503.82,
           "transferCessionValue": 306074.33,
           "isActive": true
         },
@@ -33618,8 +34055,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2693249.44,
           "outstandingFaceValue": 2693249.44,
-          "acquisitionValue": 2494985.63,
-          "presentValue": 2494985.63,
+          "acquisitionValue": 2596461.56,
+          "presentValue": 2596461.56,
           "reportedPresentValue": 2598159.03,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33651,6 +34088,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 2596461.56,
+          "transferNewAcquisitionValue": 2494985.63,
           "transferCessionValue": 2609821.47,
           "isActive": true
         },
@@ -33678,8 +34116,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 633668.37,
           "outstandingFaceValue": 633668.37,
-          "acquisitionValue": 574495.98,
-          "presentValue": 574495.98,
+          "acquisitionValue": 609301.17,
+          "presentValue": 609301.17,
           "reportedPresentValue": 609699.52,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33711,6 +34149,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 609301.17,
+          "transferNewAcquisitionValue": 574495.98,
           "transferCessionValue": 612660.84,
           "isActive": true
         },
@@ -33738,8 +34177,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1443178.42,
           "outstandingFaceValue": 1443178.42,
-          "acquisitionValue": 1308413.41,
-          "presentValue": 1308413.41,
+          "acquisitionValue": 1384964.08,
+          "presentValue": 1384964.08,
           "reportedPresentValue": 1385869.52,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33771,6 +34210,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1384964.08,
+          "transferNewAcquisitionValue": 1308413.41,
           "transferCessionValue": 1392983.67,
           "isActive": true
         },
@@ -33798,8 +34238,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1522269.24,
           "outstandingFaceValue": 1522269.24,
-          "acquisitionValue": 1380118.68,
-          "presentValue": 1380118.68,
+          "acquisitionValue": 1458003.13,
+          "presentValue": 1458003.13,
           "reportedPresentValue": 1458956.32,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33831,6 +34271,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1458003.13,
+          "transferNewAcquisitionValue": 1380118.68,
           "transferCessionValue": 1466848.89,
           "isActive": true
         },
@@ -33858,8 +34299,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1045532.17,
           "outstandingFaceValue": 1045532.17,
-          "acquisitionValue": 947899.65,
-          "presentValue": 947899.65,
+          "acquisitionValue": 1000738.37,
+          "presentValue": 1000738.37,
           "reportedPresentValue": 1001392.62,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33891,6 +34332,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1000738.37,
+          "transferNewAcquisitionValue": 947899.65,
           "transferCessionValue": 1006902.16,
           "isActive": true
         },
@@ -33918,8 +34360,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 681708.63,
           "outstandingFaceValue": 681708.63,
-          "acquisitionValue": 618050.2,
-          "presentValue": 618050.2,
+          "acquisitionValue": 652075.84,
+          "presentValue": 652075.84,
           "reportedPresentValue": 652502.14,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33951,6 +34393,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 652075.84,
+          "transferNewAcquisitionValue": 618050.2,
           "transferCessionValue": 656152.26,
           "isActive": true
         },
@@ -33978,8 +34421,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 256255.1,
           "outstandingFaceValue": 256255.1,
-          "acquisitionValue": 232896.2,
-          "presentValue": 232896.2,
+          "acquisitionValue": 239670.97,
+          "presentValue": 239670.97,
           "reportedPresentValue": 239823.74,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34011,6 +34454,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 239670.97,
+          "transferNewAcquisitionValue": 232896.2,
           "transferCessionValue": 241573.44,
           "isActive": true
         },
@@ -34036,10 +34480,10 @@ window.ceresPortfolioData = {
           "controlReferenceLastro": "",
           "manualTitleOverrideId": "synthetic-cras10-2026-10-05-416108",
           "settledDate": "",
-          "faceValue": 437439.99,
-          "outstandingFaceValue": 437439.99,
-          "acquisitionValue": 437439.99,
-          "presentValue": 437439.99,
+          "faceValue": 411683.11,
+          "outstandingFaceValue": 411683.11,
+          "acquisitionValue": 411683.11,
+          "presentValue": 411683.11,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34068,6 +34512,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 411683.11,
+          "transferNewAcquisitionValue": 437439.99,
           "transferCessionValue": 411683.11,
           "isActive": true,
           "syntheticTitle": true,
@@ -34098,8 +34543,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 466145.72,
           "outstandingFaceValue": 466145.72,
-          "acquisitionValue": 423654.26,
-          "presentValue": 423654.26,
+          "acquisitionValue": 434868.23,
+          "presentValue": 434868.23,
           "reportedPresentValue": 435145.41,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34131,6 +34576,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 434868.23,
+          "transferNewAcquisitionValue": 423654.26,
           "transferCessionValue": 438452.19,
           "isActive": true
         },
@@ -34158,8 +34604,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1780865.64,
           "outstandingFaceValue": 1780865.64,
-          "acquisitionValue": 1618531.04,
-          "presentValue": 1618531.04,
+          "acquisitionValue": 1660314.65,
+          "presentValue": 1660314.65,
           "reportedPresentValue": 1661372.94,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34191,6 +34637,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1660314.65,
+          "transferNewAcquisitionValue": 1618531.04,
           "transferCessionValue": 1674124.15,
           "isActive": true
         },
@@ -34218,8 +34665,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2341506.76,
           "outstandingFaceValue": 2341506.76,
-          "acquisitionValue": 2128066.99,
-          "presentValue": 2128066.99,
+          "acquisitionValue": 2181614.07,
+          "presentValue": 2181614.07,
           "reportedPresentValue": 2183004.65,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34251,6 +34698,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 2181614.07,
+          "transferNewAcquisitionValue": 2128066.99,
           "transferCessionValue": 2199925.08,
           "isActive": true
         },
@@ -34278,8 +34726,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 193960.6,
           "outstandingFaceValue": 193960.6,
-          "acquisitionValue": 176617.45,
-          "presentValue": 176617.45,
+          "acquisitionValue": 180485.6,
+          "presentValue": 180485.6,
           "reportedPresentValue": 180600.65,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34311,6 +34759,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 180485.6,
+          "transferNewAcquisitionValue": 176617.45,
           "transferCessionValue": 182027.89,
           "isActive": true
         },
@@ -34338,8 +34787,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1878982.11,
           "outstandingFaceValue": 1878982.11,
-          "acquisitionValue": 1707703.72,
-          "presentValue": 1707703.72,
+          "acquisitionValue": 1746217.03,
+          "presentValue": 1746217.03,
           "reportedPresentValue": 1747330.08,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34371,6 +34820,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1746217.03,
+          "transferNewAcquisitionValue": 1707703.72,
           "transferCessionValue": 1761404.06,
           "isActive": true
         },
@@ -34398,8 +34848,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 622304.42,
           "outstandingFaceValue": 622304.42,
-          "acquisitionValue": 565578.33,
-          "presentValue": 565578.33,
+          "acquisitionValue": 577597.08,
+          "presentValue": 577597.08,
           "reportedPresentValue": 577965.24,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34431,6 +34881,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 577597.08,
+          "transferNewAcquisitionValue": 565578.33,
           "transferCessionValue": 582708.25,
           "isActive": true
         },
@@ -34458,8 +34909,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 781676.71,
           "outstandingFaceValue": 781676.71,
-          "acquisitionValue": 710423.06,
-          "presentValue": 710423.06,
+          "acquisitionValue": 725057.66,
+          "presentValue": 725057.66,
           "reportedPresentValue": 725519.81,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34491,6 +34942,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 725057.66,
+          "transferNewAcquisitionValue": 710423.06,
           "transferCessionValue": 731528.79,
           "isActive": true
         },
@@ -34518,8 +34970,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 825174.42,
           "outstandingFaceValue": 825174.42,
-          "acquisitionValue": 749955.74,
-          "presentValue": 749955.74,
+          "acquisitionValue": 764917.14,
+          "presentValue": 764917.14,
           "reportedPresentValue": 765404.7,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34551,6 +35003,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 764917.14,
+          "transferNewAcquisitionValue": 749955.74,
           "transferCessionValue": 771802.14,
           "isActive": true
         },
@@ -34578,8 +35031,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2289245.47,
           "outstandingFaceValue": 2289245.47,
-          "acquisitionValue": 2289245.47,
-          "presentValue": 2289245.47,
+          "acquisitionValue": 2137570.7,
+          "presentValue": 2137570.7,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34596,8 +35049,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 122,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34611,6 +35064,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 2137570.7,
+          "transferNewAcquisitionValue": 2289245.47,
           "transferCessionValue": 2137570.7,
           "isActive": true
         },
@@ -34638,8 +35092,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 509754.69,
           "outstandingFaceValue": 509754.69,
-          "acquisitionValue": 463288.06,
-          "presentValue": 463288.06,
+          "acquisitionValue": 471327.66,
+          "presentValue": 471327.66,
           "reportedPresentValue": 471628.09,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34671,6 +35125,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 471327.66,
+          "transferNewAcquisitionValue": 463288.06,
           "transferCessionValue": 475713.33,
           "isActive": true
         },
@@ -34698,8 +35153,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1938296.24,
           "outstandingFaceValue": 1938296.24,
-          "acquisitionValue": 1938296.24,
-          "presentValue": 1938296.24,
+          "acquisitionValue": 1808857.05,
+          "presentValue": 1808857.05,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34716,8 +35171,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 123,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34731,6 +35186,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1808857.05,
+          "transferNewAcquisitionValue": 1938296.24,
           "transferCessionValue": 1808857.05,
           "isActive": true
         },
@@ -34758,8 +35214,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 338067.6,
           "outstandingFaceValue": 338067.6,
-          "acquisitionValue": 307251.09,
-          "presentValue": 307251.09,
+          "acquisitionValue": 312383.81,
+          "presentValue": 312383.81,
           "reportedPresentValue": 312582.93,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34791,6 +35247,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 312383.81,
+          "transferNewAcquisitionValue": 307251.09,
           "transferCessionValue": 315314.26,
           "isActive": true
         },
@@ -34818,8 +35275,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1174317.67,
           "outstandingFaceValue": 1174317.67,
-          "acquisitionValue": 1174317.67,
-          "presentValue": 1174317.67,
+          "acquisitionValue": 1095281.26,
+          "presentValue": 1095281.26,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34836,8 +35293,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 124,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34851,6 +35308,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1095281.26,
+          "transferNewAcquisitionValue": 1174317.67,
           "transferCessionValue": 1095281.26,
           "isActive": true
         },
@@ -34878,8 +35336,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1340167.55,
           "outstandingFaceValue": 1340167.55,
-          "acquisitionValue": 1218004.74,
-          "presentValue": 1218004.74,
+          "acquisitionValue": 1237563.04,
+          "presentValue": 1237563.04,
           "reportedPresentValue": 1238351.88,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34911,6 +35369,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1237563.04,
+          "transferNewAcquisitionValue": 1218004.74,
           "transferCessionValue": 1249266.6,
           "isActive": true
         },
@@ -34938,8 +35397,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 845422.24,
           "outstandingFaceValue": 845422.24,
-          "acquisitionValue": 768847.63,
-          "presentValue": 768847.63,
+          "acquisitionValue": 780695.9,
+          "presentValue": 780695.9,
           "reportedPresentValue": 781193.52,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34971,6 +35430,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 780695.9,
+          "transferNewAcquisitionValue": 768847.63,
           "transferCessionValue": 788078.9,
           "isActive": true
         },
@@ -34998,8 +35458,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 121721.07,
           "outstandingFaceValue": 121721.07,
-          "acquisitionValue": 110625.6,
-          "presentValue": 110625.6,
+          "acquisitionValue": 112115.86,
+          "presentValue": 112115.86,
           "reportedPresentValue": 112187.32,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35031,6 +35491,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 112115.86,
+          "transferNewAcquisitionValue": 110625.6,
           "transferCessionValue": 113210.23,
           "isActive": true
         },
@@ -35058,8 +35519,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 724864.67,
           "outstandingFaceValue": 724864.67,
-          "acquisitionValue": 724864.67,
-          "presentValue": 724864.67,
+          "acquisitionValue": 673802.79,
+          "presentValue": 673802.79,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35076,8 +35537,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 130,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -35091,6 +35552,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 673802.79,
+          "transferNewAcquisitionValue": 724864.67,
           "transferCessionValue": 673802.79,
           "isActive": true
         },
@@ -35118,8 +35580,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1767710.15,
           "outstandingFaceValue": 1767710.15,
-          "acquisitionValue": 1767710.15,
-          "presentValue": 1767710.15,
+          "acquisitionValue": 1642263.7,
+          "presentValue": 1642263.7,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35136,8 +35598,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 131,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -35151,6 +35613,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 1642263.7,
+          "transferNewAcquisitionValue": 1767710.15,
           "transferCessionValue": 1642263.7,
           "isActive": true
         },
@@ -35178,8 +35641,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 595868.0,
           "outstandingFaceValue": 595868.0,
-          "acquisitionValue": 595868.0,
-          "presentValue": 595868.0,
+          "acquisitionValue": 553581.93,
+          "presentValue": 553581.93,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35196,8 +35659,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 131,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -35211,6 +35674,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 553581.93,
+          "transferNewAcquisitionValue": 595868.0,
           "transferCessionValue": 553581.93,
           "isActive": true
         },
@@ -35238,8 +35702,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1564460.31,
           "outstandingFaceValue": 1564460.31,
-          "acquisitionValue": 1427445.0,
-          "presentValue": 1427445.0,
+          "acquisitionValue": 1444113.64,
+          "presentValue": 1444113.64,
           "reportedPresentValue": 1444996.31,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35271,6 +35735,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1444113.64,
+          "transferNewAcquisitionValue": 1427445.0,
           "transferCessionValue": 1453437.59,
           "isActive": true
         },
@@ -35298,8 +35763,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1502279.52,
           "outstandingFaceValue": 1502279.52,
-          "acquisitionValue": 1370710.0,
-          "presentValue": 1370710.0,
+          "acquisitionValue": 1385869.06,
+          "presentValue": 1385869.06,
           "reportedPresentValue": 1386716.14,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35331,6 +35796,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1385869.06,
+          "transferNewAcquisitionValue": 1370710.0,
           "transferCessionValue": 1394885.48,
           "isActive": true
         },
@@ -35358,8 +35824,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 835289.74,
           "outstandingFaceValue": 835289.74,
-          "acquisitionValue": 759149.0,
-          "presentValue": 759149.0,
+          "acquisitionValue": 765951.56,
+          "presentValue": 765951.56,
           "reportedPresentValue": 766439.78,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35391,6 +35857,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 765951.56,
+          "transferNewAcquisitionValue": 759149.0,
           "transferCessionValue": 773835.82,
           "isActive": true
         },
@@ -35418,8 +35885,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1419828.47,
           "outstandingFaceValue": 1419828.47,
-          "acquisitionValue": 1295480.0,
-          "presentValue": 1295480.0,
+          "acquisitionValue": 1306609.65,
+          "presentValue": 1306609.65,
           "reportedPresentValue": 1307408.27,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35451,6 +35918,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1306609.65,
+          "transferNewAcquisitionValue": 1295480.0,
           "transferCessionValue": 1315368.87,
           "isActive": true
         },
@@ -35478,8 +35946,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1224042.63,
           "outstandingFaceValue": 1224042.63,
-          "acquisitionValue": 1116841.07,
-          "presentValue": 1116841.07,
+          "acquisitionValue": 1126436.01,
+          "presentValue": 1126436.01,
           "reportedPresentValue": 1127124.51,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35511,6 +35979,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1126436.01,
+          "transferNewAcquisitionValue": 1116841.07,
           "transferCessionValue": 1133987.39,
           "isActive": true
         },
@@ -35538,8 +36007,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 4185588.7,
           "outstandingFaceValue": 4185588.7,
-          "acquisitionValue": 3819015.17,
-          "presentValue": 3819015.17,
+          "acquisitionValue": 3849471.99,
+          "presentValue": 3849471.99,
           "reportedPresentValue": 3851824.87,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35571,6 +36040,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 3849471.99,
+          "transferNewAcquisitionValue": 3819015.17,
           "transferCessionValue": 3875468.38,
           "isActive": true
         },
@@ -35598,8 +36068,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2487231.56,
           "outstandingFaceValue": 2487231.56,
-          "acquisitionValue": 2269400.01,
-          "presentValue": 2269400.01,
+          "acquisitionValue": 2287498.59,
+          "presentValue": 2287498.59,
           "reportedPresentValue": 2288896.74,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35631,6 +36101,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 2287498.59,
+          "transferNewAcquisitionValue": 2269400.01,
           "transferCessionValue": 2302946.6,
           "isActive": true
         },
@@ -35658,8 +36129,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1609187.73,
           "outstandingFaceValue": 1609187.73,
-          "acquisitionValue": 1462502.41,
-          "presentValue": 1462502.41,
+          "acquisitionValue": 1474667.59,
+          "presentValue": 1474667.59,
           "reportedPresentValue": 1475607.55,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35691,6 +36162,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1474667.59,
+          "transferNewAcquisitionValue": 1462502.41,
           "transferCessionValue": 1489959.15,
           "isActive": true
         },
@@ -35718,8 +36190,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2341044.0,
           "outstandingFaceValue": 2341044.0,
-          "acquisitionValue": 2127646.41,
-          "presentValue": 2127646.41,
+          "acquisitionValue": 2143977.71,
+          "presentValue": 2143977.71,
           "reportedPresentValue": 2145344.29,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35751,6 +36223,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 2143977.71,
+          "transferNewAcquisitionValue": 2127646.41,
           "transferCessionValue": 2166372.79,
           "isActive": true
         },
@@ -35778,8 +36251,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 951447.85,
           "outstandingFaceValue": 951447.85,
-          "acquisitionValue": 868120.12,
-          "presentValue": 868120.12,
+          "acquisitionValue": 873974.71,
+          "presentValue": 873974.71,
           "reportedPresentValue": 874508.9,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35811,6 +36284,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 873974.71,
+          "transferNewAcquisitionValue": 868120.12,
           "transferCessionValue": 879963.33,
           "isActive": true
         },
@@ -35838,8 +36312,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 770061.21,
           "outstandingFaceValue": 770061.21,
-          "acquisitionValue": 700897.2,
-          "presentValue": 700897.2,
+          "acquisitionValue": 705751.04,
+          "presentValue": 705751.04,
           "reportedPresentValue": 706193.96,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35871,6 +36345,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 705751.04,
+          "transferNewAcquisitionValue": 700897.2,
           "transferCessionValue": 712204.69,
           "isActive": true
         },
@@ -35898,8 +36373,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 724691.01,
           "outstandingFaceValue": 724691.01,
-          "acquisitionValue": 658631.89,
-          "presentValue": 658631.89,
+          "acquisitionValue": 663264.61,
+          "presentValue": 663264.61,
           "reportedPresentValue": 663687.39,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35931,6 +36406,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 663264.61,
+          "transferNewAcquisitionValue": 658631.89,
           "transferCessionValue": 670243.26,
           "isActive": true
         },
@@ -35958,8 +36434,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 444135.83,
           "outstandingFaceValue": 444135.83,
-          "acquisitionValue": 403254.91,
-          "presentValue": 403254.91,
+          "acquisitionValue": 406120.56,
+          "presentValue": 406120.56,
           "reportedPresentValue": 406382.09,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35991,6 +36467,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 406120.56,
+          "transferNewAcquisitionValue": 403254.91,
           "transferCessionValue": 410766.86,
           "isActive": true
         },
@@ -36018,8 +36495,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1836517.94,
           "outstandingFaceValue": 1836517.94,
-          "acquisitionValue": 1675675.84,
-          "presentValue": 1675675.84,
+          "acquisitionValue": 1686976.58,
+          "presentValue": 1686976.58,
           "reportedPresentValue": 1688007.69,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36051,6 +36528,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1686976.58,
+          "transferNewAcquisitionValue": 1675675.84,
           "transferCessionValue": 1698536.02,
           "isActive": true
         },
@@ -36078,8 +36556,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2031143.0,
           "outstandingFaceValue": 2031143.0,
-          "acquisitionValue": 1853255.65,
-          "presentValue": 1853255.65,
+          "acquisitionValue": 1865753.99,
+          "presentValue": 1865753.99,
           "reportedPresentValue": 1866894.37,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36111,6 +36589,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1865753.99,
+          "transferNewAcquisitionValue": 1853255.65,
           "transferCessionValue": 1878538.44,
           "isActive": true
         },
@@ -36138,8 +36617,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 751571.62,
           "outstandingFaceValue": 751571.62,
-          "acquisitionValue": 683062.2,
-          "presentValue": 683062.2,
+          "acquisitionValue": 687866.77,
+          "presentValue": 687866.77,
           "reportedPresentValue": 688305.22,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36171,6 +36650,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 687866.77,
+          "transferNewAcquisitionValue": 683062.2,
           "transferCessionValue": 695104.27,
           "isActive": true
         },
@@ -36198,8 +36678,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 435040.84,
           "outstandingFaceValue": 435040.84,
-          "acquisitionValue": 396940.0,
-          "presentValue": 396940.0,
+          "acquisitionValue": 398641.43,
+          "presentValue": 398641.43,
           "reportedPresentValue": 398885.09,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36231,6 +36711,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 398641.43,
+          "transferNewAcquisitionValue": 396940.0,
           "transferCessionValue": 401451.87,
           "isActive": true
         },
@@ -36258,8 +36739,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 4022047.94,
           "outstandingFaceValue": 4022047.94,
-          "acquisitionValue": 3669797.29,
-          "presentValue": 3669797.29,
+          "acquisitionValue": 3685527.45,
+          "presentValue": 3685527.45,
           "reportedPresentValue": 3687780.11,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36291,6 +36772,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 3685527.45,
+          "transferNewAcquisitionValue": 3669797.29,
           "transferCessionValue": 3711510.56,
           "isActive": true
         },
@@ -36318,8 +36800,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 355462.91,
           "outstandingFaceValue": 355462.91,
-          "acquisitionValue": 324331.5,
-          "presentValue": 324331.5,
+          "acquisitionValue": 325721.71,
+          "presentValue": 325721.71,
           "reportedPresentValue": 325920.8,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36351,6 +36833,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 325721.71,
+          "transferNewAcquisitionValue": 324331.5,
           "transferCessionValue": 328018.06,
           "isActive": true
         },
@@ -36378,8 +36861,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 546786.33,
           "outstandingFaceValue": 546786.33,
-          "acquisitionValue": 498898.83,
-          "presentValue": 498898.83,
+          "acquisitionValue": 501037.3,
+          "presentValue": 501037.3,
           "reportedPresentValue": 501343.55,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36411,6 +36894,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 501037.3,
+          "transferNewAcquisitionValue": 498898.83,
           "transferCessionValue": 504569.63,
           "isActive": true
         },
@@ -36438,8 +36922,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 4412385.01,
           "outstandingFaceValue": 4412385.01,
-          "acquisitionValue": 4010174.58,
-          "presentValue": 4010174.58,
+          "acquisitionValue": 4025535.72,
+          "presentValue": 4025535.72,
           "reportedPresentValue": 4028101.62,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36471,6 +36955,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 4025535.72,
+          "transferNewAcquisitionValue": 4010174.58,
           "transferCessionValue": 4069422.92,
           "isActive": true
         },
@@ -36498,8 +36983,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 3338295.73,
           "outstandingFaceValue": 3338295.73,
-          "acquisitionValue": 3045928.05,
-          "presentValue": 3045928.05,
+          "acquisitionValue": 3057115.5,
+          "presentValue": 3057115.5,
           "reportedPresentValue": 3058984.07,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36531,6 +37016,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 3057115.5,
+          "transferNewAcquisitionValue": 3045928.05,
           "transferCessionValue": 3078819.53,
           "isActive": true
         },
@@ -36558,8 +37044,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 318078.93,
           "outstandingFaceValue": 318078.93,
-          "acquisitionValue": 290221.6,
-          "presentValue": 290221.6,
+          "acquisitionValue": 291287.56,
+          "presentValue": 291287.56,
           "reportedPresentValue": 291465.6,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36591,6 +37077,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 291287.56,
+          "transferNewAcquisitionValue": 290221.6,
           "transferCessionValue": 293355.56,
           "isActive": true
         },
@@ -36618,8 +37105,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 849716.2,
           "outstandingFaceValue": 849716.2,
-          "acquisitionValue": 756400.0,
-          "presentValue": 756400.0,
+          "acquisitionValue": 761857.4,
+          "presentValue": 761857.4,
           "reportedPresentValue": 762355.47,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36651,6 +37138,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 761857.4,
+          "transferNewAcquisitionValue": 756400.0,
           "transferCessionValue": 773607.36,
           "isActive": true
         },
@@ -36676,10 +37164,10 @@ window.ceresPortfolioData = {
           "controlReferenceLastro": "",
           "manualTitleOverrideId": "synthetic-cras10-2026-10-05-447894",
           "settledDate": "",
-          "faceValue": 192033.02,
-          "outstandingFaceValue": 192033.02,
-          "acquisitionValue": 192033.02,
-          "presentValue": 192033.02,
+          "faceValue": 172393.87,
+          "outstandingFaceValue": 172393.87,
+          "acquisitionValue": 172393.87,
+          "presentValue": 172393.87,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36708,6 +37196,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 172393.87,
+          "transferNewAcquisitionValue": 192033.02,
           "transferCessionValue": 172393.87,
           "isActive": true,
           "syntheticTitle": true,
@@ -36738,8 +37227,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 208541.0,
           "outstandingFaceValue": 208541.0,
-          "acquisitionValue": 208541.0,
-          "presentValue": 208541.0,
+          "acquisitionValue": 186373.9,
+          "presentValue": 186373.9,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36756,8 +37245,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 200,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36771,6 +37260,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
           "transferOriginValue": 186373.9,
+          "transferNewAcquisitionValue": 208541.0,
           "transferCessionValue": 186373.9,
           "isActive": true
         },
@@ -36798,8 +37288,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1837221.83,
           "outstandingFaceValue": 1837221.83,
-          "acquisitionValue": 1837221.83,
-          "presentValue": 1837221.83,
+          "acquisitionValue": 1640088.11,
+          "presentValue": 1640088.11,
           "reportedPresentValue": 1837221.83,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36816,8 +37306,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 202,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36831,6 +37321,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1640088.11,
+          "transferNewAcquisitionValue": 1837221.83,
           "transferCessionValue": 1640088.11,
           "isActive": true
         },
@@ -36858,8 +37349,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 5712223.33,
           "outstandingFaceValue": 5712223.33,
-          "acquisitionValue": 5712223.33,
-          "presentValue": 5712223.33,
+          "acquisitionValue": 4915797.65,
+          "presentValue": 4915797.65,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36876,8 +37367,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 207,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36891,6 +37382,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 4915797.65,
+          "transferNewAcquisitionValue": 5712223.33,
           "transferCessionValue": 5084995.86,
           "isActive": true
         },
@@ -36918,8 +37410,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2038241.4,
           "outstandingFaceValue": 2038241.4,
-          "acquisitionValue": 2038241.4,
-          "presentValue": 2038241.4,
+          "acquisitionValue": 1814433.45,
+          "presentValue": 1814433.45,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36936,8 +37428,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 207,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36951,6 +37443,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 1814433.45,
+          "transferNewAcquisitionValue": 2038241.4,
           "transferCessionValue": 1814433.45,
           "isActive": true
         },
@@ -36978,8 +37471,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1587000.0,
           "outstandingFaceValue": 1587000.0,
-          "acquisitionValue": 1587000.0,
-          "presentValue": 1587000.0,
+          "acquisitionValue": 1363752.9,
+          "presentValue": 1363752.9,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36996,8 +37489,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 209,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -37011,6 +37504,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1363752.9,
+          "transferNewAcquisitionValue": 1587000.0,
           "transferCessionValue": 1411153.6,
           "isActive": true
         },
@@ -37038,8 +37532,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1633332.03,
           "outstandingFaceValue": 1633332.03,
-          "acquisitionValue": 1633332.03,
-          "presentValue": 1633332.03,
+          "acquisitionValue": 1399500.7,
+          "presentValue": 1399500.7,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -37056,8 +37550,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": true,
-          "partnershipBySameFaceAndAcquisition": true,
+          "allowPresentValueAboveFace": false,
+          "partnershipBySameFaceAndAcquisition": false,
           "daysToMaturity": 213,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -37071,6 +37565,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 1399500.7,
+          "transferNewAcquisitionValue": 1633332.03,
           "transferCessionValue": 1449091.18,
           "isActive": true
         }
@@ -37094,14 +37589,15 @@ window.ceresPortfolioData = {
           "purchases": 75670517.84,
           "liquidations": 0.0,
           "activeTitles": 59,
-          "faceValue": 81729784.53,
-          "presentValue": 76441024.81
+          "faceValue": 81684388.5,
+          "presentValue": 74968856.43
         }
       ],
       "manualAdjustments": {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 1,
         "cashImpact": 75670517.84,
+        "syntheticImpact": 0,
         "missingTitles": [
           "compra-total-cras10-2026-10-05"
         ],
@@ -37200,6 +37696,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37260,6 +37757,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37329,6 +37827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37394,6 +37893,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37459,6 +37959,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37532,6 +38033,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37592,6 +38094,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37652,6 +38155,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37717,6 +38221,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37782,6 +38287,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37847,6 +38353,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37907,6 +38414,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37967,6 +38475,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38036,6 +38545,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38105,6 +38615,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38170,6 +38681,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38235,6 +38747,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38300,6 +38813,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38369,6 +38883,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38434,6 +38949,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38499,6 +39015,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38559,6 +39076,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38624,6 +39142,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38689,6 +39208,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38766,6 +39286,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38831,6 +39352,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38900,6 +39422,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38960,6 +39483,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39033,6 +39557,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39098,6 +39623,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39158,6 +39684,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39223,6 +39750,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39283,6 +39811,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39352,6 +39881,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39425,6 +39955,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39490,6 +40021,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39550,6 +40082,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39610,6 +40143,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39670,6 +40204,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39735,6 +40270,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39800,6 +40336,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39860,6 +40397,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39920,6 +40458,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39980,6 +40519,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40040,6 +40580,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40100,6 +40641,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40169,6 +40711,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40229,6 +40772,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40289,6 +40833,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40349,6 +40894,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40409,6 +40955,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40469,6 +41016,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40529,6 +41077,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40594,6 +41143,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40654,6 +41204,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40714,6 +41265,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40774,6 +41326,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40839,6 +41392,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40899,6 +41453,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40959,6 +41514,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41019,6 +41575,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41084,6 +41641,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41144,6 +41702,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41209,6 +41768,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41269,6 +41829,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41329,6 +41890,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41389,6 +41951,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41454,6 +42017,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41514,6 +42078,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41587,6 +42152,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41647,6 +42213,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41712,6 +42279,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41772,6 +42340,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -41869,6 +42438,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41929,6 +42499,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41989,6 +42560,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42058,6 +42630,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42118,6 +42691,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42207,6 +42781,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42276,6 +42851,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42336,6 +42912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42409,6 +42986,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42478,6 +43056,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42567,6 +43146,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42636,6 +43216,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42696,6 +43277,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -42761,6 +43343,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42821,6 +43404,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42881,6 +43465,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -42946,6 +43531,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43011,6 +43597,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43076,6 +43663,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43136,6 +43724,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43196,6 +43785,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -43256,6 +43846,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43316,6 +43907,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43381,6 +43973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43441,6 +44034,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -43510,6 +44104,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43570,6 +44165,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43630,6 +44226,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43690,6 +44287,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43750,6 +44348,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -43810,6 +44409,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43870,6 +44470,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43939,6 +44540,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44004,6 +44606,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44073,6 +44676,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44138,6 +44742,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44203,6 +44808,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44272,6 +44878,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44332,6 +44939,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44397,6 +45005,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44466,6 +45075,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44531,6 +45141,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44591,6 +45202,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44656,6 +45268,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44716,6 +45329,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -44797,6 +45411,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44878,6 +45493,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44938,6 +45554,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44998,6 +45615,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45063,6 +45681,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45123,6 +45742,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45183,6 +45803,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45243,6 +45864,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -45303,6 +45925,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45368,6 +45991,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45428,6 +46052,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45501,6 +46126,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45561,6 +46187,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45621,6 +46248,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45681,6 +46309,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45741,6 +46370,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45801,6 +46431,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45861,6 +46492,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45921,6 +46553,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45981,6 +46614,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46054,6 +46688,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46114,6 +46749,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46174,6 +46810,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46234,6 +46871,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46294,6 +46932,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46354,6 +46993,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46414,6 +47054,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46474,6 +47115,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46534,6 +47176,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46594,6 +47237,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46654,6 +47298,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46714,6 +47359,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46774,6 +47420,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46834,6 +47481,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46894,6 +47542,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46954,6 +47603,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47014,6 +47664,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47074,6 +47725,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47134,6 +47786,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47194,6 +47847,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47254,6 +47908,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47314,6 +47969,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47374,6 +48030,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47434,6 +48091,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47494,6 +48152,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47554,6 +48213,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47614,6 +48274,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47674,6 +48335,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47734,6 +48396,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47794,6 +48457,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -47856,6 +48520,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Titulo com status baixa por exclusao desconsiderado conforme orientacao do usuario.",
@@ -47918,6 +48583,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Titulo com status baixa por exclusao desconsiderado conforme orientacao do usuario.",
@@ -55977,6 +56643,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 2,
         "cashImpact": 906311.47,
+        "syntheticImpact": 0,
         "missingTitles": [
           "ajuste-caixa-recebido-2026-09-18-confina-cra-42-50",
           "venda-cra4265-2026-09-25-cra-42-50"
@@ -56203,6 +56870,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56263,6 +56931,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56323,6 +56992,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56383,6 +57053,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56443,6 +57114,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56508,6 +57180,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56568,6 +57241,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56628,6 +57302,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56688,6 +57363,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56748,6 +57424,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56813,6 +57490,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56873,6 +57551,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56938,6 +57617,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57007,6 +57687,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57076,6 +57757,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57141,6 +57823,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57206,6 +57889,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57266,6 +57950,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57326,6 +58011,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57395,6 +58081,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57468,6 +58155,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57549,6 +58237,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57609,6 +58298,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57678,6 +58368,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57738,6 +58429,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57798,6 +58490,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57863,6 +58556,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57928,6 +58622,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57993,6 +58688,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58058,6 +58754,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58139,6 +58836,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58199,6 +58897,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58268,6 +58967,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58333,6 +59033,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58406,6 +59107,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58466,6 +59168,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58526,6 +59229,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58586,6 +59290,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58646,6 +59351,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58719,6 +59425,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58779,6 +59486,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58839,6 +59547,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58899,6 +59608,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58959,6 +59669,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59032,6 +59743,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59113,6 +59825,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59173,6 +59886,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59233,6 +59947,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59293,6 +60008,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59353,6 +60069,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59418,6 +60135,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59478,6 +60196,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59538,6 +60257,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59603,6 +60323,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59663,6 +60384,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59723,6 +60445,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59792,6 +60515,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59852,6 +60576,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59912,6 +60637,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59972,6 +60698,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60032,6 +60759,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -60092,6 +60820,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60152,6 +60881,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60212,6 +60942,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -60272,6 +61003,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -60332,6 +61064,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60392,6 +61125,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60452,6 +61186,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60512,6 +61247,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60572,6 +61308,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60632,6 +61369,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60692,6 +61430,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60752,6 +61491,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         }
@@ -64297,6 +65037,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 2,
         "cashImpact": 905354.07,
+        "syntheticImpact": 0,
         "missingTitles": [
           "ajuste-caixa-recebido-2026-09-18-confina-cras-carteira-100"
         ],
@@ -64386,6 +65127,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64446,6 +65188,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64506,6 +65249,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64566,6 +65310,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64626,6 +65371,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64686,6 +65432,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64746,6 +65493,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64806,6 +65554,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64866,6 +65615,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64926,6 +65676,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64986,6 +65737,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65046,6 +65798,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65106,6 +65859,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65166,6 +65920,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65226,6 +65981,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65286,6 +66042,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65346,6 +66103,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65406,6 +66164,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65466,6 +66225,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65526,6 +66286,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65586,6 +66347,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -65646,6 +66408,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         }
@@ -65708,6 +66471,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65770,6 +66534,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65832,6 +66597,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65894,6 +66660,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65956,6 +66723,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66018,6 +66786,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66080,6 +66849,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66142,6 +66912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66204,6 +66975,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66266,6 +67038,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66328,6 +67101,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66390,6 +67164,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66452,6 +67227,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66514,6 +67290,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66576,6 +67353,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66638,6 +67416,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66700,6 +67479,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66762,6 +67542,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66824,6 +67605,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -68084,6 +68866,7 @@ window.ceresPortfolioData = {
         "file": "manual-portfolio-adjustments-confina.json",
         "eventsApplied": 8,
         "cashImpact": 48660829.41,
+        "syntheticImpact": 0,
         "missingTitles": [
           "venda-cra4265-2026-09-25-cra-interno-50"
         ],
@@ -68110,7 +68893,7 @@ window.ceresPortfolioData = {
         "overdueVp": 0,
         "cashPurchases": 431515234.03,
         "cashLiquidations": 339935850.74,
-        "manualPortfolioAdjustments": 161,
+        "manualPortfolioAdjustments": 162,
         "manualPortfolioAdjustmentCashImpact": 145533378.34,
         "skippedPrePurchaseLiquidations": 24,
         "skippedPrePurchaseLiquidationAmount": 15252311.79
@@ -68194,6 +68977,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68263,6 +69047,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68328,6 +69113,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68388,6 +69174,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68453,6 +69240,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68530,6 +69318,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68599,6 +69388,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68672,6 +69462,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68732,6 +69523,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68792,6 +69584,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68857,6 +69650,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68917,6 +69711,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68977,6 +69772,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69037,6 +69833,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69097,6 +69894,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69157,6 +69955,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69222,6 +70021,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69291,6 +70091,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69356,6 +70157,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69416,6 +70218,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69489,6 +70292,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69554,6 +70358,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69614,6 +70419,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69674,6 +70480,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69734,6 +70541,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69799,6 +70607,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69859,6 +70668,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69919,6 +70729,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69979,6 +70790,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70039,6 +70851,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70099,6 +70912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70159,6 +70973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70219,6 +71034,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70279,6 +71095,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70339,6 +71156,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70399,6 +71217,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70459,6 +71278,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70528,6 +71348,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70588,6 +71409,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70648,6 +71470,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70708,6 +71531,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70768,6 +71592,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70828,6 +71653,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70888,6 +71714,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70948,6 +71775,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71008,6 +71836,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71068,6 +71897,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71141,6 +71971,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71201,6 +72032,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71261,6 +72093,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71321,6 +72154,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71381,6 +72215,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71441,6 +72276,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71501,6 +72337,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71561,6 +72398,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71621,6 +72459,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71681,6 +72520,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71741,6 +72581,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71801,6 +72642,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71861,6 +72703,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71921,6 +72764,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71981,6 +72825,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72041,6 +72886,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72101,6 +72947,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72161,6 +73008,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72221,6 +73069,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72281,6 +73130,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72341,6 +73191,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72401,6 +73252,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72461,6 +73313,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72521,6 +73374,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72581,6 +73435,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72641,6 +73496,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72701,6 +73557,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72761,6 +73618,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72821,6 +73679,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72881,6 +73740,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72941,6 +73801,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73001,6 +73862,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73061,6 +73923,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73121,6 +73984,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73181,6 +74045,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73241,6 +74106,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73301,6 +74167,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73361,6 +74228,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73421,6 +74289,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73481,6 +74350,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73541,6 +74411,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73601,6 +74472,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73661,6 +74533,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73721,6 +74594,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73781,6 +74655,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73841,6 +74716,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73901,6 +74777,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73961,6 +74838,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74021,6 +74899,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74081,6 +74960,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74141,6 +75021,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74201,6 +75082,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74261,6 +75143,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74321,6 +75204,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74381,6 +75265,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74441,6 +75326,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74501,6 +75387,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74561,6 +75448,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74621,6 +75509,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74681,6 +75570,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74741,6 +75631,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74801,6 +75692,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74861,6 +75753,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74921,6 +75814,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74981,6 +75875,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75041,6 +75936,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75101,6 +75997,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75161,6 +76058,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75221,6 +76119,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75281,6 +76180,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75341,6 +76241,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75401,6 +76302,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75461,6 +76363,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75521,6 +76424,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75581,6 +76485,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75641,6 +76546,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75701,6 +76607,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75761,6 +76668,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75821,6 +76729,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75881,6 +76790,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75941,6 +76851,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76001,6 +76912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76061,6 +76973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76121,6 +77034,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76181,6 +77095,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76241,6 +77156,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76301,6 +77217,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76361,6 +77278,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76421,6 +77339,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76481,6 +77400,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76541,6 +77461,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76601,6 +77522,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76661,6 +77583,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76721,6 +77644,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76781,6 +77705,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76841,6 +77766,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76901,6 +77827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76961,6 +77888,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77021,6 +77949,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77081,6 +78010,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77141,6 +78071,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77201,6 +78132,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77261,6 +78193,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77321,6 +78254,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77381,6 +78315,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77441,6 +78376,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77501,6 +78437,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77561,6 +78498,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77621,6 +78559,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77681,6 +78620,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77741,6 +78681,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77801,6 +78742,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77861,6 +78803,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77921,6 +78864,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77981,6 +78925,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78041,6 +78986,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78101,6 +79047,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78161,6 +79108,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78221,6 +79169,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78281,6 +79230,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78341,6 +79291,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78401,6 +79352,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78461,6 +79413,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78521,6 +79474,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78581,6 +79535,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78641,6 +79596,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78701,6 +79657,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78761,6 +79718,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78821,6 +79779,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78881,6 +79840,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78941,6 +79901,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79001,6 +79962,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79061,6 +80023,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79126,6 +80089,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79186,6 +80150,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79246,6 +80211,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79306,6 +80272,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79366,6 +80333,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79426,6 +80394,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79486,6 +80455,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79546,6 +80516,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79606,6 +80577,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79666,6 +80638,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79726,6 +80699,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79786,6 +80760,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79846,6 +80821,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79906,6 +80882,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79966,6 +80943,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80026,6 +81004,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80086,6 +81065,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80146,6 +81126,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80206,6 +81187,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80266,6 +81248,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80326,6 +81309,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80386,6 +81370,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80446,6 +81431,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80506,6 +81492,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80566,6 +81553,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80626,6 +81614,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80686,6 +81675,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80746,6 +81736,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80806,6 +81797,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80871,6 +81863,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80931,6 +81924,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81004,6 +81998,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81073,6 +82068,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81138,6 +82134,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81198,6 +82195,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81267,6 +82265,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81327,6 +82326,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81392,6 +82392,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81452,6 +82453,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81512,6 +82514,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81572,6 +82575,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81632,6 +82636,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81692,6 +82697,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81757,6 +82763,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81817,6 +82824,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81882,6 +82890,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81942,6 +82951,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82002,6 +83012,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82062,6 +83073,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82122,6 +83134,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82187,6 +83200,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82247,6 +83261,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82307,6 +83322,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82367,6 +83383,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82432,6 +83449,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82492,6 +83510,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82552,6 +83571,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -82612,6 +83632,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82685,6 +83706,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82750,6 +83772,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82823,6 +83846,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82883,6 +83907,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82948,6 +83973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83017,6 +84043,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83090,6 +84117,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83150,6 +84178,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83210,6 +84239,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83270,6 +84300,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83330,6 +84361,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83390,6 +84422,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83450,6 +84483,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83510,6 +84544,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83570,6 +84605,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83630,6 +84666,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83690,6 +84727,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83750,6 +84788,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83810,6 +84849,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83870,6 +84910,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83930,6 +84971,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83990,6 +85032,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84050,6 +85093,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84110,6 +85154,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84170,6 +85215,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84230,6 +85276,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84290,6 +85337,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84350,6 +85398,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84410,6 +85459,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84470,6 +85520,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84530,6 +85581,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84590,6 +85642,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84650,6 +85703,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84710,6 +85764,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84770,6 +85825,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84830,6 +85886,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84890,6 +85947,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84950,6 +86008,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85010,6 +86069,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85070,6 +86130,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85130,6 +86191,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85190,6 +86252,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85250,6 +86313,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85310,6 +86374,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85370,6 +86435,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85430,6 +86496,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85490,6 +86557,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85550,6 +86618,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85610,6 +86679,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85670,6 +86740,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85730,6 +86801,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85790,6 +86862,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85850,6 +86923,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85910,6 +86984,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -85970,6 +87045,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -86030,6 +87106,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86090,6 +87167,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86150,6 +87228,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86210,6 +87289,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86270,6 +87350,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86330,6 +87411,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86390,6 +87472,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86450,6 +87533,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86510,6 +87594,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86570,6 +87655,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86630,6 +87716,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86690,6 +87777,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86750,6 +87838,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86810,6 +87899,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86870,6 +87960,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86930,6 +88021,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86990,6 +88082,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87050,6 +88143,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87110,6 +88204,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87170,6 +88265,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87230,6 +88326,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87290,6 +88387,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87350,6 +88448,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87410,6 +88509,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87470,6 +88570,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87530,6 +88631,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87590,6 +88692,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87650,6 +88753,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87710,6 +88814,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87770,6 +88875,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87830,6 +88936,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87890,6 +88997,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87950,6 +89058,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88010,6 +89119,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88070,6 +89180,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88130,6 +89241,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88190,6 +89302,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -88250,6 +89363,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88310,6 +89424,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88370,6 +89485,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88430,6 +89546,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88490,6 +89607,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88550,6 +89668,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88610,6 +89729,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88670,6 +89790,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88730,6 +89851,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88790,6 +89912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -88850,6 +89973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -88910,6 +90034,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -88970,6 +90095,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -89030,6 +90156,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89090,6 +90217,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89150,6 +90278,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89210,6 +90339,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89270,6 +90400,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89330,6 +90461,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89390,6 +90522,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89450,6 +90583,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89510,6 +90644,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89570,6 +90705,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89630,6 +90766,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89690,6 +90827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89750,6 +90888,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89810,6 +90949,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89870,6 +91010,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89930,6 +91071,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89990,6 +91132,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90050,6 +91193,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90110,6 +91254,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -90170,6 +91315,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90230,6 +91376,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90290,6 +91437,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90350,6 +91498,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90410,6 +91559,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -90470,6 +91620,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90530,6 +91681,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90590,6 +91742,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90650,6 +91803,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90710,6 +91864,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -90770,6 +91925,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90830,6 +91986,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90890,6 +92047,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90950,6 +92108,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91010,6 +92169,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91070,6 +92230,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91130,6 +92291,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91190,6 +92352,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91250,6 +92413,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91310,6 +92474,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91370,6 +92535,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91430,6 +92596,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91490,6 +92657,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91550,6 +92718,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91610,6 +92779,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91670,6 +92840,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91730,6 +92901,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91790,6 +92962,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91850,6 +93023,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91910,6 +93084,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91970,6 +93145,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92030,6 +93206,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92090,6 +93267,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92150,6 +93328,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92210,6 +93389,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92270,6 +93450,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92330,6 +93511,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92390,6 +93572,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92450,6 +93633,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92510,6 +93694,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92570,6 +93755,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92630,6 +93816,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92690,6 +93877,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92750,6 +93938,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92810,6 +93999,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92870,6 +94060,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92930,6 +94121,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92990,6 +94182,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93050,6 +94243,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93110,6 +94304,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93170,6 +94365,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93230,6 +94426,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93290,6 +94487,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93350,6 +94548,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93410,6 +94609,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93470,6 +94670,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93530,6 +94731,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93590,6 +94792,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93650,6 +94853,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93710,6 +94914,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93770,6 +94975,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93830,6 +95036,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93890,6 +95097,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93950,6 +95158,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94010,6 +95219,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94070,6 +95280,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94130,6 +95341,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94190,6 +95402,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94250,6 +95463,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94310,6 +95524,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94370,6 +95585,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94430,6 +95646,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94490,6 +95707,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94550,6 +95768,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94610,6 +95829,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94670,6 +95890,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94730,6 +95951,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94790,6 +96012,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94850,6 +96073,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94910,6 +96134,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94970,6 +96195,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95030,6 +96256,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95090,6 +96317,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95150,6 +96378,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95210,6 +96439,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95270,6 +96500,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95330,6 +96561,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95390,6 +96622,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95450,6 +96683,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95510,6 +96744,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95570,6 +96805,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95630,6 +96866,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95690,6 +96927,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95750,6 +96988,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95810,6 +97049,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95870,6 +97110,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95930,6 +97171,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95990,6 +97232,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96050,6 +97293,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96110,6 +97354,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96170,6 +97415,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96230,6 +97476,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96290,6 +97537,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96350,6 +97598,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96410,6 +97659,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96470,6 +97720,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96530,6 +97781,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96590,6 +97842,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96650,6 +97903,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96710,6 +97964,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96770,6 +98025,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96830,6 +98086,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96890,6 +98147,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96950,6 +98208,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97010,6 +98269,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97070,6 +98330,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97130,6 +98391,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97190,6 +98452,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97250,6 +98513,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97310,6 +98574,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97370,6 +98635,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97430,6 +98696,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97490,6 +98757,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97550,6 +98818,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97610,6 +98879,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97670,6 +98940,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97730,6 +99001,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97790,6 +99062,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97850,6 +99123,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97910,6 +99184,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97970,6 +99245,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98030,6 +99306,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98090,6 +99367,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98150,6 +99428,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98210,6 +99489,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98270,6 +99550,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98330,6 +99611,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98390,6 +99672,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98450,6 +99733,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98510,6 +99794,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98570,6 +99855,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98630,6 +99916,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98690,6 +99977,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98750,6 +100038,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98810,6 +100099,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98870,6 +100160,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98930,6 +100221,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98990,6 +100282,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99050,6 +100343,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99110,6 +100404,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99170,6 +100465,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99230,6 +100526,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99290,6 +100587,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99350,6 +100648,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99410,6 +100709,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99470,6 +100770,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99530,6 +100831,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99590,6 +100892,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99650,6 +100953,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99710,6 +101014,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99770,6 +101075,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99830,6 +101136,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -99890,6 +101197,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99950,6 +101258,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100010,6 +101319,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100070,6 +101380,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100130,6 +101441,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100190,6 +101502,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100250,6 +101563,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100310,6 +101624,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100370,6 +101685,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100430,6 +101746,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100490,6 +101807,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100550,6 +101868,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100610,6 +101929,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100670,6 +101990,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100730,6 +102051,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100790,6 +102112,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100850,6 +102173,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100910,6 +102234,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100970,6 +102295,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101030,6 +102356,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101090,6 +102417,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101150,6 +102478,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101210,6 +102539,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101270,6 +102600,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101330,6 +102661,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101390,6 +102722,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101450,6 +102783,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101510,6 +102844,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101570,6 +102905,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101630,6 +102966,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101690,6 +103027,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101750,6 +103088,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101810,6 +103149,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101870,6 +103210,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -101930,6 +103271,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -111987,6 +113329,16 @@ window.ceresPortfolioData = {
           "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 pelo VP cessao informado para Confina BTG 100 MM.",
           "source": "manual-portfolio-adjustments-confina.json",
           "manualAdjustmentId": "venda-cras10-2026-10-05-cprf-100"
+        },
+        {
+          "operationId": "confina-cprf-100",
+          "date": "2026-10-05",
+          "type": "synthetic_adjustment",
+          "amount": 1108934.48,
+          "titleId": "ajuste-base-transferencia-cras10-2026-10-05-cprf-100",
+          "note": "Ajuste sintetico sem efeito caixa: a baixa da transferencia ao CRA Carteira 10/2026 deve usar VP taxa origem R$ 23.399.346,07, enquanto o caixa recebido foi VP cessao.",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "ajuste-base-transferencia-cras10-2026-10-05-cprf-100"
         }
       ],
       "history": [
@@ -113817,8 +115169,9 @@ window.ceresPortfolioData = {
       ],
       "manualAdjustments": {
         "file": "manual-portfolio-adjustments-confina.json",
-        "eventsApplied": 161,
+        "eventsApplied": 162,
         "cashImpact": 145533378.34,
+        "syntheticImpact": 1108934.48,
         "missingTitles": [
           "467066",
           "467067",
@@ -113826,7 +115179,8 @@ window.ceresPortfolioData = {
           "ajuste-caixa-2026-08-21",
           "ajuste-caixa-recebido-2026-09-18-confina-cprf-100",
           "venda-cra4265-2026-09-25-cprf-100",
-          "venda-cras10-2026-10-05-cprf-100"
+          "venda-cras10-2026-10-05-cprf-100",
+          "ajuste-base-transferencia-cras10-2026-10-05-cprf-100"
         ],
         "skippedPrePurchaseLiquidations": []
       },
@@ -114068,7 +115422,7 @@ window.ceresPortfolioData = {
         "overdueVp": 0,
         "cashPurchases": 195078936.8,
         "cashLiquidations": 163305285.9,
-        "manualPortfolioAdjustments": 4,
+        "manualPortfolioAdjustments": 5,
         "manualPortfolioAdjustmentCashImpact": 65613149.7,
         "skippedPrePurchaseLiquidations": 0,
         "skippedPrePurchaseLiquidationAmount": 0
@@ -114131,6 +115485,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114191,6 +115546,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114251,6 +115607,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114311,6 +115668,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114371,6 +115729,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114431,6 +115790,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114491,6 +115851,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114551,6 +115912,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114611,6 +115973,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114671,6 +116034,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114731,6 +116095,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114791,6 +116156,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114851,6 +116217,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114911,6 +116278,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114971,6 +116339,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115031,6 +116400,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115091,6 +116461,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115151,6 +116522,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115211,6 +116583,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115271,6 +116644,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115331,6 +116705,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115391,6 +116766,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115451,6 +116827,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115511,6 +116888,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115571,6 +116949,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115631,6 +117010,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115691,6 +117071,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115751,6 +117132,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115811,6 +117193,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115871,6 +117254,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115931,6 +117315,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115991,6 +117376,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116051,6 +117437,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116111,6 +117498,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116171,6 +117559,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116231,6 +117620,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116291,6 +117681,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116351,6 +117742,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116411,6 +117803,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116471,6 +117864,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116531,6 +117925,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116591,6 +117986,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116651,6 +118047,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116711,6 +118108,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116771,6 +118169,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116831,6 +118230,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116891,6 +118291,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116951,6 +118352,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117011,6 +118413,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117071,6 +118474,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117131,6 +118535,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117191,6 +118596,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117251,6 +118657,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117311,6 +118718,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117371,6 +118779,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117431,6 +118840,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117491,6 +118901,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117551,6 +118962,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117611,6 +119023,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117671,6 +119084,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117731,6 +119145,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117791,6 +119206,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117851,6 +119267,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117911,6 +119328,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117971,6 +119389,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118031,6 +119450,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118091,6 +119511,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118151,6 +119572,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118211,6 +119633,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118271,6 +119694,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118331,6 +119755,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118391,6 +119816,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118451,6 +119877,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118511,6 +119938,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118571,6 +119999,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118631,6 +120060,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118691,6 +120121,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118751,6 +120182,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118811,6 +120243,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118871,6 +120304,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118931,6 +120365,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118991,6 +120426,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119051,6 +120487,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119111,6 +120548,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119171,6 +120609,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119231,6 +120670,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119291,6 +120731,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119351,6 +120792,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119411,6 +120853,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119471,6 +120914,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119531,6 +120975,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119591,6 +121036,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119651,6 +121097,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119711,6 +121158,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119771,6 +121219,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119831,6 +121280,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119891,6 +121341,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119951,6 +121402,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120011,6 +121463,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120071,6 +121524,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120131,6 +121585,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120191,6 +121646,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120251,6 +121707,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120311,6 +121768,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120371,6 +121829,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120431,6 +121890,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120491,6 +121951,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120551,6 +122012,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120611,6 +122073,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120671,6 +122134,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120731,6 +122195,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120791,6 +122256,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120851,6 +122317,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120911,6 +122378,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120971,6 +122439,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121031,6 +122500,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121091,6 +122561,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121151,6 +122622,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121211,6 +122683,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121271,6 +122744,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121331,6 +122805,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121391,6 +122866,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121451,6 +122927,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121511,6 +122988,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121571,6 +123049,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121631,6 +123110,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121691,6 +123171,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121751,6 +123232,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121811,6 +123293,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121871,6 +123354,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121931,6 +123415,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121991,6 +123476,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122051,6 +123537,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122111,6 +123598,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122171,6 +123659,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122231,6 +123720,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122291,6 +123781,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122351,6 +123842,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122411,6 +123903,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122471,6 +123964,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122531,6 +124025,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122591,6 +124086,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122651,6 +124147,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122711,6 +124208,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122771,6 +124269,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -122831,6 +124330,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122891,6 +124391,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -122951,6 +124452,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -123011,6 +124513,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -123071,6 +124574,7 @@ window.ceresPortfolioData = {
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
           "transferOriginValue": 0.0,
+          "transferNewAcquisitionValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -125264,6 +126768,16 @@ window.ceresPortfolioData = {
           "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 pelo VP cessao informado para Confina BTG 50MM - ABRIL/2026.",
           "source": "manual-portfolio-adjustments-confina.json",
           "manualAdjustmentId": "venda-cras10-2026-10-05-cprf-50"
+        },
+        {
+          "operationId": "confina-cprf-50",
+          "date": "2026-10-05",
+          "type": "synthetic_adjustment",
+          "amount": 1963168.35,
+          "titleId": "ajuste-base-transferencia-cras10-2026-10-05-cprf-50",
+          "note": "Ajuste sintetico sem efeito caixa: a baixa da transferencia ao CRA Carteira 10/2026 deve usar VP taxa origem R$ 44.518.442,74, enquanto o caixa recebido foi VP cessao.",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "ajuste-base-transferencia-cras10-2026-10-05-cprf-50"
         }
       ],
       "history": [
@@ -126566,13 +128080,15 @@ window.ceresPortfolioData = {
       ],
       "manualAdjustments": {
         "file": "manual-portfolio-adjustments-confina.json",
-        "eventsApplied": 4,
+        "eventsApplied": 5,
         "cashImpact": 65613149.7,
+        "syntheticImpact": 1963168.35,
         "missingTitles": [
           "ajuste-caixa-cprf50-2026-07-06",
           "ajuste-caixa-recebido-2026-09-18-confina-cprf-50",
           "venda-cra4265-2026-09-25-cprf-50",
-          "venda-cras10-2026-10-05-cprf-50"
+          "venda-cras10-2026-10-05-cprf-50",
+          "ajuste-base-transferencia-cras10-2026-10-05-cprf-50"
         ],
         "skippedPrePurchaseLiquidations": []
       },
