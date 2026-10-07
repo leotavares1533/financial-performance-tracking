@@ -1,5 +1,5 @@
 window.ceresBiologicalAssets = {
-  "updatedAt": "2026-10-07T22:41:48+00:00",
+  "updatedAt": "2026-10-07T22:49:26+00:00",
   "sourceFile": "C:\\Users\\leonardo.silva\\Downloads\\relatorio_GERANIMAL02 (17).csv",
   "sourceEncoding": "cp1252",
   "referenceDate": "2026-10-06",
