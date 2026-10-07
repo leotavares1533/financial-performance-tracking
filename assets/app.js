@@ -572,6 +572,7 @@ const fallbackOperations = [
 const fundingData = window.ceresFundingData || { positionDate: "2026-09-03", operations: [] };
 const manualFundingEvents = window.ceresFundingManualEvents || { events: [] };
 const portfolioData = window.ceresPortfolioData || { operations: [] };
+const frozenPortfolioData = window.ceresFrozenPortfolioData || { operations: [] };
 const cashData = window.ceresCashData || {
   events: [],
   appliedShare: 1,
@@ -583,6 +584,8 @@ const biologicalAssetHistoryData = window.ceresBiologicalAssetsHistory || { snap
 const CASH_APPLIED_SHARE = Number(cashData.appliedShare ?? 1);
 const CASH_APPLICATION_CDI_SHARE = Number(cashData.applicationCdiShare ?? cashData.applicationRate ?? 0.92);
 const importedPortfolioOperations = Array.isArray(portfolioData.operations) ? portfolioData.operations : [];
+const frozenPortfolioOperations = Array.isArray(frozenPortfolioData.operations) ? frozenPortfolioData.operations : [];
+const frozenPortfolioDefaultThroughDate = String(frozenPortfolioData.freezeThroughDate || frozenPortfolioData.snapshotDate || "");
 const operations = (
   Array.isArray(fundingData.operations) && fundingData.operations.length
     ? fundingData.operations
@@ -1877,6 +1880,20 @@ function portfolioDataForOperation(operation) {
     .pop() || null;
 }
 
+function portfolioDataForOperationAtDate(operation, dateKey) {
+  if (dateKey) {
+    const frozen = frozenPortfolioOperations
+      .filter((item) =>
+        (item.operationId === operation.id || item.fundingId === operation.id)
+        && (item.freezeThroughDate || frozenPortfolioDefaultThroughDate || item.positionDate)
+        && dateKey <= (item.freezeThroughDate || frozenPortfolioDefaultThroughDate || item.positionDate)
+      )
+      .sort((a, b) => String(a.positionDate || "").localeCompare(String(b.positionDate || "")))[0];
+    if (frozen) return frozen;
+  }
+  return portfolioDataForOperation(operation);
+}
+
 function selectedPortfolioOperations() {
   if (state.portfolioId === "gerencial") return operations;
   const selected = operations.find((operation) => operation.id === state.portfolioId);
@@ -1889,8 +1906,8 @@ function selectedPortfolioLabel() {
   return selected ? selected.shortName : "Todos os fundings";
 }
 
-function importedPortfolioCashEvents(operation) {
-  const data = portfolioDataForOperation(operation);
+function importedPortfolioCashEvents(operation, dateKey = "") {
+  const data = dateKey ? portfolioDataForOperationAtDate(operation, dateKey) : portfolioDataForOperation(operation);
   return Array.isArray(data?.cashEvents) ? data.cashEvents : [];
 }
 
@@ -2001,7 +2018,7 @@ function portfolioTitleFaceValueAtDate(title, dateKey, positionDate) {
 }
 
 function operationPortfolioPositionAtDate(operation, dateKey) {
-  const data = portfolioDataForOperation(operation);
+  const data = portfolioDataForOperationAtDate(operation, dateKey);
   if (!data) {
     const rows = Array.isArray(operation.portfolio) ? operation.portfolio : [];
     return {
@@ -2106,7 +2123,7 @@ function aggregatePortfolioPosition(scopeOperations, dateKey) {
 function portfolioHistoryStartDate(scopeOperations) {
   return scopeOperations
     .map((operation) => {
-      const data = portfolioDataForOperation(operation);
+      const data = portfolioDataForOperationAtDate(operation, state.dateKey);
       const rows = Array.isArray(data?.history) ? data.history : [];
       return rows[0]?.date;
     })
@@ -2116,7 +2133,7 @@ function portfolioHistoryStartDate(scopeOperations) {
 
 function aggregatePortfolioCashActivity(scopeOperations, dateKey) {
   return scopeOperations.reduce((total, operation) =>
-    importedPortfolioCashEvents(operation)
+    importedPortfolioCashEvents(operation, dateKey)
       .filter((event) => event.date === dateKey)
       .reduce((inner, event) => {
         const amount = cashEventAmount(event);
@@ -2179,10 +2196,10 @@ function portfolioAgingRows(scopeOperations, dateKey) {
     .slice(0, 40);
 }
 
-function operationCashEvents(operation) {
+function operationCashEvents(operation, dateKey = "") {
   const sharedEvents = Array.isArray(cashData.events) ? cashData.events : [];
   const directEvents = Array.isArray(operation.cashEvents) ? operation.cashEvents : [];
-  const portfolioEvents = importedPortfolioCashEvents(operation);
+  const portfolioEvents = importedPortfolioCashEvents(operation, dateKey || state.dateKey);
   const matchedSharedEvents = sharedEvents.filter((event) =>
     event.operationId === operation.id ||
     event.fundingId === operation.id
@@ -2205,7 +2222,7 @@ function cashEventAmount(event) {
 }
 
 function operationCashEventActivity(operation, dateKey) {
-  return operationCashEvents(operation).reduce((total, event) => {
+  return operationCashEvents(operation, dateKey).reduce((total, event) => {
     if (event.date !== dateKey) return total;
     const amount = cashEventAmount(event);
     const type = normalizeCashEventType(event);
@@ -2257,24 +2274,24 @@ function fundingAmortizationAtDate(operation, dateKey) {
   }, 0);
 }
 
-function operationCashFirstContributionDate(operation) {
+function operationCashFirstContributionDate(operation, dateKey = "") {
   prepareFundingInputs(operation);
   const fundingDates = operation.fundingComponents
     .filter((component) => Number(component.principal || 0) > 0)
     .map((component) => component.startDate || component.issueDate)
     .filter(Boolean);
-  const investorInflowDates = operationCashEvents(operation)
+  const investorInflowDates = operationCashEvents(operation, dateKey)
     .filter((event) => normalizeCashEventType(event) === "investorInflow" && cashEventAmount(event) > 0)
     .map((event) => event.date)
     .filter(Boolean);
   return [...fundingDates, ...investorInflowDates].sort()[0] || "";
 }
 
-function operationCashStartDate(operation) {
+function operationCashStartDate(operation, dateKey = "") {
   prepareFundingInputs(operation);
-  const firstContribution = operationCashFirstContributionDate(operation);
+  const firstContribution = operationCashFirstContributionDate(operation, dateKey);
   if (firstContribution) return firstContribution;
-  const cashDates = operationCashEvents(operation)
+  const cashDates = operationCashEvents(operation, dateKey)
     .map((event) => event.date)
     .filter(Boolean);
   return cashDates.sort()[0] || operation.issueDate || state.dateKey;
@@ -2355,7 +2372,7 @@ function operationCashDailyRows(operation, endDateKey) {
   operation._cashRowsCache = operation._cashRowsCache || new Map();
   if (operation._cashRowsCache.has(cacheKey)) return operation._cashRowsCache.get(cacheKey);
 
-  const startKey = operationCashStartDate(operation);
+  const startKey = operationCashStartDate(operation, endDateKey);
   if (!startKey || !endDateKey || endDateKey < startKey) {
     const rows = [];
     operation._cashRowsCache.set(cacheKey, rows);
