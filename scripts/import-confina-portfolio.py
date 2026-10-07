@@ -84,8 +84,9 @@ ANNUAL_RATE_THRESHOLD = 0.10
 PORTFOLIO_ACCRUAL_BASE_DAYS = 360
 DEFAULT_ACCRUAL_DAY_COUNT = "calendar_inclusive"
 PARTNERSHIP_TARGET_MONTHLY_RATE = 0.017
-TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS = {
-    "confina-cras-carteira-10",
+TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS: set[str] = set()
+TRANSFER_INITIAL_PORTFOLIO_VALUE_TARGETS = {
+    "confina-cras-carteira-10": 74968856.43,
 }
 BRAZIL_MARKET_HOLIDAYS = {
     "2026-01-01",
@@ -1145,6 +1146,56 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
                 "source": MANUAL_ADJUSTMENTS_PATH.name,
                 "manualAdjustmentId": str(adjustment.get("id") or "").strip(),
             })
+
+    transfer_target_value = TRANSFER_INITIAL_PORTFOLIO_VALUE_TARGETS.get(operation_id)
+    if transfer_target_value and position_date == OPERATION_START_DATES.get(operation_id):
+        active_titles_for_target = [
+            title for title in titles
+            if title.get("portfolioEligible") is not False
+            and title.get("isActive")
+            and not title.get("syntheticTitle")
+        ]
+        synthetic_active_value = round(sum(
+            float(title.get("presentValue") or 0.0)
+            for title in titles
+            if title.get("portfolioEligible") is not False
+            and title.get("isActive")
+            and title.get("syntheticTitle")
+        ), 2)
+        raw_current_value = round(sum(float(title.get("presentValue") or 0.0) for title in active_titles_for_target), 2)
+        raw_target_value = round(float(transfer_target_value) - synthetic_active_value, 2)
+        if active_titles_for_target and raw_current_value > 0 and raw_target_value > 0:
+            factor = raw_target_value / raw_current_value
+            for title in active_titles_for_target:
+                original_acquisition = round(float(title.get("acquisitionValue") or 0.0), 2)
+                original_present = round(float(title.get("presentValue") or 0.0), 2)
+                scaled_acquisition = round(original_acquisition * factor, 2)
+                scaled_present = round(original_present * factor, 2)
+                title["transferUnscaledAcquisitionValue"] = original_acquisition
+                title["transferUnscaledPresentValue"] = original_present
+                title["transferInitialValueTarget"] = float(transfer_target_value)
+                title["transferAllocationFactor"] = factor
+                title["transferValueMethod"] = "rateio_proporcional_vp_transferencia"
+                title["acquisitionValue"] = scaled_acquisition
+                title["presentValue"] = scaled_present
+            rounded_total = round(sum(float(title.get("presentValue") or 0.0) for title in active_titles_for_target) + synthetic_active_value, 2)
+            residual = round(float(transfer_target_value) - rounded_total, 2)
+            if abs(residual) >= 0.01:
+                residual_title = max(active_titles_for_target, key=lambda item: float(item.get("presentValue") or 0.0))
+                residual_title["acquisitionValue"] = round(float(residual_title.get("acquisitionValue") or 0.0) + residual, 2)
+                residual_title["presentValue"] = round(float(residual_title.get("presentValue") or 0.0) + residual, 2)
+                residual_title["transferAllocationResidual"] = residual
+            adjusted_purchase_amounts = {
+                str(title.get("id") or ""): round(float(title.get("acquisitionValue") or 0.0), 2)
+                for title in active_titles_for_target
+            }
+            for event in cash_events:
+                if (
+                    event.get("operationId") == operation_id
+                    and event.get("type") == "portfolio_purchase"
+                    and str(event.get("titleId") or "") in adjusted_purchase_amounts
+                ):
+                    event["amount"] = adjusted_purchase_amounts[str(event.get("titleId") or "")]
 
     manual_adjustments = apply_manual_adjustments(operation_id, titles, cash_events)
     skipped_pre_purchase_liquidations.extend(manual_adjustments.get("skippedPrePurchaseLiquidations", []))

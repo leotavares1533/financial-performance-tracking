@@ -2916,12 +2916,12 @@
       "type": "portfolio_purchase",
       "mode": "replace_same_day",
       "titleId": "agio-compra-cras10-2026-10-05",
-      "amount": 18006454.68,
-      "note": "Ajuste inicial para zerar o caixa do CRA Carteira 10/2026 no dia 0. Funding de R$ 75.670.517,84 contra carteira economica de R$ 57.664.063,16, usando VP de transferencia em 05/10/2026 e incluindo os lastros 416108 e 447894 no gerencial."
+      "amount": 701661.41,
+      "note": "Ajuste inicial para zerar o caixa do CRA Carteira 10/2026 no dia 0. Funding de R$ 75.670.517,84 contra carteira economica de R$ 74.968.856,43, usando valor de transferencia em 05/10/2026 e incluindo os lastros 416108 e 447894 no gerencial."
     }
   ],
   "totals": {
     "rows": 235,
-    "amount": 296700540.25
+    "amount": 279395746.98
   }
 }
