@@ -2770,6 +2770,7 @@ function cashEventIsEffectivePartnershipLiquidation(event) {
   ].filter(Boolean).join(" "));
   const migrationMarkers = [
     "TRANSFER",
+    "VENDA",
     "VENDA CRA",
     "VENDA CRA4265",
     "CESSAO",
@@ -2796,7 +2797,7 @@ function titleLooksLikeVehicleMigration(title) {
     title?.status,
     title?.ignoredReason
   ].filter(Boolean).join(" "));
-  const migrationMarkers = ["TRANSFER", "MIGRACAO", "TRANSFERENCIA", "CESSAO", "COMPRESSAO"];
+  const migrationMarkers = ["TRANSFER", "MIGRACAO", "TRANSFERENCIA", "VENDA", "CESSAO", "COMPRESSAO"];
   if (migrationMarkers.some((marker) => text.includes(marker))) return true;
   return text.includes("RECOMPRA") && title?.settledDate && title?.settledDate === portfolioTitlePurchaseDate(title);
 }
