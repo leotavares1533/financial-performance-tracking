@@ -1,5 +1,5 @@
 window.ceresFundingManualEvents = {
-  updatedAt: "2026-09-30",
+  updatedAt: "2026-10-06",
   events: [
     {
       operationId: "confina-cras-carteira-100",
@@ -89,6 +89,14 @@ window.ceresFundingManualEvents = {
       interestPaid: 5276.77,
       amortization: 3736909.26,
       note: "Amortizacao PEDRO RIBEIRO MEROLA em 29/09/2026 conforme veiculo 42a - CRA Ceres."
+    },
+    {
+      operationId: "confina-cra-65-200",
+      date: "2026-10-06",
+      amount: 19205829.98,
+      interestPaid: 0,
+      amortization: 19205829.98,
+      note: "Amortizacao JOSE ARNALDO FAVARETTO em 06/10/2026 conforme veiculo 65a - CRA Ceres 2. Ajuste: lastro 484624 considerado em R$ 653.987,40 e R$ 167.979,25 realocado para 485100."
     }
   ]
 };
