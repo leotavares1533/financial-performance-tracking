@@ -1,5 +1,5 @@
 window.ceresPortfolioData = {
-  "updatedAt": "2026-10-07T17:37:40+00:00",
+  "updatedAt": "2026-10-07T21:35:07+00:00",
   "sourceFiles": [
     {
       "file": "Relatório CONFINA - CRA INTERNO - 50 MM - JUNHO_2026 (10).csv",
@@ -154,6 +154,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -213,6 +214,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -272,6 +274,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -331,6 +334,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -390,6 +394,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -449,6 +454,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -508,6 +514,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -567,6 +574,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -626,6 +634,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -685,6 +694,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -744,6 +754,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -803,6 +814,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -862,6 +874,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -921,6 +934,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -980,6 +994,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1039,6 +1054,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1098,6 +1114,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1157,6 +1174,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1216,6 +1234,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1275,6 +1294,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1334,6 +1354,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1393,6 +1414,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1452,6 +1474,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1511,6 +1534,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1570,6 +1594,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1629,6 +1654,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1688,6 +1714,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1747,6 +1774,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1819,6 +1847,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1878,6 +1907,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1937,6 +1967,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -1996,6 +2027,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2055,6 +2087,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2114,6 +2147,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2186,6 +2220,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2245,6 +2280,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2304,6 +2340,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2376,6 +2413,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2440,6 +2478,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2499,6 +2538,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2567,6 +2607,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2626,6 +2667,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2685,6 +2727,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2744,6 +2787,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2803,6 +2847,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2867,6 +2912,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2926,6 +2972,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -2985,6 +3032,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3044,6 +3092,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3103,6 +3152,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3162,6 +3212,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3226,6 +3277,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3285,6 +3337,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3344,6 +3397,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3403,6 +3457,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3462,6 +3517,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3521,6 +3577,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3585,6 +3642,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3644,6 +3702,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3708,6 +3767,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3767,6 +3827,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3826,6 +3887,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3885,6 +3947,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -3944,6 +4007,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4003,6 +4067,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4087,6 +4152,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4151,6 +4217,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4210,6 +4277,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4269,6 +4337,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4337,6 +4406,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4396,6 +4466,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4464,6 +4535,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4528,6 +4600,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4587,6 +4660,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4646,6 +4720,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4714,6 +4789,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4782,6 +4858,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4846,6 +4923,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4905,6 +4983,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -4964,6 +5043,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5028,6 +5108,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5087,6 +5168,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5146,6 +5228,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5210,6 +5293,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5269,6 +5353,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5328,6 +5413,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5387,6 +5473,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5446,6 +5533,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5505,6 +5593,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5564,6 +5653,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5623,6 +5713,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5682,6 +5773,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5741,6 +5833,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5805,6 +5898,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5864,6 +5958,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5923,6 +6018,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -5982,6 +6078,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6041,6 +6138,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6100,6 +6198,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6159,6 +6258,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6218,6 +6318,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6277,6 +6378,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6336,6 +6438,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6395,6 +6498,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6459,6 +6563,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6518,6 +6623,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6577,6 +6683,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6636,6 +6743,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6695,6 +6803,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -6754,6 +6863,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6813,6 +6923,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6872,6 +6983,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6931,6 +7043,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -6990,6 +7103,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7049,6 +7163,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7108,6 +7223,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7167,6 +7283,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7226,6 +7343,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7285,6 +7403,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7344,6 +7463,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7403,6 +7523,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7462,6 +7583,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7521,6 +7643,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7580,6 +7703,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7639,6 +7763,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7711,6 +7836,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7770,6 +7896,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7829,6 +7956,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -7888,6 +8016,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -7947,6 +8076,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8006,6 +8136,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8065,6 +8196,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -8124,6 +8256,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8183,6 +8316,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8242,6 +8376,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8306,6 +8441,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8365,6 +8501,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8424,6 +8561,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8483,6 +8621,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8542,6 +8681,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8601,6 +8741,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8660,6 +8801,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8719,6 +8861,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8778,6 +8921,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8837,6 +8981,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8896,6 +9041,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -8955,6 +9101,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9014,6 +9161,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9073,6 +9221,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9132,6 +9281,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9191,6 +9341,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9250,6 +9401,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9309,6 +9461,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9368,6 +9521,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9427,6 +9581,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9486,6 +9641,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9545,6 +9701,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9604,6 +9761,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9663,6 +9821,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9722,6 +9881,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9781,6 +9941,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9840,6 +10001,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9899,6 +10061,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -9958,6 +10121,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10017,6 +10181,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10076,6 +10241,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10135,6 +10301,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10194,6 +10361,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10253,6 +10421,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10312,6 +10481,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10371,6 +10541,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10430,6 +10601,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10489,6 +10661,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10548,6 +10721,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10607,6 +10781,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10666,6 +10841,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10725,6 +10901,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10784,6 +10961,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10843,6 +11021,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10902,6 +11081,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -10961,6 +11141,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11020,6 +11201,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11079,6 +11261,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11138,6 +11321,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11197,6 +11381,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11256,6 +11441,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11315,6 +11501,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11374,6 +11561,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11433,6 +11621,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11492,6 +11681,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11551,6 +11741,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11610,6 +11801,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11669,6 +11861,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11728,6 +11921,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11787,6 +11981,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11846,6 +12041,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11905,6 +12101,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -11964,6 +12161,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12023,6 +12221,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12082,6 +12281,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12141,6 +12341,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12200,6 +12401,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12259,6 +12461,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12318,6 +12521,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12377,6 +12581,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12436,6 +12641,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12495,6 +12701,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12554,6 +12761,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12613,6 +12821,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12672,6 +12881,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12731,6 +12941,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12790,6 +13001,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12849,6 +13061,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12908,6 +13121,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -12967,6 +13181,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13026,6 +13241,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13085,6 +13301,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13144,6 +13361,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -13203,6 +13421,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -13264,6 +13483,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13323,6 +13543,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Titulo removido da carteira conforme orientacao do usuario; entrada em 18/09/2026 estava incorreta.",
@@ -13384,6 +13605,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13443,6 +13665,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13502,6 +13725,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13561,6 +13785,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13620,6 +13845,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -13679,6 +13905,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         }
@@ -18257,6 +18484,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18316,6 +18544,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18375,6 +18604,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18434,6 +18664,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18493,6 +18724,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18552,6 +18784,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18611,6 +18844,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18670,6 +18904,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18729,6 +18964,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18788,6 +19024,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18847,6 +19084,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18906,6 +19144,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -18965,6 +19204,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19024,6 +19264,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19083,6 +19324,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19142,6 +19384,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19201,6 +19444,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19260,6 +19504,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19319,6 +19564,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19378,6 +19624,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19437,6 +19684,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19496,6 +19744,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19555,6 +19804,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19614,6 +19864,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19673,6 +19924,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19732,6 +19984,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19791,6 +20044,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19850,6 +20104,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19909,6 +20164,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -19968,6 +20224,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20027,6 +20284,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20086,6 +20344,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20145,6 +20404,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20204,6 +20464,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20263,6 +20524,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20322,6 +20584,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20381,6 +20644,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20440,6 +20704,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20499,6 +20764,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20558,6 +20824,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20617,6 +20884,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20676,6 +20944,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20735,6 +21004,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20794,6 +21064,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20853,6 +21124,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20912,6 +21184,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -20971,6 +21244,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21030,6 +21304,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21089,6 +21364,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21148,6 +21424,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21207,6 +21484,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21266,6 +21544,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21325,6 +21604,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21384,6 +21664,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21443,6 +21724,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21502,6 +21784,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21561,6 +21844,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21620,6 +21904,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21679,6 +21964,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21738,6 +22024,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21797,6 +22084,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21856,6 +22144,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21915,6 +22204,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -21974,6 +22264,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22033,6 +22324,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22092,6 +22384,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22151,6 +22444,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22210,6 +22504,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22269,6 +22564,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22328,6 +22624,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22387,6 +22684,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22446,6 +22744,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22505,6 +22804,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22564,6 +22864,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22623,6 +22924,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22682,6 +22984,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22741,6 +23044,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22800,6 +23104,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22859,6 +23164,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22918,6 +23224,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -22977,6 +23284,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23036,6 +23344,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23095,6 +23404,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23154,6 +23464,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23213,6 +23524,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23272,6 +23584,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23331,6 +23644,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23390,6 +23704,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23449,6 +23764,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23508,6 +23824,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23567,6 +23884,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23626,6 +23944,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23685,6 +24004,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23744,6 +24064,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23803,6 +24124,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23862,6 +24184,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23921,6 +24244,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -23980,6 +24304,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24039,6 +24364,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24098,6 +24424,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24157,6 +24484,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24216,6 +24544,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24275,6 +24604,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24334,6 +24664,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24393,6 +24724,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24452,6 +24784,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24511,6 +24844,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24570,6 +24904,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24629,6 +24964,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24688,6 +25024,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24747,6 +25084,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -24806,6 +25144,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -26405,6 +26744,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26464,6 +26804,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26523,6 +26864,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26582,6 +26924,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26641,6 +26984,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26700,6 +27044,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26759,6 +27104,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26818,6 +27164,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26877,6 +27224,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26936,6 +27284,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -26995,6 +27344,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27054,6 +27404,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27113,6 +27464,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27172,6 +27524,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27231,6 +27584,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27290,6 +27644,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27349,6 +27704,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27408,6 +27764,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27467,6 +27824,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27526,6 +27884,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27585,6 +27944,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27644,6 +28004,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27703,6 +28064,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27762,6 +28124,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27821,6 +28184,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27880,6 +28244,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27939,6 +28304,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -27998,6 +28364,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28057,6 +28424,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28116,6 +28484,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28175,6 +28544,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28234,6 +28604,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28293,6 +28664,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -28878,6 +29250,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA`s Carteiras CERES",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28937,6 +29310,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -28996,6 +29370,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29055,6 +29430,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29114,6 +29490,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29173,6 +29550,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29232,6 +29610,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29291,6 +29670,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29350,6 +29730,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29409,6 +29790,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29468,6 +29850,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29527,6 +29910,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29586,6 +29970,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29645,6 +30030,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29704,6 +30090,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29763,6 +30150,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29822,6 +30210,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29881,6 +30270,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29940,6 +30330,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -29999,6 +30390,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30058,6 +30450,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30117,6 +30510,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30176,6 +30570,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30235,6 +30630,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30294,6 +30690,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30353,6 +30750,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30412,6 +30810,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30471,6 +30870,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30530,6 +30930,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30589,6 +30990,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30648,6 +31050,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30707,6 +31110,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30766,6 +31170,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30825,6 +31230,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30884,6 +31290,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -30943,6 +31350,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31002,6 +31410,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31061,6 +31470,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31120,6 +31530,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31179,6 +31590,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31238,6 +31650,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31297,6 +31710,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31356,6 +31770,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31415,6 +31830,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31474,6 +31890,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31533,6 +31950,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31592,6 +32010,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31651,6 +32070,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31710,6 +32130,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31769,6 +32190,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31828,6 +32250,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31887,6 +32310,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -31946,6 +32370,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32005,6 +32430,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32064,6 +32490,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32123,6 +32550,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32182,6 +32610,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32241,6 +32670,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32300,6 +32730,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -32359,6 +32790,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -33089,10 +33521,10 @@ window.ceresPortfolioData = {
         "activeTitles": 59,
         "settledTitles": 0,
         "portfolioVn": 81729784.53,
-        "portfolioVp": 74968856.43,
-        "acquisitionValue": 74968856.43,
-        "weightedRateMonthly": 0.018992516053415807,
-        "weightedDaysToMaturity": 136.47189855967767,
+        "portfolioVp": 76441024.81,
+        "acquisitionValue": 76441024.81,
+        "weightedRateMonthly": 0.01900953376687206,
+        "weightedDaysToMaturity": 138.38735257204618,
         "overdueVp": 0,
         "cashPurchases": 75670517.84,
         "cashLiquidations": 0,
@@ -33126,8 +33558,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 315503.82,
           "outstandingFaceValue": 315503.82,
-          "acquisitionValue": 306074.33,
-          "presentValue": 306074.33,
+          "acquisitionValue": 315503.82,
+          "presentValue": 315503.82,
           "reportedPresentValue": 315503.82,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33144,8 +33576,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 54,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -33158,6 +33590,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 306074.33,
           "transferCessionValue": 306074.33,
           "isActive": true
         },
@@ -33185,8 +33618,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2693249.44,
           "outstandingFaceValue": 2693249.44,
-          "acquisitionValue": 2596461.56,
-          "presentValue": 2596461.56,
+          "acquisitionValue": 2494985.63,
+          "presentValue": 2494985.63,
           "reportedPresentValue": 2598159.03,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33217,6 +33650,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 2596461.56,
           "transferCessionValue": 2609821.47,
           "isActive": true
         },
@@ -33244,8 +33678,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 633668.37,
           "outstandingFaceValue": 633668.37,
-          "acquisitionValue": 609301.17,
-          "presentValue": 609301.17,
+          "acquisitionValue": 574495.98,
+          "presentValue": 574495.98,
           "reportedPresentValue": 609699.52,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33276,6 +33710,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 609301.17,
           "transferCessionValue": 612660.84,
           "isActive": true
         },
@@ -33303,8 +33738,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1443178.42,
           "outstandingFaceValue": 1443178.42,
-          "acquisitionValue": 1384964.08,
-          "presentValue": 1384964.08,
+          "acquisitionValue": 1308413.41,
+          "presentValue": 1308413.41,
           "reportedPresentValue": 1385869.52,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33335,6 +33770,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1384964.08,
           "transferCessionValue": 1392983.67,
           "isActive": true
         },
@@ -33362,8 +33798,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1522269.24,
           "outstandingFaceValue": 1522269.24,
-          "acquisitionValue": 1458003.13,
-          "presentValue": 1458003.13,
+          "acquisitionValue": 1380118.68,
+          "presentValue": 1380118.68,
           "reportedPresentValue": 1458956.32,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33394,6 +33830,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1458003.13,
           "transferCessionValue": 1466848.89,
           "isActive": true
         },
@@ -33421,8 +33858,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1045532.17,
           "outstandingFaceValue": 1045532.17,
-          "acquisitionValue": 1000738.37,
-          "presentValue": 1000738.37,
+          "acquisitionValue": 947899.65,
+          "presentValue": 947899.65,
           "reportedPresentValue": 1001392.62,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33453,6 +33890,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1000738.37,
           "transferCessionValue": 1006902.16,
           "isActive": true
         },
@@ -33480,8 +33918,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 681708.63,
           "outstandingFaceValue": 681708.63,
-          "acquisitionValue": 652075.84,
-          "presentValue": 652075.84,
+          "acquisitionValue": 618050.2,
+          "presentValue": 618050.2,
           "reportedPresentValue": 652502.14,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33512,6 +33950,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 652075.84,
           "transferCessionValue": 656152.26,
           "isActive": true
         },
@@ -33539,8 +33978,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 256255.1,
           "outstandingFaceValue": 256255.1,
-          "acquisitionValue": 239670.97,
-          "presentValue": 239670.97,
+          "acquisitionValue": 232896.2,
+          "presentValue": 232896.2,
           "reportedPresentValue": 239823.74,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33571,6 +34010,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 239670.97,
           "transferCessionValue": 241573.44,
           "isActive": true
         },
@@ -33598,8 +34038,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 437439.99,
           "outstandingFaceValue": 437439.99,
-          "acquisitionValue": 411683.11,
-          "presentValue": 411683.11,
+          "acquisitionValue": 437439.99,
+          "presentValue": 437439.99,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33613,8 +34053,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 108,
           "paymentStatus": "EM CARTEIRA",
           "titleStatus": "EM CARTEIRA",
@@ -33627,6 +34067,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 411683.11,
           "transferCessionValue": 411683.11,
           "isActive": true,
           "syntheticTitle": true,
@@ -33657,8 +34098,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 466145.72,
           "outstandingFaceValue": 466145.72,
-          "acquisitionValue": 434868.23,
-          "presentValue": 434868.23,
+          "acquisitionValue": 423654.26,
+          "presentValue": 423654.26,
           "reportedPresentValue": 435145.41,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33689,6 +34130,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 434868.23,
           "transferCessionValue": 438452.19,
           "isActive": true
         },
@@ -33716,8 +34158,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1780865.64,
           "outstandingFaceValue": 1780865.64,
-          "acquisitionValue": 1660314.65,
-          "presentValue": 1660314.65,
+          "acquisitionValue": 1618531.04,
+          "presentValue": 1618531.04,
           "reportedPresentValue": 1661372.94,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33748,6 +34190,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1660314.65,
           "transferCessionValue": 1674124.15,
           "isActive": true
         },
@@ -33775,8 +34218,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2341506.76,
           "outstandingFaceValue": 2341506.76,
-          "acquisitionValue": 2181614.07,
-          "presentValue": 2181614.07,
+          "acquisitionValue": 2128066.99,
+          "presentValue": 2128066.99,
           "reportedPresentValue": 2183004.65,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33807,6 +34250,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 2181614.07,
           "transferCessionValue": 2199925.08,
           "isActive": true
         },
@@ -33834,8 +34278,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 193960.6,
           "outstandingFaceValue": 193960.6,
-          "acquisitionValue": 180485.6,
-          "presentValue": 180485.6,
+          "acquisitionValue": 176617.45,
+          "presentValue": 176617.45,
           "reportedPresentValue": 180600.65,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33866,6 +34310,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 180485.6,
           "transferCessionValue": 182027.89,
           "isActive": true
         },
@@ -33893,8 +34338,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1878982.11,
           "outstandingFaceValue": 1878982.11,
-          "acquisitionValue": 1746217.03,
-          "presentValue": 1746217.03,
+          "acquisitionValue": 1707703.72,
+          "presentValue": 1707703.72,
           "reportedPresentValue": 1747330.08,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33925,6 +34370,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1746217.03,
           "transferCessionValue": 1761404.06,
           "isActive": true
         },
@@ -33952,8 +34398,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 622304.42,
           "outstandingFaceValue": 622304.42,
-          "acquisitionValue": 577597.08,
-          "presentValue": 577597.08,
+          "acquisitionValue": 565578.33,
+          "presentValue": 565578.33,
           "reportedPresentValue": 577965.24,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -33984,6 +34430,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 577597.08,
           "transferCessionValue": 582708.25,
           "isActive": true
         },
@@ -34011,8 +34458,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 781676.71,
           "outstandingFaceValue": 781676.71,
-          "acquisitionValue": 725057.66,
-          "presentValue": 725057.66,
+          "acquisitionValue": 710423.06,
+          "presentValue": 710423.06,
           "reportedPresentValue": 725519.81,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34043,6 +34490,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 725057.66,
           "transferCessionValue": 731528.79,
           "isActive": true
         },
@@ -34070,8 +34518,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 825174.42,
           "outstandingFaceValue": 825174.42,
-          "acquisitionValue": 764917.14,
-          "presentValue": 764917.14,
+          "acquisitionValue": 749955.74,
+          "presentValue": 749955.74,
           "reportedPresentValue": 765404.7,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34102,6 +34550,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 764917.14,
           "transferCessionValue": 771802.14,
           "isActive": true
         },
@@ -34129,8 +34578,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2289245.47,
           "outstandingFaceValue": 2289245.47,
-          "acquisitionValue": 2137570.7,
-          "presentValue": 2137570.7,
+          "acquisitionValue": 2289245.47,
+          "presentValue": 2289245.47,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34147,8 +34596,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 122,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34161,6 +34610,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 2137570.7,
           "transferCessionValue": 2137570.7,
           "isActive": true
         },
@@ -34188,8 +34638,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 509754.69,
           "outstandingFaceValue": 509754.69,
-          "acquisitionValue": 471327.66,
-          "presentValue": 471327.66,
+          "acquisitionValue": 463288.06,
+          "presentValue": 463288.06,
           "reportedPresentValue": 471628.09,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34220,6 +34670,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 471327.66,
           "transferCessionValue": 475713.33,
           "isActive": true
         },
@@ -34247,8 +34698,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1938296.24,
           "outstandingFaceValue": 1938296.24,
-          "acquisitionValue": 1808857.05,
-          "presentValue": 1808857.05,
+          "acquisitionValue": 1938296.24,
+          "presentValue": 1938296.24,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34265,8 +34716,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 123,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34279,6 +34730,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1808857.05,
           "transferCessionValue": 1808857.05,
           "isActive": true
         },
@@ -34306,8 +34758,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 338067.6,
           "outstandingFaceValue": 338067.6,
-          "acquisitionValue": 312383.81,
-          "presentValue": 312383.81,
+          "acquisitionValue": 307251.09,
+          "presentValue": 307251.09,
           "reportedPresentValue": 312582.93,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34338,6 +34790,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 312383.81,
           "transferCessionValue": 315314.26,
           "isActive": true
         },
@@ -34365,8 +34818,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1174317.67,
           "outstandingFaceValue": 1174317.67,
-          "acquisitionValue": 1095281.26,
-          "presentValue": 1095281.26,
+          "acquisitionValue": 1174317.67,
+          "presentValue": 1174317.67,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34383,8 +34836,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 124,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34397,6 +34850,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1095281.26,
           "transferCessionValue": 1095281.26,
           "isActive": true
         },
@@ -34424,8 +34878,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1340167.55,
           "outstandingFaceValue": 1340167.55,
-          "acquisitionValue": 1237563.04,
-          "presentValue": 1237563.04,
+          "acquisitionValue": 1218004.74,
+          "presentValue": 1218004.74,
           "reportedPresentValue": 1238351.88,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34456,6 +34910,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1237563.04,
           "transferCessionValue": 1249266.6,
           "isActive": true
         },
@@ -34483,8 +34938,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 845422.24,
           "outstandingFaceValue": 845422.24,
-          "acquisitionValue": 780695.9,
-          "presentValue": 780695.9,
+          "acquisitionValue": 768847.63,
+          "presentValue": 768847.63,
           "reportedPresentValue": 781193.52,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34515,6 +34970,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 780695.9,
           "transferCessionValue": 788078.9,
           "isActive": true
         },
@@ -34542,8 +34998,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 121721.07,
           "outstandingFaceValue": 121721.07,
-          "acquisitionValue": 112115.86,
-          "presentValue": 112115.86,
+          "acquisitionValue": 110625.6,
+          "presentValue": 110625.6,
           "reportedPresentValue": 112187.32,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34574,6 +35030,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 112115.86,
           "transferCessionValue": 113210.23,
           "isActive": true
         },
@@ -34601,8 +35058,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 724864.67,
           "outstandingFaceValue": 724864.67,
-          "acquisitionValue": 673802.79,
-          "presentValue": 673802.79,
+          "acquisitionValue": 724864.67,
+          "presentValue": 724864.67,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34619,8 +35076,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 130,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34633,6 +35090,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 673802.79,
           "transferCessionValue": 673802.79,
           "isActive": true
         },
@@ -34660,8 +35118,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1767710.15,
           "outstandingFaceValue": 1767710.15,
-          "acquisitionValue": 1642263.7,
-          "presentValue": 1642263.7,
+          "acquisitionValue": 1767710.15,
+          "presentValue": 1767710.15,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34678,8 +35136,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 131,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34692,6 +35150,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 1642263.7,
           "transferCessionValue": 1642263.7,
           "isActive": true
         },
@@ -34719,8 +35178,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 595868.0,
           "outstandingFaceValue": 595868.0,
-          "acquisitionValue": 553581.93,
-          "presentValue": 553581.93,
+          "acquisitionValue": 595868.0,
+          "presentValue": 595868.0,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34737,8 +35196,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 131,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -34751,6 +35210,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 553581.93,
           "transferCessionValue": 553581.93,
           "isActive": true
         },
@@ -34778,8 +35238,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1564460.31,
           "outstandingFaceValue": 1564460.31,
-          "acquisitionValue": 1444113.64,
-          "presentValue": 1444113.64,
+          "acquisitionValue": 1427445.0,
+          "presentValue": 1427445.0,
           "reportedPresentValue": 1444996.31,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34810,6 +35270,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1444113.64,
           "transferCessionValue": 1453437.59,
           "isActive": true
         },
@@ -34837,8 +35298,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1502279.52,
           "outstandingFaceValue": 1502279.52,
-          "acquisitionValue": 1385869.06,
-          "presentValue": 1385869.06,
+          "acquisitionValue": 1370710.0,
+          "presentValue": 1370710.0,
           "reportedPresentValue": 1386716.14,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34869,6 +35330,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1385869.06,
           "transferCessionValue": 1394885.48,
           "isActive": true
         },
@@ -34896,8 +35358,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 835289.74,
           "outstandingFaceValue": 835289.74,
-          "acquisitionValue": 765951.56,
-          "presentValue": 765951.56,
+          "acquisitionValue": 759149.0,
+          "presentValue": 759149.0,
           "reportedPresentValue": 766439.78,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34928,6 +35390,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 765951.56,
           "transferCessionValue": 773835.82,
           "isActive": true
         },
@@ -34955,8 +35418,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1419828.47,
           "outstandingFaceValue": 1419828.47,
-          "acquisitionValue": 1306609.65,
-          "presentValue": 1306609.65,
+          "acquisitionValue": 1295480.0,
+          "presentValue": 1295480.0,
           "reportedPresentValue": 1307408.27,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -34987,6 +35450,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1306609.65,
           "transferCessionValue": 1315368.87,
           "isActive": true
         },
@@ -35014,8 +35478,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1224042.63,
           "outstandingFaceValue": 1224042.63,
-          "acquisitionValue": 1126436.01,
-          "presentValue": 1126436.01,
+          "acquisitionValue": 1116841.07,
+          "presentValue": 1116841.07,
           "reportedPresentValue": 1127124.51,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35046,6 +35510,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1126436.01,
           "transferCessionValue": 1133987.39,
           "isActive": true
         },
@@ -35073,8 +35538,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 4185588.7,
           "outstandingFaceValue": 4185588.7,
-          "acquisitionValue": 3849471.99,
-          "presentValue": 3849471.99,
+          "acquisitionValue": 3819015.17,
+          "presentValue": 3819015.17,
           "reportedPresentValue": 3851824.87,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35105,6 +35570,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 3849471.99,
           "transferCessionValue": 3875468.38,
           "isActive": true
         },
@@ -35132,8 +35598,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2487231.56,
           "outstandingFaceValue": 2487231.56,
-          "acquisitionValue": 2287498.59,
-          "presentValue": 2287498.59,
+          "acquisitionValue": 2269400.01,
+          "presentValue": 2269400.01,
           "reportedPresentValue": 2288896.74,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35164,6 +35630,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 2287498.59,
           "transferCessionValue": 2302946.6,
           "isActive": true
         },
@@ -35191,8 +35658,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1609187.73,
           "outstandingFaceValue": 1609187.73,
-          "acquisitionValue": 1474667.59,
-          "presentValue": 1474667.59,
+          "acquisitionValue": 1462502.41,
+          "presentValue": 1462502.41,
           "reportedPresentValue": 1475607.55,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35223,6 +35690,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1474667.59,
           "transferCessionValue": 1489959.15,
           "isActive": true
         },
@@ -35250,8 +35718,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2341044.0,
           "outstandingFaceValue": 2341044.0,
-          "acquisitionValue": 2143977.71,
-          "presentValue": 2143977.71,
+          "acquisitionValue": 2127646.41,
+          "presentValue": 2127646.41,
           "reportedPresentValue": 2145344.29,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35282,6 +35750,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 2143977.71,
           "transferCessionValue": 2166372.79,
           "isActive": true
         },
@@ -35309,8 +35778,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 951447.85,
           "outstandingFaceValue": 951447.85,
-          "acquisitionValue": 873974.71,
-          "presentValue": 873974.71,
+          "acquisitionValue": 868120.12,
+          "presentValue": 868120.12,
           "reportedPresentValue": 874508.9,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35341,6 +35810,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 873974.71,
           "transferCessionValue": 879963.33,
           "isActive": true
         },
@@ -35368,8 +35838,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 770061.21,
           "outstandingFaceValue": 770061.21,
-          "acquisitionValue": 705751.04,
-          "presentValue": 705751.04,
+          "acquisitionValue": 700897.2,
+          "presentValue": 700897.2,
           "reportedPresentValue": 706193.96,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35400,6 +35870,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 705751.04,
           "transferCessionValue": 712204.69,
           "isActive": true
         },
@@ -35427,8 +35898,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 724691.01,
           "outstandingFaceValue": 724691.01,
-          "acquisitionValue": 663264.61,
-          "presentValue": 663264.61,
+          "acquisitionValue": 658631.89,
+          "presentValue": 658631.89,
           "reportedPresentValue": 663687.39,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35459,6 +35930,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 663264.61,
           "transferCessionValue": 670243.26,
           "isActive": true
         },
@@ -35486,8 +35958,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 444135.83,
           "outstandingFaceValue": 444135.83,
-          "acquisitionValue": 406120.56,
-          "presentValue": 406120.56,
+          "acquisitionValue": 403254.91,
+          "presentValue": 403254.91,
           "reportedPresentValue": 406382.09,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35518,6 +35990,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 406120.56,
           "transferCessionValue": 410766.86,
           "isActive": true
         },
@@ -35545,8 +36018,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1836517.94,
           "outstandingFaceValue": 1836517.94,
-          "acquisitionValue": 1686976.58,
-          "presentValue": 1686976.58,
+          "acquisitionValue": 1675675.84,
+          "presentValue": 1675675.84,
           "reportedPresentValue": 1688007.69,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35577,6 +36050,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1686976.58,
           "transferCessionValue": 1698536.02,
           "isActive": true
         },
@@ -35604,8 +36078,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2031143.0,
           "outstandingFaceValue": 2031143.0,
-          "acquisitionValue": 1865753.99,
-          "presentValue": 1865753.99,
+          "acquisitionValue": 1853255.65,
+          "presentValue": 1853255.65,
           "reportedPresentValue": 1866894.37,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35636,6 +36110,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1865753.99,
           "transferCessionValue": 1878538.44,
           "isActive": true
         },
@@ -35663,8 +36138,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 751571.62,
           "outstandingFaceValue": 751571.62,
-          "acquisitionValue": 687866.77,
-          "presentValue": 687866.77,
+          "acquisitionValue": 683062.2,
+          "presentValue": 683062.2,
           "reportedPresentValue": 688305.22,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35695,6 +36170,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 687866.77,
           "transferCessionValue": 695104.27,
           "isActive": true
         },
@@ -35722,8 +36198,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 435040.84,
           "outstandingFaceValue": 435040.84,
-          "acquisitionValue": 398641.43,
-          "presentValue": 398641.43,
+          "acquisitionValue": 396940.0,
+          "presentValue": 396940.0,
           "reportedPresentValue": 398885.09,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35754,6 +36230,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 398641.43,
           "transferCessionValue": 401451.87,
           "isActive": true
         },
@@ -35781,8 +36258,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 4022047.94,
           "outstandingFaceValue": 4022047.94,
-          "acquisitionValue": 3685527.45,
-          "presentValue": 3685527.45,
+          "acquisitionValue": 3669797.29,
+          "presentValue": 3669797.29,
           "reportedPresentValue": 3687780.11,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35813,6 +36290,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 3685527.45,
           "transferCessionValue": 3711510.56,
           "isActive": true
         },
@@ -35840,8 +36318,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 355462.91,
           "outstandingFaceValue": 355462.91,
-          "acquisitionValue": 325721.71,
-          "presentValue": 325721.71,
+          "acquisitionValue": 324331.5,
+          "presentValue": 324331.5,
           "reportedPresentValue": 325920.8,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35872,6 +36350,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 325721.71,
           "transferCessionValue": 328018.06,
           "isActive": true
         },
@@ -35899,8 +36378,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 546786.33,
           "outstandingFaceValue": 546786.33,
-          "acquisitionValue": 501037.3,
-          "presentValue": 501037.3,
+          "acquisitionValue": 498898.83,
+          "presentValue": 498898.83,
           "reportedPresentValue": 501343.55,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35931,6 +36410,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 501037.3,
           "transferCessionValue": 504569.63,
           "isActive": true
         },
@@ -35958,8 +36438,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 4412385.01,
           "outstandingFaceValue": 4412385.01,
-          "acquisitionValue": 4025535.72,
-          "presentValue": 4025535.72,
+          "acquisitionValue": 4010174.58,
+          "presentValue": 4010174.58,
           "reportedPresentValue": 4028101.62,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -35990,6 +36470,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 4025535.72,
           "transferCessionValue": 4069422.92,
           "isActive": true
         },
@@ -36017,8 +36498,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 3338295.73,
           "outstandingFaceValue": 3338295.73,
-          "acquisitionValue": 3057115.5,
-          "presentValue": 3057115.5,
+          "acquisitionValue": 3045928.05,
+          "presentValue": 3045928.05,
           "reportedPresentValue": 3058984.07,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36049,6 +36530,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 3057115.5,
           "transferCessionValue": 3078819.53,
           "isActive": true
         },
@@ -36076,8 +36558,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 318078.93,
           "outstandingFaceValue": 318078.93,
-          "acquisitionValue": 291287.56,
-          "presentValue": 291287.56,
+          "acquisitionValue": 290221.6,
+          "presentValue": 290221.6,
           "reportedPresentValue": 291465.6,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36108,6 +36590,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 291287.56,
           "transferCessionValue": 293355.56,
           "isActive": true
         },
@@ -36135,8 +36618,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 849716.2,
           "outstandingFaceValue": 849716.2,
-          "acquisitionValue": 761857.4,
-          "presentValue": 761857.4,
+          "acquisitionValue": 756400.0,
+          "presentValue": 756400.0,
           "reportedPresentValue": 762355.47,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36167,6 +36650,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 761857.4,
           "transferCessionValue": 773607.36,
           "isActive": true
         },
@@ -36194,8 +36678,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 192033.02,
           "outstandingFaceValue": 192033.02,
-          "acquisitionValue": 172393.87,
-          "presentValue": 172393.87,
+          "acquisitionValue": 192033.02,
+          "presentValue": 192033.02,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36209,8 +36693,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 192,
           "paymentStatus": "EM CARTEIRA",
           "titleStatus": "EM CARTEIRA",
@@ -36223,6 +36707,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 172393.87,
           "transferCessionValue": 172393.87,
           "isActive": true,
           "syntheticTitle": true,
@@ -36253,8 +36738,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 208541.0,
           "outstandingFaceValue": 208541.0,
-          "acquisitionValue": 186373.9,
-          "presentValue": 186373.9,
+          "acquisitionValue": 208541.0,
+          "presentValue": 208541.0,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36271,8 +36756,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 200,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36285,6 +36770,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Ceres Confina LTDA",
+          "transferOriginValue": 186373.9,
           "transferCessionValue": 186373.9,
           "isActive": true
         },
@@ -36312,8 +36798,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1837221.83,
           "outstandingFaceValue": 1837221.83,
-          "acquisitionValue": 1640088.11,
-          "presentValue": 1640088.11,
+          "acquisitionValue": 1837221.83,
+          "presentValue": 1837221.83,
           "reportedPresentValue": 1837221.83,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36330,8 +36816,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 202,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36344,6 +36830,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1640088.11,
           "transferCessionValue": 1640088.11,
           "isActive": true
         },
@@ -36371,8 +36858,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 5712223.33,
           "outstandingFaceValue": 5712223.33,
-          "acquisitionValue": 4915797.65,
-          "presentValue": 4915797.65,
+          "acquisitionValue": 5712223.33,
+          "presentValue": 5712223.33,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36389,8 +36876,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 207,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36403,6 +36890,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 4915797.65,
           "transferCessionValue": 5084995.86,
           "isActive": true
         },
@@ -36430,8 +36918,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 2038241.4,
           "outstandingFaceValue": 2038241.4,
-          "acquisitionValue": 1814433.45,
-          "presentValue": 1814433.45,
+          "acquisitionValue": 2038241.4,
+          "presentValue": 2038241.4,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36448,8 +36936,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 207,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36462,6 +36950,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 1814433.45,
           "transferCessionValue": 1814433.45,
           "isActive": true
         },
@@ -36489,8 +36978,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1587000.0,
           "outstandingFaceValue": 1587000.0,
-          "acquisitionValue": 1363752.9,
-          "presentValue": 1363752.9,
+          "acquisitionValue": 1587000.0,
+          "presentValue": 1587000.0,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36507,8 +36996,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 209,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36521,6 +37010,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1363752.9,
           "transferCessionValue": 1411153.6,
           "isActive": true
         },
@@ -36548,8 +37038,8 @@ window.ceresPortfolioData = {
           "settledDate": "",
           "faceValue": 1633332.03,
           "outstandingFaceValue": 1633332.03,
-          "acquisitionValue": 1399500.7,
-          "presentValue": 1399500.7,
+          "acquisitionValue": 1633332.03,
+          "presentValue": 1633332.03,
           "reportedPresentValue": 0.0,
           "partialLiquidationAmount": 0,
           "partialLiquidations": [],
@@ -36566,8 +37056,8 @@ window.ceresPortfolioData = {
           "accrualDayCount": "calendar_inclusive",
           "accrualPeriodsAtPosition": 0,
           "accrualPeriodsSource": "",
-          "allowPresentValueAboveFace": false,
-          "partnershipBySameFaceAndAcquisition": false,
+          "allowPresentValueAboveFace": true,
+          "partnershipBySameFaceAndAcquisition": true,
           "daysToMaturity": 213,
           "paymentStatus": "VINCENDO",
           "titleStatus": "EM CARTEIRA",
@@ -36580,6 +37070,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 1399500.7,
           "transferCessionValue": 1449091.18,
           "isActive": true
         }
@@ -36604,7 +37095,7 @@ window.ceresPortfolioData = {
           "liquidations": 0.0,
           "activeTitles": 59,
           "faceValue": 81729784.53,
-          "presentValue": 74968856.43
+          "presentValue": 76441024.81
         }
       ],
       "manualAdjustments": {
@@ -36708,6 +37199,7 @@ window.ceresPortfolioData = {
           "municipality": "PARAGOMINAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -36767,6 +37259,7 @@ window.ceresPortfolioData = {
           "municipality": "PARAGOMINAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -36835,6 +37328,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -36899,6 +37393,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -36963,6 +37458,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37035,6 +37531,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37094,6 +37591,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37153,6 +37651,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37217,6 +37716,7 @@ window.ceresPortfolioData = {
           "municipality": "PARAGOMINAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37281,6 +37781,7 @@ window.ceresPortfolioData = {
           "municipality": "PARAGOMINAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37345,6 +37846,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37404,6 +37906,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37463,6 +37966,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37531,6 +38035,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37599,6 +38104,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37663,6 +38169,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37727,6 +38234,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37791,6 +38299,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37859,6 +38368,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37923,6 +38433,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -37987,6 +38498,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38046,6 +38558,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38110,6 +38623,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38174,6 +38688,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38250,6 +38765,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38314,6 +38830,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38382,6 +38899,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38441,6 +38959,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38513,6 +39032,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38577,6 +39097,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38636,6 +39157,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38700,6 +39222,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38759,6 +39282,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38827,6 +39351,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38899,6 +39424,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -38963,6 +39489,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39022,6 +39549,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39081,6 +39609,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39140,6 +39669,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39204,6 +39734,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39268,6 +39799,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39327,6 +39859,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39386,6 +39919,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39445,6 +39979,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39504,6 +40039,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39563,6 +40099,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39631,6 +40168,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39690,6 +40228,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39749,6 +40288,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39808,6 +40348,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39867,6 +40408,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39926,6 +40468,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -39985,6 +40528,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40049,6 +40593,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40108,6 +40653,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40167,6 +40713,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40226,6 +40773,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40290,6 +40838,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40349,6 +40898,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40408,6 +40958,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40467,6 +41018,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40531,6 +41083,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40590,6 +41143,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40654,6 +41208,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40713,6 +41268,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40772,6 +41328,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40831,6 +41388,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40895,6 +41453,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -40954,6 +41513,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41026,6 +41586,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41085,6 +41646,7 @@ window.ceresPortfolioData = {
           "municipality": "CUIABÁ",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41149,6 +41711,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41208,6 +41771,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -41304,6 +41868,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41363,6 +41928,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41422,6 +41988,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41490,6 +42057,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41549,6 +42117,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41637,6 +42206,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41705,6 +42275,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41764,6 +42335,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41836,6 +42408,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41904,6 +42477,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -41992,6 +42566,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42060,6 +42635,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42119,6 +42695,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -42183,6 +42760,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42242,6 +42820,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42301,6 +42880,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -42365,6 +42945,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42429,6 +43010,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42493,6 +43075,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42552,6 +43135,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42611,6 +43195,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -42670,6 +43255,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42729,6 +43315,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42793,6 +43380,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42852,6 +43440,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -42920,6 +43509,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -42979,6 +43569,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43038,6 +43629,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43097,6 +43689,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43156,6 +43749,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -43215,6 +43809,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43274,6 +43869,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43342,6 +43938,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43406,6 +44003,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43474,6 +44072,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43538,6 +44137,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43602,6 +44202,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43670,6 +44271,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43729,6 +44331,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43793,6 +44396,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43861,6 +44465,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43925,6 +44530,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -43984,6 +44590,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44048,6 +44655,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44107,6 +44715,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -44187,6 +44796,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44267,6 +44877,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44326,6 +44937,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44385,6 +44997,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44449,6 +45062,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44508,6 +45122,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44567,6 +45182,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44626,6 +45242,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -44685,6 +45302,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44749,6 +45367,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44808,6 +45427,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44880,6 +45500,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44939,6 +45560,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -44998,6 +45620,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45057,6 +45680,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45116,6 +45740,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45175,6 +45800,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45234,6 +45860,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45293,6 +45920,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45352,6 +45980,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45424,6 +46053,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -45483,6 +46113,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45542,6 +46173,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45601,6 +46233,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -45660,6 +46293,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45719,6 +46353,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -45778,6 +46413,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -45837,6 +46473,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -45896,6 +46533,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -45955,6 +46593,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46014,6 +46653,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46073,6 +46713,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46132,6 +46773,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -46191,6 +46833,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46250,6 +46893,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46309,6 +46953,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46368,6 +47013,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46427,6 +47073,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46486,6 +47133,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46545,6 +47193,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46604,6 +47253,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46663,6 +47313,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46722,6 +47373,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46781,6 +47433,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46840,6 +47493,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46899,6 +47553,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -46958,6 +47613,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47017,6 +47673,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47076,6 +47733,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -47135,6 +47793,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -47196,6 +47855,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Titulo com status baixa por exclusao desconsiderado conforme orientacao do usuario.",
@@ -47257,6 +47917,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Titulo com status baixa por exclusao desconsiderado conforme orientacao do usuario.",
@@ -55541,6 +56202,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55600,6 +56262,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55659,6 +56322,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55718,6 +56382,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55777,6 +56442,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55841,6 +56507,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55900,6 +56567,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -55959,6 +56627,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56018,6 +56687,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56077,6 +56747,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56141,6 +56812,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56200,6 +56872,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56264,6 +56937,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56332,6 +57006,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56400,6 +57075,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56464,6 +57140,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56528,6 +57205,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56587,6 +57265,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56646,6 +57325,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56714,6 +57394,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56786,6 +57467,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56866,6 +57548,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56925,6 +57608,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -56993,6 +57677,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57052,6 +57737,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57111,6 +57797,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57175,6 +57862,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57239,6 +57927,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57303,6 +57992,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57367,6 +58057,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57447,6 +58138,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57506,6 +58198,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57574,6 +58267,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57638,6 +58332,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57710,6 +58405,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57769,6 +58465,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57828,6 +58525,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57887,6 +58585,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -57946,6 +58645,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58018,6 +58718,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58077,6 +58778,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58136,6 +58838,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58195,6 +58898,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58254,6 +58958,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58326,6 +59031,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58406,6 +59112,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58465,6 +59172,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58524,6 +59232,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58583,6 +59292,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58642,6 +59352,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58706,6 +59417,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58765,6 +59477,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58824,6 +59537,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58888,6 +59602,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -58947,6 +59662,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59006,6 +59722,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59074,6 +59791,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59133,6 +59851,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59192,6 +59911,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59251,6 +59971,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59310,6 +60031,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -59369,6 +60091,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59428,6 +60151,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59487,6 +60211,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -59546,6 +60271,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -59605,6 +60331,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59664,6 +60391,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59723,6 +60451,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59782,6 +60511,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59841,6 +60571,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59900,6 +60631,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -59959,6 +60691,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -60018,6 +60751,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         }
@@ -63651,6 +64385,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -63710,6 +64445,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -63769,6 +64505,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -63828,6 +64565,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -63887,6 +64625,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -63946,6 +64685,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64005,6 +64745,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64064,6 +64805,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64123,6 +64865,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64182,6 +64925,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64241,6 +64985,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64300,6 +65045,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64359,6 +65105,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64418,6 +65165,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64477,6 +65225,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64536,6 +65285,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64595,6 +65345,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64654,6 +65405,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64713,6 +65465,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64772,6 +65525,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64831,6 +65585,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -64890,6 +65645,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         }
@@ -64951,6 +65707,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65012,6 +65769,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65073,6 +65831,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65134,6 +65893,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65195,6 +65955,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65256,6 +66017,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65317,6 +66079,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65378,6 +66141,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65439,6 +66203,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65500,6 +66265,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65561,6 +66327,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65622,6 +66389,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65683,6 +66451,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65744,6 +66513,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65805,6 +66575,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65866,6 +66637,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65927,6 +66699,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -65988,6 +66761,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -66049,6 +66823,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false,
           "ignoredReason": "Lastros iniciados por 478 desconsiderados do CRA Interno 50MM, pois estes titulos nao entraram na carteira conforme orientacao do usuario.",
@@ -67418,6 +68193,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67486,6 +68262,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67550,6 +68327,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67609,6 +68387,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67673,6 +68452,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67749,6 +68529,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67817,6 +68598,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67889,6 +68671,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -67948,6 +68731,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68007,6 +68791,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68071,6 +68856,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68130,6 +68916,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68189,6 +68976,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68248,6 +69036,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68307,6 +69096,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68366,6 +69156,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68430,6 +69221,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68498,6 +69290,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68562,6 +69355,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68621,6 +69415,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68693,6 +69488,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68757,6 +69553,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68816,6 +69613,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68875,6 +69673,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68934,6 +69733,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -68998,6 +69798,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69057,6 +69858,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69116,6 +69918,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69175,6 +69978,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69234,6 +70038,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69293,6 +70098,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69352,6 +70158,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69411,6 +70218,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69470,6 +70278,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69529,6 +70338,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69588,6 +70398,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69647,6 +70458,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69715,6 +70527,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69774,6 +70587,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69833,6 +70647,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69892,6 +70707,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -69951,6 +70767,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70010,6 +70827,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70069,6 +70887,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70128,6 +70947,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70187,6 +71007,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70246,6 +71067,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70318,6 +71140,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70377,6 +71200,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70436,6 +71260,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70495,6 +71320,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70554,6 +71380,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70613,6 +71440,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70672,6 +71500,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70731,6 +71560,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70790,6 +71620,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70849,6 +71680,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70908,6 +71740,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -70967,6 +71800,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71026,6 +71860,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71085,6 +71920,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71144,6 +71980,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71203,6 +72040,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71262,6 +72100,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71321,6 +72160,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71380,6 +72220,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71439,6 +72280,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71498,6 +72340,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71557,6 +72400,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71616,6 +72460,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71675,6 +72520,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71734,6 +72580,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71793,6 +72640,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71852,6 +72700,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71911,6 +72760,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -71970,6 +72820,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72029,6 +72880,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72088,6 +72940,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72147,6 +73000,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72206,6 +73060,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72265,6 +73120,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72324,6 +73180,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72383,6 +73240,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72442,6 +73300,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72501,6 +73360,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72560,6 +73420,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72619,6 +73480,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72678,6 +73540,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72737,6 +73600,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72796,6 +73660,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72855,6 +73720,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72914,6 +73780,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -72973,6 +73840,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73032,6 +73900,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73091,6 +73960,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73150,6 +74020,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73209,6 +74080,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73268,6 +74140,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73327,6 +74200,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73386,6 +74260,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73445,6 +74320,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73504,6 +74380,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73563,6 +74440,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73622,6 +74500,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73681,6 +74560,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73740,6 +74620,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73799,6 +74680,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73858,6 +74740,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73917,6 +74800,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -73976,6 +74860,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74035,6 +74920,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74094,6 +74980,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74153,6 +75040,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74212,6 +75100,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74271,6 +75160,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74330,6 +75220,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74389,6 +75280,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74448,6 +75340,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74507,6 +75400,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74566,6 +75460,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74625,6 +75520,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74684,6 +75580,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74743,6 +75640,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74802,6 +75700,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74861,6 +75760,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74920,6 +75820,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -74979,6 +75880,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75038,6 +75940,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75097,6 +76000,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75156,6 +76060,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75215,6 +76120,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75274,6 +76180,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75333,6 +76240,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75392,6 +76300,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75451,6 +76360,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75510,6 +76420,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75569,6 +76480,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75628,6 +76540,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75687,6 +76600,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75746,6 +76660,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75805,6 +76720,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75864,6 +76780,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75923,6 +76840,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -75982,6 +76900,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76041,6 +76960,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76100,6 +77020,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76159,6 +77080,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76218,6 +77140,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76277,6 +77200,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76336,6 +77260,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76395,6 +77320,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76454,6 +77380,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76513,6 +77440,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76572,6 +77500,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76631,6 +77560,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76690,6 +77620,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76749,6 +77680,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76808,6 +77740,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76867,6 +77800,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76926,6 +77860,7 @@ window.ceresPortfolioData = {
           "municipality": "Brasilândia de Minas",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -76985,6 +77920,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77044,6 +77980,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77103,6 +78040,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77162,6 +78100,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77221,6 +78160,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77280,6 +78220,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77339,6 +78280,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77398,6 +78340,7 @@ window.ceresPortfolioData = {
           "municipality": "Brasilândia de Minas",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77457,6 +78400,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77516,6 +78460,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77575,6 +78520,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77634,6 +78580,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77693,6 +78640,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77752,6 +78700,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77811,6 +78760,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77870,6 +78820,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77929,6 +78880,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -77988,6 +78940,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78047,6 +79000,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78106,6 +79060,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78170,6 +79125,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78229,6 +79185,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78288,6 +79245,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78347,6 +79305,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78406,6 +79365,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78465,6 +79425,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78524,6 +79485,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78583,6 +79545,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78642,6 +79605,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78701,6 +79665,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78760,6 +79725,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78819,6 +79785,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78878,6 +79845,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78937,6 +79905,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -78996,6 +79965,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79055,6 +80025,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79114,6 +80085,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79173,6 +80145,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79232,6 +80205,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79291,6 +80265,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79350,6 +80325,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79409,6 +80385,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79468,6 +80445,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79527,6 +80505,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79586,6 +80565,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79645,6 +80625,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79704,6 +80685,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79763,6 +80745,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79822,6 +80805,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79886,6 +80870,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -79945,6 +80930,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80017,6 +81003,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80085,6 +81072,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80149,6 +81137,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80208,6 +81197,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -80276,6 +81266,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80335,6 +81326,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80399,6 +81391,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80458,6 +81451,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -80517,6 +81511,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -80576,6 +81571,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80635,6 +81631,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80694,6 +81691,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -80758,6 +81756,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80817,6 +81816,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80881,6 +81881,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80940,6 +81941,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -80999,6 +82001,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81058,6 +82061,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81117,6 +82121,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81181,6 +82186,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81240,6 +82246,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81299,6 +82306,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81358,6 +82366,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81422,6 +82431,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81481,6 +82491,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81540,6 +82551,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -81599,6 +82611,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81671,6 +82684,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81735,6 +82749,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Super CRA - CONFINA 50 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81807,6 +82822,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81866,6 +82882,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81930,6 +82947,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -81998,6 +83016,7 @@ window.ceresPortfolioData = {
           "municipality": "BARRETOS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82070,6 +83089,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82129,6 +83149,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82188,6 +83209,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82247,6 +83269,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82306,6 +83329,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82365,6 +83389,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82424,6 +83449,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82483,6 +83509,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82542,6 +83569,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82601,6 +83629,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82660,6 +83689,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82719,6 +83749,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82778,6 +83809,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82837,6 +83869,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82896,6 +83929,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -82955,6 +83989,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83014,6 +84049,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83073,6 +84109,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83132,6 +84169,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83191,6 +84229,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83250,6 +84289,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83309,6 +84349,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83368,6 +84409,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83427,6 +84469,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83486,6 +84529,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83545,6 +84589,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83604,6 +84649,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83663,6 +84709,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83722,6 +84769,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83781,6 +84829,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83840,6 +84889,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83899,6 +84949,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -83958,6 +85009,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84017,6 +85069,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84076,6 +85129,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84135,6 +85189,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84194,6 +85249,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84253,6 +85309,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84312,6 +85369,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84371,6 +85429,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84430,6 +85489,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84489,6 +85549,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84548,6 +85609,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84607,6 +85669,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84666,6 +85729,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84725,6 +85789,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84784,6 +85849,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -84843,6 +85909,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -84902,6 +85969,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -84961,6 +86029,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85020,6 +86089,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85079,6 +86149,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85138,6 +86209,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85197,6 +86269,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85256,6 +86329,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85315,6 +86389,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85374,6 +86449,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85433,6 +86509,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85492,6 +86569,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85551,6 +86629,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85610,6 +86689,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85669,6 +86749,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85728,6 +86809,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85787,6 +86869,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85846,6 +86929,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85905,6 +86989,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -85964,6 +87049,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86023,6 +87109,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86082,6 +87169,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86141,6 +87229,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86200,6 +87289,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86259,6 +87349,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86318,6 +87409,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86377,6 +87469,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86436,6 +87529,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86495,6 +87589,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86554,6 +87649,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86613,6 +87709,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86672,6 +87769,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86731,6 +87829,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86790,6 +87889,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86849,6 +87949,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86908,6 +88009,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -86967,6 +88069,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87026,6 +88129,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87085,6 +88189,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -87144,6 +88249,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87203,6 +88309,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87262,6 +88369,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87321,6 +88429,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87380,6 +88489,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87439,6 +88549,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87498,6 +88609,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87557,6 +88669,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87616,6 +88729,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87675,6 +88789,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -87734,6 +88849,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -87793,6 +88909,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -87852,6 +88969,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -87911,6 +89029,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -87970,6 +89089,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA TWO 41 MM - MAIO/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88029,6 +89149,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88088,6 +89209,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88147,6 +89269,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88206,6 +89329,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88265,6 +89389,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88324,6 +89449,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88383,6 +89509,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88442,6 +89569,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88501,6 +89629,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88560,6 +89689,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88619,6 +89749,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88678,6 +89809,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88737,6 +89869,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88796,6 +89929,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88855,6 +89989,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88914,6 +90049,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -88973,6 +90109,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -89032,6 +90169,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89091,6 +90229,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89150,6 +90289,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89209,6 +90349,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89268,6 +90409,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -89327,6 +90469,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89386,6 +90529,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89445,6 +90589,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89504,6 +90649,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89563,6 +90709,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -89622,6 +90769,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89681,6 +90829,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89740,6 +90889,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89799,6 +90949,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89858,6 +91009,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89917,6 +91069,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -89976,6 +91129,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -90035,6 +91189,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90094,6 +91249,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90153,6 +91309,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90212,6 +91369,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90271,6 +91429,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90330,6 +91489,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90389,6 +91549,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90448,6 +91609,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90507,6 +91669,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90566,6 +91729,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90625,6 +91789,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90684,6 +91849,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90743,6 +91909,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90802,6 +91969,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90861,6 +92029,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90920,6 +92089,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -90979,6 +92149,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91038,6 +92209,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91097,6 +92269,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91156,6 +92329,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91215,6 +92389,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91274,6 +92449,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91333,6 +92509,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91392,6 +92569,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91451,6 +92629,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91510,6 +92689,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91569,6 +92749,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91628,6 +92809,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91687,6 +92869,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91746,6 +92929,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -91805,6 +92989,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91864,6 +93049,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91923,6 +93109,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -91982,6 +93169,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92041,6 +93229,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92100,6 +93289,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92159,6 +93349,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92218,6 +93409,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92277,6 +93469,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92336,6 +93529,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92395,6 +93589,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92454,6 +93649,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92513,6 +93709,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92572,6 +93769,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92631,6 +93829,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92690,6 +93889,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92749,6 +93949,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92808,6 +94009,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92867,6 +94069,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -92926,6 +94129,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -92985,6 +94189,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93044,6 +94249,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93103,6 +94309,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93162,6 +94369,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93221,6 +94429,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93280,6 +94489,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93339,6 +94549,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93398,6 +94609,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93457,6 +94669,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93516,6 +94729,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93575,6 +94789,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93634,6 +94849,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93693,6 +94909,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93752,6 +94969,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93811,6 +95029,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -93870,6 +95089,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93929,6 +95149,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -93988,6 +95209,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94047,6 +95269,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94106,6 +95329,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94165,6 +95389,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94224,6 +95449,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94283,6 +95509,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94342,6 +95569,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94401,6 +95629,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94460,6 +95689,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94519,6 +95749,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94578,6 +95809,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94637,6 +95869,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94696,6 +95929,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94755,6 +95989,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94814,6 +96049,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94873,6 +96109,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -94932,6 +96169,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -94991,6 +96229,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95050,6 +96289,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95109,6 +96349,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95168,6 +96409,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95227,6 +96469,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95286,6 +96529,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95345,6 +96589,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95404,6 +96649,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95463,6 +96709,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95522,6 +96769,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95581,6 +96829,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95640,6 +96889,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95699,6 +96949,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95758,6 +97009,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95817,6 +97069,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95876,6 +97129,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -95935,6 +97189,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -95994,6 +97249,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96053,6 +97309,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96112,6 +97369,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96171,6 +97429,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96230,6 +97489,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96289,6 +97549,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96348,6 +97609,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96407,6 +97669,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96466,6 +97729,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96525,6 +97789,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96584,6 +97849,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96643,6 +97909,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96702,6 +97969,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96761,6 +98029,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96820,6 +98089,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96879,6 +98149,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -96938,6 +98209,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -96997,6 +98269,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97056,6 +98329,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97115,6 +98389,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97174,6 +98449,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97233,6 +98509,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97292,6 +98569,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97351,6 +98629,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97410,6 +98689,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97469,6 +98749,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97528,6 +98809,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97587,6 +98869,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97646,6 +98929,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97705,6 +98989,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97764,6 +99049,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97823,6 +99109,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -97882,6 +99169,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -97941,6 +99229,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98000,6 +99289,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98059,6 +99349,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98118,6 +99409,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98177,6 +99469,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98236,6 +99529,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98295,6 +99589,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98354,6 +99649,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98413,6 +99709,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98472,6 +99769,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98531,6 +99829,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -98590,6 +99889,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98649,6 +99949,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98708,6 +100009,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98767,6 +100069,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98826,6 +100129,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98885,6 +100189,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -98944,6 +100249,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99003,6 +100309,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99062,6 +100369,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99121,6 +100429,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99180,6 +100489,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99239,6 +100549,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99298,6 +100609,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99357,6 +100669,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99416,6 +100729,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99475,6 +100789,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99534,6 +100849,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99593,6 +100909,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99652,6 +100969,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99711,6 +101029,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99770,6 +101089,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99829,6 +101149,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99888,6 +101209,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -99947,6 +101269,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100006,6 +101329,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100065,6 +101389,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100124,6 +101449,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100183,6 +101509,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100242,6 +101569,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100301,6 +101629,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100360,6 +101689,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100419,6 +101749,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100478,6 +101809,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100537,6 +101869,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -100596,6 +101929,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
@@ -112796,6 +114130,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -112855,6 +114190,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -112914,6 +114250,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -112973,6 +114310,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113032,6 +114370,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113091,6 +114430,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113150,6 +114490,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113209,6 +114550,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113268,6 +114610,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113327,6 +114670,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113386,6 +114730,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113445,6 +114790,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113504,6 +114850,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113563,6 +114910,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113622,6 +114970,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113681,6 +115030,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113740,6 +115090,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113799,6 +115150,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113858,6 +115210,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113917,6 +115270,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -113976,6 +115330,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114035,6 +115390,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114094,6 +115450,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114153,6 +115510,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114212,6 +115570,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114271,6 +115630,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114330,6 +115690,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114389,6 +115750,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114448,6 +115810,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114507,6 +115870,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114566,6 +115930,7 @@ window.ceresPortfolioData = {
           "municipality": "CAMPO GRANDE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114625,6 +115990,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114684,6 +116050,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114743,6 +116110,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114802,6 +116170,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina CRA ONE 30MM - ABRIL/2026",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114861,6 +116230,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114920,6 +116290,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -114979,6 +116350,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115038,6 +116410,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115097,6 +116470,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115156,6 +116530,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115215,6 +116590,7 @@ window.ceresPortfolioData = {
           "municipality": "BARREIRAS",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115274,6 +116650,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115333,6 +116710,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115392,6 +116770,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115451,6 +116830,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115510,6 +116890,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115569,6 +116950,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115628,6 +117010,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115687,6 +117070,7 @@ window.ceresPortfolioData = {
           "municipality": "ESTRELA D'OESTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115746,6 +117130,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115805,6 +117190,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115864,6 +117250,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115923,6 +117310,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -115982,6 +117370,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116041,6 +117430,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116100,6 +117490,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116159,6 +117550,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116218,6 +117610,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116277,6 +117670,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116336,6 +117730,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116395,6 +117790,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116454,6 +117850,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116513,6 +117910,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116572,6 +117970,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116631,6 +118030,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116690,6 +118090,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116749,6 +118150,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "CERES CONFINAMENTO LTDA",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116808,6 +118210,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -116867,6 +118270,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -116926,6 +118330,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -116985,6 +118390,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117044,6 +118450,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117103,6 +118510,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117162,6 +118570,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -117221,6 +118630,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117280,6 +118690,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117339,6 +118750,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117398,6 +118810,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117457,6 +118870,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERLÂNDIA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -117516,6 +118930,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117575,6 +118990,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117634,6 +119050,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117693,6 +119110,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117752,6 +119170,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117811,6 +119230,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117870,6 +119290,7 @@ window.ceresPortfolioData = {
           "municipality": "RIBEIRAO PRETO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117929,6 +119350,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -117988,6 +119410,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118047,6 +119470,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118106,6 +119530,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118165,6 +119590,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118224,6 +119650,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118283,6 +119710,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118342,6 +119770,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118401,6 +119830,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 100 MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118460,6 +119890,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "Confina BTG 50MM",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118519,6 +119950,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118578,6 +120010,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118637,6 +120070,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118696,6 +120130,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118755,6 +120190,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118814,6 +120250,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -118873,6 +120310,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118932,6 +120370,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -118991,6 +120430,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119050,6 +120490,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119109,6 +120550,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119168,6 +120610,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119227,6 +120670,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119286,6 +120730,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119345,6 +120790,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119404,6 +120850,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119463,6 +120910,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119522,6 +120970,7 @@ window.ceresPortfolioData = {
           "municipality": "",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119581,6 +121030,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119640,6 +121090,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119699,6 +121150,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119758,6 +121210,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119817,6 +121270,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119876,6 +121330,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -119935,6 +121390,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -119994,6 +121450,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120053,6 +121510,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120112,6 +121570,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120171,6 +121630,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120230,6 +121690,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120289,6 +121750,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120348,6 +121810,7 @@ window.ceresPortfolioData = {
           "municipality": "BARUERI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120407,6 +121870,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120466,6 +121930,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120525,6 +121990,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120584,6 +122050,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120643,6 +122110,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120702,6 +122170,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120761,6 +122230,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120820,6 +122290,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -120879,6 +122350,7 @@ window.ceresPortfolioData = {
           "municipality": "PORTO VELHO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120938,6 +122410,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -120997,6 +122470,7 @@ window.ceresPortfolioData = {
           "municipality": "NOVA CANAA DO NORTE",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121056,6 +122530,7 @@ window.ceresPortfolioData = {
           "municipality": "LUÍS EDUARDO MAGALHÃES",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121115,6 +122590,7 @@ window.ceresPortfolioData = {
           "municipality": "SAO PAULO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121174,6 +122650,7 @@ window.ceresPortfolioData = {
           "municipality": "UBERABA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121233,6 +122710,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121292,6 +122770,7 @@ window.ceresPortfolioData = {
           "municipality": "COLINA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": false
         },
@@ -121351,6 +122830,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121410,6 +122890,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121469,6 +122950,7 @@ window.ceresPortfolioData = {
           "municipality": "MEDIANEIRA",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121528,6 +123010,7 @@ window.ceresPortfolioData = {
           "municipality": "JEQUITAI",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         },
@@ -121587,6 +123070,7 @@ window.ceresPortfolioData = {
           "municipality": "JOSÉ BONIFÁCIO",
           "validation": "VÁLIDO",
           "transferSourceVehicle": "",
+          "transferOriginValue": 0.0,
           "transferCessionValue": 0.0,
           "isActive": true
         }
