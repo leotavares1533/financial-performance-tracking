@@ -2935,11 +2935,13 @@
       "note": "Ajuste sintetico sem efeito caixa: a baixa da transferencia ao CRA Carteira 10/2026 deve usar VP taxa origem R$ 44.518.442,74, enquanto o caixa recebido foi VP cessao."
     },
     {
-      "id": "carry-forward-cprf-50-2026-10-05-540198",
+      "id": "depara-cprf-50-2026-10-05-540198-545581",
       "operationId": "confina-cprf-50",
       "type": "synthetic_title",
-      "titleId": "540198",
-      "lastro": "540198",
+      "titleId": "545581",
+      "lastro": "545581",
+      "originalLastro": "540198",
+      "controlReferenceLastro": "540198",
       "date": "2026-09-29",
       "purchaseDate": "2026-09-29",
       "sentDate": "2026-09-30",
@@ -2963,7 +2965,7 @@
       "farmName": "Fazenda Captar - BTG",
       "animalCount": 50,
       "uf": "MG",
-      "note": "Titulo ativo na base congelada de 02/10 e ausente na base de 05/10 sem baixa/caixa; carregado para preservar a carteira validada ate confirmacao de liquidacao."
+      "note": "De/para identificado na base de gado pelos lotes 729307, 729326, 729347 e 729368: lastro 540198 passou a lastro atual 545581. Mantido em carteira por nao haver baixa/caixa no CPRF 50."
     },
     {
       "id": "compra-total-2026-10-05-cras-carteira-10",
