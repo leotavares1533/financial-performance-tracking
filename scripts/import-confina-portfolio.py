@@ -85,6 +85,67 @@ PORTFOLIO_ACCRUAL_BASE_DAYS = 360
 DEFAULT_ACCRUAL_DAY_COUNT = "calendar_inclusive"
 PARTNERSHIP_TARGET_MONTHLY_RATE = 0.017
 TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS: set[str] = set()
+CRA10_TRANSFER_VALUES_BY_ORIGINAL_LASTRO = {
+    "534073": {"acquisitionValue": 761857.40, "cessionValue": 773607.36, "monthlyRate": 0.019800, "sourceVehicle": "Ceres Confina LTDA"},
+    "534049": {"acquisitionValue": 873974.71, "cessionValue": 879963.33, "monthlyRate": 0.018500, "sourceVehicle": "Ceres Confina LTDA"},
+    "534150": {"acquisitionValue": 705751.04, "cessionValue": 712204.69, "monthlyRate": 0.019000, "sourceVehicle": "Ceres Confina LTDA"},
+    "534170": {"acquisitionValue": 663264.61, "cessionValue": 670243.26, "monthlyRate": 0.019300, "sourceVehicle": "Ceres Confina LTDA"},
+    "416108": {"acquisitionValue": 411683.11, "cessionValue": 411683.11, "monthlyRate": 0.017000, "sourceVehicle": "Ceres Confina LTDA"},
+    "425153": {"acquisitionValue": 673802.79, "cessionValue": 673802.79, "monthlyRate": 0.017000, "sourceVehicle": "Ceres Confina LTDA"},
+    "425280": {"acquisitionValue": 1642263.70, "cessionValue": 1642263.70, "monthlyRate": 0.017000, "sourceVehicle": "Ceres Confina LTDA"},
+    "425300": {"acquisitionValue": 553581.93, "cessionValue": 553581.93, "monthlyRate": 0.017000, "sourceVehicle": "Ceres Confina LTDA"},
+    "447894": {"acquisitionValue": 172393.87, "cessionValue": 172393.87, "monthlyRate": 0.017000, "sourceVehicle": "Ceres Confina LTDA"},
+    "451863": {"acquisitionValue": 186373.90, "cessionValue": 186373.90, "monthlyRate": 0.017000, "sourceVehicle": "Ceres Confina LTDA"},
+    "534266": {"acquisitionValue": 406120.56, "cessionValue": 410766.86, "monthlyRate": 0.019500, "sourceVehicle": "Ceres Confina LTDA"},
+    "498058": {"acquisitionValue": 2596461.56, "cessionValue": 2609821.47, "monthlyRate": 0.019800, "sourceVehicle": "Confina BTG 100 MM"},
+    "502946": {"acquisitionValue": 239670.97, "cessionValue": 241573.44, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "505224": {"acquisitionValue": 434868.23, "cessionValue": 438452.19, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "505347": {"acquisitionValue": 1660314.65, "cessionValue": 1674124.15, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "506449": {"acquisitionValue": 2181614.07, "cessionValue": 2199925.08, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "508546": {"acquisitionValue": 1746217.03, "cessionValue": 1761404.06, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "508796": {"acquisitionValue": 180485.60, "cessionValue": 182027.89, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "508976": {"acquisitionValue": 577597.08, "cessionValue": 582708.25, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "509225": {"acquisitionValue": 725057.66, "cessionValue": 731528.79, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "509581": {"acquisitionValue": 764917.14, "cessionValue": 771802.14, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "509936": {"acquisitionValue": 471327.66, "cessionValue": 475713.33, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "510975": {"acquisitionValue": 312383.81, "cessionValue": 315314.26, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "511569": {"acquisitionValue": 1237563.04, "cessionValue": 1249266.60, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "512309": {"acquisitionValue": 780695.90, "cessionValue": 788078.90, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "534439": {"acquisitionValue": 687866.77, "cessionValue": 695104.27, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 100 MM"},
+    "458111": {"acquisitionValue": 306074.33, "cessionValue": 306074.33, "monthlyRate": 0.017000, "sourceVehicle": "Confina BTG 100 MM"},
+    "498051": {"acquisitionValue": 2137570.70, "cessionValue": 2137570.70, "monthlyRate": 0.017000, "sourceVehicle": "Confina BTG 100 MM"},
+    "498050": {"acquisitionValue": 1808857.05, "cessionValue": 1808857.05, "monthlyRate": 0.017000, "sourceVehicle": "Confina BTG 100 MM"},
+    "498049": {"acquisitionValue": 1095281.26, "cessionValue": 1095281.26, "monthlyRate": 0.017000, "sourceVehicle": "Confina BTG 100 MM"},
+    "498046": {"acquisitionValue": 1640088.11, "cessionValue": 1640088.11, "monthlyRate": 0.017000, "sourceVehicle": "Confina BTG 100 MM"},
+    "498047": {"acquisitionValue": 1814433.45, "cessionValue": 1814433.45, "monthlyRate": 0.017000, "sourceVehicle": "Confina BTG 100 MM"},
+    "521180": {"acquisitionValue": 1444113.64, "cessionValue": 1453437.59, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "523461": {"acquisitionValue": 1385869.06, "cessionValue": 1394885.48, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "526555": {"acquisitionValue": 1306609.65, "cessionValue": 1315368.87, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "527938": {"acquisitionValue": 2287498.59, "cessionValue": 2302946.60, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "526562": {"acquisitionValue": 1126436.01, "cessionValue": 1133987.39, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "527936": {"acquisitionValue": 3849471.99, "cessionValue": 3875468.38, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "534065": {"acquisitionValue": 1686976.58, "cessionValue": 1698536.02, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "534066": {"acquisitionValue": 1865753.99, "cessionValue": 1878538.44, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "537646": {"acquisitionValue": 398641.43, "cessionValue": 401451.87, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "537650": {"acquisitionValue": 3685527.45, "cessionValue": 3711510.56, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "537651": {"acquisitionValue": 325721.71, "cessionValue": 328018.06, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "537653": {"acquisitionValue": 501037.30, "cessionValue": 504569.63, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "540298": {"acquisitionValue": 3057115.50, "cessionValue": 3078819.53, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "540319": {"acquisitionValue": 291287.56, "cessionValue": 293355.56, "monthlyRate": 0.018500, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "485300": {"acquisitionValue": 609301.17, "cessionValue": 612660.84, "monthlyRate": 0.019800, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "485482": {"acquisitionValue": 1384964.08, "cessionValue": 1392983.67, "monthlyRate": 0.019800, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "486233": {"acquisitionValue": 1458003.13, "cessionValue": 1466848.89, "monthlyRate": 0.019800, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "486377": {"acquisitionValue": 1000738.37, "cessionValue": 1006902.16, "monthlyRate": 0.019800, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "486898": {"acquisitionValue": 652075.84, "cessionValue": 656152.26, "monthlyRate": 0.019800, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "521398": {"acquisitionValue": 112115.86, "cessionValue": 113210.23, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "525651": {"acquisitionValue": 765951.56, "cessionValue": 773835.82, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "527963": {"acquisitionValue": 1474667.59, "cessionValue": 1489959.15, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "528680": {"acquisitionValue": 2143977.71, "cessionValue": 2166372.79, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "540192": {"acquisitionValue": 4025535.72, "cessionValue": 4069422.92, "monthlyRate": 0.019300, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "458235": {"acquisitionValue": 4915797.65, "cessionValue": 5084995.86, "monthlyRate": 0.022000, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "459059": {"acquisitionValue": 1363752.90, "cessionValue": 1411153.60, "monthlyRate": 0.022000, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+    "460780": {"acquisitionValue": 1399500.70, "cessionValue": 1449091.18, "monthlyRate": 0.022000, "sourceVehicle": "Confina BTG 50MM - ABRIL/2026"},
+}
 BRAZIL_MARKET_HOLIDAYS = {
     "2026-01-01",
     "2026-02-16",
@@ -215,6 +276,10 @@ def id_text(value: Any) -> str:
     if re.fullmatch(r"\d+\.0", text):
         return text[:-2]
     return text
+
+
+def cra10_transfer_values_for(value: Any) -> dict[str, Any]:
+    return CRA10_TRANSFER_VALUES_BY_ORIGINAL_LASTRO.get(id_text(value), {})
 
 
 def load_partnership_reference(path: Path = PARTNERSHIP_TITLES_PATH) -> dict[str, Any]:
@@ -713,6 +778,15 @@ def synthetic_title_from_adjustment(
     maturity_date = date_key(parse_date(adjustment.get("maturityDate")))
     acquisition_value = round(parse_number(adjustment.get("acquisitionValue") or adjustment.get("amount")), 2)
     face_value = round(parse_number(adjustment.get("faceValue") or adjustment.get("valorFace")), 2)
+    transfer_values: dict[str, Any] = {}
+    if operation_id == "confina-cras-carteira-10":
+        transfer_values = (
+            cra10_transfer_values_for(adjustment.get("originalLastro"))
+            or cra10_transfer_values_for(adjustment.get("lastro"))
+            or cra10_transfer_values_for(title_id)
+        )
+        if transfer_values:
+            acquisition_value = round(parse_number(transfer_values.get("acquisitionValue")), 2)
     if not title_id or not purchase_date or acquisition_value <= 0:
         return None
 
@@ -723,6 +797,8 @@ def synthetic_title_from_adjustment(
     )
     if not monthly_rate:
         monthly_rate = PARTNERSHIP_TARGET_MONTHLY_RATE
+    if transfer_values.get("monthlyRate"):
+        monthly_rate = parse_number(transfer_values.get("monthlyRate"))
     base_days = int(parse_number(adjustment.get("accrualBaseDays")) or PORTFOLIO_ACCRUAL_BASE_DAYS)
     day_count = str(adjustment.get("accrualDayCount") or DEFAULT_ACCRUAL_DAY_COUNT).strip()
     annual_rate = (1 + monthly_rate) ** 12 - 1
@@ -778,7 +854,7 @@ def synthetic_title_from_adjustment(
         "discountRateMonthly": monthly_rate,
         "effectiveRateAnnual": annual_rate,
         "dailyRate": daily_rate,
-        "rateSource": str(adjustment.get("rateSource") or "transferencia_manual").strip(),
+        "rateSource": "taxa_origem_transferencia" if transfer_values else str(adjustment.get("rateSource") or "transferencia_manual").strip(),
         "partnershipTargetMonthlyRate": PARTNERSHIP_TARGET_MONTHLY_RATE if monthly_rate == PARTNERSHIP_TARGET_MONTHLY_RATE else 0,
         "presentValueMethod": "motor",
         "accrualBaseDays": base_days,
@@ -798,6 +874,8 @@ def synthetic_title_from_adjustment(
         "uf": str(adjustment.get("uf") or "").strip(),
         "municipality": str(adjustment.get("municipality") or "").strip(),
         "validation": str(adjustment.get("validation") or "VÁLIDO").strip(),
+        "transferSourceVehicle": str(transfer_values.get("sourceVehicle") or adjustment.get("transferSourceVehicle") or "").strip(),
+        "transferCessionValue": round(parse_number(transfer_values.get("cessionValue")), 2),
         "isActive": bool(calculated_present_value > 0 and active_as_of_position),
         "syntheticTitle": True,
         "manualSyntheticTitleId": str(adjustment.get("id") or "").strip(),
@@ -842,6 +920,10 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         if not candidate_rows:
             candidate_rows = grouped_rows
         master = choose_master_row(candidate_rows, column_map)
+        original_lastro = str(row_get(master, column_map, "Lastro de origem") or "").strip()
+        transfer_values: dict[str, Any] = {}
+        if operation_id == "confina-cras-carteira-10":
+            transfer_values = cra10_transfer_values_for(original_lastro or key)
         monthly_rate, effective_rate_annual, daily_rate, rate_source, accrual_base_days, accrual_day_count = normalized_rates(master, column_map, key)
         title_override = title_overrides.get(id_text(key), {})
         manual_monthly_rate = parse_monthly_rate_override(
@@ -866,6 +948,11 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             effective_rate_annual = (1 + monthly_rate) ** 12 - 1
             daily_rate = daily_rate_from_monthly(monthly_rate, accrual_base_days)
             rate_source = "taxa_alvo_parceria"
+        if transfer_values.get("monthlyRate"):
+            monthly_rate = parse_number(transfer_values.get("monthlyRate"))
+            effective_rate_annual = (1 + monthly_rate) ** 12 - 1
+            daily_rate = daily_rate_from_monthly(monthly_rate, accrual_base_days)
+            rate_source = "taxa_origem_transferencia"
         accrual_periods_at_position, accrual_periods_day_count, accrual_periods_source = accrual_period_from_source(master, column_map)
         if accrual_periods_day_count:
             accrual_day_count = accrual_periods_day_count
@@ -914,6 +1001,8 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             face_value = round(parse_number(title_override.get("faceValue")), 2)
         if operation_id in TRANSFER_VALUE_FROM_REPORTED_VP_OPERATIONS and not title_override:
             acquisition_value = round(reported_present_value, 2)
+        if transfer_values:
+            acquisition_value = round(parse_number(transfer_values.get("acquisitionValue")), 2)
         partial_liquidations: list[dict[str, Any]] = []
         has_intermediate_payments = bool(
             raw_settled_date
@@ -992,7 +1081,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             "reportName": report_name,
             "positionDate": position_date,
             "lastro": str(row_get(master, column_map, "Lastro") or "").strip(),
-            "originalLastro": str(row_get(master, column_map, "Lastro de origem") or "").strip(),
+            "originalLastro": original_lastro,
             "cedente": str(row_get(master, column_map, "Nome da cedente") or "").strip(),
             "sacado": str(row_get(master, column_map, "Nome sacado") or "").strip(),
             "documentoSacado": str(row_get(master, column_map, "Documento sacado") or "").strip(),
@@ -1044,7 +1133,11 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             "uf": str(row_get(master, column_map, "UF sacado") or "").strip(),
             "municipality": str(row_get(master, column_map, "Municipio sacado") or "").strip(),
             "validation": str(row_get(master, column_map, "Validacao do titulo") or "").strip(),
-            "transferSourceVehicle": transfer_source_vehicle_from_observation(row_get(master, column_map, "Observacao manual")),
+            "transferSourceVehicle": str(
+                transfer_values.get("sourceVehicle")
+                or transfer_source_vehicle_from_observation(row_get(master, column_map, "Observacao manual"))
+            ).strip(),
+            "transferCessionValue": round(parse_number(transfer_values.get("cessionValue")), 2),
         }
         title["isActive"] = bool(title["presentValue"] > 0 and active_as_of_position)
 

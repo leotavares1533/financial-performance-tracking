@@ -2843,10 +2843,12 @@
       "sentDate": "2026-01-21",
       "issueDate": "2026-01-21",
       "maturityDate": "2027-01-21",
-      "acquisitionValue": 437439.99,
+      "acquisitionValue": 411683.11,
       "faceValue": 437439.99,
       "monthlyRate": 0.017,
-      "rateSource": "taxa_alvo_parceria",
+      "rateSource": "taxa_origem_transferencia",
+      "transferCessionValue": 411683.11,
+      "transferSourceVehicle": "Ceres Confina LTDA",
       "accrualBaseDays": 360,
       "accrualDayCount": "calendar_inclusive",
       "cedente": "STEFAN ZEMBROD",
@@ -2870,10 +2872,12 @@
       "sentDate": "2026-04-15",
       "issueDate": "2026-04-15",
       "maturityDate": "2027-04-15",
-      "acquisitionValue": 192033.02,
+      "acquisitionValue": 172393.87,
       "faceValue": 192033.02,
       "monthlyRate": 0.017,
-      "rateSource": "taxa_alvo_parceria",
+      "rateSource": "taxa_origem_transferencia",
+      "transferCessionValue": 172393.87,
+      "transferSourceVehicle": "Ceres Confina LTDA",
       "accrualBaseDays": 360,
       "accrualDayCount": "calendar_inclusive",
       "cedente": "STEFAN ZEMBROD",
@@ -2894,8 +2898,8 @@
       "type": "portfolio_liquidation",
       "mode": "replace_operation_day_type",
       "titleId": "venda-cras10-2026-10-05-cprf-100",
-      "amount": 23519149.7,
-      "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 conforme valor informado para Confina BTG 100 MM."
+      "amount": 23519149.72,
+      "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 pelo VP cessao informado para Confina BTG 100 MM."
     },
     {
       "id": "venda-cras10-2026-10-05-cprf-50",
@@ -2905,8 +2909,8 @@
       "type": "portfolio_liquidation",
       "mode": "replace_operation_day_type",
       "titleId": "venda-cras10-2026-10-05-cprf-50",
-      "amount": 45064483.34,
-      "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 conforme valor informado para Confina BTG 50MM - ABRIL/2026."
+      "amount": 45064483.35,
+      "note": "Entrada de caixa pela venda de titulos ao CRA Carteira 10/2026 pelo VP cessao informado para Confina BTG 50MM - ABRIL/2026."
     },
     {
       "id": "compra-total-2026-10-05-cras-carteira-10",
@@ -2917,7 +2921,7 @@
       "mode": "replace_operation_day_type",
       "titleId": "compra-total-cras10-2026-10-05",
       "amount": 75670517.84,
-      "note": "Compra total da carteira no D0 do CRA Carteira 10/2026 pelo valor do funding. Mantem caixa inicial zerado sem rateio proporcional dos titulos; a diferenca de origem fica tratada como compra de veiculos nao controlados."
+      "note": "Compra financeira total no D0 do CRA Carteira 10/2026 pelo valor do funding. O valor economico dos titulos fica pelo VP taxa origem informado titulo a titulo, sem rateio proporcional."
     }
   ],
   "totals": {
