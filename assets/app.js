@@ -1134,9 +1134,13 @@ function guaranteeLots(operation, lotKey = "lots", bucketLabel = "Gado vivo", da
     const quotePerArroba = quote.quotePerArroba;
     const valueOverride = Number(meta.valueOverride || 0);
     const value = valueOverride > 0 ? valueOverride : arrobas * quotePerArroba;
-    const isPartnershipGuarantee = (Array.isArray(meta.lastros) ? meta.lastros : [])
-      .some((lastro) => partnershipTitleByLastro.has(String(lastro || "").trim()));
-    const guaranteeFactor = isPartnershipGuarantee ? PARTNERSHIP_GUARANTEE_FACTOR : BIOLOGICAL_GUARANTEE_FACTOR;
+    const isPartnershipGuarantee = Boolean(meta.isPartnershipGuarantee) ||
+      (Array.isArray(meta.lastros) ? meta.lastros : [])
+        .some((lastro) => partnershipTitleByLastro.has(String(lastro || "").trim()));
+    const manualGuaranteeFactor = Number(meta.guaranteeFactor || 0);
+    const guaranteeFactor = manualGuaranteeFactor > 0
+      ? manualGuaranteeFactor
+      : isPartnershipGuarantee ? PARTNERSHIP_GUARANTEE_FACTOR : BIOLOGICAL_GUARANTEE_FACTOR;
     const guaranteeValue = value * guaranteeFactor;
 
     return {
