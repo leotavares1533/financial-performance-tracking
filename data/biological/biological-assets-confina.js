@@ -1,5 +1,5 @@
 window.ceresBiologicalAssets = {
-  "updatedAt": "2026-10-07T22:49:26+00:00",
+  "updatedAt": "2026-10-09T19:14:04+00:00",
   "sourceFile": "C:\\Users\\leonardo.silva\\Downloads\\relatorio_GERANIMAL02 (17).csv",
   "sourceEncoding": "cp1252",
   "referenceDate": "2026-10-06",
@@ -33,7 +33,8 @@ window.ceresBiologicalAssets = {
       "comprado_transito_sem_titulo_ativo": 2088
     },
     "weightSources": {
-      "peso_projetado": 110472,
+      "peso_projetado_ajustado_gmd_140": 2915,
+      "peso_projetado": 107557,
       "peso_alvo": 36,
       "peso_entrada": 1264,
       "sem_peso": 2,
@@ -69,7 +70,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 367.3029,
+      "quotePerArroba": 367.303,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote J-004 / Curral PQJ-4",
@@ -1275,7 +1276,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 816 / Curral Curral F-3",
           "Boi Gordo",
           9,
-          567.9444,
+          567.8333,
           "SP",
           388.5,
           {
@@ -1302,7 +1303,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -5149,7 +5151,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26902 / Curral Z17",
           "Boi Gordo",
           73,
-          539.6575,
+          539.5425,
           "BA",
           350.92,
           {
@@ -5178,7 +5180,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 73
             },
             "weightSources": {
-              "peso_projetado": 73
+              "peso_projetado": 70,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -6571,7 +6574,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26925 / Curral D12",
           "Vaca",
           106,
-          476.2736,
+          476.2538,
           "BA",
           336.39,
           {
@@ -6598,7 +6601,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 106
             },
             "weightSources": {
-              "peso_projetado": 106
+              "peso_projetado": 105,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -6771,7 +6775,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26936 / Curral J10",
           "Boi Gordo",
           15,
-          501.1,
+          501.0133,
           "BA",
           383.32,
           {
@@ -6798,7 +6802,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -10133,7 +10138,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 618 / Curral CURRAL 48",
           "Boi Gordo",
           46,
-          520.2174,
+          520.1978,
           "BA",
           378.1,
           {
@@ -10160,7 +10165,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 46
             },
             "weightSources": {
-              "peso_projetado": 46
+              "peso_projetado": 45,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -14061,7 +14067,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 18 / Curral Curral G07",
           "Boi Gordo",
           36,
-          554.1111,
+          553.85,
           "MT",
           349.08,
           {
@@ -14088,7 +14094,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 34,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -23529,7 +23536,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 77/26 / Curral E-10",
           "Boi Gordo",
           65,
-          553.4538,
+          553.3815,
           "MT",
           349.08,
           {
@@ -23556,7 +23563,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 64,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -24215,7 +24223,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 82/26 / Curral G-04",
           "Boi Gordo",
           11,
-          535.1364,
+          534.7818,
           "MT",
           349.08,
           {
@@ -24242,7 +24250,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 10
             },
             "gtas": [],
             "notas": [],
@@ -28689,7 +28698,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 1 / Curral Curral B1",
           "Boi Gordo",
           16,
-          532.3125,
+          532.0625,
           "MG",
           360.26,
           {
@@ -28716,7 +28725,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 15,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -29449,7 +29459,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 20 / Curral Curral C8",
           "Boi Gordo",
           31,
-          542.0,
+          541.8645,
           "MG",
           375.4,
           {
@@ -29476,7 +29486,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -29769,7 +29780,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 3 / Curral Curral B2",
           "Boi Gordo",
           57,
-          536.7982,
+          536.6754,
           "MG",
           360.26,
           {
@@ -29796,7 +29807,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -30129,7 +30141,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 4 / Curral Curral B4",
           "Boi Gordo",
           42,
-          529.5952,
+          529.5119,
           "MG",
           360.26,
           {
@@ -30156,7 +30168,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -30249,7 +30262,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 5 / Curral Curral B7",
           "Boi Gordo",
           26,
-          543.5,
+          543.3692,
           "MG",
           360.26,
           {
@@ -30276,7 +30289,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 25
             },
             "gtas": [],
             "notas": [],
@@ -30609,7 +30623,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 8 / Curral Curral B6",
           "Boi Gordo",
           63,
-          558.3413,
+          558.1317,
           "MG",
           360.26,
           {
@@ -30636,7 +30650,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -31889,7 +31904,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 12769/200 / Curral Curral L10",
           "Boi Gordo",
           9,
-          550.4444,
+          550.0889,
           "SP",
           353.32,
           {
@@ -31916,7 +31931,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -34404,16 +34420,16 @@ window.ceresBiologicalAssets = {
         "comprado_transito_titulo_ativo": 767
       },
       "totalHeads": 18114,
-      "totalWeightKg": 7100656.3716,
-      "totalArrobas": 473377.0914,
-      "totalValue": 168267514.01,
+      "totalWeightKg": 7100586.1723,
+      "totalArrobas": 473372.4115,
+      "totalValue": 168265842.27,
       "transitHeads": 157,
       "transitWeightKg": 65687.9973,
       "transitValue": 1400658.59,
       "purchasedTransitHeads": 767.0,
       "purchasedTransitWeightKg": 0.0,
       "purchasedTransitValue": 5813094.91,
-      "coverageValue": 175481267.51,
+      "coverageValue": 175479595.77,
       "sourceVehicleNames": [
         "CPRF R$ 100MM",
         "Ceres Confina LTDA",
@@ -34436,7 +34452,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 397.2719,
+      "quotePerArroba": 397.3173,
       "lots": [
         [
           "FAZENDA SANTA MONICA - BTG / Lote LC_CC_009455 / Curral CF-008",
@@ -35322,7 +35338,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 100 / Curral Curral D6",
           "Boi Magro",
           11,
-          604.8636,
+          602.1727,
           "MG",
           360.26,
           {
@@ -35351,7 +35367,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -35406,7 +35423,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 101 / Curral Curral D3",
           "Boi Magro",
           11,
-          617.7273,
+          612.4,
           "MG",
           360.26,
           {
@@ -35435,7 +35452,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -35692,7 +35710,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 102 / Curral Curral D5",
           "Boi Gordo",
           1,
-          703.0,
+          689.6,
           "MG",
           360.26,
           {
@@ -35719,7 +35737,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -35934,7 +35952,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 104 / Curral Curral D5",
           "Boi Magro",
           18,
-          618.0556,
+          614.1667,
           "MG",
           360.26,
           {
@@ -35961,7 +35979,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -36054,7 +36073,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 106 / Curral Curral F4",
           "Boi Gordo",
           1,
-          686.0,
+          672.6,
           "MG",
           360.26,
           {
@@ -36081,7 +36100,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -36094,7 +36113,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 106 / Curral Curral F4",
           "Boi Magro",
           7,
-          598.8571,
+          595.0286,
           "MG",
           360.26,
           {
@@ -36123,7 +36142,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -36178,7 +36198,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 107 / Curral Curral G1",
           "Boi Gordo",
           1,
-          656.0,
+          642.6,
           "MG",
           360.26,
           {
@@ -36205,7 +36225,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -36218,7 +36238,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 107 / Curral Curral G1",
           "Boi Magro",
           47,
-          595.0426,
+          593.3319,
           "MG",
           360.26,
           {
@@ -36247,7 +36267,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 41
             },
             "gtas": [],
             "notas": [],
@@ -36424,7 +36445,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 109 / Curral Curral H4",
           "Boi Magro",
           5,
-          604.0,
+          601.64,
           "MG",
           360.26,
           {
@@ -36451,7 +36472,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -36668,7 +36690,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Gordo",
           1,
-          726.0,
+          714.2,
           "MG",
           360.26,
           {
@@ -36695,7 +36717,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -36708,7 +36730,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Magro",
           19,
-          599.0526,
+          597.8526,
           "MG",
           360.26,
           {
@@ -36739,7 +36761,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -37286,7 +37309,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 128 / Curral Curral I5",
           "Boi Gordo",
           9,
-          602.7778,
+          602.1778,
           "MG",
           360.26,
           {
@@ -37315,7 +37338,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -38188,7 +38212,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 105 / Curral Curral F3",
           "Boi Gordo",
           2,
-          675.5,
+          661.6,
           "MG",
           360.26,
           {
@@ -38215,7 +38239,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -38228,7 +38252,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 105 / Curral Curral F3",
           "Boi Magro",
           17,
-          606.6765,
+          603.4059,
           "MG",
           360.26,
           {
@@ -38255,7 +38279,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 13
             },
             "gtas": [],
             "notas": [],
@@ -42828,7 +42853,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J415 / Curral 95",
           "Boi Magro",
           2,
-          652.0,
+          605.5,
           "GO",
           351.33,
           {
@@ -42855,7 +42880,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -45988,7 +46013,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 101/26 / Curral APT-06",
           "Boi Gordo",
           47,
-          531.0851,
+          531.0426,
           "MT",
           407.38,
           {
@@ -46015,7 +46040,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -49119,7 +49145,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 25 / Curral Curral A4",
           "Boi Gordo",
           9,
-          515.8333,
+          515.7333,
           "MG",
           370.0,
           {
@@ -49146,7 +49172,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -49919,7 +49946,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 12775/215 / Curral Curral J6",
           "Boi Gordo",
           22,
-          518.5455,
+          518.4727,
           "SP",
           386.31,
           {
@@ -49946,7 +49973,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -50405,7 +50433,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 107 / Curral Curral G1",
           "Boi Gordo",
           75,
-          553.44,
+          552.8693,
           "MG",
           360.26,
           {
@@ -50434,7 +50462,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 75
             },
             "weightSources": {
-              "peso_projetado": 75
+              "peso_projetado": 73,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -50527,7 +50556,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Gordo",
           18,
-          558.2778,
+          551.5,
           "MG",
           360.26,
           {
@@ -50556,7 +50585,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado": 16,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -51063,7 +51093,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 561 / Curral s02",
           "Vaca",
           20,
-          670.5,
+          661.71,
           "BA",
           336.39,
           {
@@ -51090,7 +51120,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -51103,7 +51134,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 562 / Curral s18",
           "Vaca",
           35,
-          683.6,
+          643.5543,
           "BA",
           336.39,
           {
@@ -51130,7 +51161,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 28
             },
             "gtas": [],
             "notas": [],
@@ -51223,7 +51255,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 51 / Curral Curral G12",
           "Boi Gordo",
           47,
-          524.0426,
+          522.5319,
           "SP",
           372.97,
           {
@@ -51250,7 +51282,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -51726,16 +51759,16 @@ window.ceresBiologicalAssets = {
         "comprado_transito_titulo_ativo": 552
       },
       "totalHeads": 6418,
-      "totalWeightKg": 2522704.3665,
-      "totalArrobas": 168180.2911,
-      "totalValue": 62153227.07,
+      "totalWeightKg": 2522166.0644,
+      "totalArrobas": 168144.4043,
+      "totalValue": 62140344.26,
       "transitHeads": 409,
-      "transitWeightKg": 219958.0016,
-      "transitValue": 5224094.23,
+      "transitWeightKg": 218144.7963,
+      "transitValue": 5182996.01,
       "purchasedTransitHeads": 552.0,
       "purchasedTransitWeightKg": 0.0,
       "purchasedTransitValue": 5261525.59,
-      "coverageValue": 72638846.89,
+      "coverageValue": 72584865.86,
       "sourceVehicleNames": [
         "CPRF R$ 50MM",
         "Confina BTG 100 MM",
@@ -51758,7 +51791,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 363.0655,
+      "quotePerArroba": 363.1302,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote J-005 / Curral PQJ-5",
@@ -51924,7 +51957,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 728 / Curral Curral F-8",
           "Boi Gordo",
           4,
-          533.5,
+          533.1,
           "SP",
           399.86,
           {
@@ -51951,7 +51984,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -55396,7 +55430,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 30 / Curral D01",
           "Boi Gordo",
           48,
-          550.7708,
+          550.6042,
           "RO",
           348.08,
           {
@@ -55423,7 +55457,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 48
             },
             "weightSources": {
-              "peso_projetado": 48
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -55760,7 +55795,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 37 / Curral C04",
           "Boi Magro",
           24,
-          540.8333,
+          534.6833,
           "RO",
           348.08,
           {
@@ -55791,7 +55826,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 18
             },
             "gtas": [],
             "notas": [],
@@ -55804,7 +55840,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 37 / Curral C04",
           "Garrote",
           63,
-          608.2143,
+          591.8143,
           "RO",
           348.08,
           {
@@ -55835,7 +55871,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado_ajustado_gmd_140": 42,
+              "peso_projetado": 21
             },
             "gtas": [],
             "notas": [],
@@ -57128,7 +57165,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260424 CE A01 / Curral Curral A1",
           "Boi Gordo",
           1,
-          699.0,
+          687.0,
           "BA",
           350.92,
           {
@@ -57155,7 +57192,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -57168,7 +57205,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260424 CE A01 / Curral Curral A1",
           "Boi Magro",
           7,
-          631.8571,
+          622.6857,
           "BA",
           350.92,
           {
@@ -57195,7 +57232,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -57288,7 +57326,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260426 CE A02 / Curral Curral A2",
           "Boi Gordo",
           1,
-          711.0,
+          697.6,
           "BA",
           350.92,
           {
@@ -57315,7 +57353,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -57328,7 +57366,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260426 CE A02 / Curral Curral A2",
           "Boi Magro",
           4,
-          626.0,
+          616.7,
           "BA",
           350.92,
           {
@@ -57355,7 +57393,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -57448,7 +57487,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Magro",
           6,
-          642.3333,
+          628.0,
           "BA",
           350.92,
           {
@@ -57475,7 +57514,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -57688,7 +57727,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260429 CE A05 / Curral Curral A5",
           "Boi Magro",
           2,
-          636.5,
+          621.9,
           "BA",
           350.92,
           {
@@ -57715,7 +57754,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -58048,7 +58087,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J435 / Curral 89",
           "Boi Gordo",
           1,
-          712.5,
+          669.0,
           "GO",
           351.33,
           {
@@ -58075,7 +58114,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -58088,7 +58127,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J435 / Curral 89",
           "Boi Magro",
           1,
-          643.5,
+          600.0,
           "GO",
           351.33,
           {
@@ -58115,7 +58154,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -58808,7 +58847,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J509 / Curral 145",
           "Boi Magro",
           2,
-          626.7,
+          610.65,
           "GO",
           351.33,
           {
@@ -58835,7 +58874,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -63858,7 +63898,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 073 / Curral Curral C2",
           "Boi Gordo",
           14,
-          618.7857,
+          618.7143,
           "SP",
           372.97,
           {
@@ -63885,7 +63925,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 9,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -64018,7 +64059,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 074 / Curral Curral C38",
           "Boi Gordo",
           21,
-          613.2381,
+          612.5524,
           "SP",
           372.97,
           {
@@ -64045,7 +64086,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 21
             },
             "weightSources": {
-              "peso_projetado": 21
+              "peso_projetado_ajustado_gmd_140": 9,
+              "peso_projetado": 12
             },
             "gtas": [],
             "notas": [],
@@ -66266,7 +66308,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260424 CE A01 / Curral Curral A1",
           "Boi Gordo",
           69,
-          594.4348,
+          580.9043,
           "BA",
           350.92,
           {
@@ -66293,7 +66335,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 69
             },
             "weightSources": {
-              "peso_projetado": 69
+              "peso_projetado_ajustado_gmd_140": 14,
+              "peso_projetado": 55
             },
             "gtas": [],
             "notas": [],
@@ -66306,7 +66349,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260426 CE A02 / Curral Curral A2",
           "Boi Gordo",
           118,
-          597.4746,
+          581.1627,
           "BA",
           350.92,
           {
@@ -66333,7 +66376,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 118
             },
             "weightSources": {
-              "peso_projetado": 118
+              "peso_projetado_ajustado_gmd_140": 33,
+              "peso_projetado": 85
             },
             "gtas": [],
             "notas": [],
@@ -66346,7 +66390,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Gordo",
           111,
-          585.1081,
+          575.0811,
           "BA",
           350.92,
           {
@@ -66373,7 +66417,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 111
             },
             "weightSources": {
-              "peso_projetado": 111
+              "peso_projetado": 85,
+              "peso_projetado_ajustado_gmd_140": 26
             },
             "gtas": [],
             "notas": [],
@@ -66666,7 +66711,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J467 / Curral 152",
           "Boi Gordo",
           3,
-          587.3333,
+          583.8,
           "GO",
           351.33,
           {
@@ -66693,7 +66738,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -66786,7 +66832,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J471 / Curral 155",
           "Boi Gordo",
           16,
-          580.75,
+          558.6625,
           "GO",
           351.33,
           {
@@ -66813,7 +66859,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -66866,7 +66913,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J472 / Curral 156",
           "Boi Gordo",
           1,
-          633.0,
+          587.4,
           "GO",
           351.33,
           {
@@ -66893,7 +66940,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -66906,7 +66953,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J473 / Curral 155",
           "Boi Gordo",
           33,
-          556.1515,
+          544.3879,
           "GO",
           351.33,
           {
@@ -66933,7 +66980,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -66986,7 +67034,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J474 / Curral 156",
           "Boi Gordo",
           31,
-          539.2258,
+          537.9484,
           "GO",
           351.33,
           {
@@ -67013,7 +67061,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -67026,7 +67075,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J475 / Curral 155",
           "Boi Gordo",
           14,
-          590.5714,
+          578.2286,
           "GO",
           351.33,
           {
@@ -67053,7 +67102,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 11
             },
             "gtas": [],
             "notas": [],
@@ -67066,7 +67116,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J476 / Curral 157",
           "Boi Gordo",
           57,
-          573.5614,
+          561.2421,
           "GO",
           351.33,
           {
@@ -67093,7 +67143,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 49,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -67106,7 +67157,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J477 / Curral 157",
           "Boi Gordo",
           40,
-          558.175,
+          545.68,
           "GO",
           351.33,
           {
@@ -67133,7 +67184,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 40
             },
             "weightSources": {
-              "peso_projetado": 40
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -67186,7 +67238,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J478 / Curral 156",
           "Boi Gordo",
           23,
-          572.3043,
+          559.9826,
           "GO",
           351.33,
           {
@@ -67213,7 +67265,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 23
             },
             "weightSources": {
-              "peso_projetado": 23
+              "peso_projetado": 19,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -67266,7 +67319,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J479 / Curral 158",
           "Boi Gordo",
           4,
-          600.25,
+          587.85,
           "GO",
           351.33,
           {
@@ -67293,7 +67346,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -67306,7 +67360,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J480 / Curral 157",
           "Boi Gordo",
           19,
-          589.1053,
+          559.9684,
           "GO",
           351.33,
           {
@@ -67333,7 +67387,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 13
             },
             "gtas": [],
             "notas": [],
@@ -67346,7 +67401,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J480 / Curral 158",
           "Boi Gordo",
           32,
-          582.9062,
+          568.0437,
           "GO",
           351.33,
           {
@@ -67373,7 +67428,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -67386,7 +67442,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J481 / Curral 156",
           "Boi Gordo",
           11,
-          594.5455,
+          570.2545,
           "GO",
           351.33,
           {
@@ -67413,7 +67469,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -67506,7 +67563,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J483 / Curral 161",
           "Boi Gordo",
           78,
-          591.3462,
+          566.5897,
           "GO",
           351.33,
           {
@@ -67533,7 +67590,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 78
             },
             "weightSources": {
-              "peso_projetado": 78
+              "peso_projetado": 52,
+              "peso_projetado_ajustado_gmd_140": 26
             },
             "gtas": [],
             "notas": [],
@@ -67546,7 +67604,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J485 / Curral 160",
           "Boi Gordo",
           33,
-          570.8485,
+          562.1818,
           "GO",
           351.33,
           {
@@ -67573,7 +67631,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -67626,7 +67685,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J486 / Curral 160",
           "Boi Gordo",
           33,
-          596.8485,
+          553.5939,
           "GO",
           351.33,
           {
@@ -67653,7 +67712,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado_ajustado_gmd_140": 13,
+              "peso_projetado": 20
             },
             "gtas": [],
             "notas": [],
@@ -67666,7 +67726,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J487 / Curral 160",
           "Boi Gordo",
           45,
-          584.8889,
+          564.4667,
           "GO",
           351.33,
           {
@@ -67693,7 +67753,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 33
             },
             "gtas": [],
             "notas": [],
@@ -67706,7 +67767,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J488 / Curral 138",
           "Boi Gordo",
           61,
-          560.3279,
+          556.3082,
           "GO",
           351.33,
           {
@@ -67733,7 +67794,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 61
             },
             "weightSources": {
-              "peso_projetado": 61
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -67746,7 +67808,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J490 / Curral 138",
           "Boi Gordo",
           59,
-          512.5254,
+          511.5017,
           "GO",
           351.33,
           {
@@ -67773,7 +67835,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 58,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -67826,7 +67889,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J494 / Curral 150",
           "Boi Gordo",
           54,
-          524.1481,
+          524.037,
           "GO",
           351.33,
           {
@@ -67853,7 +67916,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -67906,7 +67970,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J498 / Curral 140",
           "Boi Gordo",
           56,
-          536.8571,
+          532.7143,
           "GO",
           351.33,
           {
@@ -67933,7 +67997,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -68066,7 +68131,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J499 / Curral 141",
           "Boi Gordo",
           83,
-          522.4458,
+          519.2771,
           "GO",
           351.33,
           {
@@ -68093,7 +68158,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 83
             },
             "weightSources": {
-              "peso_projetado": 83
+              "peso_projetado": 81,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -68146,7 +68212,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J502 / Curral 142",
           "Boi Gordo",
           13,
-          539.4615,
+          536.3846,
           "GO",
           351.33,
           {
@@ -68173,7 +68239,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -68226,7 +68293,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J503 / Curral 143",
           "Boi Gordo",
           56,
-          548.6786,
+          545.1821,
           "GO",
           351.33,
           {
@@ -68253,7 +68320,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 54,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -68386,7 +68454,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J505 / Curral 161",
           "Boi Gordo",
           53,
-          585.7925,
+          564.9321,
           "GO",
           351.33,
           {
@@ -68413,7 +68481,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 53
             },
             "weightSources": {
-              "peso_projetado": 53
+              "peso_projetado": 42,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -68426,7 +68495,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J506 / Curral 145",
           "Boi Gordo",
           146,
-          602.2808,
+          583.037,
           "GO",
           351.33,
           {
@@ -68453,7 +68522,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 146
             },
             "weightSources": {
-              "peso_projetado": 146
+              "peso_projetado_ajustado_gmd_140": 47,
+              "peso_projetado": 99
             },
             "gtas": [],
             "notas": [],
@@ -68546,7 +68616,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J507 / Curral 143",
           "Boi Gordo",
           76,
-          569.4342,
+          556.8947,
           "GO",
           351.33,
           {
@@ -68575,7 +68645,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 76
             },
             "weightSources": {
-              "peso_projetado": 76
+              "peso_projetado": 66,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -68628,7 +68699,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J508 / Curral 142",
           "Boi Gordo",
           59,
-          545.7458,
+          539.6881,
           "GO",
           351.33,
           {
@@ -68655,7 +68726,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -68668,7 +68740,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J509 / Curral 145",
           "Boi Gordo",
           55,
-          566.1455,
+          556.1018,
           "GO",
           351.33,
           {
@@ -68695,7 +68767,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 55
             },
             "weightSources": {
-              "peso_projetado": 55
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -68748,7 +68821,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J516 / Curral 147",
           "Boi Gordo",
           72,
-          518.0278,
+          514.5583,
           "GO",
           351.33,
           {
@@ -68775,7 +68848,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 72
             },
             "weightSources": {
-              "peso_projetado": 72
+              "peso_projetado": 70,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -68868,7 +68942,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ouro Branco - BTG / Lote 202 / Curral TP2-1",
           "Vaca",
           52,
-          493.6154,
+          493.4692,
           "MT",
           319.14,
           {
@@ -68895,7 +68969,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 52
             },
             "weightSources": {
-              "peso_projetado": 52
+              "peso_projetado": 50,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -69148,7 +69223,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 078 / Curral Curral H3",
           "Boi Gordo",
           41,
-          515.4634,
+          514.2146,
           "SP",
           372.97,
           {
@@ -69175,7 +69250,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -69308,7 +69384,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 082 / Curral Curral G3",
           "Boi Gordo",
           59,
-          542.2542,
+          538.661,
           "SP",
           372.97,
           {
@@ -69335,7 +69411,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -69431,16 +69508,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 2592
       },
       "totalHeads": 6516,
-      "totalWeightKg": 2712117.0003,
-      "totalArrobas": 180807.8,
-      "totalValue": 66486813.58,
+      "totalWeightKg": 2710550.1046,
+      "totalArrobas": 180703.3403,
+      "totalValue": 66450350.45,
       "transitHeads": 2121,
-      "transitWeightKg": 1166513.0091,
-      "transitValue": 27392975.9,
+      "transitWeightKg": 1146795.5821,
+      "transitValue": 26930900.11,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 93879789.49,
+      "coverageValue": 93381250.56,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -69465,7 +69542,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 390.4009,
+      "quotePerArroba": 390.4579,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 765 / Curral Curral J-16",
@@ -71071,7 +71148,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26942 / Curral K03",
           "Boi Gordo",
           52,
-          530.4423,
+          530.425,
           "BA",
           387.49,
           {
@@ -71098,7 +71175,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 52
             },
             "weightSources": {
-              "peso_projetado": 52
+              "peso_projetado": 51,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -71831,7 +71909,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J592 / Curral 194",
           "Boi Gordo",
           3,
-          663.1667,
+          636.0667,
           "GO",
           351.33,
           {
@@ -71858,7 +71936,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -72151,7 +72229,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J595 / Curral 195",
           "Boi Gordo",
           35,
-          634.1857,
+          614.0543,
           "GO",
           351.33,
           {
@@ -72178,7 +72256,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 26,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -72431,7 +72510,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J597 / Curral 195",
           "Boi Gordo",
           7,
-          654.0714,
+          634.7143,
           "GO",
           351.33,
           {
@@ -72458,7 +72537,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -72671,7 +72751,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J605 / Curral 196",
           "Boi Gordo",
           15,
-          634.6,
+          620.2,
           "GO",
           351.33,
           {
@@ -72698,7 +72778,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -72831,7 +72912,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J606 / Curral 201",
           "Boi Gordo",
           4,
-          622.75,
+          616.0,
           "GO",
           351.33,
           {
@@ -72858,7 +72939,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -73271,7 +73353,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J768 / Curral 97",
           "Boi Gordo",
           13,
-          542.3462,
+          542.2923,
           "GO",
           408.03,
           {
@@ -73298,7 +73380,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -73631,7 +73714,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J567 / Curral 184",
           "Boi Gordo",
           1,
-          681.9,
+          649.8,
           "GO",
           351.33,
           {
@@ -73658,7 +73741,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -74353,7 +74436,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 22 / Curral Curral C5",
           "Boi Gordo",
           28,
-          533.7143,
+          533.6214,
           "MG",
           357.15,
           {
@@ -74380,7 +74463,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -75035,7 +75119,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J549 / Curral 173",
           "Boi Gordo",
           28,
-          579.3214,
+          567.2,
           "GO",
           351.33,
           {
@@ -75062,7 +75146,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 22,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -75195,7 +75280,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J567 / Curral 184",
           "Boi Gordo",
           36,
-          565.8611,
+          556.2722,
           "GO",
           351.33,
           {
@@ -75222,7 +75307,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -75475,7 +75561,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 292 / Curral P-6",
           "Boi Gordo",
           16,
-          557.0,
+          552.275,
           "SP",
           372.97,
           {
@@ -75502,7 +75588,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -75635,7 +75722,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 294 / Curral P-3",
           "Boi Gordo",
           7,
-          568.0,
+          557.1714,
           "SP",
           372.97,
           {
@@ -75662,7 +75749,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -76054,16 +76142,16 @@ window.ceresBiologicalAssets = {
         "comprado_transito_titulo_ativo": 342
       },
       "totalHeads": 2783,
-      "totalWeightKg": 1145680.7029,
-      "totalArrobas": 76378.7135,
-      "totalValue": 28526394.66,
+      "totalWeightKg": 1144480.0027,
+      "totalArrobas": 76298.6668,
+      "totalValue": 28498266.04,
       "transitHeads": 382,
-      "transitWeightKg": 193739.9976,
-      "transitValue": 4717479.88,
+      "transitWeightKg": 192903.9978,
+      "transitValue": 4697680.67,
       "purchasedTransitHeads": 342.0,
       "purchasedTransitWeightKg": 0.0,
       "purchasedTransitValue": 1616865.32,
-      "coverageValue": 34860739.86,
+      "coverageValue": 34812812.03,
       "sourceVehicleNames": [
         "CRA 42a R$ 50MM",
         "Confina BTG 100 MM",
@@ -76086,7 +76174,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 352.2027,
+      "quotePerArroba": 352.1976,
       "lots": [
         [
           "FAZENDA SERRA VERDE - BTG / Lote Lote 17 / Curral C08",
@@ -76412,7 +76500,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 110 / Curral Curral B4",
           "Boi Gordo",
           1,
-          715.0,
+          704.0,
           "MG",
           360.26,
           {
@@ -76439,7 +76527,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -76572,7 +76660,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Magro",
           9,
-          597.4444,
+          595.9889,
           "MG",
           360.26,
           {
@@ -76599,7 +76687,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 8
             },
             "gtas": [],
             "notas": [],
@@ -77372,7 +77461,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 109 / Curral Curral H4",
           "Boi Magro",
           9,
-          605.7778,
+          603.1556,
           "MG",
           360.26,
           {
@@ -77399,7 +77488,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -77572,7 +77662,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 111 / Curral Curral B5",
           "Boi Gordo",
           1,
-          706.0,
+          695.0,
           "MG",
           360.26,
           {
@@ -77599,7 +77689,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -78096,7 +78186,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 115 / Curral Curral B2",
           "Boi Gordo",
           2,
-          643.5,
+          632.1,
           "MG",
           360.26,
           {
@@ -78125,7 +78215,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -78264,7 +78354,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 116 / Curral Curral B1",
           "Boi Gordo",
           2,
-          665.0,
+          434.1,
           "MG",
           360.26,
           {
@@ -78291,7 +78381,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -78430,7 +78520,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 117 / Curral Curral E3",
           "Boi Gordo",
           1,
-          633.5,
+          624.8,
           "MG",
           360.26,
           {
@@ -78457,7 +78547,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -78550,7 +78640,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 117 / Curral Curral REM 2",
           "Boi Gordo",
           2,
-          648.0,
+          636.2,
           "MG",
           360.26,
           {
@@ -78577,7 +78667,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -78922,7 +79012,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 119 / Curral Curral C2",
           "Boi Gordo",
           1,
-          629.5,
+          622.4,
           "MG",
           360.26,
           {
@@ -78949,7 +79039,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -79050,7 +79140,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 120 / Curral Curral C3",
           "Boi Gordo",
           4,
-          624.0,
+          618.675,
           "MG",
           360.26,
           {
@@ -79079,7 +79169,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -79222,7 +79313,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 121 / Curral Curral E5",
           "Boi Gordo",
           1,
-          638.0,
+          626.8,
           "MG",
           360.26,
           {
@@ -79249,7 +79340,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -79388,7 +79479,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 122 / Curral Curral C6",
           "Boi Gordo",
           4,
-          649.25,
+          640.85,
           "MG",
           360.26,
           {
@@ -79415,7 +79506,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -79762,7 +79854,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 99 / Curral Curral D2",
           "Boi Gordo",
           3,
-          715.5,
+          702.0,
           "MG",
           360.26,
           {
@@ -79789,7 +79881,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -79802,7 +79894,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 99 / Curral Curral D2",
           "Boi Magro",
           1,
-          624.5,
+          609.6,
           "MG",
           360.26,
           {
@@ -79829,7 +79921,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -80643,7 +80735,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem / Lote 572 / Curral Curral 27",
           "Boi Gordo",
           4,
-          589.75,
+          588.925,
           "BA",
           350.92,
           {
@@ -80672,7 +80764,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -91499,7 +91592,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260303 ce B13 / Curral Curral B13",
           "Garrote",
           14,
-          616.6429,
+          616.2143,
           "BA",
           350.92,
           {
@@ -91530,7 +91623,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -91709,7 +91803,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260311 ce B12 / Curral Curral B12",
           "Garrote",
           11,
-          622.3636,
+          619.7091,
           "BA",
           350.92,
           {
@@ -91738,7 +91832,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -91955,7 +92050,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260402 / Curral Curral B11",
           "Boi Magro",
           3,
-          667.5,
+          649.1333,
           "BA",
           350.92,
           {
@@ -91984,7 +92079,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -92037,7 +92132,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260402 / Curral Curral B11",
           "Garrote",
           32,
-          596.9844,
+          594.7031,
           "BA",
           350.92,
           {
@@ -92066,7 +92161,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -92321,7 +92417,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C24 / Curral Curral C24",
           "Boi Magro",
           12,
-          637.0,
+          624.2583,
           "BA",
           350.92,
           {
@@ -92348,7 +92444,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado_ajustado_gmd_140": 11,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -92441,7 +92538,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C26 / Curral Curral C26",
           "Boi Gordo",
           4,
-          705.5,
+          694.95,
           "BA",
           350.92,
           {
@@ -92468,7 +92565,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -92481,7 +92578,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C26 / Curral Curral C26",
           "Boi Magro",
           8,
-          638.625,
+          630.15,
           "BA",
           350.92,
           {
@@ -92508,7 +92605,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -92641,7 +92739,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260504 CE B06 / Curral Curral B6",
           "Boi Gordo",
           8,
-          705.25,
+          691.775,
           "BA",
           350.92,
           {
@@ -92668,7 +92766,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -92681,7 +92779,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260504 CE B06 / Curral Curral B6",
           "Boi Magro",
           57,
-          639.8947,
+          630.0702,
           "BA",
           350.92,
           {
@@ -92708,7 +92806,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado_ajustado_gmd_140": 42,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -92801,7 +92900,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE A11 / Curral Curral A11",
           "Boi Gordo",
           1,
-          717.0,
+          703.0,
           "BA",
           350.92,
           {
@@ -92828,7 +92927,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -92841,7 +92940,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE A11 / Curral Curral A11",
           "Boi Magro",
           32,
-          629.0312,
+          621.5938,
           "BA",
           350.92,
           {
@@ -92868,7 +92967,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado_ajustado_gmd_140": 17,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -93041,7 +93141,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Gordo",
           1,
-          769.0,
+          755.0,
           "BA",
           350.92,
           {
@@ -93068,7 +93168,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -93081,7 +93181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Magro",
           27,
-          618.1111,
+          612.9259,
           "BA",
           350.92,
           {
@@ -93108,7 +93208,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 27
             },
             "weightSources": {
-              "peso_projetado": 27
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -93161,7 +93262,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE B20 / Curral Curral B20",
           "Boi Gordo",
           2,
-          677.0,
+          667.0,
           "BA",
           350.92,
           {
@@ -93188,7 +93289,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -93201,7 +93302,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE B20 / Curral Curral B20",
           "Boi Magro",
           54,
-          616.4259,
+          612.3519,
           "BA",
           350.92,
           {
@@ -93228,7 +93329,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 22
             },
             "gtas": [],
             "notas": [],
@@ -93481,7 +93583,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260514 CE C01 / Curral Curral C1",
           "Boi Magro",
           7,
-          617.1429,
+          614.6857,
           "BA",
           350.92,
           {
@@ -93508,7 +93610,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -93721,7 +93824,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260514 CE C02 / Curral Curral C2",
           "Boi Magro",
           31,
-          603.871,
+          602.7613,
           "BA",
           350.92,
           {
@@ -93748,7 +93851,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -93881,7 +93985,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C03 / Curral Curral C3",
           "Boi Magro",
           16,
-          601.9062,
+          600.2375,
           "BA",
           350.92,
           {
@@ -93908,7 +94012,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -94001,7 +94106,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C04 / Curral Curral C4",
           "Boi Magro",
           4,
-          601.5,
+          598.7,
           "BA",
           350.92,
           {
@@ -94028,7 +94133,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -94211,7 +94317,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905  C05 / Curral Curral B19",
           "Boi Magro",
           1,
-          622.0,
+          612.0,
           "BA",
           350.92,
           {
@@ -94238,7 +94344,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -94251,7 +94357,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE A21 / Curral Curral A21",
           "Boi Gordo",
           1,
-          696.5,
+          684.8,
           "BA",
           350.92,
           {
@@ -94278,7 +94384,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -94491,7 +94597,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Gordo",
           3,
-          718.6667,
+          706.8667,
           "BA",
           350.92,
           {
@@ -94518,7 +94624,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -94531,7 +94637,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Magro",
           10,
-          621.8,
+          615.9,
           "BA",
           350.92,
           {
@@ -94558,7 +94664,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -94733,7 +94840,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE C06 / Curral Curral C6",
           "Boi Magro",
           25,
-          611.38,
+          606.868,
           "BA",
           350.92,
           {
@@ -94762,7 +94869,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -94857,7 +94965,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE C06 / Curral Curral C9",
           "Boi Magro",
           3,
-          608.0,
+          603.8,
           "BA",
           350.92,
           {
@@ -94884,7 +94992,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -95337,7 +95446,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Gordo",
           1,
-          691.0,
+          688.2,
           "BA",
           350.92,
           {
@@ -95364,7 +95473,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -95377,7 +95486,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Magro",
           1,
-          626.0,
+          623.2,
           "BA",
           350.92,
           {
@@ -95404,7 +95513,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -95697,7 +95806,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260428 CE A04 / Curral Curral A4",
           "Boi Gordo",
           7,
-          777.5,
+          773.4,
           "BA",
           350.92,
           {
@@ -95724,7 +95833,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -95737,7 +95846,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260428 CE A04 / Curral Curral A4",
           "Boi Magro",
           17,
-          646.0294,
+          642.6529,
           "BA",
           350.92,
           {
@@ -95766,7 +95875,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado_ajustado_gmd_140": 14,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -95901,7 +96011,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A06 / Curral Curral A6",
           "Boi Gordo",
           1,
-          743.0,
+          736.0,
           "BA",
           350.92,
           {
@@ -95928,7 +96038,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -95941,7 +96051,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A06 / Curral Curral A6",
           "Boi Magro",
           4,
-          640.0,
+          634.75,
           "BA",
           350.92,
           {
@@ -95968,7 +96078,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -96101,7 +96212,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A07 / Curral Curral A7",
           "Boi Gordo",
           5,
-          704.7,
+          692.4,
           "BA",
           350.92,
           {
@@ -96130,7 +96241,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -96143,7 +96254,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A07 / Curral Curral A7",
           "Boi Magro",
           43,
-          626.2442,
+          619.093,
           "BA",
           350.92,
           {
@@ -96172,7 +96283,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 25
             },
             "gtas": [],
             "notas": [],
@@ -96309,7 +96421,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A08 / Curral Curral A8",
           "Boi Magro",
           16,
-          634.3125,
+          626.625,
           "BA",
           350.92,
           {
@@ -96338,7 +96450,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado_ajustado_gmd_140": 10,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -96553,7 +96666,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260501 CE A20 / Curral Curral A20",
           "Boi Magro",
           25,
-          623.16,
+          619.128,
           "BA",
           350.92,
           {
@@ -96580,7 +96693,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -96713,7 +96827,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260501 CE B07 / Curral Curral B7",
           "Boi Magro",
           10,
-          630.6,
+          624.72,
           "BA",
           350.92,
           {
@@ -96742,7 +96856,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -96835,7 +96950,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260501 CE B08 / Curral Curral B8",
           "Boi Magro",
           12,
-          625.3333,
+          619.7333,
           "BA",
           350.92,
           {
@@ -96862,7 +96977,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 4
             },
             "gtas": [],
             "notas": [],
@@ -97275,7 +97391,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260502 CE C25 / Curral Curral C25",
           "Boi Magro",
           11,
-          619.6818,
+          616.6636,
           "BA",
           350.92,
           {
@@ -97302,7 +97418,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -97475,7 +97592,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260507 CE B23 / Curral Curral B23",
           "Boi Magro",
           5,
-          620.5,
+          613.12,
           "BA",
           350.92,
           {
@@ -97502,7 +97619,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -97715,7 +97833,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J428 / Curral 96",
           "Boi Magro",
           1,
-          671.2,
+          627.4,
           "GO",
           351.33,
           {
@@ -97742,7 +97860,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -97835,7 +97953,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J434 / Curral 105",
           "Boi Magro",
           1,
-          627.5,
+          584.0,
           "GO",
           351.33,
           {
@@ -97862,7 +97980,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -97915,7 +98033,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J438 / Curral 106",
           "Boi Gordo",
           1,
-          694.7,
+          652.4,
           "GO",
           351.33,
           {
@@ -97942,7 +98060,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -98075,7 +98193,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J525 / Curral 166",
           "Boi Gordo",
           1,
-          647.6,
+          612.2,
           "GO",
           351.33,
           {
@@ -98102,7 +98220,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -98435,7 +98553,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J550 / Curral 173",
           "Boi Gordo",
           1,
-          640.7,
+          607.4,
           "GO",
           351.33,
           {
@@ -98462,7 +98580,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -98995,7 +99113,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J563 / Curral 185",
           "Boi Gordo",
           2,
-          656.9,
+          624.8,
           "GO",
           351.33,
           {
@@ -99022,7 +99140,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -99075,7 +99193,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J568 / Curral 184",
           "Boi Gordo",
           1,
-          938.6,
+          631.4,
           "GO",
           351.33,
           {
@@ -99102,7 +99220,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -99155,7 +99273,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J572 / Curral 186",
           "Boi Gordo",
           34,
-          763.1,
+          455.9,
           "GO",
           351.33,
           {
@@ -99184,7 +99302,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado_ajustado_gmd_140": 34
             },
             "gtas": [],
             "notas": [],
@@ -99197,7 +99315,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J573 / Curral 184",
           "Boi Gordo",
           1,
-          856.6,
+          580.6,
           "GO",
           351.33,
           {
@@ -99224,7 +99342,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -99237,7 +99355,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J574 / Curral 187",
           "Boi Gordo",
           6,
-          797.4333,
+          521.4333,
           "GO",
           351.33,
           {
@@ -99264,7 +99382,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -99757,7 +99875,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J583 / Curral 190",
           "Boi Gordo",
           6,
-          635.7667,
+          616.1667,
           "GO",
           351.33,
           {
@@ -99784,7 +99902,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -99917,7 +100036,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J584 / Curral 192",
           "Boi Gordo",
           6,
-          655.7667,
+          626.3667,
           "GO",
           351.33,
           {
@@ -99944,7 +100063,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -100077,7 +100196,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J585 / Curral 184",
           "Boi Gordo",
           3,
-          682.7667,
+          651.8667,
           "GO",
           351.33,
           {
@@ -100104,7 +100223,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -100277,7 +100396,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J589 / Curral 190",
           "Boi Gordo",
           2,
-          627.6,
+          598.2,
           "GO",
           351.33,
           {
@@ -100304,7 +100423,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -100557,7 +100676,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J591 / Curral 190",
           "Boi Gordo",
           3,
-          660.5667,
+          631.4667,
           "GO",
           351.33,
           {
@@ -100584,7 +100703,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -100717,7 +100836,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J403 / Curral 55",
           "Boi Magro",
           1,
-          643.2,
+          599.2,
           "GO",
           351.33,
           {
@@ -100744,7 +100863,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -100757,7 +100876,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J404 / Curral 56",
           "Boi Magro",
           1,
-          665.2,
+          621.2,
           "GO",
           351.33,
           {
@@ -100784,7 +100903,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -101077,7 +101196,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J451 / Curral 114",
           "Boi Gordo",
           3,
-          611.2667,
+          597.4667,
           "GO",
           351.33,
           {
@@ -101104,7 +101223,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -101157,7 +101277,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J459 / Curral 148",
           "Boi Magro",
           1,
-          654.5,
+          616.8,
           "GO",
           351.33,
           {
@@ -101184,7 +101304,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -101717,7 +101837,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J514 / Curral 147",
           "Boi Gordo",
           1,
-          697.7,
+          665.6,
           "GO",
           351.33,
           {
@@ -101744,7 +101864,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -102157,7 +102277,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J520 / Curral 166",
           "Boi Gordo",
           1,
-          700.3,
+          664.6,
           "GO",
           351.33,
           {
@@ -102184,7 +102304,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -102197,7 +102317,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J520 / Curral 166",
           "Boi Magro",
           3,
-          614.9667,
+          603.0667,
           "GO",
           351.33,
           {
@@ -102224,7 +102344,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -102517,7 +102638,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J539 / Curral 172",
           "Boi Magro",
           1,
-          621.8,
+          587.6,
           "GO",
           351.33,
           {
@@ -102544,7 +102665,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -102717,7 +102838,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J543 / Curral 172",
           "Boi Gordo",
           1,
-          662.8,
+          628.6,
           "GO",
           351.33,
           {
@@ -102744,7 +102865,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -103477,7 +103598,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J598 / Curral 193",
           "Boi Gordo",
           15,
-          675.8333,
+          652.3467,
           "GO",
           351.33,
           {
@@ -103504,7 +103625,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado_ajustado_gmd_140": 13,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -103597,7 +103719,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J600 / Curral 196",
           "Boi Gordo",
           7,
-          614.2429,
+          610.2571,
           "GO",
           351.33,
           {
@@ -103624,7 +103746,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -103877,7 +104000,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J602 / Curral 196",
           "Boi Gordo",
           11,
-          626.5545,
+          611.3364,
           "GO",
           351.33,
           {
@@ -103904,7 +104027,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -103997,7 +104121,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J603 / Curral 198",
           "Boi Gordo",
           1,
-          647.4,
+          619.8,
           "GO",
           351.33,
           {
@@ -104024,7 +104148,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -104117,7 +104241,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J604 / Curral 199",
           "Boi Gordo",
           11,
-          614.7909,
+          607.3455,
           "GO",
           351.33,
           {
@@ -104144,7 +104268,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -104237,7 +104362,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J607 / Curral 201",
           "Boi Gordo",
           3,
-          619.3,
+          610.8667,
           "GO",
           351.33,
           {
@@ -104264,7 +104389,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -104557,7 +104683,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J609 / Curral 198",
           "Boi Gordo",
           1,
-          635.4,
+          607.8,
           "GO",
           351.33,
           {
@@ -104584,7 +104710,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -105277,7 +105403,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J617 / Curral 203",
           "Boi Gordo",
           36,
-          636.1889,
+          619.3222,
           "GO",
           351.33,
           {
@@ -105304,7 +105430,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado_ajustado_gmd_140": 24,
+              "peso_projetado": 12
             },
             "gtas": [],
             "notas": [],
@@ -105437,7 +105564,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J619 / Curral 204",
           "Boi Gordo",
           2,
-          660.8,
+          648.15,
           "GO",
           351.33,
           {
@@ -105464,7 +105591,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -105717,7 +105845,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J639 / Curral 209",
           "Boi Gordo",
           1,
-          638.6,
+          616.6,
           "GO",
           351.33,
           {
@@ -105744,7 +105872,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -106117,7 +106245,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J642 / Curral 211",
           "Boi Gordo",
           10,
-          609.2,
+          606.92,
           "GO",
           351.33,
           {
@@ -106144,7 +106272,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 9,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -106277,7 +106406,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J643 / Curral 211",
           "Boi Gordo",
           3,
-          634.8667,
+          627.2667,
           "GO",
           351.33,
           {
@@ -106304,7 +106433,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -106397,7 +106527,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J644 / Curral 210",
           "Boi Gordo",
           20,
-          608.75,
+          603.05,
           "GO",
           351.33,
           {
@@ -106424,7 +106554,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -107043,7 +107174,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J649 / Curral 14",
           "Boi Gordo",
           7,
-          587.2143,
+          585.6429,
           "GO",
           351.33,
           {
@@ -107070,7 +107201,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -110087,7 +110219,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10238 / Curral E06",
           "Boi Magro",
           2,
-          730.5,
+          710.0,
           "MT",
           349.08,
           {
@@ -110114,7 +110246,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -111248,7 +111380,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10450 / Curral REC-08",
           "Boi Gordo",
           6,
-          638.6667,
+          635.4667,
           "MT",
           349.08,
           {
@@ -111275,7 +111407,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -111608,7 +111740,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 20112 / Curral PLT-25",
           "Boi Gordo",
           6,
-          654.3333,
+          653.9333,
           "MT",
           349.08,
           {
@@ -111635,7 +111767,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -115488,7 +115620,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L223-26 / Curral BAIA 01",
           "Boi Gordo",
           7,
-          605.9286,
+          604.8286,
           "MT",
           349.08,
           {
@@ -115515,7 +115647,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -116902,7 +117035,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L267-26 / Curral BAIA 62",
           "Boi Gordo",
           6,
-          597.0,
+          595.9,
           "MT",
           349.08,
           {
@@ -116929,7 +117062,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -117022,7 +117156,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L274-26 / Curral BAIA 102",
           "Boi Gordo",
           1,
-          621.0,
+          619.0,
           "MT",
           349.08,
           {
@@ -117049,7 +117183,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -121903,7 +122037,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 109 / Curral Curral H2",
           "Boi Gordo",
           6,
-          588.1667,
+          587.2167,
           "SP",
           372.97,
           {
@@ -121930,7 +122064,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -122783,7 +122918,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 55 / Curral Curral B18",
           "Boi Gordo",
           22,
-          626.5909,
+          622.9727,
           "SP",
           372.97,
           {
@@ -122810,7 +122945,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -123503,7 +123639,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 55 / Curral Curral L05",
           "Boi Gordo",
           2,
-          611.5,
+          607.45,
           "SP",
           372.97,
           {
@@ -123530,7 +123666,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -124025,7 +124162,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 109 / Curral Curral H4",
           "Boi Gordo",
           53,
-          561.3019,
+          560.0264,
           "MG",
           360.26,
           {
@@ -124052,7 +124189,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 53
             },
             "weightSources": {
-              "peso_projetado": 53
+              "peso_projetado": 50,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -124467,7 +124605,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 117 / Curral Curral REM 2",
           "Boi Gordo",
           8,
-          562.625,
+          552.875,
           "MG",
           360.26,
           {
@@ -124496,7 +124634,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -124593,7 +124732,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 120 / Curral Curral C3",
           "Boi Gordo",
           42,
-          573.2143,
+          568.1429,
           "MG",
           360.26,
           {
@@ -124624,7 +124763,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 37,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -124837,7 +124977,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 99 / Curral Curral D2",
           "Boi Gordo",
           39,
-          531.4872,
+          530.5538,
           "MG",
           360.26,
           {
@@ -124864,7 +125004,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -124917,7 +125058,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 561 / Curral s02",
           "Vaca",
           25,
-          618.32,
+          614.664,
           "BA",
           336.39,
           {
@@ -124944,7 +125085,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 22
             },
             "gtas": [],
             "notas": [],
@@ -124957,7 +125099,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 562 / Curral s18",
           "Vaca",
           18,
-          670.8889,
+          650.3,
           "BA",
           336.39,
           {
@@ -124984,7 +125126,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado_ajustado_gmd_140": 9,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -125721,7 +125864,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C26 / Curral Curral C26",
           "Boi Gordo",
           1,
-          636.0,
+          632.4,
           "BA",
           350.92,
           {
@@ -125748,7 +125891,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -125801,7 +125944,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260514 CE C01 / Curral Curral C1",
           "Boi Gordo",
           45,
-          548.9556,
+          548.5556,
           "BA",
           350.92,
           {
@@ -125828,7 +125971,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado": 44,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -125921,7 +126065,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Gordo",
           41,
-          581.7073,
+          579.0829,
           "BA",
           350.92,
           {
@@ -125948,7 +126092,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 35,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -126081,7 +126226,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260427 / Curral Curral A3",
           "Boi Gordo",
           3,
-          554.6667,
+          533.4667,
           "BA",
           350.92,
           {
@@ -126108,7 +126253,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -126281,7 +126427,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260428 CE A04 / Curral Curral A4",
           "Boi Gordo",
           53,
-          568.283,
+          565.4226,
           "BA",
           350.92,
           {
@@ -126310,7 +126456,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 53
             },
             "weightSources": {
-              "peso_projetado": 53
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -126403,7 +126550,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A06 / Curral Curral A6",
           "Boi Gordo",
           22,
-          597.4545,
+          582.9545,
           "BA",
           350.92,
           {
@@ -126430,7 +126577,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -126483,7 +126631,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A08 / Curral Curral A8",
           "Boi Gordo",
           88,
-          571.0682,
+          567.2455,
           "BA",
           350.92,
           {
@@ -126512,7 +126660,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 88
             },
             "weightSources": {
-              "peso_projetado": 88
+              "peso_projetado": 77,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -126767,7 +126916,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J428 / Curral 96",
           "Boi Gordo",
           3,
-          565.6667,
+          562.6,
           "GO",
           351.33,
           {
@@ -126794,7 +126943,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -126807,7 +126957,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J429 / Curral 96",
           "Boi Gordo",
           1,
-          626.0,
+          601.6,
           "GO",
           351.33,
           {
@@ -126834,7 +126984,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -126927,7 +127077,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J433 / Curral 88",
           "Boi Gordo",
           3,
-          591.0,
+          574.8,
           "GO",
           351.33,
           {
@@ -126954,7 +127104,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -127047,7 +127198,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J461 / Curral 148",
           "Boi Gordo",
           24,
-          561.875,
+          556.6,
           "GO",
           351.33,
           {
@@ -127074,7 +127225,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 22,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -127167,7 +127319,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J465 / Curral 151",
           "Boi Gordo",
           58,
-          538.0517,
+          534.9,
           "GO",
           351.33,
           {
@@ -127194,7 +127346,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 58
             },
             "weightSources": {
-              "peso_projetado": 58
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -127247,7 +127400,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J497 / Curral 140",
           "Boi Gordo",
           65,
-          548.1692,
+          538.6769,
           "GO",
           351.33,
           {
@@ -127274,7 +127427,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -127407,7 +127561,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J525 / Curral 166",
           "Boi Gordo",
           60,
-          615.15,
+          585.2667,
           "GO",
           351.33,
           {
@@ -127434,7 +127588,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 60
             },
             "weightSources": {
-              "peso_projetado": 60
+              "peso_projetado": 36,
+              "peso_projetado_ajustado_gmd_140": 24
             },
             "gtas": [],
             "notas": [],
@@ -127447,7 +127602,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J526 / Curral 168",
           "Boi Gordo",
           35,
-          576.2286,
+          561.0229,
           "GO",
           351.33,
           {
@@ -127474,7 +127629,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 7,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -127567,7 +127723,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J530 / Curral 164",
           "Boi Gordo",
           35,
-          548.2286,
+          541.2971,
           "GO",
           351.33,
           {
@@ -127594,7 +127750,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 31,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -127647,7 +127804,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J532 / Curral 167",
           "Boi Gordo",
           28,
-          573.3214,
+          560.6643,
           "GO",
           351.33,
           {
@@ -127674,7 +127831,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 21,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -127687,7 +127845,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J548 / Curral 170",
           "Boi Gordo",
           15,
-          550.8667,
+          528.9333,
           "GO",
           351.33,
           {
@@ -127714,7 +127872,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -127767,7 +127926,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J548 / Curral 173",
           "Boi Gordo",
           10,
-          543.0,
+          528.56,
           "GO",
           351.33,
           {
@@ -127794,7 +127953,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -127967,7 +128127,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J550 / Curral 173",
           "Boi Gordo",
           5,
-          553.0,
+          531.32,
           "GO",
           351.33,
           {
@@ -127994,7 +128154,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -128087,7 +128248,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J552 / Curral 180",
           "Boi Gordo",
           51,
-          518.2745,
+          518.0627,
           "GO",
           351.33,
           {
@@ -128114,7 +128275,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 51
             },
             "weightSources": {
-              "peso_projetado": 51
+              "peso_projetado": 50,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -128207,7 +128369,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J553 / Curral 177",
           "Boi Gordo",
           198,
-          626.8485,
+          579.3394,
           "GO",
           351.33,
           {
@@ -128234,7 +128396,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 198
             },
             "weightSources": {
-              "peso_projetado": 198
+              "peso_projetado_ajustado_gmd_140": 111,
+              "peso_projetado": 87
             },
             "gtas": [],
             "notas": [],
@@ -128247,7 +128410,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J554 / Curral 180",
           "Boi Gordo",
           19,
-          514.7368,
+          513.6947,
           "GO",
           351.33,
           {
@@ -128274,7 +128437,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -128327,7 +128491,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J555 / Curral 165",
           "Boi Gordo",
           123,
-          558.8943,
+          551.7203,
           "GO",
           351.33,
           {
@@ -128354,7 +128518,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 123
             },
             "weightSources": {
-              "peso_projetado": 123
+              "peso_projetado": 114,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -128407,7 +128572,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J556 / Curral 181",
           "Boi Gordo",
           54,
-          607.9259,
+          586.8407,
           "GO",
           351.33,
           {
@@ -128434,7 +128599,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 37,
+              "peso_projetado_ajustado_gmd_140": 17
             },
             "gtas": [],
             "notas": [],
@@ -128447,7 +128613,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J557 / Curral 182",
           "Boi Gordo",
           74,
-          565.9459,
+          549.7838,
           "GO",
           351.33,
           {
@@ -128474,7 +128640,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 64,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -128567,7 +128734,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J559 / Curral 183",
           "Boi Gordo",
           26,
-          545.5769,
+          542.3923,
           "GO",
           351.33,
           {
@@ -128594,7 +128761,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado": 24,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -128607,7 +128775,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J560 / Curral 181",
           "Boi Gordo",
           108,
-          634.1481,
+          601.9093,
           "GO",
           351.33,
           {
@@ -128634,7 +128802,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 108
             },
             "weightSources": {
-              "peso_projetado": 108
+              "peso_projetado": 52,
+              "peso_projetado_ajustado_gmd_140": 56
             },
             "gtas": [],
             "notas": [],
@@ -128767,7 +128936,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J562 / Curral 181",
           "Boi Gordo",
           45,
-          588.4444,
+          555.1911,
           "GO",
           351.33,
           {
@@ -128794,7 +128963,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -128807,7 +128977,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J562 / Curral 182",
           "Boi Gordo",
           37,
-          576.5946,
+          553.8865,
           "GO",
           351.33,
           {
@@ -128834,7 +129004,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 29
             },
             "gtas": [],
             "notas": [],
@@ -128847,7 +129018,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J563 / Curral 185",
           "Boi Gordo",
           148,
-          636.5676,
+          595.1959,
           "GO",
           351.33,
           {
@@ -128874,7 +129045,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 148
             },
             "weightSources": {
-              "peso_projetado": 148
+              "peso_projetado_ajustado_gmd_140": 88,
+              "peso_projetado": 60
             },
             "gtas": [],
             "notas": [],
@@ -128887,7 +129059,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J564 / Curral 184",
           "Boi Gordo",
           35,
-          570.9429,
+          558.4,
           "GO",
           351.33,
           {
@@ -128914,7 +129086,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -128967,7 +129140,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J568 / Curral 184",
           "Boi Gordo",
           21,
-          549.381,
+          546.7619,
           "GO",
           351.33,
           {
@@ -128994,7 +129167,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 21
             },
             "weightSources": {
-              "peso_projetado": 21
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -129007,7 +129181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J571 / Curral 183",
           "Boi Gordo",
           38,
-          582.5,
+          568.7895,
           "GO",
           351.33,
           {
@@ -129034,7 +129208,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 38
             },
             "weightSources": {
-              "peso_projetado": 38
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -129087,7 +129262,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J573 / Curral 184",
           "Boi Gordo",
           20,
-          564.55,
+          557.98,
           "GO",
           351.33,
           {
@@ -129114,7 +129289,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -129127,7 +129303,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J574 / Curral 187",
           "Boi Gordo",
           111,
-          563.6847,
+          560.0991,
           "GO",
           351.33,
           {
@@ -129156,7 +129332,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 111
             },
             "weightSources": {
-              "peso_projetado": 111
+              "peso_projetado": 102,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -129249,7 +129426,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J576 / Curral 183",
           "Boi Gordo",
           24,
-          518.0417,
+          512.0917,
           "GO",
           351.33,
           {
@@ -129276,7 +129453,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 23,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -129329,7 +129507,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J578 / Curral 187",
           "Boi Gordo",
           39,
-          522.5897,
+          522.0462,
           "GO",
           351.33,
           {
@@ -129356,7 +129534,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -129489,7 +129668,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J581 / Curral 189",
           "Boi Gordo",
           58,
-          509.7759,
+          504.5241,
           "GO",
           351.33,
           {
@@ -129516,7 +129695,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 58
             },
             "weightSources": {
-              "peso_projetado": 58
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -129609,7 +129789,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J585 / Curral 184",
           "Boi Gordo",
           23,
-          559.8696,
+          553.3391,
           "GO",
           351.33,
           {
@@ -129636,7 +129816,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 23
             },
             "weightSources": {
-              "peso_projetado": 23
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -130289,7 +130470,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J455 / Curral 148",
           "Boi Gordo",
           16,
-          595.6875,
+          553.75,
           "GO",
           351.33,
           {
@@ -130316,7 +130497,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado_ajustado_gmd_140": 7,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -130449,7 +130631,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J459 / Curral 148",
           "Boi Gordo",
           19,
-          535.8947,
+          531.1684,
           "GO",
           351.33,
           {
@@ -130476,7 +130658,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -130609,7 +130792,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J464 / Curral 152",
           "Boi Gordo",
           4,
-          579.75,
+          576.85,
           "GO",
           351.33,
           {
@@ -130636,7 +130819,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -130849,7 +131033,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J484 / Curral 158",
           "Boi Gordo",
           18,
-          528.7778,
+          516.3444,
           "GO",
           351.33,
           {
@@ -130876,7 +131060,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 14
             },
             "gtas": [],
             "notas": [],
@@ -131089,7 +131274,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J492 / Curral 138",
           "Boi Gordo",
           8,
-          560.0,
+          547.8,
           "GO",
           351.33,
           {
@@ -131116,7 +131301,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -131209,7 +131395,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J493 / Curral 150",
           "Boi Gordo",
           37,
-          528.1081,
+          526.1568,
           "GO",
           351.33,
           {
@@ -131236,7 +131422,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado": 36,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -131289,7 +131476,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J495 / Curral 137",
           "Boi Gordo",
           57,
-          582.2105,
+          570.0246,
           "GO",
           351.33,
           {
@@ -131316,7 +131503,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -131329,7 +131517,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J496 / Curral 137",
           "Boi Gordo",
           62,
-          529.1129,
+          526.1677,
           "GO",
           351.33,
           {
@@ -131356,7 +131544,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 62
             },
             "weightSources": {
-              "peso_projetado": 62
+              "peso_projetado": 60,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -131409,7 +131598,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J500 / Curral 141",
           "Boi Gordo",
           68,
-          565.3529,
+          552.5706,
           "GO",
           351.33,
           {
@@ -131436,7 +131625,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 68
             },
             "weightSources": {
-              "peso_projetado": 68
+              "peso_projetado": 58,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -131489,7 +131679,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J500 / Curral 142",
           "Boi Gordo",
           32,
-          560.1875,
+          550.1437,
           "GO",
           351.33,
           {
@@ -131516,7 +131706,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -131569,7 +131760,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J501 / Curral 142",
           "Boi Gordo",
           54,
-          536.6296,
+          535.0,
           "GO",
           351.33,
           {
@@ -131596,7 +131787,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 52,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -131649,7 +131841,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J510 / Curral 145",
           "Boi Gordo",
           33,
-          544.0,
+          536.4788,
           "GO",
           351.33,
           {
@@ -131676,7 +131868,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -131729,7 +131922,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J511 / Curral 145",
           "Boi Gordo",
           40,
-          593.2,
+          570.685,
           "GO",
           351.33,
           {
@@ -131756,7 +131949,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 40
             },
             "weightSources": {
-              "peso_projetado": 40
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 13
             },
             "gtas": [],
             "notas": [],
@@ -131809,7 +132003,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J512 / Curral 162",
           "Boi Gordo",
           63,
-          623.3492,
+          597.5302,
           "GO",
           351.33,
           {
@@ -131838,7 +132032,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 30
             },
             "gtas": [],
             "notas": [],
@@ -131851,7 +132046,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J513 / Curral 145",
           "Boi Gordo",
           20,
-          572.6,
+          555.31,
           "GO",
           351.33,
           {
@@ -131878,7 +132073,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 16,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -131931,7 +132127,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J513 / Curral 146",
           "Boi Gordo",
           37,
-          583.0811,
+          570.9297,
           "GO",
           351.33,
           {
@@ -131958,7 +132154,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -131971,7 +132168,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J514 / Curral 146",
           "Boi Gordo",
           118,
-          542.2458,
+          539.5271,
           "GO",
           351.33,
           {
@@ -131998,7 +132195,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 118
             },
             "weightSources": {
-              "peso_projetado": 118
+              "peso_projetado": 114,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -132131,7 +132329,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J515 / Curral 162",
           "Boi Gordo",
           20,
-          557.15,
+          541.58,
           "GO",
           351.33,
           {
@@ -132158,7 +132356,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 16,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -132291,7 +132490,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J517 / Curral 164",
           "Boi Gordo",
           28,
-          559.6429,
+          549.2571,
           "GO",
           351.33,
           {
@@ -132318,7 +132517,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 24,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -132491,7 +132691,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J518 / Curral 164",
           "Boi Gordo",
           34,
-          554.7059,
+          545.9941,
           "GO",
           351.33,
           {
@@ -132518,7 +132718,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -132651,7 +132852,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J519 / Curral 164",
           "Boi Gordo",
           56,
-          557.4107,
+          545.0643,
           "GO",
           351.33,
           {
@@ -132678,7 +132879,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 48,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -132771,7 +132973,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J520 / Curral 166",
           "Boi Gordo",
           67,
-          601.1045,
+          582.8866,
           "GO",
           351.33,
           {
@@ -132798,7 +133000,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 67
             },
             "weightSources": {
-              "peso_projetado": 67
+              "peso_projetado": 47,
+              "peso_projetado_ajustado_gmd_140": 20
             },
             "gtas": [],
             "notas": [],
@@ -132891,7 +133094,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J521 / Curral 166",
           "Boi Gordo",
           56,
-          579.7679,
+          564.3929,
           "GO",
           351.33,
           {
@@ -132918,7 +133121,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 43,
+              "peso_projetado_ajustado_gmd_140": 13
             },
             "gtas": [],
             "notas": [],
@@ -133091,7 +133295,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J528 / Curral 169",
           "Boi Gordo",
           47,
-          546.2979,
+          542.7489,
           "GO",
           351.33,
           {
@@ -133118,7 +133322,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 43,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -133131,7 +133336,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J529 / Curral 169",
           "Boi Gordo",
           118,
-          583.3559,
+          568.7576,
           "GO",
           351.33,
           {
@@ -133158,7 +133363,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 118
             },
             "weightSources": {
-              "peso_projetado": 118
+              "peso_projetado_ajustado_gmd_140": 28,
+              "peso_projetado": 90
             },
             "gtas": [],
             "notas": [],
@@ -133211,7 +133417,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J530 / Curral 164",
           "Boi Gordo",
           20,
-          538.95,
+          529.76,
           "GO",
           351.33,
           {
@@ -133238,7 +133444,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -133291,7 +133498,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J531 / Curral 166",
           "Boi Gordo",
           46,
-          606.1957,
+          571.1696,
           "GO",
           351.33,
           {
@@ -133318,7 +133525,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 46
             },
             "weightSources": {
-              "peso_projetado": 46
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 19
             },
             "gtas": [],
             "notas": [],
@@ -133331,7 +133539,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J531 / Curral 167",
           "Boi Gordo",
           12,
-          606.6667,
+          563.0667,
           "GO",
           351.33,
           {
@@ -133358,7 +133566,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -133411,7 +133620,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J532 / Curral 167",
           "Boi Gordo",
           27,
-          576.5926,
+          561.2519,
           "GO",
           351.33,
           {
@@ -133438,7 +133647,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 27
             },
             "weightSources": {
-              "peso_projetado": 27
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 21
             },
             "gtas": [],
             "notas": [],
@@ -133491,7 +133701,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J533 / Curral 168",
           "Boi Gordo",
           35,
-          550.5143,
+          542.8971,
           "GO",
           351.33,
           {
@@ -133518,7 +133728,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 31
             },
             "gtas": [],
             "notas": [],
@@ -133531,7 +133742,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J534 / Curral 164",
           "Boi Gordo",
           65,
-          531.2154,
+          527.4431,
           "GO",
           351.33,
           {
@@ -133558,7 +133769,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 62,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -133571,7 +133783,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J535 / Curral 170",
           "Boi Gordo",
           43,
-          495.3953,
+          494.4279,
           "GO",
           351.33,
           {
@@ -133598,7 +133810,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 42,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -133651,7 +133864,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J536 / Curral 171",
           "Boi Gordo",
           131,
-          585.5191,
+          566.1298,
           "GO",
           351.33,
           {
@@ -133678,7 +133891,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 131
             },
             "weightSources": {
-              "peso_projetado": 131
+              "peso_projetado": 106,
+              "peso_projetado_ajustado_gmd_140": 25
             },
             "gtas": [],
             "notas": [],
@@ -133691,7 +133905,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J537 / Curral 170",
           "Boi Gordo",
           41,
-          502.0976,
+          501.0,
           "GO",
           351.33,
           {
@@ -133718,7 +133932,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 40,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -133771,7 +133986,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J538 / Curral 172",
           "Boi Gordo",
           51,
-          558.1373,
+          554.7647,
           "GO",
           351.33,
           {
@@ -133798,7 +134013,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 51
             },
             "weightSources": {
-              "peso_projetado": 51
+              "peso_projetado": 49,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -133811,7 +134027,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J539 / Curral 172",
           "Boi Gordo",
           32,
-          601.625,
+          572.8563,
           "GO",
           351.33,
           {
@@ -133838,7 +134054,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -133851,7 +134068,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J540 / Curral 171",
           "Boi Gordo",
           36,
-          559.7222,
+          556.05,
           "GO",
           351.33,
           {
@@ -133878,7 +134095,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 34,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -133891,7 +134109,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J541 / Curral 172",
           "Boi Gordo",
           61,
-          563.4754,
+          550.2951,
           "GO",
           351.33,
           {
@@ -133918,7 +134136,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 61
             },
             "weightSources": {
-              "peso_projetado": 61
+              "peso_projetado_ajustado_gmd_140": 10,
+              "peso_projetado": 51
             },
             "gtas": [],
             "notas": [],
@@ -133971,7 +134190,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J542 / Curral 173",
           "Boi Gordo",
           68,
-          567.3382,
+          556.9882,
           "GO",
           351.33,
           {
@@ -133998,7 +134217,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 68
             },
             "weightSources": {
-              "peso_projetado": 68
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -134091,7 +134311,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J543 / Curral 172",
           "Boi Gordo",
           23,
-          663.6522,
+          613.3826,
           "GO",
           351.33,
           {
@@ -134118,7 +134338,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 23
             },
             "weightSources": {
-              "peso_projetado": 23
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 15
             },
             "gtas": [],
             "notas": [],
@@ -134131,7 +134352,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J544 / Curral 174",
           "Boi Gordo",
           38,
-          576.4211,
+          560.9474,
           "GO",
           351.33,
           {
@@ -134158,7 +134379,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 38
             },
             "weightSources": {
-              "peso_projetado": 38
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -134171,7 +134393,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J544 / Curral 175",
           "Boi Gordo",
           83,
-          615.8193,
+          572.4506,
           "GO",
           351.33,
           {
@@ -134198,7 +134420,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 83
             },
             "weightSources": {
-              "peso_projetado": 83
+              "peso_projetado_ajustado_gmd_140": 37,
+              "peso_projetado": 46
             },
             "gtas": [],
             "notas": [],
@@ -134251,7 +134474,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J545 / Curral 174",
           "Boi Gordo",
           39,
-          568.5385,
+          555.8718,
           "GO",
           351.33,
           {
@@ -134278,7 +134501,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 35
             },
             "gtas": [],
             "notas": [],
@@ -134291,7 +134515,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J545 / Curral 175",
           "Boi Gordo",
           88,
-          609.5682,
+          568.0364,
           "GO",
           351.33,
           {
@@ -134318,7 +134542,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 88
             },
             "weightSources": {
-              "peso_projetado": 88
+              "peso_projetado": 54,
+              "peso_projetado_ajustado_gmd_140": 34
             },
             "gtas": [],
             "notas": [],
@@ -134331,7 +134556,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J546 / Curral 174",
           "Boi Gordo",
           78,
-          577.0385,
+          563.7103,
           "GO",
           351.33,
           {
@@ -134358,7 +134583,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 78
             },
             "weightSources": {
-              "peso_projetado": 78
+              "peso_projetado": 69,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -134371,7 +134597,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J546 / Curral 176",
           "Boi Gordo",
           177,
-          611.9831,
+          575.3548,
           "GO",
           351.33,
           {
@@ -134398,7 +134624,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 177
             },
             "weightSources": {
-              "peso_projetado": 177
+              "peso_projetado": 107,
+              "peso_projetado_ajustado_gmd_140": 70
             },
             "gtas": [],
             "notas": [],
@@ -134411,7 +134638,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J547 / Curral 178",
           "Boi Gordo",
           74,
-          545.5405,
+          538.7757,
           "GO",
           351.33,
           {
@@ -134438,7 +134665,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 65,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -134451,7 +134679,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J565 / Curral 183",
           "Boi Gordo",
           41,
-          545.8293,
+          542.5317,
           "GO",
           351.33,
           {
@@ -134478,7 +134706,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 40,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -134531,7 +134760,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J566 / Curral 180",
           "Boi Gordo",
           43,
-          549.5116,
+          547.093,
           "GO",
           351.33,
           {
@@ -134558,7 +134787,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -134571,7 +134801,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J566 / Curral 183",
           "Boi Gordo",
           29,
-          563.0345,
+          555.2828,
           "GO",
           351.33,
           {
@@ -134598,7 +134828,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 25,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -134651,7 +134882,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J577 / Curral 189",
           "Boi Gordo",
           31,
-          540.7419,
+          538.9871,
           "GO",
           351.33,
           {
@@ -134678,7 +134909,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -135091,7 +135323,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua / Lote F11 / Curral Curral F11",
           "Vaca",
           6,
-          527.3333,
+          491.2667,
           "MT",
           319.14,
           {
@@ -135118,7 +135350,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -135651,7 +135884,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10238 / Curral E06",
           "Boi Gordo",
           2,
-          626.0,
+          625.8,
           "MT",
           349.08,
           {
@@ -135678,7 +135911,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -135931,7 +136165,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 37 / Curral B-05",
           "Boi Gordo",
           39,
-          594.4872,
+          542.1949,
           "MT",
           349.08,
           {
@@ -135958,7 +136192,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -135971,7 +136206,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 39 / Curral B-06",
           "Boi Gordo",
           11,
-          597.6364,
+          568.0909,
           "MT",
           349.08,
           {
@@ -135998,7 +136233,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -136011,7 +136247,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 40 / Curral B-07",
           "Boi Gordo",
           25,
-          618.8,
+          565.76,
           "MT",
           349.08,
           {
@@ -136038,7 +136274,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 14
             },
             "gtas": [],
             "notas": [],
@@ -136891,7 +137128,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote CERES PLT 35 / Curral B-10",
           "Boi Gordo",
           133,
-          579.9549,
+          569.4226,
           "MT",
           349.08,
           {
@@ -136918,7 +137155,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 133
             },
             "weightSources": {
-              "peso_projetado": 133
+              "peso_projetado": 119,
+              "peso_projetado_ajustado_gmd_140": 14
             },
             "gtas": [],
             "notas": [],
@@ -138775,7 +139013,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L186-26 / Curral BAIA 76",
           "Boi Gordo",
           62,
-          542.4516,
+          539.8226,
           "MT",
           349.08,
           {
@@ -138802,7 +139040,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 62
             },
             "weightSources": {
-              "peso_projetado": 62
+              "peso_projetado": 61,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -139615,7 +139854,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L202-26 / Curral BAIA 04",
           "Boi Gordo",
           25,
-          560.88,
+          552.552,
           "MT",
           349.08,
           {
@@ -139642,7 +139881,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 22,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -139855,7 +140095,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 264 / Curral M-3",
           "Boi Gordo",
           4,
-          532.5,
+          506.05,
           "SP",
           372.97,
           {
@@ -139882,7 +140122,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -140055,7 +140296,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 282 / Curral Manga",
           "Boi Gordo",
           6,
-          525.6667,
+          493.0667,
           "SP",
           372.97,
           {
@@ -140082,7 +140323,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -140095,7 +140337,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 283 / Curral Manga",
           "Boi Gordo",
           13,
-          511.0,
+          498.6769,
           "SP",
           372.97,
           {
@@ -140122,7 +140364,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -140495,7 +140738,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 291 / Curral P-1",
           "Boi Gordo",
           42,
-          518.7381,
+          514.2952,
           "SP",
           372.97,
           {
@@ -140522,7 +140765,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 40,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -140575,7 +140819,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 292 / Curral P-6",
           "Boi Gordo",
           7,
-          576.2857,
+          554.8857,
           "SP",
           372.97,
           {
@@ -140602,7 +140846,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -140695,7 +140940,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 294 / Curral P-3",
           "Boi Gordo",
           8,
-          586.5,
+          564.3,
           "SP",
           372.97,
           {
@@ -140722,7 +140967,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -141095,7 +141341,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 333 / Curral P-11",
           "Boi Gordo",
           98,
-          560.2245,
+          557.1694,
           "SP",
           372.97,
           {
@@ -141122,7 +141368,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 98
             },
             "weightSources": {
-              "peso_projetado": 98
+              "peso_projetado": 94,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -141175,7 +141422,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 334 / Curral P-9",
           "Boi Gordo",
           88,
-          518.1364,
+          516.8659,
           "SP",
           372.97,
           {
@@ -141202,7 +141449,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 88
             },
             "weightSources": {
-              "peso_projetado": 88
+              "peso_projetado": 86,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -141255,7 +141503,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 335 / Curral P-7",
           "Boi Gordo",
           79,
-          533.557,
+          531.5114,
           "SP",
           372.97,
           {
@@ -141282,7 +141530,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 79
             },
             "weightSources": {
-              "peso_projetado": 79
+              "peso_projetado": 75,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -141335,7 +141584,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 336 / Curral P-13",
           "Boi Gordo",
           101,
-          531.4653,
+          527.3743,
           "SP",
           372.97,
           {
@@ -141362,7 +141611,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 101
             },
             "weightSources": {
-              "peso_projetado": 101
+              "peso_projetado": 96,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -141495,7 +141745,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 338 / Curral F-3",
           "Boi Gordo",
           98,
-          547.7143,
+          543.8306,
           "SP",
           372.97,
           {
@@ -141522,7 +141772,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 98
             },
             "weightSources": {
-              "peso_projetado": 98
+              "peso_projetado": 93,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -141575,7 +141826,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 339 / Curral F-4",
           "Boi Gordo",
           104,
-          554.8462,
+          552.0231,
           "SP",
           372.97,
           {
@@ -141602,7 +141853,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 104
             },
             "weightSources": {
-              "peso_projetado": 104
+              "peso_projetado": 100,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -141695,7 +141947,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 341 / Curral F-7",
           "Boi Gordo",
           16,
-          509.25,
+          506.3375,
           "SP",
           372.97,
           {
@@ -141722,7 +141974,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -141775,7 +142028,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 343 / Curral D-11",
           "Boi Gordo",
           84,
-          539.4405,
+          537.919,
           "SP",
           372.97,
           {
@@ -141802,7 +142055,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 84
             },
             "weightSources": {
-              "peso_projetado": 84
+              "peso_projetado": 81,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -141855,7 +142109,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 343 / Curral Manga",
           "Boi Gordo",
           12,
-          560.5833,
+          555.7833,
           "SP",
           372.97,
           {
@@ -141882,7 +142136,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -141895,7 +142150,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 354 / Curral D-15",
           "Boi Gordo",
           47,
-          554.9574,
+          546.6596,
           "SP",
           372.97,
           {
@@ -141922,7 +142177,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -141975,7 +142231,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 356 / Curral H-8",
           "Boi Gordo",
           28,
-          554.6786,
+          551.6214,
           "SP",
           372.97,
           {
@@ -142002,7 +142258,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -142335,7 +142592,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 273 / Curral O-6",
           "Boi Gordo",
           34,
-          499.9706,
+          498.4765,
           "SP",
           372.97,
           {
@@ -142362,7 +142619,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -142495,7 +142753,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 276 / Curral Manga",
           "Boi Gordo",
           87,
-          513.5632,
+          512.1402,
           "SP",
           372.97,
           {
@@ -142522,7 +142780,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 87
             },
             "weightSources": {
-              "peso_projetado": 87
+              "peso_projetado": 85,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -142655,7 +142914,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 281 / Curral Manga",
           "Boi Gordo",
           74,
-          528.9189,
+          527.1243,
           "SP",
           372.97,
           {
@@ -142684,7 +142943,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 71,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -143063,7 +143323,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 283 / Curral Manga",
           "Boi Gordo",
           35,
-          495.0571,
+          490.4971,
           "SP",
           372.97,
           {
@@ -143092,7 +143352,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 34,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -143469,7 +143730,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 292 / Curral P-6",
           "Boi Gordo",
           33,
-          568.4242,
+          560.3939,
           "SP",
           372.97,
           {
@@ -143496,7 +143757,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -143509,7 +143771,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 294 / Curral P-3",
           "Boi Gordo",
           38,
-          573.8158,
+          554.2789,
           "SP",
           372.97,
           {
@@ -143536,7 +143798,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 38
             },
             "weightSources": {
-              "peso_projetado": 38
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 26
             },
             "gtas": [],
             "notas": [],
@@ -143629,7 +143892,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 296 / Curral P-5",
           "Boi Gordo",
           65,
-          526.1077,
+          520.4615,
           "SP",
           372.97,
           {
@@ -143656,7 +143919,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 60,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -143789,7 +144053,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 34 / Curral Curral C16",
           "Boi Gordo",
           61,
-          576.3115,
+          568.0951,
           "SP",
           372.97,
           {
@@ -143816,7 +144080,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 61
             },
             "weightSources": {
-              "peso_projetado": 61
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 49
             },
             "gtas": [],
             "notas": [],
@@ -143909,7 +144174,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 39 / Curral Curral C19",
           "Boi Gordo",
           63,
-          571.6032,
+          563.4032,
           "SP",
           372.97,
           {
@@ -143936,7 +144201,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado_ajustado_gmd_140": 11,
+              "peso_projetado": 52
             },
             "gtas": [],
             "notas": [],
@@ -143989,7 +144255,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 41 / Curral Curral D4",
           "Boi Gordo",
           64,
-          548.1562,
+          543.9844,
           "SP",
           372.97,
           {
@@ -144016,7 +144282,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 64
             },
             "weightSources": {
-              "peso_projetado": 64
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -144069,7 +144336,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 43 / Curral Curral B30",
           "Boi Gordo",
           55,
-          539.8545,
+          539.6,
           "SP",
           372.97,
           {
@@ -144096,7 +144363,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 55
             },
             "weightSources": {
-              "peso_projetado": 55
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -144229,7 +144497,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 47 / Curral Curral D14",
           "Boi Gordo",
           59,
-          536.0678,
+          534.7322,
           "SP",
           372.97,
           {
@@ -144256,7 +144524,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 57,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -144309,7 +144578,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 085 / Curral Curral K03",
           "Boi Gordo",
           56,
-          585.4821,
+          580.3321,
           "SP",
           372.97,
           {
@@ -144336,7 +144605,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 48,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -144389,7 +144659,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 086 / Curral Curral G6",
           "Boi Gordo",
           50,
-          554.4,
+          552.4,
           "SP",
           372.97,
           {
@@ -144418,7 +144688,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 50
             },
             "weightSources": {
-              "peso_projetado": 50
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 45
             },
             "gtas": [],
             "notas": [],
@@ -144511,7 +144782,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 086 / Curral Curral H2",
           "Boi Gordo",
           7,
-          537.8571,
+          526.1429,
           "SP",
           372.97,
           {
@@ -144538,7 +144809,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -144551,7 +144823,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 40 / Curral Curral K6",
           "Boi Gordo",
           57,
-          583.1404,
+          577.5018,
           "SP",
           372.97,
           {
@@ -144578,7 +144850,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -144671,7 +144944,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 48 / Curral Curral K01",
           "Boi Gordo",
           45,
-          561.9556,
+          555.96,
           "SP",
           372.97,
           {
@@ -144698,7 +144971,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado": 39,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -144751,7 +145025,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 61 / Curral Curral G04",
           "Boi Gordo",
           42,
-          581.2381,
+          568.4286,
           "SP",
           372.97,
           {
@@ -144778,7 +145052,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 30
             },
             "gtas": [],
             "notas": [],
@@ -144994,16 +145269,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 13514
       },
       "totalHeads": 18099,
-      "totalWeightKg": 7843172.9128,
-      "totalArrobas": 522878.1942,
-      "totalValue": 183637226.5,
+      "totalWeightKg": 7823960.1198,
+      "totalArrobas": 521597.3413,
+      "totalValue": 183186763.68,
       "transitHeads": 10877,
-      "transitWeightKg": 5762583.1105,
-      "transitValue": 135828342.95,
+      "transitWeightKg": 5676118.6939,
+      "transitValue": 133792934.87,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 319465569.45,
+      "coverageValue": 316979698.55,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -145031,7 +145306,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 351.9096,
+      "quotePerArroba": 351.9117,
       "lots": [
         [
           "FAZENDA SERRA VERDE - BTG / Lote Lote 08 / Curral A05",
@@ -145521,7 +145796,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 37 / Curral C04",
           "Boi Gordo",
           6,
-          544.3333,
+          543.75,
           "RO",
           348.08,
           {
@@ -145548,7 +145823,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -145641,7 +145917,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 132 / Curral Curral H6",
           "Boi Gordo",
           19,
-          541.7105,
+          541.4947,
           "MG",
           360.26,
           {
@@ -145668,7 +145944,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -147285,7 +147562,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J653 / Curral 215",
           "Boi Gordo",
           29,
-          575.6207,
+          575.3862,
           "GO",
           351.33,
           {
@@ -147312,7 +147589,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -148725,7 +149003,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J667 / Curral 63",
           "Boi Gordo",
           12,
-          570.5,
+          570.025,
           "GO",
           351.33,
           {
@@ -148752,7 +149030,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -149085,7 +149364,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J670 / Curral 61",
           "Boi Gordo",
           5,
-          606.9,
+          604.86,
           "GO",
           351.33,
           {
@@ -149112,7 +149391,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -151285,7 +151565,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 15 / Curral Curral A04",
           "Boi Gordo",
           3,
-          571.0333,
+          565.9333,
           "MT",
           349.08,
           {
@@ -151312,7 +151592,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -151525,7 +151806,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 15 / Curral Curral A06",
           "Boi Gordo",
           3,
-          569.6667,
+          564.6667,
           "MT",
           349.08,
           {
@@ -151552,7 +151833,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -151885,7 +152167,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 9 / Curral Curral E07",
           "Boi Gordo",
           39,
-          581.359,
+          580.7436,
           "MT",
           349.08,
           {
@@ -151912,7 +152194,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 35,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -151965,7 +152248,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 9 / Curral Pasto 08",
           "Boi Gordo",
           4,
-          612.0,
+          607.5,
           "MT",
           349.08,
           {
@@ -151992,7 +152275,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -154209,7 +154493,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 63/26 / Curral TIP-02",
           "Boi Gordo",
           4,
-          580.0,
+          578.4,
           "MT",
           349.08,
           {
@@ -154236,7 +154520,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -154649,7 +154934,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 67/26 / Curral SMU-07",
           "Boi Gordo",
           1,
-          626.0,
+          620.4,
           "MT",
           349.08,
           {
@@ -154676,7 +154961,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -157117,7 +157402,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Porto Taboado - BTG / Lote 362 / Curral N-140",
           "Boi Gordo",
           4,
-          566.75,
+          565.4,
           "MS",
           364.61,
           {
@@ -157144,7 +157429,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -158257,7 +158543,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax - BTG / Lote L274-26 / Curral BAIA 102",
           "Boi Gordo",
           36,
-          566.0,
+          565.9444,
           "MT",
           349.08,
           {
@@ -158286,7 +158572,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 35,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -158981,7 +159268,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 395 / Curral Manga-6",
           "Boi Gordo",
           2,
-          619.5,
+          618.4,
           "SP",
           372.97,
           {
@@ -159008,7 +159295,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -159703,7 +159991,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 405 / Curral Manga-4",
           "Boi Gordo",
           5,
-          612.6,
+          611.24,
           "SP",
           372.97,
           {
@@ -159732,7 +160020,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -159873,7 +160162,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 412 / Curral D-10",
           "Boi Gordo",
           13,
-          575.1923,
+          574.0154,
           "SP",
           372.97,
           {
@@ -159900,7 +160189,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -160969,7 +161259,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 423 / Curral L-5",
           "Boi Gordo",
           1,
-          722.0,
+          716.0,
           "SP",
           372.97,
           {
@@ -160996,7 +161286,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -162577,7 +162867,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 092 / Curral Curral F6",
           "Boi Gordo",
           5,
-          596.2,
+          595.4,
           "SP",
           372.97,
           {
@@ -162604,7 +162894,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -162817,7 +163108,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 095 / Curral Curral L9",
           "Boi Gordo",
           14,
-          590.0714,
+          589.7571,
           "SP",
           372.97,
           {
@@ -162844,7 +163135,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 12
             },
             "gtas": [],
             "notas": [],
@@ -163017,7 +163309,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 097 / Curral Curral G11",
           "Boi Gordo",
           15,
-          603.9,
+          603.4067,
           "SP",
           372.97,
           {
@@ -163044,7 +163336,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -163417,7 +163710,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 119 / Curral Curral L8",
           "Boi Gordo",
           27,
-          580.037,
+          579.5333,
           "SP",
           372.97,
           {
@@ -163444,7 +163737,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 27
             },
             "weightSources": {
-              "peso_projetado": 27
+              "peso_projetado": 23,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -163897,7 +164191,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 130 / Curral Curral J4",
           "Boi Gordo",
           12,
-          581.1667,
+          580.1333,
           "SP",
           372.97,
           {
@@ -163924,7 +164218,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -164017,7 +164312,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 133 / Curral Curral J2",
           "Boi Gordo",
           13,
-          551.1154,
+          550.6769,
           "SP",
           372.97,
           {
@@ -164044,7 +164339,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -164137,7 +164433,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 134 / Curral Curral K8",
           "Boi Gordo",
           40,
-          589.0,
+          587.86,
           "SP",
           372.97,
           {
@@ -164164,7 +164460,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 40
             },
             "weightSources": {
-              "peso_projetado": 40
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -164297,7 +164594,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 136 / Curral Curral L9",
           "Boi Gordo",
           12,
-          568.0833,
+          567.6167,
           "SP",
           372.97,
           {
@@ -164324,7 +164621,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -164539,7 +164837,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 138 / Curral Curral L7",
           "Boi Gordo",
           42,
-          598.4048,
+          596.7762,
           "SP",
           372.97,
           {
@@ -164566,7 +164864,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -164819,7 +165118,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 140 / Curral Curral L5",
           "Boi Gordo",
           5,
-          583.3,
+          582.16,
           "SP",
           372.97,
           {
@@ -164846,7 +165145,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -164939,7 +165239,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 143 / Curral Curral H5",
           "Boi Gordo",
           29,
-          574.9138,
+          574.5345,
           "SP",
           372.97,
           {
@@ -164966,7 +165266,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 27
             },
             "gtas": [],
             "notas": [],
@@ -165939,7 +166240,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 159 / Curral Curral K8",
           "Boi Gordo",
           17,
-          590.0294,
+          588.8765,
           "SP",
           372.97,
           {
@@ -165966,7 +166267,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -166099,7 +166401,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 161 / Curral Curral L3",
           "Boi Gordo",
           14,
-          565.3571,
+          564.6857,
           "SP",
           372.97,
           {
@@ -166126,7 +166428,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -166259,7 +166562,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 161 / Curral Curral L4",
           "Boi Gordo",
           6,
-          576.0,
+          575.2167,
           "SP",
           372.97,
           {
@@ -166286,7 +166589,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -166421,7 +166725,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 161 / Curral Curral L6",
           "Boi Gordo",
           18,
-          576.0,
+          574.9556,
           "SP",
           372.97,
           {
@@ -166448,7 +166752,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -168763,7 +169068,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 06 / Curral Curral G12",
           "Vaca",
           43,
-          508.4651,
+          501.9814,
           "MT",
           319.14,
           {
@@ -168790,7 +169095,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -168803,7 +169109,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 07 / Curral Curral G09",
           "Vaca",
           56,
-          474.9821,
+          470.25,
           "MT",
           319.14,
           {
@@ -168830,7 +169136,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -168843,7 +169150,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 07 / Curral Curral G10",
           "Vaca",
           50,
-          483.52,
+          482.98,
           "MT",
           319.14,
           {
@@ -168870,7 +169177,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 50
             },
             "weightSources": {
-              "peso_projetado": 50
+              "peso_projetado": 49,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -168963,7 +169271,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote lote 07 / Curral Curral G11",
           "Vaca",
           56,
-          507.25,
+          506.4929,
           "MT",
           319.14,
           {
@@ -168990,7 +169298,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -169283,7 +169592,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 60 / Curral Curral B9",
           "Boi Gordo",
           51,
-          531.3922,
+          528.749,
           "SP",
           372.97,
           {
@@ -169310,7 +169619,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 51
             },
             "weightSources": {
-              "peso_projetado": 51
+              "peso_projetado": 48,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -169405,16 +169715,16 @@ window.ceresBiologicalAssets = {
         "transferencia_lastro_ativo": 12850
       },
       "totalHeads": 12260,
-      "totalWeightKg": 5156389.5532,
-      "totalArrobas": 343759.3035,
-      "totalValue": 121389170.52,
+      "totalWeightKg": 5156000.9519,
+      "totalArrobas": 343733.3968,
+      "totalValue": 121379690.6,
       "transitHeads": 590,
-      "transitWeightKg": 280881.9967,
-      "transitValue": 6172687.2,
+      "transitWeightKg": 280133.9992,
+      "transitValue": 6156289.0,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 127561857.72,
+      "coverageValue": 127535979.6,
       "sourceVehicleNames": [
         "Confina BTG 100 MM"
       ],
@@ -169433,13 +169743,13 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 365.5568,
+      "quotePerArroba": 365.5551,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Bezerro",
           2,
-          938.0,
+          895.1,
           "SP",
           372.97,
           {
@@ -169466,7 +169776,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -169479,7 +169789,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Boi Gordo",
           34,
-          1079.6029,
+          1040.4882,
           "SP",
           372.97,
           {
@@ -169506,7 +169816,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 34
             },
             "weightSources": {
-              "peso_projetado": 31,
+              "peso_projetado_ajustado_gmd_140": 31,
               "peso_entrada": 3
             },
             "gtas": [],
@@ -169520,7 +169830,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Boi Magro",
           56,
-          1060.1071,
+          1017.2071,
           "SP",
           372.97,
           {
@@ -169547,7 +169857,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado_ajustado_gmd_140": 56
             },
             "gtas": [],
             "notas": [],
@@ -169560,7 +169870,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Garrote",
           43,
-          988.6395,
+          945.7395,
           "SP",
           372.97,
           {
@@ -169587,7 +169897,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado_ajustado_gmd_140": 43
             },
             "gtas": [],
             "notas": [],
@@ -171091,7 +171401,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 680 / Curral Curral D-7",
           "Boi Gordo",
           42,
-          531.9048,
+          531.8357,
           "SP",
           372.97,
           {
@@ -171121,7 +171431,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 36
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -172478,7 +172789,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 710 / Curral Curral L-4",
           "Boi Gordo",
           92,
-          533.8478,
+          533.8,
           "SP",
           372.97,
           {
@@ -172512,7 +172823,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 40
             },
             "weightSources": {
-              "peso_projetado": 92
+              "peso_projetado": 90,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -172831,7 +173143,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 714 / Curral Curral H-7",
           "Boi Gordo",
           14,
-          520.7857,
+          520.6429,
           "SP",
           372.97,
           {
@@ -172858,7 +173170,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -181664,7 +181977,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 379 / Curral Manga-6",
           "Boi Gordo",
           9,
-          600.3889,
+          599.2889,
           "SP",
           372.97,
           {
@@ -181693,7 +182006,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -182206,7 +182520,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 384 / Curral Manga-6",
           "Boi Gordo",
           7,
-          595.0,
+          594.2,
           "SP",
           372.97,
           {
@@ -182233,7 +182547,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -182770,7 +183085,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 389 / Curral Manga-4",
           "Boi Gordo",
           1,
-          621.0,
+          614.2,
           "SP",
           372.97,
           {
@@ -182797,7 +183112,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -182972,7 +183287,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 395 / Curral Manga-6",
           "Boi Gordo",
           6,
-          607.6667,
+          606.5333,
           "SP",
           372.97,
           {
@@ -183001,7 +183316,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -183218,7 +183534,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 397 / Curral Manga-5",
           "Boi Gordo",
           6,
-          602.3333,
+          601.2,
           "SP",
           372.97,
           {
@@ -183245,7 +183561,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -185308,7 +185625,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 369 / Curral Manga-6",
           "Boi Gordo",
           8,
-          596.125,
+          596.1125,
           "SP",
           372.97,
           {
@@ -185335,7 +185652,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -186068,7 +186386,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 373 / Curral Manga-6",
           "Boi Gordo",
           5,
-          613.4,
+          612.24,
           "SP",
           372.97,
           {
@@ -186095,7 +186413,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -186188,7 +186507,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 373 / Curral Manga-7",
           "Boi Gordo",
           8,
-          599.75,
+          599.375,
           "SP",
           372.97,
           {
@@ -186215,7 +186534,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -186628,7 +186948,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 376 / Curral Manga-4",
           "Boi Gordo",
           4,
-          601.625,
+          601.275,
           "SP",
           372.97,
           {
@@ -186655,7 +186975,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -186908,7 +187229,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 384 / Curral Manga-6",
           "Boi Gordo",
           4,
-          593.5,
+          591.75,
           "SP",
           372.97,
           {
@@ -186935,7 +187256,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -187268,7 +187590,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 389 / Curral Manga-4",
           "Boi Gordo",
           2,
-          618.25,
+          614.1,
           "SP",
           372.97,
           {
@@ -187295,7 +187617,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -187508,7 +187831,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 395 / Curral Manga-6",
           "Boi Gordo",
           8,
-          609.9375,
+          607.175,
           "SP",
           372.97,
           {
@@ -187535,7 +187858,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -187788,7 +188112,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 12 / Curral Curral D5",
           "Boi Gordo",
           26,
-          538.4231,
+          538.2077,
           "MG",
           360.26,
           {
@@ -187815,7 +188139,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado": 24,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -188028,7 +188353,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 14 / Curral Curral D7",
           "Boi Gordo",
           29,
-          544.8966,
+          544.5103,
           "MG",
           360.26,
           {
@@ -188055,7 +188380,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 25,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -188148,7 +188474,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 15 / Curral Curral C1",
           "Boi Gordo",
           34,
-          538.1471,
+          537.9882,
           "MG",
           360.26,
           {
@@ -188175,7 +188501,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -188268,7 +188595,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 16 / Curral Curral D6",
           "Boi Gordo",
           74,
-          567.4459,
+          567.0243,
           "MG",
           360.26,
           {
@@ -188295,7 +188622,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 62,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -188390,7 +188718,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES 40/26 / Curral B-07",
           "Boi Gordo",
           8,
-          552.125,
+          544.55,
           "MT",
           349.08,
           {
@@ -188417,7 +188745,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -188470,7 +188799,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES 44/26 / Curral D-10",
           "Boi Gordo",
           75,
-          593.4667,
+          579.7733,
           "MT",
           349.08,
           {
@@ -188499,7 +188828,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 75
             },
             "weightSources": {
-              "peso_projetado": 75
+              "peso_projetado_ajustado_gmd_140": 19,
+              "peso_projetado": 56
             },
             "gtas": [],
             "notas": [],
@@ -188592,7 +188922,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 40 / Curral B-07",
           "Boi Gordo",
           26,
-          575.7692,
+          562.8538,
           "MT",
           349.08,
           {
@@ -188619,7 +188949,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 21
             },
             "gtas": [],
             "notas": [],
@@ -188672,7 +189003,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote CERES PLT 40 / Curral B-07",
           "Boi Gordo",
           11,
-          579.0909,
+          574.1818,
           "MT",
           349.08,
           {
@@ -188699,7 +189030,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -188712,7 +189044,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote CERES PLT 44 / Curral D-10",
           "Boi Gordo",
           70,
-          586.3,
+          574.1114,
           "MT",
           349.08,
           {
@@ -188739,7 +189071,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 70
             },
             "weightSources": {
-              "peso_projetado": 70
+              "peso_projetado": 54,
+              "peso_projetado_ajustado_gmd_140": 16
             },
             "gtas": [],
             "notas": [],
@@ -188752,7 +189085,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 292 / Curral P-6",
           "Boi Gordo",
           10,
-          563.7,
+          544.34,
           "SP",
           372.97,
           {
@@ -188779,7 +189112,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -188792,7 +189126,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 294 / Curral P-3",
           "Boi Gordo",
           8,
-          570.75,
+          554.3,
           "SP",
           372.97,
           {
@@ -188819,7 +189153,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -188832,7 +189167,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 295 / Curral P-8",
           "Boi Gordo",
           29,
-          555.3793,
+          544.3862,
           "SP",
           372.97,
           {
@@ -188859,7 +189194,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 25,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -189152,7 +189488,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 354 / Curral Manga-6",
           "Boi Gordo",
           35,
-          540.0286,
+          538.6629,
           "SP",
           372.97,
           {
@@ -189180,7 +189516,8 @@ window.ceresBiologicalAssets = {
             },
             "weightSources": {
               "peso_alvo": 24,
-              "peso_projetado": 11
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -189233,7 +189570,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 356 / Curral Manga-4",
           "Boi Gordo",
           39,
-          543.4615,
+          542.8,
           "SP",
           372.97,
           {
@@ -189260,7 +189597,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -189316,16 +189654,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 4511
       },
       "totalHeads": 12063,
-      "totalWeightKg": 5120209.4095,
-      "totalArrobas": 341347.294,
-      "totalValue": 124857423.03,
+      "totalWeightKg": 5114400.3064,
+      "totalArrobas": 340960.0204,
+      "totalValue": 124713026.95,
       "transitHeads": 389,
-      "transitWeightKg": 217829.5007,
-      "transitValue": 5233015.24,
+      "transitWeightKg": 214781.2953,
+      "transitValue": 5160934.63,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 130090438.27,
+      "coverageValue": 129873961.57,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -189350,7 +189688,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 372.1585,
+      "quotePerArroba": 372.1781,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote J-004 / Curral PQJ-4",
@@ -189876,7 +190214,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 714 / Curral Curral H-7",
           "Boi Gordo",
           30,
-          525.4,
+          525.3333,
           "SP",
           390.18,
           {
@@ -189903,7 +190241,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 30
             },
             "weightSources": {
-              "peso_projetado": 30
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -190116,7 +190455,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 730 / Curral Curral F-6",
           "Boi Gordo",
           6,
-          566.6667,
+          566.0333,
           "SP",
           403.48,
           {
@@ -190143,7 +190482,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -190836,7 +191176,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 741 / Curral Curral F-10",
           "Boi Gordo",
           16,
-          553.3125,
+          553.2375,
           "SP",
           398.06,
           {
@@ -190863,7 +191203,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 15,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -202840,7 +203181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260226 CE B09 / Curral Curral B9",
           "Boi Gordo",
           1,
-          739.0,
+          729.0,
           "BA",
           350.92,
           {
@@ -202867,7 +203208,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -203800,7 +204141,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Gordo",
           7,
-          706.6429,
+          695.7429,
           "BA",
           350.92,
           {
@@ -203827,7 +204168,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -203840,7 +204181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Magro",
           35,
-          636.5286,
+          628.7429,
           "BA",
           350.92,
           {
@@ -203867,7 +204208,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 25,
+              "peso_projetado": 10
             },
             "gtas": [],
             "notas": [],
@@ -203960,7 +204302,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B23 / Curral Curral B23",
           "Boi Magro",
           3,
-          628.1667,
+          619.0333,
           "BA",
           350.92,
           {
@@ -203987,7 +204329,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -204120,7 +204463,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B24 / Curral Curral B24",
           "Boi Magro",
           5,
-          624.3,
+          616.08,
           "BA",
           350.92,
           {
@@ -204147,7 +204490,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -204322,7 +204666,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B25 / Curral Curral B25",
           "Boi Magro",
           3,
-          627.5,
+          622.9333,
           "BA",
           350.92,
           {
@@ -204349,7 +204693,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -204484,7 +204829,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B26 / Curral Curral B26",
           "Boi Gordo",
           1,
-          680.0,
+          665.0,
           "BA",
           350.92,
           {
@@ -204511,7 +204856,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -204524,7 +204869,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B26 / Curral Curral B26",
           "Boi Magro",
           17,
-          622.3529,
+          614.4118,
           "BA",
           350.92,
           {
@@ -204551,7 +204896,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -204684,7 +205030,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE C08 / Curral Curral A25",
           "Boi Gordo",
           1,
-          648.0,
+          644.6,
           "BA",
           350.92,
           {
@@ -204711,7 +205057,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -204764,7 +205110,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE C08 / Curral Curral B21",
           "Boi Gordo",
           7,
-          674.4286,
+          662.0286,
           "BA",
           350.92,
           {
@@ -204791,7 +205137,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -204804,7 +205150,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE C08 / Curral Curral B21",
           "Boi Magro",
           68,
-          611.0588,
+          607.2294,
           "BA",
           350.92,
           {
@@ -204831,7 +205177,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 68
             },
             "weightSources": {
-              "peso_projetado": 68
+              "peso_projetado": 47,
+              "peso_projetado_ajustado_gmd_140": 21
             },
             "gtas": [],
             "notas": [],
@@ -205084,7 +205431,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260512 CE A22 / Curral Curral A22",
           "Boi Magro",
           1,
-          626.0,
+          614.2,
           "BA",
           350.92,
           {
@@ -205111,7 +205458,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -205366,7 +205713,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C04 / Curral Curral C4",
           "Boi Gordo",
           4,
-          726.0,
+          716.0,
           "BA",
           350.92,
           {
@@ -205393,7 +205740,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -205406,7 +205753,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C04 / Curral Curral C4",
           "Boi Magro",
           2,
-          627.0,
+          622.0,
           "BA",
           350.92,
           {
@@ -205433,7 +205780,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -205526,7 +205874,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260521 CE B22 / Curral Curral B22",
           "Boi Gordo",
           1,
-          707.0,
+          694.6,
           "BA",
           350.92,
           {
@@ -205553,7 +205901,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -205726,7 +206074,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260521 CE C09 / Curral Curral C9",
           "Boi Gordo",
           2,
-          670.5,
+          658.1,
           "BA",
           350.92,
           {
@@ -205753,7 +206101,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -205766,7 +206114,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260521 CE C09 / Curral Curral C9",
           "Boi Magro",
           24,
-          609.5,
+          605.8833,
           "BA",
           350.92,
           {
@@ -205793,7 +206141,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -205888,7 +206237,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE A21 / Curral Curral A13",
           "Boi Gordo",
           2,
-          579.0,
+          562.4,
           "BA",
           350.92,
           {
@@ -205915,7 +206264,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -205968,7 +206318,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE A21 / Curral Curral A21",
           "Boi Magro",
           5,
-          625.8,
+          617.88,
           "BA",
           350.92,
           {
@@ -205995,7 +206345,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -206248,7 +206599,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral A25",
           "Boi Gordo",
           1,
-          650.0,
+          494.2,
           "BA",
           350.92,
           {
@@ -206275,7 +206626,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -206328,7 +206679,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Magro",
           1,
-          626.0,
+          614.2,
           "BA",
           350.92,
           {
@@ -206355,7 +206706,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -206448,7 +206799,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE C05 / Curral Curral B19",
           "Boi Gordo",
           1,
-          675.0,
+          665.0,
           "BA",
           350.92,
           {
@@ -206475,7 +206826,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -206608,7 +206959,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J620 / Curral 206",
           "Boi Gordo",
           28,
-          645.6643,
+          626.3143,
           "GO",
           351.33,
           {
@@ -206635,7 +206986,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado_ajustado_gmd_140": 21,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -206688,7 +207040,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J621 / Curral 206",
           "Boi Gordo",
           21,
-          650.5333,
+          632.1048,
           "GO",
           351.33,
           {
@@ -206715,7 +207067,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 21
             },
             "weightSources": {
-              "peso_projetado": 21
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 15
             },
             "gtas": [],
             "notas": [],
@@ -206808,7 +207161,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J622 / Curral 207",
           "Boi Gordo",
           8,
-          614.075,
+          607.625,
           "GO",
           351.33,
           {
@@ -206835,7 +207188,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -207088,7 +207442,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J624 / Curral 204",
           "Boi Gordo",
           2,
-          651.7,
+          625.9,
           "GO",
           351.33,
           {
@@ -207115,7 +207469,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -207488,7 +207842,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J627 / Curral 208",
           "Boi Gordo",
           1,
-          644.4,
+          621.2,
           "GO",
           351.33,
           {
@@ -207515,7 +207869,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -207648,7 +208002,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J628 / Curral 212",
           "Boi Gordo",
           6,
-          616.0,
+          613.6,
           "GO",
           351.33,
           {
@@ -207675,7 +208029,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -207768,7 +208123,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J629 / Curral 206",
           "Boi Gordo",
           11,
-          618.4,
+          604.9818,
           "GO",
           351.33,
           {
@@ -207795,7 +208150,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -207848,7 +208204,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J630 / Curral 206",
           "Boi Gordo",
           10,
-          633.8,
+          621.5,
           "GO",
           351.33,
           {
@@ -207875,7 +208231,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -207928,7 +208285,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J631 / Curral 210",
           "Boi Gordo",
           31,
-          637.1419,
+          622.0645,
           "GO",
           351.33,
           {
@@ -207955,7 +208312,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 19
             },
             "gtas": [],
             "notas": [],
@@ -208048,7 +208406,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J632 / Curral 210",
           "Boi Gordo",
           11,
-          609.4909,
+          607.2545,
           "GO",
           351.33,
           {
@@ -208075,7 +208433,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -208648,7 +209007,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J679 / Curral 66",
           "Boi Gordo",
           10,
-          589.3,
+          588.87,
           "GO",
           351.33,
           {
@@ -208675,7 +209034,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -209008,7 +209368,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J682 / Curral 66",
           "Boi Gordo",
           33,
-          547.1364,
+          547.0121,
           "GO",
           351.33,
           {
@@ -209035,7 +209395,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -209448,7 +209809,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J686 / Curral 69",
           "Boi Gordo",
           1,
-          678.0,
+          674.0,
           "GO",
           351.33,
           {
@@ -209475,7 +209836,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -210488,7 +210849,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J695 / Curral 69",
           "Boi Gordo",
           6,
-          584.3333,
+          583.7333,
           "GO",
           351.33,
           {
@@ -210515,7 +210876,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -210888,7 +211250,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J698 / Curral 70",
           "Boi Gordo",
           15,
-          536.7333,
+          536.4933,
           "GO",
           351.33,
           {
@@ -210915,7 +211277,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 14
             },
             "gtas": [],
             "notas": [],
@@ -212368,7 +212731,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J710 / Curral 80",
           "Boi Gordo",
           9,
-          527.8889,
+          527.5778,
           "GO",
           351.33,
           {
@@ -212395,7 +212758,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -215974,7 +216338,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J746 / Curral 88",
           "Boi Gordo",
           22,
-          517.1364,
+          517.0727,
           "GO",
           380.49,
           {
@@ -216001,7 +216365,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 21,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -216294,7 +216659,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J749 / Curral 91",
           "Boi Gordo",
           46,
-          526.413,
+          526.3826,
           "GO",
           394.95,
           {
@@ -216321,7 +216686,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 46
             },
             "weightSources": {
-              "peso_projetado": 46
+              "peso_projetado": 45,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -220894,7 +221260,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J794 / Curral 107",
           "Boi Gordo",
           37,
-          502.7027,
+          502.6919,
           "GO",
           393.26,
           {
@@ -220921,7 +221287,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado": 36,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -221814,7 +222181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J614 / Curral 202",
           "Boi Gordo",
           5,
-          648.7,
+          623.4,
           "GO",
           351.33,
           {
@@ -221841,7 +222208,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -221934,7 +222301,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J615 / Curral 203",
           "Boi Gordo",
           11,
-          635.8455,
+          617.4455,
           "GO",
           351.33,
           {
@@ -221961,7 +222328,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -222174,7 +222542,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 101/26 / Curral APT-04",
           "Boi Gordo",
           30,
-          551.2,
+          550.9867,
           "MT",
           400.0,
           {
@@ -222201,7 +222569,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 30
             },
             "weightSources": {
-              "peso_projetado": 30
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -223734,7 +224103,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 19 / Curral Curral C9",
           "Boi Gordo",
           7,
-          518.7857,
+          518.5714,
           "MG",
           380.0,
           {
@@ -223761,7 +224130,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -223854,7 +224224,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 12766/210 / Curral Curral L4",
           "Boi Gordo",
           33,
-          554.3333,
+          554.2121,
           "SP",
           404.16,
           {
@@ -223881,7 +224251,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -224139,7 +224510,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B23 / Curral Curral B23",
           "Boi Gordo",
           28,
-          548.7143,
+          543.7786,
           "BA",
           350.92,
           {
@@ -224166,7 +224537,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -224179,7 +224551,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B24 / Curral Curral B24",
           "Boi Gordo",
           70,
-          562.8429,
+          560.5114,
           "BA",
           350.92,
           {
@@ -224206,7 +224578,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 70
             },
             "weightSources": {
-              "peso_projetado": 70
+              "peso_projetado": 63,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -224259,7 +224632,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B25 / Curral Curral B25",
           "Boi Gordo",
           92,
-          564.1522,
+          552.8087,
           "BA",
           350.92,
           {
@@ -224288,7 +224661,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 92
             },
             "weightSources": {
-              "peso_projetado": 92
+              "peso_projetado": 77,
+              "peso_projetado_ajustado_gmd_140": 15
             },
             "gtas": [],
             "notas": [],
@@ -224301,7 +224675,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B26 / Curral Curral B26",
           "Boi Gordo",
           93,
-          546.9355,
+          543.6882,
           "BA",
           350.92,
           {
@@ -224328,7 +224702,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 93
             },
             "weightSources": {
-              "peso_projetado": 93
+              "peso_projetado": 85,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -224501,7 +224876,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B05 / Curral Curral B5",
           "Boi Gordo",
           94,
-          529.9574,
+          529.1383,
           "BA",
           350.92,
           {
@@ -224528,7 +224903,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 94
             },
             "weightSources": {
-              "peso_projetado": 94
+              "peso_projetado": 93,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -224624,16 +225000,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 1695
       },
       "totalHeads": 13205,
-      "totalWeightKg": 5407353.6205,
-      "totalArrobas": 360490.2414,
-      "totalValue": 134511792.29,
+      "totalWeightKg": 5403770.2222,
+      "totalArrobas": 360251.3481,
+      "totalValue": 134427831.8,
       "transitHeads": 450,
-      "transitWeightKg": 243892.0024,
-      "transitValue": 5698796.67,
+      "transitWeightKg": 242168.0015,
+      "transitValue": 5658464.27,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 140210588.97,
+      "coverageValue": 140086296.06,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -224662,7 +225038,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J419 / Curral 92",
           "Garrote",
           1,
-          621.3,
+          576.6,
           "GO",
           351.33,
           {
@@ -224689,7 +225065,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -224742,7 +225118,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J422 / Curral 95",
           "Boi Magro",
           1,
-          657.4,
+          611.8,
           "GO",
           351.33,
           {
@@ -224769,7 +225145,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -224782,7 +225158,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J423 / Curral 93",
           "Garrote",
           1,
-          622.4,
+          576.8,
           "GO",
           351.33,
           {
@@ -224809,7 +225185,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -225066,16 +225442,16 @@ window.ceresBiologicalAssets = {
         "transferencia_lastro_ativo": 12
       },
       "totalHeads": 4,
-      "totalWeightKg": 2497.4,
-      "totalArrobas": 166.4933,
-      "totalValue": 58494.1,
+      "totalWeightKg": 2361.5,
+      "totalArrobas": 157.4333,
+      "totalValue": 55311.05,
       "transitHeads": 8,
       "transitWeightKg": 4041.0,
       "transitValue": 94648.3,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 153142.4,
+      "coverageValue": 149959.35,
       "sourceVehicleNames": [
         "Confina BTG 50MM - ABRIL/2026"
       ],
@@ -226093,7 +226469,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": false,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 354.3556,
+      "quotePerArroba": 354.3538,
       "lots": [
         [
           "FAZENDA MARAVILHA DO ARAGUAIA - BTG / Lote 13281 / Curral MD-92",
@@ -226739,7 +227115,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 121 / Curral Curral E5",
           "Boi Gordo",
           1,
-          651.5,
+          548.8,
           "MG",
           360.26,
           {
@@ -226766,7 +227142,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227023,7 +227399,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 124 / Curral Curral G3",
           "Boi Gordo",
           20,
-          643.55,
+          633.005,
           "MG",
           360.26,
           {
@@ -227050,7 +227426,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado_ajustado_gmd_140": 19,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -227343,7 +227720,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 17 / Curral Curral G3",
           "Desmama Macho",
           1,
-          698.5,
+          666.8,
           "MG",
           360.26,
           {
@@ -227370,7 +227747,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227545,7 +227922,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 24 / Curral Curral G6",
           "Bezerro",
           1,
-          731.5,
+          700.8,
           "MG",
           360.26,
           {
@@ -227572,7 +227949,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227585,7 +227962,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 24 / Curral Curral G6",
           "Garrote",
           2,
-          767.5,
+          737.4,
           "MG",
           360.26,
           {
@@ -227612,7 +227989,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -227625,7 +228002,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 26 / Curral Curral H2",
           "Bezerro",
           3,
-          707.6667,
+          677.4667,
           "MG",
           360.26,
           {
@@ -227652,7 +228029,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -227665,7 +228042,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 26 / Curral Curral H2",
           "Desmama Macho",
           1,
-          692.0,
+          661.4,
           "MG",
           360.26,
           {
@@ -227692,7 +228069,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227705,7 +228082,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Bezerro",
           2,
-          717.5,
+          686.9,
           "MG",
           360.26,
           {
@@ -227735,7 +228112,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -227748,7 +228125,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Boi Gordo",
           1,
-          911.5,
+          880.8,
           "MG",
           360.26,
           {
@@ -227775,7 +228152,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227788,7 +228165,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Desmama Macho",
           1,
-          672.0,
+          641.4,
           "MG",
           360.26,
           {
@@ -227815,7 +228192,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227828,7 +228205,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Garrote",
           1,
-          763.0,
+          732.4,
           "MG",
           360.26,
           {
@@ -227855,7 +228232,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227868,7 +228245,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 28 / Curral Curral H4",
           "Garrote",
           1,
-          798.0,
+          767.4,
           "MG",
           360.26,
           {
@@ -227895,7 +228272,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -227908,7 +228285,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 29 / Curral Curral H5",
           "Bezerro",
           2,
-          714.0,
+          683.4,
           "MG",
           360.26,
           {
@@ -227935,7 +228312,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -228148,7 +228525,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 39 / Curral Curral I3",
           "Garrote",
           1,
-          712.0,
+          686.2,
           "MG",
           360.26,
           {
@@ -228175,7 +228552,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -228188,7 +228565,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 40 / Curral Curral I4",
           "Bezerro",
           4,
-          666.0,
+          640.2,
           "MG",
           360.26,
           {
@@ -228215,7 +228592,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -228228,7 +228605,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 40 / Curral Curral I4",
           "Garrote",
           5,
-          716.2,
+          690.4,
           "MG",
           360.26,
           {
@@ -228255,7 +228632,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -228510,7 +228887,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 44 / Curral Curral I6",
           "Garrote",
           1,
-          672.5,
+          648.2,
           "MG",
           360.26,
           {
@@ -228537,7 +228914,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -228750,7 +229127,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 49 / Curral Curral J3",
           "Boi Magro",
           1,
-          748.0,
+          725.0,
           "MG",
           360.26,
           {
@@ -228777,7 +229154,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -228790,7 +229167,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 49 / Curral Curral J3",
           "Garrote",
           3,
-          695.1667,
+          672.2,
           "MG",
           360.26,
           {
@@ -228821,7 +229198,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -228834,7 +229211,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 50 / Curral Curral J5",
           "Bezerro",
           15,
-          609.5667,
+          602.0267,
           "MG",
           360.26,
           {
@@ -228872,7 +229249,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 7
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -228928,7 +229306,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 50 / Curral Curral J5",
           "Garrote",
           8,
-          664.5625,
+          642.1,
           "MG",
           360.26,
           {
@@ -228964,7 +229342,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 4
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -228977,7 +229355,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 51 / Curral Curral J2",
           "Boi Gordo",
           2,
-          813.0,
+          790.0,
           "MG",
           360.26,
           {
@@ -229004,7 +229382,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -229017,7 +229395,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 51 / Curral Curral J2",
           "Garrote",
           1,
-          670.0,
+          647.0,
           "MG",
           360.26,
           {
@@ -229044,7 +229422,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -229142,7 +229520,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 52 / Curral Curral J4",
           "Garrote",
           1,
-          674.0,
+          651.0,
           "MG",
           360.26,
           {
@@ -229169,7 +229547,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -229182,7 +229560,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 53 / Curral Curral J6",
           "Boi Magro",
           2,
-          725.75,
+          703.1,
           "MG",
           360.26,
           {
@@ -229212,7 +229590,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -229225,7 +229603,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 53 / Curral Curral J6",
           "Garrote",
           3,
-          674.5,
+          652.1333,
           "MG",
           360.26,
           {
@@ -229256,7 +229634,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -229471,7 +229849,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 56 / Curral Curral G1",
           "Garrote",
           1,
-          686.0,
+          664.2,
           "MG",
           360.26,
           {
@@ -229498,7 +229876,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -229551,7 +229929,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 58 / Curral Curral G2",
           "Boi Magro",
           1,
-          736.0,
+          714.2,
           "MG",
           360.26,
           {
@@ -229578,7 +229956,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -229591,7 +229969,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 58 / Curral Curral G2",
           "Garrote",
           1,
-          627.0,
+          605.2,
           "MG",
           360.26,
           {
@@ -229618,7 +229996,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -229631,7 +230009,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 59 / Curral Curral G3",
           "Boi Magro",
           1,
-          697.5,
+          676.0,
           "MG",
           360.26,
           {
@@ -229658,7 +230036,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -229671,7 +230049,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 59 / Curral Curral G3",
           "Garrote",
           2,
-          655.75,
+          634.1,
           "MG",
           360.26,
           {
@@ -229700,7 +230078,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -229805,7 +230183,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 60 / Curral Curral G5",
           "Garrote",
           5,
-          635.3,
+          613.68,
           "MG",
           360.26,
           {
@@ -229840,7 +230218,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -230341,7 +230719,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 66 / Curral Curral G4",
           "Garrote",
           3,
-          644.5,
+          623.0,
           "MG",
           360.26,
           {
@@ -230370,7 +230748,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -230467,7 +230845,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 67 / Curral Curral F2",
           "Garrote",
           2,
-          629.0,
+          608.0,
           "MG",
           360.26,
           {
@@ -230496,7 +230874,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -230553,7 +230931,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 68 / Curral Curral F3",
           "Garrote",
           3,
-          579.4667,
+          572.4667,
           "MG",
           360.26,
           {
@@ -230582,7 +230960,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -230635,7 +231014,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 69 / Curral Curral G6",
           "Garrote",
           3,
-          653.3333,
+          632.3333,
           "MG",
           360.26,
           {
@@ -230662,7 +231041,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -231087,7 +231466,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 75 / Curral Curral F6",
           "Boi Magro",
           1,
-          683.5,
+          663.2,
           "MG",
           360.26,
           {
@@ -231114,7 +231493,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -232110,7 +232489,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 85 / Curral Curral F4",
           "Garrote",
           1,
-          628.0,
+          609.0,
           "MG",
           360.26,
           {
@@ -232137,7 +232516,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -232150,7 +232529,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 86 / Curral Curral H4",
           "Boi Gordo",
           1,
-          811.0,
+          792.0,
           "MG",
           360.26,
           {
@@ -232177,7 +232556,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -232190,7 +232569,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 86 / Curral Curral H4",
           "Boi Magro",
           2,
-          721.5,
+          702.5,
           "MG",
           360.26,
           {
@@ -232219,7 +232598,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -232274,7 +232653,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 87 / Curral Curral E2",
           "Garrote",
           4,
-          621.5,
+          612.0,
           "MG",
           360.26,
           {
@@ -232303,7 +232682,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -232356,7 +232736,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 89 / Curral Curral E4",
           "Garrote",
           7,
-          606.5,
+          601.1,
           "MG",
           360.26,
           {
@@ -232383,7 +232763,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -232438,7 +232819,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 90 / Curral Curral E6",
           "Boi Gordo",
           1,
-          836.0,
+          817.8,
           "MG",
           360.26,
           {
@@ -232465,7 +232846,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -232478,7 +232859,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 90 / Curral Curral E6",
           "Boi Magro",
           2,
-          677.0,
+          658.8,
           "MG",
           360.26,
           {
@@ -232505,7 +232886,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -232518,7 +232899,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 90 / Curral Curral E6",
           "Garrote",
           11,
-          608.2273,
+          606.5091,
           "MG",
           360.26,
           {
@@ -232547,7 +232928,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 10
             },
             "gtas": [],
             "notas": [],
@@ -232683,7 +233065,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 92 / Curral Curral E5",
           "Boi Gordo",
           1,
-          753.5,
+          735.4,
           "MG",
           360.26,
           {
@@ -232710,7 +233092,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -232723,7 +233105,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 92 / Curral Curral E5",
           "Boi Magro",
           4,
-          668.125,
+          649.95,
           "MG",
           360.26,
           {
@@ -232752,7 +233134,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -232974,7 +233356,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 94 / Curral Curral I4",
           "Garrote",
           19,
-          593.4474,
+          592.5684,
           "MG",
           360.26,
           {
@@ -233008,7 +233390,8 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 4
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -233021,7 +233404,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 95 / Curral Curral I5",
           "Boi Gordo",
           1,
-          726.5,
+          708.4,
           "MG",
           360.26,
           {
@@ -233048,7 +233431,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -233061,7 +233444,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 95 / Curral Curral I5",
           "Boi Magro",
           1,
-          677.0,
+          662.0,
           "MG",
           360.26,
           {
@@ -233088,7 +233471,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -233101,7 +233484,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 95 / Curral Curral I5",
           "Garrote",
           2,
-          621.5,
+          614.0,
           "MG",
           360.26,
           {
@@ -233130,7 +233513,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -233143,7 +233527,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 96 / Curral Curral I6",
           "Boi Gordo",
           1,
-          760.5,
+          743.8,
           "MG",
           360.26,
           {
@@ -233170,7 +233554,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -233183,7 +233567,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 96 / Curral Curral I6",
           "Boi Magro",
           2,
-          667.5,
+          652.5,
           "MG",
           360.26,
           {
@@ -233210,7 +233594,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -233263,7 +233647,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 97 / Curral Curral J2",
           "Boi Magro",
           2,
-          671.0,
+          654.3,
           "MG",
           360.26,
           {
@@ -233290,7 +233674,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -234198,7 +234582,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 530 / Curral Curral 26",
           "Boi Magro",
           1,
-          694.0,
+          688.4,
           "BA",
           350.92,
           {
@@ -234225,7 +234609,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -234238,7 +234622,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 531 / Curral Curral S11",
           "Boi Magro",
           1,
-          707.5,
+          702.0,
           "BA",
           350.92,
           {
@@ -234265,7 +234649,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -234318,7 +234702,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 536 / Curral Curral S08",
           "Boi Magro",
           1,
-          668.5,
+          656.0,
           "BA",
           350.92,
           {
@@ -234345,7 +234729,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -234358,7 +234742,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 540 / Curral Curral S14",
           "Garrote",
           2,
-          636.0,
+          620.9,
           "BA",
           350.92,
           {
@@ -234385,7 +234769,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -234478,7 +234862,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 542 / Curral Curral S17",
           "Boi Magro",
           2,
-          668.0,
+          656.8,
           "BA",
           350.92,
           {
@@ -234505,7 +234889,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -234558,7 +234942,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 546 / Curral Curral S06",
           "Boi Magro",
           24,
-          655.4167,
+          646.0667,
           "BA",
           350.92,
           {
@@ -234590,7 +234974,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 19
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado_ajustado_gmd_140": 24
             },
             "gtas": [],
             "notas": [],
@@ -234648,7 +235032,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 552 / Curral Curral S04",
           "Boi Magro",
           1,
-          694.5,
+          682.0,
           "BA",
           350.92,
           {
@@ -234675,7 +235059,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243697,7 +244081,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J278 / Curral 73",
           "Boi Gordo",
           1,
-          777.9,
+          712.8,
           "GO",
           351.33,
           {
@@ -243724,7 +244108,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243737,7 +244121,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J278 / Curral 73",
           "Boi Magro",
           1,
-          762.9,
+          697.8,
           "GO",
           351.33,
           {
@@ -243764,7 +244148,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243777,7 +244161,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J289 / Curral 78",
           "Boi Magro",
           1,
-          792.0,
+          729.0,
           "GO",
           351.33,
           {
@@ -243804,7 +244188,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243817,7 +244201,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J310 / Curral 58",
           "Garrote",
           1,
-          645.2,
+          586.4,
           "GO",
           351.33,
           {
@@ -243844,7 +244228,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243857,7 +244241,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J345 / Curral 133",
           "Garrote",
           1,
-          634.0,
+          577.0,
           "GO",
           351.33,
           {
@@ -243884,7 +244268,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243897,7 +244281,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J346 / Curral 133",
           "Garrote",
           1,
-          646.3,
+          589.6,
           "GO",
           351.33,
           {
@@ -243924,7 +244308,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -243937,7 +244321,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J355 / Curral 129",
           "Boi Magro",
           1,
-          718.1,
+          663.2,
           "GO",
           351.33,
           {
@@ -243964,7 +244348,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -244057,7 +244441,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J372 / Curral 43",
           "Garrote",
           1,
-          622.2,
+          569.4,
           "GO",
           351.33,
           {
@@ -244084,7 +244468,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -244137,7 +244521,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J378 / Curral 44",
           "Boi Gordo",
           1,
-          625.8,
+          573.6,
           "GO",
           351.33,
           {
@@ -244164,7 +244548,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -244217,7 +244601,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J383 / Curral 47",
           "Boi Gordo",
           1,
-          646.0,
+          597.8,
           "GO",
           351.33,
           {
@@ -244244,7 +244628,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -244297,7 +244681,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J389 / Curral 50",
           "Boi Magro",
           1,
-          709.0,
+          658.0,
           "GO",
           351.33,
           {
@@ -244324,7 +244708,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -244417,7 +244801,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J397 / Curral 51",
           "Boi Magro",
           1,
-          667.2,
+          617.4,
           "GO",
           351.33,
           {
@@ -244444,7 +244828,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -244497,7 +244881,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J399 / Curral 54",
           "Garrote",
           1,
-          642.7,
+          594.4,
           "GO",
           351.33,
           {
@@ -244524,7 +244908,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -246401,7 +246785,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10178 / Curral D10",
           "Boi Magro",
           1,
-          687.5,
+          667.0,
           "MT",
           349.08,
           {
@@ -246428,7 +246812,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -246481,7 +246865,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10200 / Curral F07",
           "Boi Magro",
           1,
-          707.5,
+          687.0,
           "MT",
           349.08,
           {
@@ -246508,7 +246892,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -246561,7 +246945,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10212 / Curral F09",
           "Boi Magro",
           1,
-          723.0,
+          702.6,
           "MT",
           349.08,
           {
@@ -246588,7 +246972,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -247379,7 +247763,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10241 / Curral A01",
           "Boi Gordo",
           1,
-          757.5,
+          737.0,
           "MT",
           349.08,
           {
@@ -247406,7 +247790,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -247419,7 +247803,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10241 / Curral A01",
           "Garrote",
           2,
-          657.5,
+          637.0,
           "MT",
           349.08,
           {
@@ -247446,7 +247830,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -247783,7 +248167,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10279 / Curral G05",
           "Boi Magro",
           1,
-          697.5,
+          677.0,
           "MT",
           349.08,
           {
@@ -247810,7 +248194,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -248108,7 +248492,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10292 / Curral G06",
           "Boi Magro",
           1,
-          696.5,
+          676.0,
           "MT",
           349.08,
           {
@@ -248135,7 +248519,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -248148,7 +248532,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10294 / Curral D08",
           "Garrote",
           1,
-          638.5,
+          618.0,
           "MT",
           349.08,
           {
@@ -248175,7 +248559,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -248510,7 +248894,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10398 / Curral C10",
           "Garrote",
           2,
-          669.25,
+          649.1,
           "MT",
           349.08,
           {
@@ -248537,7 +248921,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -248750,7 +249134,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10448 / Curral F02",
           "Boi Magro",
           2,
-          677.5,
+          672.7,
           "MT",
           349.08,
           {
@@ -248777,7 +249161,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -248990,7 +249374,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 11404 / Curral C04",
           "Garrote",
           1,
-          636.5,
+          616.4,
           "MT",
           349.08,
           {
@@ -249017,7 +249401,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -249030,7 +249414,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10115 / Curral A02",
           "Boi Magro",
           1,
-          897.0,
+          866.8,
           "MT",
           349.08,
           {
@@ -249057,7 +249441,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -249070,7 +249454,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10115 / Curral A02",
           "Garrote",
           1,
-          1021.5,
+          974.4,
           "MT",
           349.08,
           {
@@ -249097,7 +249481,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -249190,7 +249574,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10181 / Curral B06",
           "Boi Gordo",
           1,
-          897.0,
+          867.4,
           "MT",
           349.08,
           {
@@ -249217,7 +249601,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -249273,7 +249657,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10214 / Curral REC12",
           "Boi Gordo",
           2,
-          943.25,
+          910.6,
           "MT",
           349.08,
           {
@@ -249300,7 +249684,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -249313,7 +249697,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10214 / Curral REC12",
           "Boi Magro",
           2,
-          1042.75,
+          1000.6,
           "MT",
           349.08,
           {
@@ -249340,7 +249724,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -249353,7 +249737,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10214 / Curral REC12",
           "Garrote",
           2,
-          1046.5,
+          999.2,
           "MT",
           349.08,
           {
@@ -249380,7 +249764,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -250490,7 +250874,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Santa Ana - BTG / Lote 239",
           "Boi Magro",
           1,
-          671.0,
+          653.4,
           "TO",
           351.1,
           {
@@ -250517,7 +250901,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -252342,7 +252726,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 32 / Curral PR1",
           "Boi Gordo",
           24,
-          546.375,
+          546.2583,
           "MG",
           377.08,
           {
@@ -252369,7 +252753,8 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -252584,7 +252969,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 10 / Curral C 01",
           "Boi Gordo",
           103,
-          555.5728,
+          552.8078,
           "RO",
           348.08,
           {
@@ -252611,7 +252996,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 103
             },
             "weightSources": {
-              "peso_projetado": 103
+              "peso_projetado": 100,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -252704,7 +253090,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 11 / Curral C02",
           "Boi Gordo",
           14,
-          586.0714,
+          572.6286,
           "RO",
           348.08,
           {
@@ -252731,7 +253117,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -255388,7 +255775,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 86 / Curral Curral H4",
           "Boi Gordo",
           1,
-          818.0,
+          772.8,
           "MG",
           360.26,
           {
@@ -255415,7 +255802,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -256702,7 +257089,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 535 / Curral Curral S09",
           "Boi Gordo",
           5,
-          560.2,
+          555.72,
           "BA",
           350.92,
           {
@@ -256731,7 +257118,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -256906,7 +257294,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 540 / Curral Curral S14",
           "Boi Gordo",
           7,
-          566.4286,
+          565.8571,
           "BA",
           350.92,
           {
@@ -256935,7 +257323,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -258698,7 +259087,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ouro Branco / Lote PTO-08 / Curral A10",
           "Vaca",
           10,
-          475.9,
+          473.5,
           "MT",
           319.14,
           {
@@ -258731,7 +259120,8 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 2
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 9,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -259428,16 +259818,16 @@ window.ceresBiologicalAssets = {
         "veiculo_nao_controlado": 2093
       },
       "totalHeads": 5827,
-      "totalWeightKg": 2334222.6378,
-      "totalArrobas": 155614.8425,
-      "totalValue": 55358964.39,
+      "totalWeightKg": 2329976.9356,
+      "totalArrobas": 155331.7957,
+      "totalValue": 55258078.23,
       "transitHeads": 1076,
-      "transitWeightKg": 528774.9986,
-      "transitValue": 12275659.63,
+      "transitWeightKg": 528206.4039,
+      "transitValue": 12262469.68,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 67634624.03,
+      "coverageValue": 67520547.91,
       "sourceVehicleNames": [
         "Ceres Confina LTDA"
       ],
@@ -259456,13 +259846,13 @@ window.ceresBiologicalAssets = {
       "controlledOperation": false,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 347.9265,
+      "quotePerArroba": 347.8264,
       "lots": [
         [
           "Fazenda Bom Sucesso - BTG / Lote 26 / Curral Curral H2",
           "Bezerro",
           1,
-          718.0,
+          687.8,
           "MG",
           360.26,
           {
@@ -259483,7 +259873,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -259704,16 +260094,16 @@ window.ceresBiologicalAssets = {
         "veiculo_nao_controlado": 27
       },
       "totalHeads": 25,
-      "totalWeightKg": 2774.9,
-      "totalArrobas": 184.9933,
-      "totalValue": 64547.63,
+      "totalWeightKg": 2744.7,
+      "totalArrobas": 182.98,
+      "totalValue": 63822.31,
       "transitHeads": 2,
       "transitWeightKg": 977.0,
       "transitValue": 22478.05,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 87025.69,
+      "coverageValue": 86300.36,
       "sourceVehicleNames": [
         "Sem veiculo"
       ],
@@ -259734,7 +260124,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 367.3029,
+      "quotePerArroba": 367.303,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote J-004 / Curral PQJ-4",
@@ -260940,7 +261330,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 816 / Curral Curral F-3",
           "Boi Gordo",
           9,
-          567.9444,
+          567.8333,
           "SP",
           388.5,
           {
@@ -260967,7 +261357,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -264814,7 +265205,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26902 / Curral Z17",
           "Boi Gordo",
           73,
-          539.6575,
+          539.5425,
           "BA",
           350.92,
           {
@@ -264843,7 +265234,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 73
             },
             "weightSources": {
-              "peso_projetado": 73
+              "peso_projetado": 70,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -266236,7 +266628,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26925 / Curral D12",
           "Vaca",
           106,
-          476.2736,
+          476.2538,
           "BA",
           336.39,
           {
@@ -266263,7 +266655,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 106
             },
             "weightSources": {
-              "peso_projetado": 106
+              "peso_projetado": 105,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -266436,7 +266829,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26936 / Curral J10",
           "Boi Gordo",
           15,
-          501.1,
+          501.0133,
           "BA",
           383.32,
           {
@@ -266463,7 +266856,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -269798,7 +270192,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 618 / Curral CURRAL 48",
           "Boi Gordo",
           46,
-          520.2174,
+          520.1978,
           "BA",
           378.1,
           {
@@ -269825,7 +270219,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 46
             },
             "weightSources": {
-              "peso_projetado": 46
+              "peso_projetado": 45,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -273726,7 +274121,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 18 / Curral Curral G07",
           "Boi Gordo",
           36,
-          554.1111,
+          553.85,
           "MT",
           349.08,
           {
@@ -273753,7 +274148,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 34,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -283194,7 +283590,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 77/26 / Curral E-10",
           "Boi Gordo",
           65,
-          553.4538,
+          553.3815,
           "MT",
           349.08,
           {
@@ -283221,7 +283617,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 64,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -283880,7 +284277,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 82/26 / Curral G-04",
           "Boi Gordo",
           11,
-          535.1364,
+          534.7818,
           "MT",
           349.08,
           {
@@ -283907,7 +284304,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 10
             },
             "gtas": [],
             "notas": [],
@@ -288354,7 +288752,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 1 / Curral Curral B1",
           "Boi Gordo",
           16,
-          532.3125,
+          532.0625,
           "MG",
           360.26,
           {
@@ -288381,7 +288779,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 15,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -289114,7 +289513,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 20 / Curral Curral C8",
           "Boi Gordo",
           31,
-          542.0,
+          541.8645,
           "MG",
           375.4,
           {
@@ -289141,7 +289540,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -289434,7 +289834,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 3 / Curral Curral B2",
           "Boi Gordo",
           57,
-          536.7982,
+          536.6754,
           "MG",
           360.26,
           {
@@ -289461,7 +289861,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -289794,7 +290195,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 4 / Curral Curral B4",
           "Boi Gordo",
           42,
-          529.5952,
+          529.5119,
           "MG",
           360.26,
           {
@@ -289821,7 +290222,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -289914,7 +290316,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 5 / Curral Curral B7",
           "Boi Gordo",
           26,
-          543.5,
+          543.3692,
           "MG",
           360.26,
           {
@@ -289941,7 +290343,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 25
             },
             "gtas": [],
             "notas": [],
@@ -290274,7 +290677,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 8 / Curral Curral B6",
           "Boi Gordo",
           63,
-          558.3413,
+          558.1317,
           "MG",
           360.26,
           {
@@ -290301,7 +290704,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -291554,7 +291958,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 12769/200 / Curral Curral L10",
           "Boi Gordo",
           9,
-          550.4444,
+          550.0889,
           "SP",
           353.32,
           {
@@ -291581,7 +291985,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -294069,16 +294474,16 @@ window.ceresBiologicalAssets = {
         "comprado_transito_titulo_ativo": 767
       },
       "totalHeads": 18114,
-      "totalWeightKg": 7100656.3716,
-      "totalArrobas": 473377.0914,
-      "totalValue": 168267514.01,
+      "totalWeightKg": 7100586.1723,
+      "totalArrobas": 473372.4115,
+      "totalValue": 168265842.27,
       "transitHeads": 157,
       "transitWeightKg": 65687.9973,
       "transitValue": 1400658.59,
       "purchasedTransitHeads": 767.0,
       "purchasedTransitWeightKg": 0.0,
       "purchasedTransitValue": 5813094.91,
-      "coverageValue": 175481267.51,
+      "coverageValue": 175479595.77,
       "sourceVehicleNames": [
         "CPRF R$ 100MM",
         "Ceres Confina LTDA",
@@ -294101,7 +294506,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 397.2719,
+      "quotePerArroba": 397.3173,
       "lots": [
         [
           "FAZENDA SANTA MONICA - BTG / Lote LC_CC_009455 / Curral CF-008",
@@ -294987,7 +295392,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 100 / Curral Curral D6",
           "Boi Magro",
           11,
-          604.8636,
+          602.1727,
           "MG",
           360.26,
           {
@@ -295016,7 +295421,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -295071,7 +295477,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 101 / Curral Curral D3",
           "Boi Magro",
           11,
-          617.7273,
+          612.4,
           "MG",
           360.26,
           {
@@ -295100,7 +295506,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -295357,7 +295764,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 102 / Curral Curral D5",
           "Boi Gordo",
           1,
-          703.0,
+          689.6,
           "MG",
           360.26,
           {
@@ -295384,7 +295791,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -295599,7 +296006,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 104 / Curral Curral D5",
           "Boi Magro",
           18,
-          618.0556,
+          614.1667,
           "MG",
           360.26,
           {
@@ -295626,7 +296033,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -295719,7 +296127,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 106 / Curral Curral F4",
           "Boi Gordo",
           1,
-          686.0,
+          672.6,
           "MG",
           360.26,
           {
@@ -295746,7 +296154,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -295759,7 +296167,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 106 / Curral Curral F4",
           "Boi Magro",
           7,
-          598.8571,
+          595.0286,
           "MG",
           360.26,
           {
@@ -295788,7 +296196,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -295843,7 +296252,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 107 / Curral Curral G1",
           "Boi Gordo",
           1,
-          656.0,
+          642.6,
           "MG",
           360.26,
           {
@@ -295870,7 +296279,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -295883,7 +296292,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 107 / Curral Curral G1",
           "Boi Magro",
           47,
-          595.0426,
+          593.3319,
           "MG",
           360.26,
           {
@@ -295912,7 +296321,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 41
             },
             "gtas": [],
             "notas": [],
@@ -296089,7 +296499,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 109 / Curral Curral H4",
           "Boi Magro",
           5,
-          604.0,
+          601.64,
           "MG",
           360.26,
           {
@@ -296116,7 +296526,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -296333,7 +296744,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Gordo",
           1,
-          726.0,
+          714.2,
           "MG",
           360.26,
           {
@@ -296360,7 +296771,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -296373,7 +296784,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Magro",
           19,
-          599.0526,
+          597.8526,
           "MG",
           360.26,
           {
@@ -296404,7 +296815,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -296951,7 +297363,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 128 / Curral Curral I5",
           "Boi Gordo",
           9,
-          602.7778,
+          602.1778,
           "MG",
           360.26,
           {
@@ -296980,7 +297392,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -297853,7 +298266,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 105 / Curral Curral F3",
           "Boi Gordo",
           2,
-          675.5,
+          661.6,
           "MG",
           360.26,
           {
@@ -297880,7 +298293,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -297893,7 +298306,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 105 / Curral Curral F3",
           "Boi Magro",
           17,
-          606.6765,
+          603.4059,
           "MG",
           360.26,
           {
@@ -297920,7 +298333,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 13
             },
             "gtas": [],
             "notas": [],
@@ -302493,7 +302907,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J415 / Curral 95",
           "Boi Magro",
           2,
-          652.0,
+          605.5,
           "GO",
           351.33,
           {
@@ -302520,7 +302934,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -305653,7 +306067,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 101/26 / Curral APT-06",
           "Boi Gordo",
           47,
-          531.0851,
+          531.0426,
           "MT",
           407.38,
           {
@@ -305680,7 +306094,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -308784,7 +309199,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 25 / Curral Curral A4",
           "Boi Gordo",
           9,
-          515.8333,
+          515.7333,
           "MG",
           370.0,
           {
@@ -308811,7 +309226,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -309584,7 +310000,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 12775/215 / Curral Curral J6",
           "Boi Gordo",
           22,
-          518.5455,
+          518.4727,
           "SP",
           386.31,
           {
@@ -309611,7 +310027,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -310070,7 +310487,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 107 / Curral Curral G1",
           "Boi Gordo",
           75,
-          553.44,
+          552.8693,
           "MG",
           360.26,
           {
@@ -310099,7 +310516,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 75
             },
             "weightSources": {
-              "peso_projetado": 75
+              "peso_projetado": 73,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -310192,7 +310610,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Gordo",
           18,
-          558.2778,
+          551.5,
           "MG",
           360.26,
           {
@@ -310221,7 +310639,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado": 16,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -310728,7 +311147,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 561 / Curral s02",
           "Vaca",
           20,
-          670.5,
+          661.71,
           "BA",
           336.39,
           {
@@ -310755,7 +311174,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -310768,7 +311188,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 562 / Curral s18",
           "Vaca",
           35,
-          683.6,
+          643.5543,
           "BA",
           336.39,
           {
@@ -310795,7 +311215,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 28
             },
             "gtas": [],
             "notas": [],
@@ -310888,7 +311309,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 51 / Curral Curral G12",
           "Boi Gordo",
           47,
-          524.0426,
+          522.5319,
           "SP",
           372.97,
           {
@@ -310915,7 +311336,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -311391,16 +311813,16 @@ window.ceresBiologicalAssets = {
         "comprado_transito_titulo_ativo": 552
       },
       "totalHeads": 6418,
-      "totalWeightKg": 2522704.3665,
-      "totalArrobas": 168180.2911,
-      "totalValue": 62153227.07,
+      "totalWeightKg": 2522166.0644,
+      "totalArrobas": 168144.4043,
+      "totalValue": 62140344.26,
       "transitHeads": 409,
-      "transitWeightKg": 219958.0016,
-      "transitValue": 5224094.23,
+      "transitWeightKg": 218144.7963,
+      "transitValue": 5182996.01,
       "purchasedTransitHeads": 552.0,
       "purchasedTransitWeightKg": 0.0,
       "purchasedTransitValue": 5261525.59,
-      "coverageValue": 72638846.89,
+      "coverageValue": 72584865.86,
       "sourceVehicleNames": [
         "CPRF R$ 50MM",
         "Confina BTG 100 MM",
@@ -311423,7 +311845,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 363.0655,
+      "quotePerArroba": 363.1302,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote J-005 / Curral PQJ-5",
@@ -311589,7 +312011,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 728 / Curral Curral F-8",
           "Boi Gordo",
           4,
-          533.5,
+          533.1,
           "SP",
           399.86,
           {
@@ -311616,7 +312038,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -315061,7 +315484,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 30 / Curral D01",
           "Boi Gordo",
           48,
-          550.7708,
+          550.6042,
           "RO",
           348.08,
           {
@@ -315088,7 +315511,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 48
             },
             "weightSources": {
-              "peso_projetado": 48
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -315425,7 +315849,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 37 / Curral C04",
           "Boi Magro",
           24,
-          540.8333,
+          534.6833,
           "RO",
           348.08,
           {
@@ -315456,7 +315880,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 18
             },
             "gtas": [],
             "notas": [],
@@ -315469,7 +315894,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 37 / Curral C04",
           "Garrote",
           63,
-          608.2143,
+          591.8143,
           "RO",
           348.08,
           {
@@ -315500,7 +315925,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado_ajustado_gmd_140": 42,
+              "peso_projetado": 21
             },
             "gtas": [],
             "notas": [],
@@ -316793,7 +317219,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260424 CE A01 / Curral Curral A1",
           "Boi Gordo",
           1,
-          699.0,
+          687.0,
           "BA",
           350.92,
           {
@@ -316820,7 +317246,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -316833,7 +317259,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260424 CE A01 / Curral Curral A1",
           "Boi Magro",
           7,
-          631.8571,
+          622.6857,
           "BA",
           350.92,
           {
@@ -316860,7 +317286,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -316953,7 +317380,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260426 CE A02 / Curral Curral A2",
           "Boi Gordo",
           1,
-          711.0,
+          697.6,
           "BA",
           350.92,
           {
@@ -316980,7 +317407,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -316993,7 +317420,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260426 CE A02 / Curral Curral A2",
           "Boi Magro",
           4,
-          626.0,
+          616.7,
           "BA",
           350.92,
           {
@@ -317020,7 +317447,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -317113,7 +317541,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Magro",
           6,
-          642.3333,
+          628.0,
           "BA",
           350.92,
           {
@@ -317140,7 +317568,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -317353,7 +317781,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260429 CE A05 / Curral Curral A5",
           "Boi Magro",
           2,
-          636.5,
+          621.9,
           "BA",
           350.92,
           {
@@ -317380,7 +317808,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -317713,7 +318141,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J435 / Curral 89",
           "Boi Gordo",
           1,
-          712.5,
+          669.0,
           "GO",
           351.33,
           {
@@ -317740,7 +318168,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -317753,7 +318181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J435 / Curral 89",
           "Boi Magro",
           1,
-          643.5,
+          600.0,
           "GO",
           351.33,
           {
@@ -317780,7 +318208,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -318473,7 +318901,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J509 / Curral 145",
           "Boi Magro",
           2,
-          626.7,
+          610.65,
           "GO",
           351.33,
           {
@@ -318500,7 +318928,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -323523,7 +323952,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 073 / Curral Curral C2",
           "Boi Gordo",
           14,
-          618.7857,
+          618.7143,
           "SP",
           372.97,
           {
@@ -323550,7 +323979,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 9,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -323683,7 +324113,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 074 / Curral Curral C38",
           "Boi Gordo",
           21,
-          613.2381,
+          612.5524,
           "SP",
           372.97,
           {
@@ -323710,7 +324140,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 21
             },
             "weightSources": {
-              "peso_projetado": 21
+              "peso_projetado_ajustado_gmd_140": 9,
+              "peso_projetado": 12
             },
             "gtas": [],
             "notas": [],
@@ -325931,7 +326362,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260424 CE A01 / Curral Curral A1",
           "Boi Gordo",
           69,
-          594.4348,
+          580.9043,
           "BA",
           350.92,
           {
@@ -325958,7 +326389,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 69
             },
             "weightSources": {
-              "peso_projetado": 69
+              "peso_projetado_ajustado_gmd_140": 14,
+              "peso_projetado": 55
             },
             "gtas": [],
             "notas": [],
@@ -325971,7 +326403,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260426 CE A02 / Curral Curral A2",
           "Boi Gordo",
           118,
-          597.4746,
+          581.1627,
           "BA",
           350.92,
           {
@@ -325998,7 +326430,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 118
             },
             "weightSources": {
-              "peso_projetado": 118
+              "peso_projetado_ajustado_gmd_140": 33,
+              "peso_projetado": 85
             },
             "gtas": [],
             "notas": [],
@@ -326011,7 +326444,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Gordo",
           111,
-          585.1081,
+          575.0811,
           "BA",
           350.92,
           {
@@ -326038,7 +326471,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 111
             },
             "weightSources": {
-              "peso_projetado": 111
+              "peso_projetado": 85,
+              "peso_projetado_ajustado_gmd_140": 26
             },
             "gtas": [],
             "notas": [],
@@ -326331,7 +326765,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J467 / Curral 152",
           "Boi Gordo",
           3,
-          587.3333,
+          583.8,
           "GO",
           351.33,
           {
@@ -326358,7 +326792,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -326451,7 +326886,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J471 / Curral 155",
           "Boi Gordo",
           16,
-          580.75,
+          558.6625,
           "GO",
           351.33,
           {
@@ -326478,7 +326913,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -326531,7 +326967,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J472 / Curral 156",
           "Boi Gordo",
           1,
-          633.0,
+          587.4,
           "GO",
           351.33,
           {
@@ -326558,7 +326994,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -326571,7 +327007,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J473 / Curral 155",
           "Boi Gordo",
           33,
-          556.1515,
+          544.3879,
           "GO",
           351.33,
           {
@@ -326598,7 +327034,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -326651,7 +327088,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J474 / Curral 156",
           "Boi Gordo",
           31,
-          539.2258,
+          537.9484,
           "GO",
           351.33,
           {
@@ -326678,7 +327115,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -326691,7 +327129,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J475 / Curral 155",
           "Boi Gordo",
           14,
-          590.5714,
+          578.2286,
           "GO",
           351.33,
           {
@@ -326718,7 +327156,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 11
             },
             "gtas": [],
             "notas": [],
@@ -326731,7 +327170,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J476 / Curral 157",
           "Boi Gordo",
           57,
-          573.5614,
+          561.2421,
           "GO",
           351.33,
           {
@@ -326758,7 +327197,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 49,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -326771,7 +327211,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J477 / Curral 157",
           "Boi Gordo",
           40,
-          558.175,
+          545.68,
           "GO",
           351.33,
           {
@@ -326798,7 +327238,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 40
             },
             "weightSources": {
-              "peso_projetado": 40
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -326851,7 +327292,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J478 / Curral 156",
           "Boi Gordo",
           23,
-          572.3043,
+          559.9826,
           "GO",
           351.33,
           {
@@ -326878,7 +327319,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 23
             },
             "weightSources": {
-              "peso_projetado": 23
+              "peso_projetado": 19,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -326931,7 +327373,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J479 / Curral 158",
           "Boi Gordo",
           4,
-          600.25,
+          587.85,
           "GO",
           351.33,
           {
@@ -326958,7 +327400,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -326971,7 +327414,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J480 / Curral 157",
           "Boi Gordo",
           19,
-          589.1053,
+          559.9684,
           "GO",
           351.33,
           {
@@ -326998,7 +327441,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 13
             },
             "gtas": [],
             "notas": [],
@@ -327011,7 +327455,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J480 / Curral 158",
           "Boi Gordo",
           32,
-          582.9062,
+          568.0437,
           "GO",
           351.33,
           {
@@ -327038,7 +327482,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -327051,7 +327496,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J481 / Curral 156",
           "Boi Gordo",
           11,
-          594.5455,
+          570.2545,
           "GO",
           351.33,
           {
@@ -327078,7 +327523,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -327171,7 +327617,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J483 / Curral 161",
           "Boi Gordo",
           78,
-          591.3462,
+          566.5897,
           "GO",
           351.33,
           {
@@ -327198,7 +327644,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 78
             },
             "weightSources": {
-              "peso_projetado": 78
+              "peso_projetado": 52,
+              "peso_projetado_ajustado_gmd_140": 26
             },
             "gtas": [],
             "notas": [],
@@ -327211,7 +327658,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J485 / Curral 160",
           "Boi Gordo",
           33,
-          570.8485,
+          562.1818,
           "GO",
           351.33,
           {
@@ -327238,7 +327685,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -327291,7 +327739,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J486 / Curral 160",
           "Boi Gordo",
           33,
-          596.8485,
+          553.5939,
           "GO",
           351.33,
           {
@@ -327318,7 +327766,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado_ajustado_gmd_140": 13,
+              "peso_projetado": 20
             },
             "gtas": [],
             "notas": [],
@@ -327331,7 +327780,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J487 / Curral 160",
           "Boi Gordo",
           45,
-          584.8889,
+          564.4667,
           "GO",
           351.33,
           {
@@ -327358,7 +327807,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 33
             },
             "gtas": [],
             "notas": [],
@@ -327371,7 +327821,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J488 / Curral 138",
           "Boi Gordo",
           61,
-          560.3279,
+          556.3082,
           "GO",
           351.33,
           {
@@ -327398,7 +327848,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 61
             },
             "weightSources": {
-              "peso_projetado": 61
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -327411,7 +327862,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J490 / Curral 138",
           "Boi Gordo",
           59,
-          512.5254,
+          511.5017,
           "GO",
           351.33,
           {
@@ -327438,7 +327889,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 58,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -327491,7 +327943,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J494 / Curral 150",
           "Boi Gordo",
           54,
-          524.1481,
+          524.037,
           "GO",
           351.33,
           {
@@ -327518,7 +327970,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -327571,7 +328024,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J498 / Curral 140",
           "Boi Gordo",
           56,
-          536.8571,
+          532.7143,
           "GO",
           351.33,
           {
@@ -327598,7 +328051,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -327731,7 +328185,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J499 / Curral 141",
           "Boi Gordo",
           83,
-          522.4458,
+          519.2771,
           "GO",
           351.33,
           {
@@ -327758,7 +328212,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 83
             },
             "weightSources": {
-              "peso_projetado": 83
+              "peso_projetado": 81,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -327811,7 +328266,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J502 / Curral 142",
           "Boi Gordo",
           13,
-          539.4615,
+          536.3846,
           "GO",
           351.33,
           {
@@ -327838,7 +328293,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -327891,7 +328347,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J503 / Curral 143",
           "Boi Gordo",
           56,
-          548.6786,
+          545.1821,
           "GO",
           351.33,
           {
@@ -327918,7 +328374,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 54,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -328051,7 +328508,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J505 / Curral 161",
           "Boi Gordo",
           53,
-          585.7925,
+          564.9321,
           "GO",
           351.33,
           {
@@ -328078,7 +328535,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 53
             },
             "weightSources": {
-              "peso_projetado": 53
+              "peso_projetado": 42,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -328091,7 +328549,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J506 / Curral 145",
           "Boi Gordo",
           146,
-          602.2808,
+          583.037,
           "GO",
           351.33,
           {
@@ -328118,7 +328576,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 146
             },
             "weightSources": {
-              "peso_projetado": 146
+              "peso_projetado_ajustado_gmd_140": 47,
+              "peso_projetado": 99
             },
             "gtas": [],
             "notas": [],
@@ -328211,7 +328670,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J507 / Curral 143",
           "Boi Gordo",
           76,
-          569.4342,
+          556.8947,
           "GO",
           351.33,
           {
@@ -328240,7 +328699,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 76
             },
             "weightSources": {
-              "peso_projetado": 76
+              "peso_projetado": 66,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -328293,7 +328753,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J508 / Curral 142",
           "Boi Gordo",
           59,
-          545.7458,
+          539.6881,
           "GO",
           351.33,
           {
@@ -328320,7 +328780,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -328333,7 +328794,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J509 / Curral 145",
           "Boi Gordo",
           55,
-          566.1455,
+          556.1018,
           "GO",
           351.33,
           {
@@ -328360,7 +328821,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 55
             },
             "weightSources": {
-              "peso_projetado": 55
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -328413,7 +328875,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J516 / Curral 147",
           "Boi Gordo",
           72,
-          518.0278,
+          514.5583,
           "GO",
           351.33,
           {
@@ -328440,7 +328902,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 72
             },
             "weightSources": {
-              "peso_projetado": 72
+              "peso_projetado": 70,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -328533,7 +328996,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ouro Branco - BTG / Lote 202 / Curral TP2-1",
           "Vaca",
           52,
-          493.6154,
+          493.4692,
           "MT",
           319.14,
           {
@@ -328560,7 +329023,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 52
             },
             "weightSources": {
-              "peso_projetado": 52
+              "peso_projetado": 50,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -328813,7 +329277,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 078 / Curral Curral H3",
           "Boi Gordo",
           41,
-          515.4634,
+          514.2146,
           "SP",
           372.97,
           {
@@ -328840,7 +329304,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -328973,7 +329438,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 082 / Curral Curral G3",
           "Boi Gordo",
           59,
-          542.2542,
+          538.661,
           "SP",
           372.97,
           {
@@ -329000,7 +329465,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -329096,16 +329562,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 2592
       },
       "totalHeads": 6516,
-      "totalWeightKg": 2712117.0003,
-      "totalArrobas": 180807.8,
-      "totalValue": 66486813.58,
+      "totalWeightKg": 2710550.1046,
+      "totalArrobas": 180703.3403,
+      "totalValue": 66450350.45,
       "transitHeads": 2121,
-      "transitWeightKg": 1166513.0091,
-      "transitValue": 27392975.9,
+      "transitWeightKg": 1146795.5821,
+      "transitValue": 26930900.11,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 93879789.49,
+      "coverageValue": 93381250.56,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -329130,7 +329596,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 390.4009,
+      "quotePerArroba": 390.4579,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 765 / Curral Curral J-16",
@@ -330736,7 +331202,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Captar - BTG / Lote 26942 / Curral K03",
           "Boi Gordo",
           52,
-          530.4423,
+          530.425,
           "BA",
           387.49,
           {
@@ -330763,7 +331229,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 52
             },
             "weightSources": {
-              "peso_projetado": 52
+              "peso_projetado": 51,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -331496,7 +331963,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J592 / Curral 194",
           "Boi Gordo",
           3,
-          663.1667,
+          636.0667,
           "GO",
           351.33,
           {
@@ -331523,7 +331990,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -331816,7 +332283,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J595 / Curral 195",
           "Boi Gordo",
           35,
-          634.1857,
+          614.0543,
           "GO",
           351.33,
           {
@@ -331843,7 +332310,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 26,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -332096,7 +332564,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J597 / Curral 195",
           "Boi Gordo",
           7,
-          654.0714,
+          634.7143,
           "GO",
           351.33,
           {
@@ -332123,7 +332591,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -332336,7 +332805,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J605 / Curral 196",
           "Boi Gordo",
           15,
-          634.6,
+          620.2,
           "GO",
           351.33,
           {
@@ -332363,7 +332832,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -332496,7 +332966,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J606 / Curral 201",
           "Boi Gordo",
           4,
-          622.75,
+          616.0,
           "GO",
           351.33,
           {
@@ -332523,7 +332993,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -332936,7 +333407,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J768 / Curral 97",
           "Boi Gordo",
           13,
-          542.3462,
+          542.2923,
           "GO",
           408.03,
           {
@@ -332963,7 +333434,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -333296,7 +333768,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J567 / Curral 184",
           "Boi Gordo",
           1,
-          681.9,
+          649.8,
           "GO",
           351.33,
           {
@@ -333323,7 +333795,7 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -334018,7 +334490,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 22 / Curral Curral C5",
           "Boi Gordo",
           28,
-          533.7143,
+          533.6214,
           "MG",
           357.15,
           {
@@ -334045,7 +334517,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -334700,7 +335173,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J549 / Curral 173",
           "Boi Gordo",
           28,
-          579.3214,
+          567.2,
           "GO",
           351.33,
           {
@@ -334727,7 +335200,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 22,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -334860,7 +335334,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J567 / Curral 184",
           "Boi Gordo",
           36,
-          565.8611,
+          556.2722,
           "GO",
           351.33,
           {
@@ -334887,7 +335361,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -335140,7 +335615,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 292 / Curral P-6",
           "Boi Gordo",
           16,
-          557.0,
+          552.275,
           "SP",
           372.97,
           {
@@ -335167,7 +335642,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -335300,7 +335776,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 294 / Curral P-3",
           "Boi Gordo",
           7,
-          568.0,
+          557.1714,
           "SP",
           372.97,
           {
@@ -335327,7 +335803,8 @@ window.ceresBiologicalAssets = {
               "lastro_mesmo_veiculo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -335719,16 +336196,16 @@ window.ceresBiologicalAssets = {
         "comprado_transito_titulo_ativo": 342
       },
       "totalHeads": 2783,
-      "totalWeightKg": 1145680.7029,
-      "totalArrobas": 76378.7135,
-      "totalValue": 28526394.66,
+      "totalWeightKg": 1144480.0027,
+      "totalArrobas": 76298.6668,
+      "totalValue": 28498266.04,
       "transitHeads": 382,
-      "transitWeightKg": 193739.9976,
-      "transitValue": 4717479.88,
+      "transitWeightKg": 192903.9978,
+      "transitValue": 4697680.67,
       "purchasedTransitHeads": 342.0,
       "purchasedTransitWeightKg": 0.0,
       "purchasedTransitValue": 1616865.32,
-      "coverageValue": 34860739.86,
+      "coverageValue": 34812812.03,
       "sourceVehicleNames": [
         "CRA 42a R$ 50MM",
         "Confina BTG 100 MM",
@@ -335751,7 +336228,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 352.2027,
+      "quotePerArroba": 352.1976,
       "lots": [
         [
           "FAZENDA SERRA VERDE - BTG / Lote Lote 17 / Curral C08",
@@ -336077,7 +336554,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 110 / Curral Curral B4",
           "Boi Gordo",
           1,
-          715.0,
+          704.0,
           "MG",
           360.26,
           {
@@ -336104,7 +336581,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -336237,7 +336714,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 111 / Curral Curral B5",
           "Boi Magro",
           9,
-          597.4444,
+          595.9889,
           "MG",
           360.26,
           {
@@ -336264,7 +336741,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 8
             },
             "gtas": [],
             "notas": [],
@@ -337037,7 +337515,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 109 / Curral Curral H4",
           "Boi Magro",
           9,
-          605.7778,
+          603.1556,
           "MG",
           360.26,
           {
@@ -337064,7 +337542,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -337237,7 +337716,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 111 / Curral Curral B5",
           "Boi Gordo",
           1,
-          706.0,
+          695.0,
           "MG",
           360.26,
           {
@@ -337264,7 +337743,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -337761,7 +338240,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 115 / Curral Curral B2",
           "Boi Gordo",
           2,
-          643.5,
+          632.1,
           "MG",
           360.26,
           {
@@ -337790,7 +338269,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -337929,7 +338408,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 116 / Curral Curral B1",
           "Boi Gordo",
           2,
-          665.0,
+          434.1,
           "MG",
           360.26,
           {
@@ -337956,7 +338435,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -338095,7 +338574,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 117 / Curral Curral E3",
           "Boi Gordo",
           1,
-          633.5,
+          624.8,
           "MG",
           360.26,
           {
@@ -338122,7 +338601,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -338215,7 +338694,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 117 / Curral Curral REM 2",
           "Boi Gordo",
           2,
-          648.0,
+          636.2,
           "MG",
           360.26,
           {
@@ -338242,7 +338721,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -338587,7 +339066,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 119 / Curral Curral C2",
           "Boi Gordo",
           1,
-          629.5,
+          622.4,
           "MG",
           360.26,
           {
@@ -338614,7 +339093,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -338715,7 +339194,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 120 / Curral Curral C3",
           "Boi Gordo",
           4,
-          624.0,
+          618.675,
           "MG",
           360.26,
           {
@@ -338744,7 +339223,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -338887,7 +339367,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 121 / Curral Curral E5",
           "Boi Gordo",
           1,
-          638.0,
+          626.8,
           "MG",
           360.26,
           {
@@ -338914,7 +339394,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -339053,7 +339533,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 122 / Curral Curral C6",
           "Boi Gordo",
           4,
-          649.25,
+          640.85,
           "MG",
           360.26,
           {
@@ -339080,7 +339560,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -339427,7 +339908,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 99 / Curral Curral D2",
           "Boi Gordo",
           3,
-          715.5,
+          702.0,
           "MG",
           360.26,
           {
@@ -339454,7 +339935,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -339467,7 +339948,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 99 / Curral Curral D2",
           "Boi Magro",
           1,
-          624.5,
+          609.6,
           "MG",
           360.26,
           {
@@ -339494,7 +339975,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -340308,7 +340789,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem / Lote 572 / Curral Curral 27",
           "Boi Gordo",
           4,
-          589.75,
+          588.925,
           "BA",
           350.92,
           {
@@ -340337,7 +340818,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -351164,7 +351646,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260303 ce B13 / Curral Curral B13",
           "Garrote",
           14,
-          616.6429,
+          616.2143,
           "BA",
           350.92,
           {
@@ -351195,7 +351677,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -351374,7 +351857,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260311 ce B12 / Curral Curral B12",
           "Garrote",
           11,
-          622.3636,
+          619.7091,
           "BA",
           350.92,
           {
@@ -351403,7 +351886,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -351620,7 +352104,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260402 / Curral Curral B11",
           "Boi Magro",
           3,
-          667.5,
+          649.1333,
           "BA",
           350.92,
           {
@@ -351649,7 +352133,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -351702,7 +352186,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260402 / Curral Curral B11",
           "Garrote",
           32,
-          596.9844,
+          594.7031,
           "BA",
           350.92,
           {
@@ -351731,7 +352215,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -351986,7 +352471,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C24 / Curral Curral C24",
           "Boi Magro",
           12,
-          637.0,
+          624.2583,
           "BA",
           350.92,
           {
@@ -352013,7 +352498,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado_ajustado_gmd_140": 11,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -352106,7 +352592,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C26 / Curral Curral C26",
           "Boi Gordo",
           4,
-          705.5,
+          694.95,
           "BA",
           350.92,
           {
@@ -352133,7 +352619,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -352146,7 +352632,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C26 / Curral Curral C26",
           "Boi Magro",
           8,
-          638.625,
+          630.15,
           "BA",
           350.92,
           {
@@ -352173,7 +352659,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -352306,7 +352793,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260504 CE B06 / Curral Curral B6",
           "Boi Gordo",
           8,
-          705.25,
+          691.775,
           "BA",
           350.92,
           {
@@ -352333,7 +352820,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -352346,7 +352833,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260504 CE B06 / Curral Curral B6",
           "Boi Magro",
           57,
-          639.8947,
+          630.0702,
           "BA",
           350.92,
           {
@@ -352373,7 +352860,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado_ajustado_gmd_140": 42,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -352466,7 +352954,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE A11 / Curral Curral A11",
           "Boi Gordo",
           1,
-          717.0,
+          703.0,
           "BA",
           350.92,
           {
@@ -352493,7 +352981,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -352506,7 +352994,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE A11 / Curral Curral A11",
           "Boi Magro",
           32,
-          629.0312,
+          621.5938,
           "BA",
           350.92,
           {
@@ -352533,7 +353021,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado_ajustado_gmd_140": 17,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -352706,7 +353195,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Gordo",
           1,
-          769.0,
+          755.0,
           "BA",
           350.92,
           {
@@ -352733,7 +353222,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -352746,7 +353235,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Magro",
           27,
-          618.1111,
+          612.9259,
           "BA",
           350.92,
           {
@@ -352773,7 +353262,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 27
             },
             "weightSources": {
-              "peso_projetado": 27
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -352826,7 +353316,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE B20 / Curral Curral B20",
           "Boi Gordo",
           2,
-          677.0,
+          667.0,
           "BA",
           350.92,
           {
@@ -352853,7 +353343,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -352866,7 +353356,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE B20 / Curral Curral B20",
           "Boi Magro",
           54,
-          616.4259,
+          612.3519,
           "BA",
           350.92,
           {
@@ -352893,7 +353383,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 22
             },
             "gtas": [],
             "notas": [],
@@ -353146,7 +353637,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260514 CE C01 / Curral Curral C1",
           "Boi Magro",
           7,
-          617.1429,
+          614.6857,
           "BA",
           350.92,
           {
@@ -353173,7 +353664,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -353386,7 +353878,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260514 CE C02 / Curral Curral C2",
           "Boi Magro",
           31,
-          603.871,
+          602.7613,
           "BA",
           350.92,
           {
@@ -353413,7 +353905,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -353546,7 +354039,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C03 / Curral Curral C3",
           "Boi Magro",
           16,
-          601.9062,
+          600.2375,
           "BA",
           350.92,
           {
@@ -353573,7 +354066,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -353666,7 +354160,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C04 / Curral Curral C4",
           "Boi Magro",
           4,
-          601.5,
+          598.7,
           "BA",
           350.92,
           {
@@ -353693,7 +354187,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -353876,7 +354371,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905  C05 / Curral Curral B19",
           "Boi Magro",
           1,
-          622.0,
+          612.0,
           "BA",
           350.92,
           {
@@ -353903,7 +354398,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -353916,7 +354411,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE A21 / Curral Curral A21",
           "Boi Gordo",
           1,
-          696.5,
+          684.8,
           "BA",
           350.92,
           {
@@ -353943,7 +354438,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -354156,7 +354651,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Gordo",
           3,
-          718.6667,
+          706.8667,
           "BA",
           350.92,
           {
@@ -354183,7 +354678,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -354196,7 +354691,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Magro",
           10,
-          621.8,
+          615.9,
           "BA",
           350.92,
           {
@@ -354223,7 +354718,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -354398,7 +354894,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE C06 / Curral Curral C6",
           "Boi Magro",
           25,
-          611.38,
+          606.868,
           "BA",
           350.92,
           {
@@ -354427,7 +354923,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -354522,7 +355019,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE C06 / Curral Curral C9",
           "Boi Magro",
           3,
-          608.0,
+          603.8,
           "BA",
           350.92,
           {
@@ -354549,7 +355046,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -355002,7 +355500,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Gordo",
           1,
-          691.0,
+          688.2,
           "BA",
           350.92,
           {
@@ -355029,7 +355527,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -355042,7 +355540,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260427 CE A03 / Curral Curral A3",
           "Boi Magro",
           1,
-          626.0,
+          623.2,
           "BA",
           350.92,
           {
@@ -355069,7 +355567,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -355362,7 +355860,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260428 CE A04 / Curral Curral A4",
           "Boi Gordo",
           7,
-          777.5,
+          773.4,
           "BA",
           350.92,
           {
@@ -355389,7 +355887,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -355402,7 +355900,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260428 CE A04 / Curral Curral A4",
           "Boi Magro",
           17,
-          646.0294,
+          642.6529,
           "BA",
           350.92,
           {
@@ -355431,7 +355929,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado_ajustado_gmd_140": 14,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -355566,7 +356065,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A06 / Curral Curral A6",
           "Boi Gordo",
           1,
-          743.0,
+          736.0,
           "BA",
           350.92,
           {
@@ -355593,7 +356092,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -355606,7 +356105,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A06 / Curral Curral A6",
           "Boi Magro",
           4,
-          640.0,
+          634.75,
           "BA",
           350.92,
           {
@@ -355633,7 +356132,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -355766,7 +356266,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A07 / Curral Curral A7",
           "Boi Gordo",
           5,
-          704.7,
+          692.4,
           "BA",
           350.92,
           {
@@ -355795,7 +356295,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -355808,7 +356308,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A07 / Curral Curral A7",
           "Boi Magro",
           43,
-          626.2442,
+          619.093,
           "BA",
           350.92,
           {
@@ -355837,7 +356337,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 25
             },
             "gtas": [],
             "notas": [],
@@ -355974,7 +356475,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A08 / Curral Curral A8",
           "Boi Magro",
           16,
-          634.3125,
+          626.625,
           "BA",
           350.92,
           {
@@ -356003,7 +356504,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado_ajustado_gmd_140": 10,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -356218,7 +356720,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260501 CE A20 / Curral Curral A20",
           "Boi Magro",
           25,
-          623.16,
+          619.128,
           "BA",
           350.92,
           {
@@ -356245,7 +356747,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -356378,7 +356881,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260501 CE B07 / Curral Curral B7",
           "Boi Magro",
           10,
-          630.6,
+          624.72,
           "BA",
           350.92,
           {
@@ -356407,7 +356910,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -356500,7 +357004,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260501 CE B08 / Curral Curral B8",
           "Boi Magro",
           12,
-          625.3333,
+          619.7333,
           "BA",
           350.92,
           {
@@ -356527,7 +357031,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 4
             },
             "gtas": [],
             "notas": [],
@@ -356940,7 +357445,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260502 CE C25 / Curral Curral C25",
           "Boi Magro",
           11,
-          619.6818,
+          616.6636,
           "BA",
           350.92,
           {
@@ -356967,7 +357472,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -357140,7 +357646,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260507 CE B23 / Curral Curral B23",
           "Boi Magro",
           5,
-          620.5,
+          613.12,
           "BA",
           350.92,
           {
@@ -357167,7 +357673,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -357380,7 +357887,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J428 / Curral 96",
           "Boi Magro",
           1,
-          671.2,
+          627.4,
           "GO",
           351.33,
           {
@@ -357407,7 +357914,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -357500,7 +358007,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J434 / Curral 105",
           "Boi Magro",
           1,
-          627.5,
+          584.0,
           "GO",
           351.33,
           {
@@ -357527,7 +358034,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -357580,7 +358087,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J438 / Curral 106",
           "Boi Gordo",
           1,
-          694.7,
+          652.4,
           "GO",
           351.33,
           {
@@ -357607,7 +358114,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -357740,7 +358247,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J525 / Curral 166",
           "Boi Gordo",
           1,
-          647.6,
+          612.2,
           "GO",
           351.33,
           {
@@ -357767,7 +358274,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -358100,7 +358607,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J550 / Curral 173",
           "Boi Gordo",
           1,
-          640.7,
+          607.4,
           "GO",
           351.33,
           {
@@ -358127,7 +358634,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -358660,7 +359167,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J563 / Curral 185",
           "Boi Gordo",
           2,
-          656.9,
+          624.8,
           "GO",
           351.33,
           {
@@ -358687,7 +359194,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -358740,7 +359247,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J568 / Curral 184",
           "Boi Gordo",
           1,
-          938.6,
+          631.4,
           "GO",
           351.33,
           {
@@ -358767,7 +359274,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -358820,7 +359327,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J572 / Curral 186",
           "Boi Gordo",
           34,
-          763.1,
+          455.9,
           "GO",
           351.33,
           {
@@ -358849,7 +359356,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado_ajustado_gmd_140": 34
             },
             "gtas": [],
             "notas": [],
@@ -358862,7 +359369,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J573 / Curral 184",
           "Boi Gordo",
           1,
-          856.6,
+          580.6,
           "GO",
           351.33,
           {
@@ -358889,7 +359396,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -358902,7 +359409,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J574 / Curral 187",
           "Boi Gordo",
           6,
-          797.4333,
+          521.4333,
           "GO",
           351.33,
           {
@@ -358929,7 +359436,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -359422,7 +359929,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J583 / Curral 190",
           "Boi Gordo",
           6,
-          635.7667,
+          616.1667,
           "GO",
           351.33,
           {
@@ -359449,7 +359956,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -359582,7 +360090,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J584 / Curral 192",
           "Boi Gordo",
           6,
-          655.7667,
+          626.3667,
           "GO",
           351.33,
           {
@@ -359609,7 +360117,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -359742,7 +360250,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J585 / Curral 184",
           "Boi Gordo",
           3,
-          682.7667,
+          651.8667,
           "GO",
           351.33,
           {
@@ -359769,7 +360277,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -359942,7 +360450,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J589 / Curral 190",
           "Boi Gordo",
           2,
-          627.6,
+          598.2,
           "GO",
           351.33,
           {
@@ -359969,7 +360477,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -360222,7 +360730,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J591 / Curral 190",
           "Boi Gordo",
           3,
-          660.5667,
+          631.4667,
           "GO",
           351.33,
           {
@@ -360249,7 +360757,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -360382,7 +360890,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J403 / Curral 55",
           "Boi Magro",
           1,
-          643.2,
+          599.2,
           "GO",
           351.33,
           {
@@ -360409,7 +360917,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -360422,7 +360930,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J404 / Curral 56",
           "Boi Magro",
           1,
-          665.2,
+          621.2,
           "GO",
           351.33,
           {
@@ -360449,7 +360957,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -360742,7 +361250,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J451 / Curral 114",
           "Boi Gordo",
           3,
-          611.2667,
+          597.4667,
           "GO",
           351.33,
           {
@@ -360769,7 +361277,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -360822,7 +361331,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J459 / Curral 148",
           "Boi Magro",
           1,
-          654.5,
+          616.8,
           "GO",
           351.33,
           {
@@ -360849,7 +361358,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -361382,7 +361891,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J514 / Curral 147",
           "Boi Gordo",
           1,
-          697.7,
+          665.6,
           "GO",
           351.33,
           {
@@ -361409,7 +361918,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -361822,7 +362331,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J520 / Curral 166",
           "Boi Gordo",
           1,
-          700.3,
+          664.6,
           "GO",
           351.33,
           {
@@ -361849,7 +362358,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -361862,7 +362371,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J520 / Curral 166",
           "Boi Magro",
           3,
-          614.9667,
+          603.0667,
           "GO",
           351.33,
           {
@@ -361889,7 +362398,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -362182,7 +362692,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J539 / Curral 172",
           "Boi Magro",
           1,
-          621.8,
+          587.6,
           "GO",
           351.33,
           {
@@ -362209,7 +362719,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -362382,7 +362892,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J543 / Curral 172",
           "Boi Gordo",
           1,
-          662.8,
+          628.6,
           "GO",
           351.33,
           {
@@ -362409,7 +362919,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -363142,7 +363652,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J598 / Curral 193",
           "Boi Gordo",
           15,
-          675.8333,
+          652.3467,
           "GO",
           351.33,
           {
@@ -363169,7 +363679,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado_ajustado_gmd_140": 13,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -363262,7 +363773,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J600 / Curral 196",
           "Boi Gordo",
           7,
-          614.2429,
+          610.2571,
           "GO",
           351.33,
           {
@@ -363289,7 +363800,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -363542,7 +364054,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J602 / Curral 196",
           "Boi Gordo",
           11,
-          626.5545,
+          611.3364,
           "GO",
           351.33,
           {
@@ -363569,7 +364081,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -363662,7 +364175,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J603 / Curral 198",
           "Boi Gordo",
           1,
-          647.4,
+          619.8,
           "GO",
           351.33,
           {
@@ -363689,7 +364202,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -363782,7 +364295,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J604 / Curral 199",
           "Boi Gordo",
           11,
-          614.7909,
+          607.3455,
           "GO",
           351.33,
           {
@@ -363809,7 +364322,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -363902,7 +364416,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J607 / Curral 201",
           "Boi Gordo",
           3,
-          619.3,
+          610.8667,
           "GO",
           351.33,
           {
@@ -363929,7 +364443,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -364222,7 +364737,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J609 / Curral 198",
           "Boi Gordo",
           1,
-          635.4,
+          607.8,
           "GO",
           351.33,
           {
@@ -364249,7 +364764,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -364942,7 +365457,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J617 / Curral 203",
           "Boi Gordo",
           36,
-          636.1889,
+          619.3222,
           "GO",
           351.33,
           {
@@ -364969,7 +365484,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado_ajustado_gmd_140": 24,
+              "peso_projetado": 12
             },
             "gtas": [],
             "notas": [],
@@ -365102,7 +365618,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J619 / Curral 204",
           "Boi Gordo",
           2,
-          660.8,
+          648.15,
           "GO",
           351.33,
           {
@@ -365129,7 +365645,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -365382,7 +365899,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J639 / Curral 209",
           "Boi Gordo",
           1,
-          638.6,
+          616.6,
           "GO",
           351.33,
           {
@@ -365409,7 +365926,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -365782,7 +366299,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J642 / Curral 211",
           "Boi Gordo",
           10,
-          609.2,
+          606.92,
           "GO",
           351.33,
           {
@@ -365809,7 +366326,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 9,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -365942,7 +366460,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J643 / Curral 211",
           "Boi Gordo",
           3,
-          634.8667,
+          627.2667,
           "GO",
           351.33,
           {
@@ -365969,7 +366487,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -366062,7 +366581,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J644 / Curral 210",
           "Boi Gordo",
           20,
-          608.75,
+          603.05,
           "GO",
           351.33,
           {
@@ -366089,7 +366608,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -366708,7 +367228,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J649 / Curral 14",
           "Boi Gordo",
           7,
-          587.2143,
+          585.6429,
           "GO",
           351.33,
           {
@@ -366735,7 +367255,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -369752,7 +370273,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10238 / Curral E06",
           "Boi Magro",
           2,
-          730.5,
+          710.0,
           "MT",
           349.08,
           {
@@ -369779,7 +370300,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -370913,7 +371434,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10450 / Curral REC-08",
           "Boi Gordo",
           6,
-          638.6667,
+          635.4667,
           "MT",
           349.08,
           {
@@ -370940,7 +371461,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -371273,7 +371794,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 20112 / Curral PLT-25",
           "Boi Gordo",
           6,
-          654.3333,
+          653.9333,
           "MT",
           349.08,
           {
@@ -371300,7 +371821,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -375153,7 +375674,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L223-26 / Curral BAIA 01",
           "Boi Gordo",
           7,
-          605.9286,
+          604.8286,
           "MT",
           349.08,
           {
@@ -375180,7 +375701,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -376567,7 +377089,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L267-26 / Curral BAIA 62",
           "Boi Gordo",
           6,
-          597.0,
+          595.9,
           "MT",
           349.08,
           {
@@ -376594,7 +377116,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -376687,7 +377210,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L274-26 / Curral BAIA 102",
           "Boi Gordo",
           1,
-          621.0,
+          619.0,
           "MT",
           349.08,
           {
@@ -376714,7 +377237,7 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -381568,7 +382091,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 109 / Curral Curral H2",
           "Boi Gordo",
           6,
-          588.1667,
+          587.2167,
           "SP",
           372.97,
           {
@@ -381595,7 +382118,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -382448,7 +382972,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 55 / Curral Curral B18",
           "Boi Gordo",
           22,
-          626.5909,
+          622.9727,
           "SP",
           372.97,
           {
@@ -382475,7 +382999,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -383168,7 +383693,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 55 / Curral Curral L05",
           "Boi Gordo",
           2,
-          611.5,
+          607.45,
           "SP",
           372.97,
           {
@@ -383195,7 +383720,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -383690,7 +384216,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 109 / Curral Curral H4",
           "Boi Gordo",
           53,
-          561.3019,
+          560.0264,
           "MG",
           360.26,
           {
@@ -383717,7 +384243,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 53
             },
             "weightSources": {
-              "peso_projetado": 53
+              "peso_projetado": 50,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -384132,7 +384659,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 117 / Curral Curral REM 2",
           "Boi Gordo",
           8,
-          562.625,
+          552.875,
           "MG",
           360.26,
           {
@@ -384161,7 +384688,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -384258,7 +384786,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 120 / Curral Curral C3",
           "Boi Gordo",
           42,
-          573.2143,
+          568.1429,
           "MG",
           360.26,
           {
@@ -384289,7 +384817,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 37,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -384502,7 +385031,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso / Lote 99 / Curral Curral D2",
           "Boi Gordo",
           39,
-          531.4872,
+          530.5538,
           "MG",
           360.26,
           {
@@ -384529,7 +385058,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -384582,7 +385112,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 561 / Curral s02",
           "Vaca",
           25,
-          618.32,
+          614.664,
           "BA",
           336.39,
           {
@@ -384609,7 +385139,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 22
             },
             "gtas": [],
             "notas": [],
@@ -384622,7 +385153,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 562 / Curral s18",
           "Vaca",
           18,
-          670.8889,
+          650.3,
           "BA",
           336.39,
           {
@@ -384649,7 +385180,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado_ajustado_gmd_140": 9,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -385386,7 +385918,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260502 CE C26 / Curral Curral C26",
           "Boi Gordo",
           1,
-          636.0,
+          632.4,
           "BA",
           350.92,
           {
@@ -385413,7 +385945,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -385466,7 +385998,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260514 CE C01 / Curral Curral C1",
           "Boi Gordo",
           45,
-          548.9556,
+          548.5556,
           "BA",
           350.92,
           {
@@ -385493,7 +386025,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado": 44,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -385586,7 +386119,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Gordo",
           41,
-          581.7073,
+          579.0829,
           "BA",
           350.92,
           {
@@ -385613,7 +386146,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 35,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -385746,7 +386280,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260427 / Curral Curral A3",
           "Boi Gordo",
           3,
-          554.6667,
+          533.4667,
           "BA",
           350.92,
           {
@@ -385773,7 +386307,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -385946,7 +386481,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260428 CE A04 / Curral Curral A4",
           "Boi Gordo",
           53,
-          568.283,
+          565.4226,
           "BA",
           350.92,
           {
@@ -385975,7 +386510,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 53
             },
             "weightSources": {
-              "peso_projetado": 53
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -386068,7 +386604,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A06 / Curral Curral A6",
           "Boi Gordo",
           22,
-          597.4545,
+          582.9545,
           "BA",
           350.92,
           {
@@ -386095,7 +386631,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -386148,7 +386685,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica / Lote 20260430 CE A08 / Curral Curral A8",
           "Boi Gordo",
           88,
-          571.0682,
+          567.2455,
           "BA",
           350.92,
           {
@@ -386177,7 +386714,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 88
             },
             "weightSources": {
-              "peso_projetado": 88
+              "peso_projetado": 77,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -386432,7 +386970,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J428 / Curral 96",
           "Boi Gordo",
           3,
-          565.6667,
+          562.6,
           "GO",
           351.33,
           {
@@ -386459,7 +386997,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -386472,7 +387011,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J429 / Curral 96",
           "Boi Gordo",
           1,
-          626.0,
+          601.6,
           "GO",
           351.33,
           {
@@ -386499,7 +387038,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -386592,7 +387131,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J433 / Curral 88",
           "Boi Gordo",
           3,
-          591.0,
+          574.8,
           "GO",
           351.33,
           {
@@ -386619,7 +387158,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -386712,7 +387252,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J461 / Curral 148",
           "Boi Gordo",
           24,
-          561.875,
+          556.6,
           "GO",
           351.33,
           {
@@ -386739,7 +387279,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 22,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -386832,7 +387373,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J465 / Curral 151",
           "Boi Gordo",
           58,
-          538.0517,
+          534.9,
           "GO",
           351.33,
           {
@@ -386859,7 +387400,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 58
             },
             "weightSources": {
-              "peso_projetado": 58
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -386912,7 +387454,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J497 / Curral 140",
           "Boi Gordo",
           65,
-          548.1692,
+          538.6769,
           "GO",
           351.33,
           {
@@ -386939,7 +387481,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -387072,7 +387615,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J525 / Curral 166",
           "Boi Gordo",
           60,
-          615.15,
+          585.2667,
           "GO",
           351.33,
           {
@@ -387099,7 +387642,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 60
             },
             "weightSources": {
-              "peso_projetado": 60
+              "peso_projetado": 36,
+              "peso_projetado_ajustado_gmd_140": 24
             },
             "gtas": [],
             "notas": [],
@@ -387112,7 +387656,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J526 / Curral 168",
           "Boi Gordo",
           35,
-          576.2286,
+          561.0229,
           "GO",
           351.33,
           {
@@ -387139,7 +387683,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 7,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -387232,7 +387777,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J530 / Curral 164",
           "Boi Gordo",
           35,
-          548.2286,
+          541.2971,
           "GO",
           351.33,
           {
@@ -387259,7 +387804,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 31,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -387312,7 +387858,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J532 / Curral 167",
           "Boi Gordo",
           28,
-          573.3214,
+          560.6643,
           "GO",
           351.33,
           {
@@ -387339,7 +387885,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 21,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -387352,7 +387899,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J548 / Curral 170",
           "Boi Gordo",
           15,
-          550.8667,
+          528.9333,
           "GO",
           351.33,
           {
@@ -387379,7 +387926,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -387432,7 +387980,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J548 / Curral 173",
           "Boi Gordo",
           10,
-          543.0,
+          528.56,
           "GO",
           351.33,
           {
@@ -387459,7 +388007,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -387632,7 +388181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J550 / Curral 173",
           "Boi Gordo",
           5,
-          553.0,
+          531.32,
           "GO",
           351.33,
           {
@@ -387659,7 +388208,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -387752,7 +388302,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J552 / Curral 180",
           "Boi Gordo",
           51,
-          518.2745,
+          518.0627,
           "GO",
           351.33,
           {
@@ -387779,7 +388329,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 51
             },
             "weightSources": {
-              "peso_projetado": 51
+              "peso_projetado": 50,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -387872,7 +388423,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J553 / Curral 177",
           "Boi Gordo",
           198,
-          626.8485,
+          579.3394,
           "GO",
           351.33,
           {
@@ -387899,7 +388450,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 198
             },
             "weightSources": {
-              "peso_projetado": 198
+              "peso_projetado_ajustado_gmd_140": 111,
+              "peso_projetado": 87
             },
             "gtas": [],
             "notas": [],
@@ -387912,7 +388464,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J554 / Curral 180",
           "Boi Gordo",
           19,
-          514.7368,
+          513.6947,
           "GO",
           351.33,
           {
@@ -387939,7 +388491,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -387992,7 +388545,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J555 / Curral 165",
           "Boi Gordo",
           123,
-          558.8943,
+          551.7203,
           "GO",
           351.33,
           {
@@ -388019,7 +388572,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 123
             },
             "weightSources": {
-              "peso_projetado": 123
+              "peso_projetado": 114,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -388072,7 +388626,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J556 / Curral 181",
           "Boi Gordo",
           54,
-          607.9259,
+          586.8407,
           "GO",
           351.33,
           {
@@ -388099,7 +388653,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 37,
+              "peso_projetado_ajustado_gmd_140": 17
             },
             "gtas": [],
             "notas": [],
@@ -388112,7 +388667,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J557 / Curral 182",
           "Boi Gordo",
           74,
-          565.9459,
+          549.7838,
           "GO",
           351.33,
           {
@@ -388139,7 +388694,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 64,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -388232,7 +388788,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J559 / Curral 183",
           "Boi Gordo",
           26,
-          545.5769,
+          542.3923,
           "GO",
           351.33,
           {
@@ -388259,7 +388815,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado": 24,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -388272,7 +388829,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J560 / Curral 181",
           "Boi Gordo",
           108,
-          634.1481,
+          601.9093,
           "GO",
           351.33,
           {
@@ -388299,7 +388856,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 108
             },
             "weightSources": {
-              "peso_projetado": 108
+              "peso_projetado": 52,
+              "peso_projetado_ajustado_gmd_140": 56
             },
             "gtas": [],
             "notas": [],
@@ -388432,7 +388990,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J562 / Curral 181",
           "Boi Gordo",
           45,
-          588.4444,
+          555.1911,
           "GO",
           351.33,
           {
@@ -388459,7 +389017,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -388472,7 +389031,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J562 / Curral 182",
           "Boi Gordo",
           37,
-          576.5946,
+          553.8865,
           "GO",
           351.33,
           {
@@ -388499,7 +389058,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 29
             },
             "gtas": [],
             "notas": [],
@@ -388512,7 +389072,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J563 / Curral 185",
           "Boi Gordo",
           148,
-          636.5676,
+          595.1959,
           "GO",
           351.33,
           {
@@ -388539,7 +389099,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 148
             },
             "weightSources": {
-              "peso_projetado": 148
+              "peso_projetado_ajustado_gmd_140": 88,
+              "peso_projetado": 60
             },
             "gtas": [],
             "notas": [],
@@ -388552,7 +389113,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J564 / Curral 184",
           "Boi Gordo",
           35,
-          570.9429,
+          558.4,
           "GO",
           351.33,
           {
@@ -388579,7 +389140,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -388632,7 +389194,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J568 / Curral 184",
           "Boi Gordo",
           21,
-          549.381,
+          546.7619,
           "GO",
           351.33,
           {
@@ -388659,7 +389221,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 21
             },
             "weightSources": {
-              "peso_projetado": 21
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -388672,7 +389235,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J571 / Curral 183",
           "Boi Gordo",
           38,
-          582.5,
+          568.7895,
           "GO",
           351.33,
           {
@@ -388699,7 +389262,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 38
             },
             "weightSources": {
-              "peso_projetado": 38
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -388752,7 +389316,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J573 / Curral 184",
           "Boi Gordo",
           20,
-          564.55,
+          557.98,
           "GO",
           351.33,
           {
@@ -388779,7 +389343,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -388792,7 +389357,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J574 / Curral 187",
           "Boi Gordo",
           111,
-          563.6847,
+          560.0991,
           "GO",
           351.33,
           {
@@ -388821,7 +389386,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 111
             },
             "weightSources": {
-              "peso_projetado": 111
+              "peso_projetado": 102,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -388914,7 +389480,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J576 / Curral 183",
           "Boi Gordo",
           24,
-          518.0417,
+          512.0917,
           "GO",
           351.33,
           {
@@ -388941,7 +389507,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 23,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -388994,7 +389561,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J578 / Curral 187",
           "Boi Gordo",
           39,
-          522.5897,
+          522.0462,
           "GO",
           351.33,
           {
@@ -389021,7 +389588,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -389154,7 +389722,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J581 / Curral 189",
           "Boi Gordo",
           58,
-          509.7759,
+          504.5241,
           "GO",
           351.33,
           {
@@ -389181,7 +389749,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 58
             },
             "weightSources": {
-              "peso_projetado": 58
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -389274,7 +389843,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J585 / Curral 184",
           "Boi Gordo",
           23,
-          559.8696,
+          553.3391,
           "GO",
           351.33,
           {
@@ -389301,7 +389870,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 23
             },
             "weightSources": {
-              "peso_projetado": 23
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -389954,7 +390524,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J455 / Curral 148",
           "Boi Gordo",
           16,
-          595.6875,
+          553.75,
           "GO",
           351.33,
           {
@@ -389981,7 +390551,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado_ajustado_gmd_140": 7,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -390114,7 +390685,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J459 / Curral 148",
           "Boi Gordo",
           19,
-          535.8947,
+          531.1684,
           "GO",
           351.33,
           {
@@ -390141,7 +390712,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -390274,7 +390846,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J464 / Curral 152",
           "Boi Gordo",
           4,
-          579.75,
+          576.85,
           "GO",
           351.33,
           {
@@ -390301,7 +390873,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -390514,7 +391087,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J484 / Curral 158",
           "Boi Gordo",
           18,
-          528.7778,
+          516.3444,
           "GO",
           351.33,
           {
@@ -390541,7 +391114,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 14
             },
             "gtas": [],
             "notas": [],
@@ -390754,7 +391328,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J492 / Curral 138",
           "Boi Gordo",
           8,
-          560.0,
+          547.8,
           "GO",
           351.33,
           {
@@ -390781,7 +391355,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -390874,7 +391449,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J493 / Curral 150",
           "Boi Gordo",
           37,
-          528.1081,
+          526.1568,
           "GO",
           351.33,
           {
@@ -390901,7 +391476,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado": 36,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -390954,7 +391530,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J495 / Curral 137",
           "Boi Gordo",
           57,
-          582.2105,
+          570.0246,
           "GO",
           351.33,
           {
@@ -390981,7 +391557,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -390994,7 +391571,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J496 / Curral 137",
           "Boi Gordo",
           62,
-          529.1129,
+          526.1677,
           "GO",
           351.33,
           {
@@ -391021,7 +391598,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 62
             },
             "weightSources": {
-              "peso_projetado": 62
+              "peso_projetado": 60,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -391074,7 +391652,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J500 / Curral 141",
           "Boi Gordo",
           68,
-          565.3529,
+          552.5706,
           "GO",
           351.33,
           {
@@ -391101,7 +391679,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 68
             },
             "weightSources": {
-              "peso_projetado": 68
+              "peso_projetado": 58,
+              "peso_projetado_ajustado_gmd_140": 10
             },
             "gtas": [],
             "notas": [],
@@ -391154,7 +391733,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J500 / Curral 142",
           "Boi Gordo",
           32,
-          560.1875,
+          550.1437,
           "GO",
           351.33,
           {
@@ -391181,7 +391760,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -391234,7 +391814,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J501 / Curral 142",
           "Boi Gordo",
           54,
-          536.6296,
+          535.0,
           "GO",
           351.33,
           {
@@ -391261,7 +391841,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 54
             },
             "weightSources": {
-              "peso_projetado": 54
+              "peso_projetado": 52,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -391314,7 +391895,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J510 / Curral 145",
           "Boi Gordo",
           33,
-          544.0,
+          536.4788,
           "GO",
           351.33,
           {
@@ -391341,7 +391922,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -391394,7 +391976,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J511 / Curral 145",
           "Boi Gordo",
           40,
-          593.2,
+          570.685,
           "GO",
           351.33,
           {
@@ -391421,7 +392003,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 40
             },
             "weightSources": {
-              "peso_projetado": 40
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 13
             },
             "gtas": [],
             "notas": [],
@@ -391474,7 +392057,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J512 / Curral 162",
           "Boi Gordo",
           63,
-          623.3492,
+          597.5302,
           "GO",
           351.33,
           {
@@ -391503,7 +392086,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 30
             },
             "gtas": [],
             "notas": [],
@@ -391516,7 +392100,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J513 / Curral 145",
           "Boi Gordo",
           20,
-          572.6,
+          555.31,
           "GO",
           351.33,
           {
@@ -391543,7 +392127,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 16,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -391596,7 +392181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J513 / Curral 146",
           "Boi Gordo",
           37,
-          583.0811,
+          570.9297,
           "GO",
           351.33,
           {
@@ -391623,7 +392208,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -391636,7 +392222,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J514 / Curral 146",
           "Boi Gordo",
           118,
-          542.2458,
+          539.5271,
           "GO",
           351.33,
           {
@@ -391663,7 +392249,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 118
             },
             "weightSources": {
-              "peso_projetado": 118
+              "peso_projetado": 114,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -391796,7 +392383,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J515 / Curral 162",
           "Boi Gordo",
           20,
-          557.15,
+          541.58,
           "GO",
           351.33,
           {
@@ -391823,7 +392410,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 16,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -391956,7 +392544,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J517 / Curral 164",
           "Boi Gordo",
           28,
-          559.6429,
+          549.2571,
           "GO",
           351.33,
           {
@@ -391983,7 +392571,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 24,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -392156,7 +392745,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J518 / Curral 164",
           "Boi Gordo",
           34,
-          554.7059,
+          545.9941,
           "GO",
           351.33,
           {
@@ -392183,7 +392772,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -392316,7 +392906,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J519 / Curral 164",
           "Boi Gordo",
           56,
-          557.4107,
+          545.0643,
           "GO",
           351.33,
           {
@@ -392343,7 +392933,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 48,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -392436,7 +393027,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J520 / Curral 166",
           "Boi Gordo",
           67,
-          601.1045,
+          582.8866,
           "GO",
           351.33,
           {
@@ -392463,7 +393054,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 67
             },
             "weightSources": {
-              "peso_projetado": 67
+              "peso_projetado": 47,
+              "peso_projetado_ajustado_gmd_140": 20
             },
             "gtas": [],
             "notas": [],
@@ -392556,7 +393148,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J521 / Curral 166",
           "Boi Gordo",
           56,
-          579.7679,
+          564.3929,
           "GO",
           351.33,
           {
@@ -392583,7 +393175,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 43,
+              "peso_projetado_ajustado_gmd_140": 13
             },
             "gtas": [],
             "notas": [],
@@ -392756,7 +393349,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J528 / Curral 169",
           "Boi Gordo",
           47,
-          546.2979,
+          542.7489,
           "GO",
           351.33,
           {
@@ -392783,7 +393376,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 43,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -392796,7 +393390,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J529 / Curral 169",
           "Boi Gordo",
           118,
-          583.3559,
+          568.7576,
           "GO",
           351.33,
           {
@@ -392823,7 +393417,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 118
             },
             "weightSources": {
-              "peso_projetado": 118
+              "peso_projetado_ajustado_gmd_140": 28,
+              "peso_projetado": 90
             },
             "gtas": [],
             "notas": [],
@@ -392876,7 +393471,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J530 / Curral 164",
           "Boi Gordo",
           20,
-          538.95,
+          529.76,
           "GO",
           351.33,
           {
@@ -392903,7 +393498,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -392956,7 +393552,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J531 / Curral 166",
           "Boi Gordo",
           46,
-          606.1957,
+          571.1696,
           "GO",
           351.33,
           {
@@ -392983,7 +393579,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 46
             },
             "weightSources": {
-              "peso_projetado": 46
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 19
             },
             "gtas": [],
             "notas": [],
@@ -392996,7 +393593,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J531 / Curral 167",
           "Boi Gordo",
           12,
-          606.6667,
+          563.0667,
           "GO",
           351.33,
           {
@@ -393023,7 +393620,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -393076,7 +393674,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J532 / Curral 167",
           "Boi Gordo",
           27,
-          576.5926,
+          561.2519,
           "GO",
           351.33,
           {
@@ -393103,7 +393701,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 27
             },
             "weightSources": {
-              "peso_projetado": 27
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 21
             },
             "gtas": [],
             "notas": [],
@@ -393156,7 +393755,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J533 / Curral 168",
           "Boi Gordo",
           35,
-          550.5143,
+          542.8971,
           "GO",
           351.33,
           {
@@ -393183,7 +393782,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 31
             },
             "gtas": [],
             "notas": [],
@@ -393196,7 +393796,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J534 / Curral 164",
           "Boi Gordo",
           65,
-          531.2154,
+          527.4431,
           "GO",
           351.33,
           {
@@ -393223,7 +393823,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 62,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -393236,7 +393837,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J535 / Curral 170",
           "Boi Gordo",
           43,
-          495.3953,
+          494.4279,
           "GO",
           351.33,
           {
@@ -393263,7 +393864,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 42,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -393316,7 +393918,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J536 / Curral 171",
           "Boi Gordo",
           131,
-          585.5191,
+          566.1298,
           "GO",
           351.33,
           {
@@ -393343,7 +393945,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 131
             },
             "weightSources": {
-              "peso_projetado": 131
+              "peso_projetado": 106,
+              "peso_projetado_ajustado_gmd_140": 25
             },
             "gtas": [],
             "notas": [],
@@ -393356,7 +393959,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J537 / Curral 170",
           "Boi Gordo",
           41,
-          502.0976,
+          501.0,
           "GO",
           351.33,
           {
@@ -393383,7 +393986,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 40,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -393436,7 +394040,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J538 / Curral 172",
           "Boi Gordo",
           51,
-          558.1373,
+          554.7647,
           "GO",
           351.33,
           {
@@ -393463,7 +394067,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 51
             },
             "weightSources": {
-              "peso_projetado": 51
+              "peso_projetado": 49,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -393476,7 +394081,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J539 / Curral 172",
           "Boi Gordo",
           32,
-          601.625,
+          572.8563,
           "GO",
           351.33,
           {
@@ -393503,7 +394108,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 32
             },
             "weightSources": {
-              "peso_projetado": 32
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -393516,7 +394122,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J540 / Curral 171",
           "Boi Gordo",
           36,
-          559.7222,
+          556.05,
           "GO",
           351.33,
           {
@@ -393543,7 +394149,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 34,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -393556,7 +394163,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J541 / Curral 172",
           "Boi Gordo",
           61,
-          563.4754,
+          550.2951,
           "GO",
           351.33,
           {
@@ -393583,7 +394190,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 61
             },
             "weightSources": {
-              "peso_projetado": 61
+              "peso_projetado_ajustado_gmd_140": 10,
+              "peso_projetado": 51
             },
             "gtas": [],
             "notas": [],
@@ -393636,7 +394244,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J542 / Curral 173",
           "Boi Gordo",
           68,
-          567.3382,
+          556.9882,
           "GO",
           351.33,
           {
@@ -393663,7 +394271,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 68
             },
             "weightSources": {
-              "peso_projetado": 68
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -393756,7 +394365,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J543 / Curral 172",
           "Boi Gordo",
           23,
-          663.6522,
+          613.3826,
           "GO",
           351.33,
           {
@@ -393783,7 +394392,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 23
             },
             "weightSources": {
-              "peso_projetado": 23
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 15
             },
             "gtas": [],
             "notas": [],
@@ -393796,7 +394406,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J544 / Curral 174",
           "Boi Gordo",
           38,
-          576.4211,
+          560.9474,
           "GO",
           351.33,
           {
@@ -393823,7 +394433,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 38
             },
             "weightSources": {
-              "peso_projetado": 38
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -393836,7 +394447,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J544 / Curral 175",
           "Boi Gordo",
           83,
-          615.8193,
+          572.4506,
           "GO",
           351.33,
           {
@@ -393863,7 +394474,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 83
             },
             "weightSources": {
-              "peso_projetado": 83
+              "peso_projetado_ajustado_gmd_140": 37,
+              "peso_projetado": 46
             },
             "gtas": [],
             "notas": [],
@@ -393916,7 +394528,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J545 / Curral 174",
           "Boi Gordo",
           39,
-          568.5385,
+          555.8718,
           "GO",
           351.33,
           {
@@ -393943,7 +394555,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado_ajustado_gmd_140": 4,
+              "peso_projetado": 35
             },
             "gtas": [],
             "notas": [],
@@ -393956,7 +394569,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J545 / Curral 175",
           "Boi Gordo",
           88,
-          609.5682,
+          568.0364,
           "GO",
           351.33,
           {
@@ -393983,7 +394596,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 88
             },
             "weightSources": {
-              "peso_projetado": 88
+              "peso_projetado": 54,
+              "peso_projetado_ajustado_gmd_140": 34
             },
             "gtas": [],
             "notas": [],
@@ -393996,7 +394610,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J546 / Curral 174",
           "Boi Gordo",
           78,
-          577.0385,
+          563.7103,
           "GO",
           351.33,
           {
@@ -394023,7 +394637,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 78
             },
             "weightSources": {
-              "peso_projetado": 78
+              "peso_projetado": 69,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -394036,7 +394651,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J546 / Curral 176",
           "Boi Gordo",
           177,
-          611.9831,
+          575.3548,
           "GO",
           351.33,
           {
@@ -394063,7 +394678,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 177
             },
             "weightSources": {
-              "peso_projetado": 177
+              "peso_projetado": 107,
+              "peso_projetado_ajustado_gmd_140": 70
             },
             "gtas": [],
             "notas": [],
@@ -394076,7 +394692,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J547 / Curral 178",
           "Boi Gordo",
           74,
-          545.5405,
+          538.7757,
           "GO",
           351.33,
           {
@@ -394103,7 +394719,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 65,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -394116,7 +394733,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J565 / Curral 183",
           "Boi Gordo",
           41,
-          545.8293,
+          542.5317,
           "GO",
           351.33,
           {
@@ -394143,7 +394760,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 41
             },
             "weightSources": {
-              "peso_projetado": 41
+              "peso_projetado": 40,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -394196,7 +394814,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J566 / Curral 180",
           "Boi Gordo",
           43,
-          549.5116,
+          547.093,
           "GO",
           351.33,
           {
@@ -394223,7 +394841,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -394236,7 +394855,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J566 / Curral 183",
           "Boi Gordo",
           29,
-          563.0345,
+          555.2828,
           "GO",
           351.33,
           {
@@ -394263,7 +394882,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 25,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -394316,7 +394936,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J577 / Curral 189",
           "Boi Gordo",
           31,
-          540.7419,
+          538.9871,
           "GO",
           351.33,
           {
@@ -394343,7 +394963,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -394756,7 +395377,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua / Lote F11 / Curral Curral F11",
           "Vaca",
           6,
-          527.3333,
+          491.2667,
           "MT",
           319.14,
           {
@@ -394783,7 +395404,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -395316,7 +395938,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10238 / Curral E06",
           "Boi Gordo",
           2,
-          626.0,
+          625.8,
           "MT",
           349.08,
           {
@@ -395343,7 +395965,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -395596,7 +396219,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 37 / Curral B-05",
           "Boi Gordo",
           39,
-          594.4872,
+          542.1949,
           "MT",
           349.08,
           {
@@ -395623,7 +396246,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 27,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -395636,7 +396260,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 39 / Curral B-06",
           "Boi Gordo",
           11,
-          597.6364,
+          568.0909,
           "MT",
           349.08,
           {
@@ -395663,7 +396287,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -395676,7 +396301,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 40 / Curral B-07",
           "Boi Gordo",
           25,
-          618.8,
+          565.76,
           "MT",
           349.08,
           {
@@ -395703,7 +396328,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 14
             },
             "gtas": [],
             "notas": [],
@@ -396556,7 +397182,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote CERES PLT 35 / Curral B-10",
           "Boi Gordo",
           133,
-          579.9549,
+          569.4226,
           "MT",
           349.08,
           {
@@ -396583,7 +397209,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 133
             },
             "weightSources": {
-              "peso_projetado": 133
+              "peso_projetado": 119,
+              "peso_projetado_ajustado_gmd_140": 14
             },
             "gtas": [],
             "notas": [],
@@ -398440,7 +399067,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L186-26 / Curral BAIA 76",
           "Boi Gordo",
           62,
-          542.4516,
+          539.8226,
           "MT",
           349.08,
           {
@@ -398467,7 +399094,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 62
             },
             "weightSources": {
-              "peso_projetado": 62
+              "peso_projetado": 61,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -399280,7 +399908,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax / Lote L202-26 / Curral BAIA 04",
           "Boi Gordo",
           25,
-          560.88,
+          552.552,
           "MT",
           349.08,
           {
@@ -399307,7 +399935,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 25
             },
             "weightSources": {
-              "peso_projetado": 25
+              "peso_projetado": 22,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -399520,7 +400149,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 264 / Curral M-3",
           "Boi Gordo",
           4,
-          532.5,
+          506.05,
           "SP",
           372.97,
           {
@@ -399547,7 +400176,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -399720,7 +400350,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 282 / Curral Manga",
           "Boi Gordo",
           6,
-          525.6667,
+          493.0667,
           "SP",
           372.97,
           {
@@ -399747,7 +400377,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -399760,7 +400391,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 283 / Curral Manga",
           "Boi Gordo",
           13,
-          511.0,
+          498.6769,
           "SP",
           372.97,
           {
@@ -399787,7 +400418,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -400160,7 +400792,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 291 / Curral P-1",
           "Boi Gordo",
           42,
-          518.7381,
+          514.2952,
           "SP",
           372.97,
           {
@@ -400187,7 +400819,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 40,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -400240,7 +400873,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 292 / Curral P-6",
           "Boi Gordo",
           7,
-          576.2857,
+          554.8857,
           "SP",
           372.97,
           {
@@ -400267,7 +400900,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -400360,7 +400994,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 294 / Curral P-3",
           "Boi Gordo",
           8,
-          586.5,
+          564.3,
           "SP",
           372.97,
           {
@@ -400387,7 +401021,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -400760,7 +401395,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 333 / Curral P-11",
           "Boi Gordo",
           98,
-          560.2245,
+          557.1694,
           "SP",
           372.97,
           {
@@ -400787,7 +401422,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 98
             },
             "weightSources": {
-              "peso_projetado": 98
+              "peso_projetado": 94,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -400840,7 +401476,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 334 / Curral P-9",
           "Boi Gordo",
           88,
-          518.1364,
+          516.8659,
           "SP",
           372.97,
           {
@@ -400867,7 +401503,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 88
             },
             "weightSources": {
-              "peso_projetado": 88
+              "peso_projetado": 86,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -400920,7 +401557,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 335 / Curral P-7",
           "Boi Gordo",
           79,
-          533.557,
+          531.5114,
           "SP",
           372.97,
           {
@@ -400947,7 +401584,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 79
             },
             "weightSources": {
-              "peso_projetado": 79
+              "peso_projetado": 75,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -401000,7 +401638,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 336 / Curral P-13",
           "Boi Gordo",
           101,
-          531.4653,
+          527.3743,
           "SP",
           372.97,
           {
@@ -401027,7 +401665,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 101
             },
             "weightSources": {
-              "peso_projetado": 101
+              "peso_projetado": 96,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -401160,7 +401799,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 338 / Curral F-3",
           "Boi Gordo",
           98,
-          547.7143,
+          543.8306,
           "SP",
           372.97,
           {
@@ -401187,7 +401826,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 98
             },
             "weightSources": {
-              "peso_projetado": 98
+              "peso_projetado": 93,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -401240,7 +401880,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 339 / Curral F-4",
           "Boi Gordo",
           104,
-          554.8462,
+          552.0231,
           "SP",
           372.97,
           {
@@ -401267,7 +401907,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 104
             },
             "weightSources": {
-              "peso_projetado": 104
+              "peso_projetado": 100,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -401360,7 +402001,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 341 / Curral F-7",
           "Boi Gordo",
           16,
-          509.25,
+          506.3375,
           "SP",
           372.97,
           {
@@ -401387,7 +402028,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 15
             },
             "gtas": [],
             "notas": [],
@@ -401440,7 +402082,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 343 / Curral D-11",
           "Boi Gordo",
           84,
-          539.4405,
+          537.919,
           "SP",
           372.97,
           {
@@ -401467,7 +402109,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 84
             },
             "weightSources": {
-              "peso_projetado": 84
+              "peso_projetado": 81,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -401520,7 +402163,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 343 / Curral Manga",
           "Boi Gordo",
           12,
-          560.5833,
+          555.7833,
           "SP",
           372.97,
           {
@@ -401547,7 +402190,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -401560,7 +402204,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 354 / Curral D-15",
           "Boi Gordo",
           47,
-          554.9574,
+          546.6596,
           "SP",
           372.97,
           {
@@ -401587,7 +402231,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 47
             },
             "weightSources": {
-              "peso_projetado": 47
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -401640,7 +402285,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 356 / Curral H-8",
           "Boi Gordo",
           28,
-          554.6786,
+          551.6214,
           "SP",
           372.97,
           {
@@ -401667,7 +402312,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -402000,7 +402646,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 273 / Curral O-6",
           "Boi Gordo",
           34,
-          499.9706,
+          498.4765,
           "SP",
           372.97,
           {
@@ -402027,7 +402673,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado": 33,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -402160,7 +402807,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 276 / Curral Manga",
           "Boi Gordo",
           87,
-          513.5632,
+          512.1402,
           "SP",
           372.97,
           {
@@ -402187,7 +402834,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 87
             },
             "weightSources": {
-              "peso_projetado": 87
+              "peso_projetado": 85,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -402320,7 +402968,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 281 / Curral Manga",
           "Boi Gordo",
           74,
-          528.9189,
+          527.1243,
           "SP",
           372.97,
           {
@@ -402349,7 +402997,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 71,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -402728,7 +403377,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 283 / Curral Manga",
           "Boi Gordo",
           35,
-          495.0571,
+          490.4971,
           "SP",
           372.97,
           {
@@ -402757,7 +403406,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado": 34,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -403134,7 +403784,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 292 / Curral P-6",
           "Boi Gordo",
           33,
-          568.4242,
+          560.3939,
           "SP",
           372.97,
           {
@@ -403161,7 +403811,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 28
             },
             "gtas": [],
             "notas": [],
@@ -403174,7 +403825,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 294 / Curral P-3",
           "Boi Gordo",
           38,
-          573.8158,
+          554.2789,
           "SP",
           372.97,
           {
@@ -403201,7 +403852,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 38
             },
             "weightSources": {
-              "peso_projetado": 38
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 26
             },
             "gtas": [],
             "notas": [],
@@ -403294,7 +403946,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 296 / Curral P-5",
           "Boi Gordo",
           65,
-          526.1077,
+          520.4615,
           "SP",
           372.97,
           {
@@ -403321,7 +403973,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 65
             },
             "weightSources": {
-              "peso_projetado": 65
+              "peso_projetado": 60,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -403454,7 +404107,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 34 / Curral Curral C16",
           "Boi Gordo",
           61,
-          576.3115,
+          568.0951,
           "SP",
           372.97,
           {
@@ -403481,7 +404134,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 61
             },
             "weightSources": {
-              "peso_projetado": 61
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 49
             },
             "gtas": [],
             "notas": [],
@@ -403574,7 +404228,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 39 / Curral Curral C19",
           "Boi Gordo",
           63,
-          571.6032,
+          563.4032,
           "SP",
           372.97,
           {
@@ -403601,7 +404255,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 63
             },
             "weightSources": {
-              "peso_projetado": 63
+              "peso_projetado_ajustado_gmd_140": 11,
+              "peso_projetado": 52
             },
             "gtas": [],
             "notas": [],
@@ -403654,7 +404309,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 41 / Curral Curral D4",
           "Boi Gordo",
           64,
-          548.1562,
+          543.9844,
           "SP",
           372.97,
           {
@@ -403681,7 +404336,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 64
             },
             "weightSources": {
-              "peso_projetado": 64
+              "peso_projetado": 59,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -403734,7 +404390,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 43 / Curral Curral B30",
           "Boi Gordo",
           55,
-          539.8545,
+          539.6,
           "SP",
           372.97,
           {
@@ -403761,7 +404417,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 55
             },
             "weightSources": {
-              "peso_projetado": 55
+              "peso_projetado": 53,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -403894,7 +404551,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 47 / Curral Curral D14",
           "Boi Gordo",
           59,
-          536.0678,
+          534.7322,
           "SP",
           372.97,
           {
@@ -403921,7 +404578,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 59
             },
             "weightSources": {
-              "peso_projetado": 59
+              "peso_projetado": 57,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -403974,7 +404632,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 085 / Curral Curral K03",
           "Boi Gordo",
           56,
-          585.4821,
+          580.3321,
           "SP",
           372.97,
           {
@@ -404001,7 +404659,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 48,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -404054,7 +404713,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 086 / Curral Curral G6",
           "Boi Gordo",
           50,
-          554.4,
+          552.4,
           "SP",
           372.97,
           {
@@ -404083,7 +404742,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 50
             },
             "weightSources": {
-              "peso_projetado": 50
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 45
             },
             "gtas": [],
             "notas": [],
@@ -404176,7 +404836,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 086 / Curral Curral H2",
           "Boi Gordo",
           7,
-          537.8571,
+          526.1429,
           "SP",
           372.97,
           {
@@ -404203,7 +404863,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -404216,7 +404877,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 40 / Curral Curral K6",
           "Boi Gordo",
           57,
-          583.1404,
+          577.5018,
           "SP",
           372.97,
           {
@@ -404243,7 +404904,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 57
             },
             "weightSources": {
-              "peso_projetado": 57
+              "peso_projetado": 46,
+              "peso_projetado_ajustado_gmd_140": 11
             },
             "gtas": [],
             "notas": [],
@@ -404336,7 +404998,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 48 / Curral Curral K01",
           "Boi Gordo",
           45,
-          561.9556,
+          555.96,
           "SP",
           372.97,
           {
@@ -404363,7 +405025,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 45
             },
             "weightSources": {
-              "peso_projetado": 45
+              "peso_projetado": 39,
+              "peso_projetado_ajustado_gmd_140": 6
             },
             "gtas": [],
             "notas": [],
@@ -404416,7 +405079,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS / Lote 61 / Curral Curral G04",
           "Boi Gordo",
           42,
-          581.2381,
+          568.4286,
           "SP",
           372.97,
           {
@@ -404443,7 +405106,8 @@ window.ceresBiologicalAssets = {
               "cra_one_two_para_65_200": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado_ajustado_gmd_140": 12,
+              "peso_projetado": 30
             },
             "gtas": [],
             "notas": [],
@@ -404659,16 +405323,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 13514
       },
       "totalHeads": 18099,
-      "totalWeightKg": 7843172.9128,
-      "totalArrobas": 522878.1942,
-      "totalValue": 183637226.5,
+      "totalWeightKg": 7823960.1198,
+      "totalArrobas": 521597.3413,
+      "totalValue": 183186763.68,
       "transitHeads": 10877,
-      "transitWeightKg": 5762583.1105,
-      "transitValue": 135828342.95,
+      "transitWeightKg": 5676118.6939,
+      "transitValue": 133792934.87,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 319465569.45,
+      "coverageValue": 316979698.55,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -404696,7 +405360,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 351.9096,
+      "quotePerArroba": 351.9117,
       "lots": [
         [
           "FAZENDA SERRA VERDE - BTG / Lote Lote 08 / Curral A05",
@@ -405186,7 +405850,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 37 / Curral C04",
           "Boi Gordo",
           6,
-          544.3333,
+          543.75,
           "RO",
           348.08,
           {
@@ -405213,7 +405877,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -405306,7 +405971,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 132 / Curral Curral H6",
           "Boi Gordo",
           19,
-          541.7105,
+          541.4947,
           "MG",
           360.26,
           {
@@ -405333,7 +405998,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 19
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -406950,7 +407616,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J653 / Curral 215",
           "Boi Gordo",
           29,
-          575.6207,
+          575.3862,
           "GO",
           351.33,
           {
@@ -406977,7 +407643,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -408390,7 +409057,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J667 / Curral 63",
           "Boi Gordo",
           12,
-          570.5,
+          570.025,
           "GO",
           351.33,
           {
@@ -408417,7 +409084,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -408750,7 +409418,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J670 / Curral 61",
           "Boi Gordo",
           5,
-          606.9,
+          604.86,
           "GO",
           351.33,
           {
@@ -408777,7 +409445,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -410950,7 +411619,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 15 / Curral Curral A04",
           "Boi Gordo",
           3,
-          571.0333,
+          565.9333,
           "MT",
           349.08,
           {
@@ -410977,7 +411646,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -411190,7 +411860,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 15 / Curral Curral A06",
           "Boi Gordo",
           3,
-          569.6667,
+          564.6667,
           "MT",
           349.08,
           {
@@ -411217,7 +411887,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -411550,7 +412221,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 9 / Curral Curral E07",
           "Boi Gordo",
           39,
-          581.359,
+          580.7436,
           "MT",
           349.08,
           {
@@ -411577,7 +412248,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 35,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -411630,7 +412302,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 9 / Curral Pasto 08",
           "Boi Gordo",
           4,
-          612.0,
+          607.5,
           "MT",
           349.08,
           {
@@ -411657,7 +412329,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -413874,7 +414547,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 63/26 / Curral TIP-02",
           "Boi Gordo",
           4,
-          580.0,
+          578.4,
           "MT",
           349.08,
           {
@@ -413901,7 +414574,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -414314,7 +414988,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 67/26 / Curral SMU-07",
           "Boi Gordo",
           1,
-          626.0,
+          620.4,
           "MT",
           349.08,
           {
@@ -414341,7 +415015,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -416782,7 +417456,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Porto Taboado - BTG / Lote 362 / Curral N-140",
           "Boi Gordo",
           4,
-          566.75,
+          565.4,
           "MS",
           364.61,
           {
@@ -416809,7 +417483,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -417922,7 +418597,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ramax - BTG / Lote L274-26 / Curral BAIA 102",
           "Boi Gordo",
           36,
-          566.0,
+          565.9444,
           "MT",
           349.08,
           {
@@ -417951,7 +418626,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 36
             },
             "weightSources": {
-              "peso_projetado": 36
+              "peso_projetado": 35,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -418646,7 +419322,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 395 / Curral Manga-6",
           "Boi Gordo",
           2,
-          619.5,
+          618.4,
           "SP",
           372.97,
           {
@@ -418673,7 +419349,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -419368,7 +420045,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 405 / Curral Manga-4",
           "Boi Gordo",
           5,
-          612.6,
+          611.24,
           "SP",
           372.97,
           {
@@ -419397,7 +420074,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -419538,7 +420216,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 412 / Curral D-10",
           "Boi Gordo",
           13,
-          575.1923,
+          574.0154,
           "SP",
           372.97,
           {
@@ -419565,7 +420243,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -420634,7 +421313,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 423 / Curral L-5",
           "Boi Gordo",
           1,
-          722.0,
+          716.0,
           "SP",
           372.97,
           {
@@ -420661,7 +421340,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -422242,7 +422921,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 092 / Curral Curral F6",
           "Boi Gordo",
           5,
-          596.2,
+          595.4,
           "SP",
           372.97,
           {
@@ -422269,7 +422948,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -422482,7 +423162,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 095 / Curral Curral L9",
           "Boi Gordo",
           14,
-          590.0714,
+          589.7571,
           "SP",
           372.97,
           {
@@ -422509,7 +423189,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 12
             },
             "gtas": [],
             "notas": [],
@@ -422682,7 +423363,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 097 / Curral Curral G11",
           "Boi Gordo",
           15,
-          603.9,
+          603.4067,
           "SP",
           372.97,
           {
@@ -422709,7 +423390,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -423082,7 +423764,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 119 / Curral Curral L8",
           "Boi Gordo",
           27,
-          580.037,
+          579.5333,
           "SP",
           372.97,
           {
@@ -423109,7 +423791,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 27
             },
             "weightSources": {
-              "peso_projetado": 27
+              "peso_projetado": 23,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -423562,7 +424245,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 130 / Curral Curral J4",
           "Boi Gordo",
           12,
-          581.1667,
+          580.1333,
           "SP",
           372.97,
           {
@@ -423589,7 +424272,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -423682,7 +424366,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 133 / Curral Curral J2",
           "Boi Gordo",
           13,
-          551.1154,
+          550.6769,
           "SP",
           372.97,
           {
@@ -423709,7 +424393,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 13
             },
             "weightSources": {
-              "peso_projetado": 13
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -423802,7 +424487,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 134 / Curral Curral K8",
           "Boi Gordo",
           40,
-          589.0,
+          587.86,
           "SP",
           372.97,
           {
@@ -423829,7 +424514,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 40
             },
             "weightSources": {
-              "peso_projetado": 40
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -423962,7 +424648,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 136 / Curral Curral L9",
           "Boi Gordo",
           12,
-          568.0833,
+          567.6167,
           "SP",
           372.97,
           {
@@ -423989,7 +424675,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 12
             },
             "weightSources": {
-              "peso_projetado": 12
+              "peso_projetado": 11,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -424204,7 +424891,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 138 / Curral Curral L7",
           "Boi Gordo",
           42,
-          598.4048,
+          596.7762,
           "SP",
           372.97,
           {
@@ -424231,7 +424918,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 42
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 30,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -424484,7 +425172,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 140 / Curral Curral L5",
           "Boi Gordo",
           5,
-          583.3,
+          582.16,
           "SP",
           372.97,
           {
@@ -424511,7 +425199,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -424604,7 +425293,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 143 / Curral Curral H5",
           "Boi Gordo",
           29,
-          574.9138,
+          574.5345,
           "SP",
           372.97,
           {
@@ -424631,7 +425320,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 27
             },
             "gtas": [],
             "notas": [],
@@ -425604,7 +426294,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 159 / Curral Curral K8",
           "Boi Gordo",
           17,
-          590.0294,
+          588.8765,
           "SP",
           372.97,
           {
@@ -425631,7 +426321,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -425764,7 +426455,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 161 / Curral Curral L3",
           "Boi Gordo",
           14,
-          565.3571,
+          564.6857,
           "SP",
           372.97,
           {
@@ -425791,7 +426482,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -425924,7 +426616,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 161 / Curral Curral L4",
           "Boi Gordo",
           6,
-          576.0,
+          575.2167,
           "SP",
           372.97,
           {
@@ -425951,7 +426643,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -426086,7 +426779,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 161 / Curral Curral L6",
           "Boi Gordo",
           18,
-          576.0,
+          574.9556,
           "SP",
           372.97,
           {
@@ -426113,7 +426806,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 18
             },
             "weightSources": {
-              "peso_projetado": 18
+              "peso_projetado": 14,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -428428,7 +429122,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 06 / Curral Curral G12",
           "Vaca",
           43,
-          508.4651,
+          501.9814,
           "MT",
           319.14,
           {
@@ -428455,7 +429149,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -428468,7 +429163,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 07 / Curral Curral G09",
           "Vaca",
           56,
-          474.9821,
+          470.25,
           "MT",
           319.14,
           {
@@ -428495,7 +429190,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -428508,7 +429204,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote Lote 07 / Curral Curral G10",
           "Vaca",
           50,
-          483.52,
+          482.98,
           "MT",
           319.14,
           {
@@ -428535,7 +429231,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 50
             },
             "weightSources": {
-              "peso_projetado": 50
+              "peso_projetado": 49,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -428628,7 +429325,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Olhos D'Agua - BTG / Lote lote 07 / Curral Curral G11",
           "Vaca",
           56,
-          507.25,
+          506.4929,
           "MT",
           319.14,
           {
@@ -428655,7 +429352,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado": 55,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -428948,7 +429646,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 60 / Curral Curral B9",
           "Boi Gordo",
           51,
-          531.3922,
+          528.749,
           "SP",
           372.97,
           {
@@ -428975,7 +429673,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 51
             },
             "weightSources": {
-              "peso_projetado": 51
+              "peso_projetado": 48,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -429070,16 +429769,16 @@ window.ceresBiologicalAssets = {
         "transferencia_lastro_ativo": 12850
       },
       "totalHeads": 12260,
-      "totalWeightKg": 5156389.5532,
-      "totalArrobas": 343759.3035,
-      "totalValue": 121389170.52,
+      "totalWeightKg": 5156000.9519,
+      "totalArrobas": 343733.3968,
+      "totalValue": 121379690.6,
       "transitHeads": 590,
-      "transitWeightKg": 280881.9967,
-      "transitValue": 6172687.2,
+      "transitWeightKg": 280133.9992,
+      "transitValue": 6156289.0,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 127561857.72,
+      "coverageValue": 127535979.6,
       "sourceVehicleNames": [
         "Confina BTG 100 MM"
       ],
@@ -429098,13 +429797,13 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 365.5568,
+      "quotePerArroba": 365.5551,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Bezerro",
           2,
-          938.0,
+          895.1,
           "SP",
           372.97,
           {
@@ -429131,7 +429830,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -429144,7 +429843,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Boi Gordo",
           34,
-          1079.6029,
+          1040.4882,
           "SP",
           372.97,
           {
@@ -429171,7 +429870,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 34
             },
             "weightSources": {
-              "peso_projetado": 31,
+              "peso_projetado_ajustado_gmd_140": 31,
               "peso_entrada": 3
             },
             "gtas": [],
@@ -429185,7 +429884,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Boi Magro",
           56,
-          1060.1071,
+          1017.2071,
           "SP",
           372.97,
           {
@@ -429212,7 +429911,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 56
             },
             "weightSources": {
-              "peso_projetado": 56
+              "peso_projetado_ajustado_gmd_140": 56
             },
             "gtas": [],
             "notas": [],
@@ -429225,7 +429924,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 632 / Curral Curral E-2",
           "Garrote",
           43,
-          988.6395,
+          945.7395,
           "SP",
           372.97,
           {
@@ -429252,7 +429951,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 43
             },
             "weightSources": {
-              "peso_projetado": 43
+              "peso_projetado_ajustado_gmd_140": 43
             },
             "gtas": [],
             "notas": [],
@@ -430756,7 +431455,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 680 / Curral Curral D-7",
           "Boi Gordo",
           42,
-          531.9048,
+          531.8357,
           "SP",
           372.97,
           {
@@ -430786,7 +431485,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 36
             },
             "weightSources": {
-              "peso_projetado": 42
+              "peso_projetado": 41,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -432143,7 +432843,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 710 / Curral Curral L-4",
           "Boi Gordo",
           92,
-          533.8478,
+          533.8,
           "SP",
           372.97,
           {
@@ -432177,7 +432877,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 40
             },
             "weightSources": {
-              "peso_projetado": 92
+              "peso_projetado": 90,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -432496,7 +433197,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 714 / Curral Curral H-7",
           "Boi Gordo",
           14,
-          520.7857,
+          520.6429,
           "SP",
           372.97,
           {
@@ -432523,7 +433224,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 13,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -441329,7 +442031,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 379 / Curral Manga-6",
           "Boi Gordo",
           9,
-          600.3889,
+          599.2889,
           "SP",
           372.97,
           {
@@ -441358,7 +442060,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -441871,7 +442574,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 384 / Curral Manga-6",
           "Boi Gordo",
           7,
-          595.0,
+          594.2,
           "SP",
           372.97,
           {
@@ -441898,7 +442601,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 6
             },
             "gtas": [],
             "notas": [],
@@ -442435,7 +443139,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 389 / Curral Manga-4",
           "Boi Gordo",
           1,
-          621.0,
+          614.2,
           "SP",
           372.97,
           {
@@ -442462,7 +443166,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -442637,7 +443341,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 395 / Curral Manga-6",
           "Boi Gordo",
           6,
-          607.6667,
+          606.5333,
           "SP",
           372.97,
           {
@@ -442666,7 +443370,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -442883,7 +443588,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo -BTG / Lote 397 / Curral Manga-5",
           "Boi Gordo",
           6,
-          602.3333,
+          601.2,
           "SP",
           372.97,
           {
@@ -442910,7 +443615,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -444973,7 +445679,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 369 / Curral Manga-6",
           "Boi Gordo",
           8,
-          596.125,
+          596.1125,
           "SP",
           372.97,
           {
@@ -445000,7 +445706,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -445733,7 +446440,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 373 / Curral Manga-6",
           "Boi Gordo",
           5,
-          613.4,
+          612.24,
           "SP",
           372.97,
           {
@@ -445760,7 +446467,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -445853,7 +446561,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 373 / Curral Manga-7",
           "Boi Gordo",
           8,
-          599.75,
+          599.375,
           "SP",
           372.97,
           {
@@ -445880,7 +446588,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -446293,7 +447002,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 376 / Curral Manga-4",
           "Boi Gordo",
           4,
-          601.625,
+          601.275,
           "SP",
           372.97,
           {
@@ -446320,7 +447029,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado": 3,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -446573,7 +447283,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 384 / Curral Manga-6",
           "Boi Gordo",
           4,
-          593.5,
+          591.75,
           "SP",
           372.97,
           {
@@ -446600,7 +447310,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -446933,7 +447644,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 389 / Curral Manga-4",
           "Boi Gordo",
           2,
-          618.25,
+          614.1,
           "SP",
           372.97,
           {
@@ -446960,7 +447671,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -447173,7 +447885,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 395 / Curral Manga-6",
           "Boi Gordo",
           8,
-          609.9375,
+          607.175,
           "SP",
           372.97,
           {
@@ -447200,7 +447912,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -447453,7 +448166,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 12 / Curral Curral D5",
           "Boi Gordo",
           26,
-          538.4231,
+          538.2077,
           "MG",
           360.26,
           {
@@ -447480,7 +448193,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado": 24,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -447693,7 +448407,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 14 / Curral Curral D7",
           "Boi Gordo",
           29,
-          544.8966,
+          544.5103,
           "MG",
           360.26,
           {
@@ -447720,7 +448434,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 25,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -447813,7 +448528,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 15 / Curral Curral C1",
           "Boi Gordo",
           34,
-          538.1471,
+          537.9882,
           "MG",
           360.26,
           {
@@ -447840,7 +448555,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 34
             },
             "weightSources": {
-              "peso_projetado": 34
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -447933,7 +448649,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 16 / Curral Curral D6",
           "Boi Gordo",
           74,
-          567.4459,
+          567.0243,
           "MG",
           360.26,
           {
@@ -447960,7 +448676,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 74
             },
             "weightSources": {
-              "peso_projetado": 74
+              "peso_projetado": 62,
+              "peso_projetado_ajustado_gmd_140": 12
             },
             "gtas": [],
             "notas": [],
@@ -448055,7 +448772,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES 40/26 / Curral B-07",
           "Boi Gordo",
           8,
-          552.125,
+          544.55,
           "MT",
           349.08,
           {
@@ -448082,7 +448799,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 7,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -448135,7 +448853,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES 44/26 / Curral D-10",
           "Boi Gordo",
           75,
-          593.4667,
+          579.7733,
           "MT",
           349.08,
           {
@@ -448164,7 +448882,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 75
             },
             "weightSources": {
-              "peso_projetado": 75
+              "peso_projetado_ajustado_gmd_140": 19,
+              "peso_projetado": 56
             },
             "gtas": [],
             "notas": [],
@@ -448257,7 +448976,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES PLT 40 / Curral B-07",
           "Boi Gordo",
           26,
-          575.7692,
+          562.8538,
           "MT",
           349.08,
           {
@@ -448284,7 +449003,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 26
             },
             "weightSources": {
-              "peso_projetado": 26
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 21
             },
             "gtas": [],
             "notas": [],
@@ -448337,7 +449057,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote CERES PLT 40 / Curral B-07",
           "Boi Gordo",
           11,
-          579.0909,
+          574.1818,
           "MT",
           349.08,
           {
@@ -448364,7 +449084,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -448377,7 +449098,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote CERES PLT 44 / Curral D-10",
           "Boi Gordo",
           70,
-          586.3,
+          574.1114,
           "MT",
           349.08,
           {
@@ -448404,7 +449125,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 70
             },
             "weightSources": {
-              "peso_projetado": 70
+              "peso_projetado": 54,
+              "peso_projetado_ajustado_gmd_140": 16
             },
             "gtas": [],
             "notas": [],
@@ -448417,7 +449139,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 292 / Curral P-6",
           "Boi Gordo",
           10,
-          563.7,
+          544.34,
           "SP",
           372.97,
           {
@@ -448444,7 +449166,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -448457,7 +449180,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 294 / Curral P-3",
           "Boi Gordo",
           8,
-          570.75,
+          554.3,
           "SP",
           372.97,
           {
@@ -448484,7 +449207,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -448497,7 +449221,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 295 / Curral P-8",
           "Boi Gordo",
           29,
-          555.3793,
+          544.3862,
           "SP",
           372.97,
           {
@@ -448524,7 +449248,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 29
             },
             "weightSources": {
-              "peso_projetado": 29
+              "peso_projetado": 25,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -448817,7 +449542,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 354 / Curral Manga-6",
           "Boi Gordo",
           35,
-          540.0286,
+          538.6629,
           "SP",
           372.97,
           {
@@ -448845,7 +449570,8 @@ window.ceresBiologicalAssets = {
             },
             "weightSources": {
               "peso_alvo": 24,
-              "peso_projetado": 11
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -448898,7 +449624,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Geraldo / Lote 356 / Curral Manga-4",
           "Boi Gordo",
           39,
-          543.4615,
+          542.8,
           "SP",
           372.97,
           {
@@ -448925,7 +449651,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 39
             },
             "weightSources": {
-              "peso_projetado": 39
+              "peso_projetado": 38,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -448981,16 +449708,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 4511
       },
       "totalHeads": 12063,
-      "totalWeightKg": 5120209.4095,
-      "totalArrobas": 341347.294,
-      "totalValue": 124857423.03,
+      "totalWeightKg": 5114400.3064,
+      "totalArrobas": 340960.0204,
+      "totalValue": 124713026.95,
       "transitHeads": 389,
-      "transitWeightKg": 217829.5007,
-      "transitValue": 5233015.24,
+      "transitWeightKg": 214781.2953,
+      "transitValue": 5160934.63,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 130090438.27,
+      "coverageValue": 129873961.57,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -449015,7 +449742,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": true,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 372.1585,
+      "quotePerArroba": 372.1781,
       "lots": [
         [
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote J-004 / Curral PQJ-4",
@@ -449541,7 +450268,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 714 / Curral Curral H-7",
           "Boi Gordo",
           30,
-          525.4,
+          525.3333,
           "SP",
           390.18,
           {
@@ -449568,7 +450295,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 30
             },
             "weightSources": {
-              "peso_projetado": 30
+              "peso_projetado": 29,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -449781,7 +450509,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 730 / Curral Curral F-6",
           "Boi Gordo",
           6,
-          566.6667,
+          566.0333,
           "SP",
           403.48,
           {
@@ -449808,7 +450536,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -450501,7 +451230,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA MARAVILHA BARRETOS - BTG / Lote Lote 741 / Curral Curral F-10",
           "Boi Gordo",
           16,
-          553.3125,
+          553.2375,
           "SP",
           398.06,
           {
@@ -450528,7 +451257,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 16
             },
             "weightSources": {
-              "peso_projetado": 16
+              "peso_projetado": 15,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -462505,7 +463235,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260226 CE B09 / Curral Curral B9",
           "Boi Gordo",
           1,
-          739.0,
+          729.0,
           "BA",
           350.92,
           {
@@ -462532,7 +463262,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -463465,7 +464195,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Gordo",
           7,
-          706.6429,
+          695.7429,
           "BA",
           350.92,
           {
@@ -463492,7 +464222,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -463505,7 +464235,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260505 CE C23 / Curral Curral C23",
           "Boi Magro",
           35,
-          636.5286,
+          628.7429,
           "BA",
           350.92,
           {
@@ -463532,7 +464262,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 35
             },
             "weightSources": {
-              "peso_projetado": 35
+              "peso_projetado_ajustado_gmd_140": 25,
+              "peso_projetado": 10
             },
             "gtas": [],
             "notas": [],
@@ -463625,7 +464356,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B23 / Curral Curral B23",
           "Boi Magro",
           3,
-          628.1667,
+          619.0333,
           "BA",
           350.92,
           {
@@ -463652,7 +464383,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -463785,7 +464517,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B24 / Curral Curral B24",
           "Boi Magro",
           5,
-          624.3,
+          616.08,
           "BA",
           350.92,
           {
@@ -463812,7 +464544,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 3,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -463987,7 +464720,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B25 / Curral Curral B25",
           "Boi Magro",
           3,
-          627.5,
+          622.9333,
           "BA",
           350.92,
           {
@@ -464014,7 +464747,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -464149,7 +464883,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B26 / Curral Curral B26",
           "Boi Gordo",
           1,
-          680.0,
+          665.0,
           "BA",
           350.92,
           {
@@ -464176,7 +464910,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -464189,7 +464923,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B26 / Curral Curral B26",
           "Boi Magro",
           17,
-          622.3529,
+          614.4118,
           "BA",
           350.92,
           {
@@ -464216,7 +464950,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 17
             },
             "weightSources": {
-              "peso_projetado": 17
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 9
             },
             "gtas": [],
             "notas": [],
@@ -464349,7 +465084,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE C08 / Curral Curral A25",
           "Boi Gordo",
           1,
-          648.0,
+          644.6,
           "BA",
           350.92,
           {
@@ -464376,7 +465111,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -464429,7 +465164,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE C08 / Curral Curral B21",
           "Boi Gordo",
           7,
-          674.4286,
+          662.0286,
           "BA",
           350.92,
           {
@@ -464456,7 +465191,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -464469,7 +465204,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260508 CE C08 / Curral Curral B21",
           "Boi Magro",
           68,
-          611.0588,
+          607.2294,
           "BA",
           350.92,
           {
@@ -464496,7 +465231,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 68
             },
             "weightSources": {
-              "peso_projetado": 68
+              "peso_projetado": 47,
+              "peso_projetado_ajustado_gmd_140": 21
             },
             "gtas": [],
             "notas": [],
@@ -464749,7 +465485,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260512 CE A22 / Curral Curral A22",
           "Boi Magro",
           1,
-          626.0,
+          614.2,
           "BA",
           350.92,
           {
@@ -464776,7 +465512,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -465031,7 +465767,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C04 / Curral Curral C4",
           "Boi Gordo",
           4,
-          726.0,
+          716.0,
           "BA",
           350.92,
           {
@@ -465058,7 +465794,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -465071,7 +465807,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260515 CE C04 / Curral Curral C4",
           "Boi Magro",
           2,
-          627.0,
+          622.0,
           "BA",
           350.92,
           {
@@ -465098,7 +465834,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -465191,7 +465928,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260521 CE B22 / Curral Curral B22",
           "Boi Gordo",
           1,
-          707.0,
+          694.6,
           "BA",
           350.92,
           {
@@ -465218,7 +465955,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -465391,7 +466128,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260521 CE C09 / Curral Curral C9",
           "Boi Gordo",
           2,
-          670.5,
+          658.1,
           "BA",
           350.92,
           {
@@ -465418,7 +466155,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -465431,7 +466168,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260521 CE C09 / Curral Curral C9",
           "Boi Magro",
           24,
-          609.5,
+          605.8833,
           "BA",
           350.92,
           {
@@ -465458,7 +466195,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 17,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -465553,7 +466291,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE A21 / Curral Curral A13",
           "Boi Gordo",
           2,
-          579.0,
+          562.4,
           "BA",
           350.92,
           {
@@ -465580,7 +466318,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado": 1,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -465633,7 +466372,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE A21 / Curral Curral A21",
           "Boi Magro",
           5,
-          625.8,
+          617.88,
           "BA",
           350.92,
           {
@@ -465660,7 +466399,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 2,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -465913,7 +466653,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral A25",
           "Boi Gordo",
           1,
-          650.0,
+          494.2,
           "BA",
           350.92,
           {
@@ -465940,7 +466680,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -465993,7 +466733,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B19 / Curral Curral B19",
           "Boi Magro",
           1,
-          626.0,
+          614.2,
           "BA",
           350.92,
           {
@@ -466020,7 +466760,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -466113,7 +466853,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE C05 / Curral Curral B19",
           "Boi Gordo",
           1,
-          675.0,
+          665.0,
           "BA",
           350.92,
           {
@@ -466140,7 +466880,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -466273,7 +467013,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J620 / Curral 206",
           "Boi Gordo",
           28,
-          645.6643,
+          626.3143,
           "GO",
           351.33,
           {
@@ -466300,7 +467040,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado_ajustado_gmd_140": 21,
+              "peso_projetado": 7
             },
             "gtas": [],
             "notas": [],
@@ -466353,7 +467094,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J621 / Curral 206",
           "Boi Gordo",
           21,
-          650.5333,
+          632.1048,
           "GO",
           351.33,
           {
@@ -466380,7 +467121,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 21
             },
             "weightSources": {
-              "peso_projetado": 21
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 15
             },
             "gtas": [],
             "notas": [],
@@ -466473,7 +467215,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J622 / Curral 207",
           "Boi Gordo",
           8,
-          614.075,
+          607.625,
           "GO",
           351.33,
           {
@@ -466500,7 +467242,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 8
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -466753,7 +467496,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J624 / Curral 204",
           "Boi Gordo",
           2,
-          651.7,
+          625.9,
           "GO",
           351.33,
           {
@@ -466780,7 +467523,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -467153,7 +467896,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J627 / Curral 208",
           "Boi Gordo",
           1,
-          644.4,
+          621.2,
           "GO",
           351.33,
           {
@@ -467180,7 +467923,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -467313,7 +468056,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J628 / Curral 212",
           "Boi Gordo",
           6,
-          616.0,
+          613.6,
           "GO",
           351.33,
           {
@@ -467340,7 +468083,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -467433,7 +468177,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J629 / Curral 206",
           "Boi Gordo",
           11,
-          618.4,
+          604.9818,
           "GO",
           351.33,
           {
@@ -467460,7 +468204,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 6,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -467513,7 +468258,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J630 / Curral 206",
           "Boi Gordo",
           10,
-          633.8,
+          621.5,
           "GO",
           351.33,
           {
@@ -467540,7 +468285,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 5,
+              "peso_projetado": 5
             },
             "gtas": [],
             "notas": [],
@@ -467593,7 +468339,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J631 / Curral 210",
           "Boi Gordo",
           31,
-          637.1419,
+          622.0645,
           "GO",
           351.33,
           {
@@ -467620,7 +468366,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 31
             },
             "weightSources": {
-              "peso_projetado": 31
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 19
             },
             "gtas": [],
             "notas": [],
@@ -467713,7 +468460,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J632 / Curral 210",
           "Boi Gordo",
           11,
-          609.4909,
+          607.2545,
           "GO",
           351.33,
           {
@@ -467740,7 +468487,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -468313,7 +469061,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J679 / Curral 66",
           "Boi Gordo",
           10,
-          589.3,
+          588.87,
           "GO",
           351.33,
           {
@@ -468340,7 +469088,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 10
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 9
             },
             "gtas": [],
             "notas": [],
@@ -468673,7 +469422,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J682 / Curral 66",
           "Boi Gordo",
           33,
-          547.1364,
+          547.0121,
           "GO",
           351.33,
           {
@@ -468700,7 +469449,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 32,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -469113,7 +469863,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J686 / Curral 69",
           "Boi Gordo",
           1,
-          678.0,
+          674.0,
           "GO",
           351.33,
           {
@@ -469140,7 +469890,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -470153,7 +470903,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J695 / Curral 69",
           "Boi Gordo",
           6,
-          584.3333,
+          583.7333,
           "GO",
           351.33,
           {
@@ -470180,7 +470930,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 6
             },
             "weightSources": {
-              "peso_projetado": 6
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -470553,7 +471304,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J698 / Curral 70",
           "Boi Gordo",
           15,
-          536.7333,
+          536.4933,
           "GO",
           351.33,
           {
@@ -470580,7 +471331,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 15
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 14
             },
             "gtas": [],
             "notas": [],
@@ -472033,7 +472785,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J710 / Curral 80",
           "Boi Gordo",
           9,
-          527.8889,
+          527.5778,
           "GO",
           351.33,
           {
@@ -472060,7 +472812,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 9
             },
             "weightSources": {
-              "peso_projetado": 9
+              "peso_projetado": 8,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -475639,7 +476392,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J746 / Curral 88",
           "Boi Gordo",
           22,
-          517.1364,
+          517.0727,
           "GO",
           380.49,
           {
@@ -475666,7 +476419,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 22
             },
             "weightSources": {
-              "peso_projetado": 22
+              "peso_projetado": 21,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -475959,7 +476713,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J749 / Curral 91",
           "Boi Gordo",
           46,
-          526.413,
+          526.3826,
           "GO",
           394.95,
           {
@@ -475986,7 +476740,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 46
             },
             "weightSources": {
-              "peso_projetado": 46
+              "peso_projetado": 45,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -480559,7 +481314,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J794 / Curral 107",
           "Boi Gordo",
           37,
-          502.7027,
+          502.6919,
           "GO",
           393.26,
           {
@@ -480586,7 +481341,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 37
             },
             "weightSources": {
-              "peso_projetado": 37
+              "peso_projetado": 36,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -481479,7 +482235,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J614 / Curral 202",
           "Boi Gordo",
           5,
-          648.7,
+          623.4,
           "GO",
           351.33,
           {
@@ -481506,7 +482262,7 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -481599,7 +482355,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola / Lote J615 / Curral 203",
           "Boi Gordo",
           11,
-          635.8455,
+          617.4455,
           "GO",
           351.33,
           {
@@ -481626,7 +482382,8 @@ window.ceresBiologicalAssets = {
               "transferencia_numero_titulo_ativo": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 8,
+              "peso_projetado": 3
             },
             "gtas": [],
             "notas": [],
@@ -481839,7 +482596,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote CERES MARCA 101/26 / Curral APT-04",
           "Boi Gordo",
           30,
-          551.2,
+          550.9867,
           "MT",
           400.0,
           {
@@ -481866,7 +482623,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 30
             },
             "weightSources": {
-              "peso_projetado": 30
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -483399,7 +484157,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 19 / Curral Curral C9",
           "Boi Gordo",
           7,
-          518.7857,
+          518.5714,
           "MG",
           380.0,
           {
@@ -483426,7 +484184,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -483519,7 +484278,7 @@ window.ceresBiologicalAssets = {
           "SÍTIO QUATRO IRMÃOS - BTG / Lote 12766/210 / Curral Curral L4",
           "Boi Gordo",
           33,
-          554.3333,
+          554.2121,
           "SP",
           404.16,
           {
@@ -483546,7 +484305,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 33
             },
             "weightSources": {
-              "peso_projetado": 33
+              "peso_projetado": 28,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -483804,7 +484564,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B23 / Curral Curral B23",
           "Boi Gordo",
           28,
-          548.7143,
+          543.7786,
           "BA",
           350.92,
           {
@@ -483831,7 +484591,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 28
             },
             "weightSources": {
-              "peso_projetado": 28
+              "peso_projetado": 26,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -483844,7 +484605,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B24 / Curral Curral B24",
           "Boi Gordo",
           70,
-          562.8429,
+          560.5114,
           "BA",
           350.92,
           {
@@ -483871,7 +484632,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 70
             },
             "weightSources": {
-              "peso_projetado": 70
+              "peso_projetado": 63,
+              "peso_projetado_ajustado_gmd_140": 7
             },
             "gtas": [],
             "notas": [],
@@ -483924,7 +484686,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B25 / Curral Curral B25",
           "Boi Gordo",
           92,
-          564.1522,
+          552.8087,
           "BA",
           350.92,
           {
@@ -483953,7 +484715,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 92
             },
             "weightSources": {
-              "peso_projetado": 92
+              "peso_projetado": 77,
+              "peso_projetado_ajustado_gmd_140": 15
             },
             "gtas": [],
             "notas": [],
@@ -483966,7 +484729,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260507 CE B26 / Curral Curral B26",
           "Boi Gordo",
           93,
-          546.9355,
+          543.6882,
           "BA",
           350.92,
           {
@@ -483993,7 +484756,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 93
             },
             "weightSources": {
-              "peso_projetado": 93
+              "peso_projetado": 85,
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -484166,7 +484930,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Itaparica - BTG / Lote 20260905 CE B05 / Curral Curral B5",
           "Boi Gordo",
           94,
-          529.9574,
+          529.1383,
           "BA",
           350.92,
           {
@@ -484193,7 +484957,8 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 94
             },
             "weightSources": {
-              "peso_projetado": 94
+              "peso_projetado": 93,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -484289,16 +485054,16 @@ window.ceresBiologicalAssets = {
         "transferencia_numero_titulo_ativo": 1695
       },
       "totalHeads": 13205,
-      "totalWeightKg": 5407353.6205,
-      "totalArrobas": 360490.2414,
-      "totalValue": 134511792.29,
+      "totalWeightKg": 5403770.2222,
+      "totalArrobas": 360251.3481,
+      "totalValue": 134427831.8,
       "transitHeads": 450,
-      "transitWeightKg": 243892.0024,
-      "transitValue": 5698796.67,
+      "transitWeightKg": 242168.0015,
+      "transitValue": 5658464.27,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 140210588.97,
+      "coverageValue": 140086296.06,
       "sourceVehicleNames": [
         "Ceres Confina LTDA",
         "Confina BTG 100 MM",
@@ -484327,7 +485092,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J419 / Curral 92",
           "Garrote",
           1,
-          621.3,
+          576.6,
           "GO",
           351.33,
           {
@@ -484354,7 +485119,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -484407,7 +485172,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J422 / Curral 95",
           "Boi Magro",
           1,
-          657.4,
+          611.8,
           "GO",
           351.33,
           {
@@ -484434,7 +485199,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -484447,7 +485212,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J423 / Curral 93",
           "Garrote",
           1,
-          622.4,
+          576.8,
           "GO",
           351.33,
           {
@@ -484474,7 +485239,7 @@ window.ceresBiologicalAssets = {
               "transferencia_lastro_ativo": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -484731,16 +485496,16 @@ window.ceresBiologicalAssets = {
         "transferencia_lastro_ativo": 12
       },
       "totalHeads": 4,
-      "totalWeightKg": 2497.4,
-      "totalArrobas": 166.4933,
-      "totalValue": 58494.1,
+      "totalWeightKg": 2361.5,
+      "totalArrobas": 157.4333,
+      "totalValue": 55311.05,
       "transitHeads": 8,
       "transitWeightKg": 4041.0,
       "transitValue": 94648.3,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 153142.4,
+      "coverageValue": 149959.35,
       "sourceVehicleNames": [
         "Confina BTG 50MM - ABRIL/2026"
       ],
@@ -485758,7 +486523,7 @@ window.ceresBiologicalAssets = {
       "controlledOperation": false,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 354.3556,
+      "quotePerArroba": 354.3538,
       "lots": [
         [
           "FAZENDA MARAVILHA DO ARAGUAIA - BTG / Lote 13281 / Curral MD-92",
@@ -486404,7 +487169,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 121 / Curral Curral E5",
           "Boi Gordo",
           1,
-          651.5,
+          548.8,
           "MG",
           360.26,
           {
@@ -486431,7 +487196,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -486688,7 +487453,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 124 / Curral Curral G3",
           "Boi Gordo",
           20,
-          643.55,
+          633.005,
           "MG",
           360.26,
           {
@@ -486715,7 +487480,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 20
             },
             "weightSources": {
-              "peso_projetado": 20
+              "peso_projetado_ajustado_gmd_140": 19,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -487008,7 +487774,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 17 / Curral Curral G3",
           "Desmama Macho",
           1,
-          698.5,
+          666.8,
           "MG",
           360.26,
           {
@@ -487035,7 +487801,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487210,7 +487976,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 24 / Curral Curral G6",
           "Bezerro",
           1,
-          731.5,
+          700.8,
           "MG",
           360.26,
           {
@@ -487237,7 +488003,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487250,7 +488016,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 24 / Curral Curral G6",
           "Garrote",
           2,
-          767.5,
+          737.4,
           "MG",
           360.26,
           {
@@ -487277,7 +488043,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -487290,7 +488056,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 26 / Curral Curral H2",
           "Bezerro",
           3,
-          707.6667,
+          677.4667,
           "MG",
           360.26,
           {
@@ -487317,7 +488083,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -487330,7 +488096,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 26 / Curral Curral H2",
           "Desmama Macho",
           1,
-          692.0,
+          661.4,
           "MG",
           360.26,
           {
@@ -487357,7 +488123,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487370,7 +488136,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Bezerro",
           2,
-          717.5,
+          686.9,
           "MG",
           360.26,
           {
@@ -487400,7 +488166,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -487413,7 +488179,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Boi Gordo",
           1,
-          911.5,
+          880.8,
           "MG",
           360.26,
           {
@@ -487440,7 +488206,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487453,7 +488219,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Desmama Macho",
           1,
-          672.0,
+          641.4,
           "MG",
           360.26,
           {
@@ -487480,7 +488246,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487493,7 +488259,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 27 / Curral Curral H3",
           "Garrote",
           1,
-          763.0,
+          732.4,
           "MG",
           360.26,
           {
@@ -487520,7 +488286,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487533,7 +488299,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 28 / Curral Curral H4",
           "Garrote",
           1,
-          798.0,
+          767.4,
           "MG",
           360.26,
           {
@@ -487560,7 +488326,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487573,7 +488339,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 29 / Curral Curral H5",
           "Bezerro",
           2,
-          714.0,
+          683.4,
           "MG",
           360.26,
           {
@@ -487600,7 +488366,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -487813,7 +488579,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 39 / Curral Curral I3",
           "Garrote",
           1,
-          712.0,
+          686.2,
           "MG",
           360.26,
           {
@@ -487840,7 +488606,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -487853,7 +488619,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 40 / Curral Curral I4",
           "Bezerro",
           4,
-          666.0,
+          640.2,
           "MG",
           360.26,
           {
@@ -487880,7 +488646,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -487893,7 +488659,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 40 / Curral Curral I4",
           "Garrote",
           5,
-          716.2,
+          690.4,
           "MG",
           360.26,
           {
@@ -487920,7 +488686,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -488175,7 +488941,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 44 / Curral Curral I6",
           "Garrote",
           1,
-          672.5,
+          648.2,
           "MG",
           360.26,
           {
@@ -488202,7 +488968,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -488415,7 +489181,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 49 / Curral Curral J3",
           "Boi Magro",
           1,
-          748.0,
+          725.0,
           "MG",
           360.26,
           {
@@ -488442,7 +489208,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -488455,7 +489221,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 49 / Curral Curral J3",
           "Garrote",
           3,
-          695.1667,
+          672.2,
           "MG",
           360.26,
           {
@@ -488486,7 +489252,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -488499,7 +489265,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 50 / Curral Curral J5",
           "Bezerro",
           15,
-          609.5667,
+          602.0267,
           "MG",
           360.26,
           {
@@ -488537,7 +489303,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 7
             },
             "weightSources": {
-              "peso_projetado": 15
+              "peso_projetado": 10,
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -488593,7 +489360,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 50 / Curral Curral J5",
           "Garrote",
           8,
-          664.5625,
+          642.1,
           "MG",
           360.26,
           {
@@ -488629,7 +489396,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 4
             },
             "weightSources": {
-              "peso_projetado": 8
+              "peso_projetado_ajustado_gmd_140": 8
             },
             "gtas": [],
             "notas": [],
@@ -488642,7 +489409,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 51 / Curral Curral J2",
           "Boi Gordo",
           2,
-          813.0,
+          790.0,
           "MG",
           360.26,
           {
@@ -488669,7 +489436,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -488682,7 +489449,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 51 / Curral Curral J2",
           "Garrote",
           1,
-          670.0,
+          647.0,
           "MG",
           360.26,
           {
@@ -488709,7 +489476,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -488807,7 +489574,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 52 / Curral Curral J4",
           "Garrote",
           1,
-          674.0,
+          651.0,
           "MG",
           360.26,
           {
@@ -488834,7 +489601,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -488847,7 +489614,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 53 / Curral Curral J6",
           "Boi Magro",
           2,
-          725.75,
+          703.1,
           "MG",
           360.26,
           {
@@ -488877,7 +489644,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -488890,7 +489657,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 53 / Curral Curral J6",
           "Garrote",
           3,
-          674.5,
+          652.1333,
           "MG",
           360.26,
           {
@@ -488921,7 +489688,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -489136,7 +489903,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 56 / Curral Curral G1",
           "Garrote",
           1,
-          686.0,
+          664.2,
           "MG",
           360.26,
           {
@@ -489163,7 +489930,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -489216,7 +489983,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 58 / Curral Curral G2",
           "Boi Magro",
           1,
-          736.0,
+          714.2,
           "MG",
           360.26,
           {
@@ -489243,7 +490010,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -489256,7 +490023,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 58 / Curral Curral G2",
           "Garrote",
           1,
-          627.0,
+          605.2,
           "MG",
           360.26,
           {
@@ -489283,7 +490050,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -489296,7 +490063,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 59 / Curral Curral G3",
           "Boi Magro",
           1,
-          697.5,
+          676.0,
           "MG",
           360.26,
           {
@@ -489323,7 +490090,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -489336,7 +490103,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 59 / Curral Curral G3",
           "Garrote",
           2,
-          655.75,
+          634.1,
           "MG",
           360.26,
           {
@@ -489365,7 +490132,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -489470,7 +490237,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 60 / Curral Curral G5",
           "Garrote",
           5,
-          635.3,
+          613.68,
           "MG",
           360.26,
           {
@@ -489505,7 +490272,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado_ajustado_gmd_140": 5
             },
             "gtas": [],
             "notas": [],
@@ -490006,7 +490773,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 66 / Curral Curral G4",
           "Garrote",
           3,
-          644.5,
+          623.0,
           "MG",
           360.26,
           {
@@ -490035,7 +490802,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -490132,7 +490899,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 67 / Curral Curral F2",
           "Garrote",
           2,
-          629.0,
+          608.0,
           "MG",
           360.26,
           {
@@ -490161,7 +490928,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -490218,7 +490985,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 68 / Curral Curral F3",
           "Garrote",
           3,
-          579.4667,
+          572.4667,
           "MG",
           360.26,
           {
@@ -490247,7 +491014,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -490300,7 +491068,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 69 / Curral Curral G6",
           "Garrote",
           3,
-          653.3333,
+          632.3333,
           "MG",
           360.26,
           {
@@ -490327,7 +491095,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 3
             },
             "weightSources": {
-              "peso_projetado": 3
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -490752,7 +491520,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 75 / Curral Curral F6",
           "Boi Magro",
           1,
-          683.5,
+          663.2,
           "MG",
           360.26,
           {
@@ -490779,7 +491547,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -491775,7 +492543,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 85 / Curral Curral F4",
           "Garrote",
           1,
-          628.0,
+          609.0,
           "MG",
           360.26,
           {
@@ -491802,7 +492570,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -491815,7 +492583,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 86 / Curral Curral H4",
           "Boi Gordo",
           1,
-          811.0,
+          792.0,
           "MG",
           360.26,
           {
@@ -491842,7 +492610,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -491855,7 +492623,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 86 / Curral Curral H4",
           "Boi Magro",
           2,
-          721.5,
+          702.5,
           "MG",
           360.26,
           {
@@ -491884,7 +492652,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -491939,7 +492707,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 87 / Curral Curral E2",
           "Garrote",
           4,
-          621.5,
+          612.0,
           "MG",
           360.26,
           {
@@ -491968,7 +492736,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 2,
+              "peso_projetado": 2
             },
             "gtas": [],
             "notas": [],
@@ -492021,7 +492790,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 89 / Curral Curral E4",
           "Garrote",
           7,
-          606.5,
+          601.1,
           "MG",
           360.26,
           {
@@ -492048,7 +492817,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 5,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -492103,7 +492873,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 90 / Curral Curral E6",
           "Boi Gordo",
           1,
-          836.0,
+          817.8,
           "MG",
           360.26,
           {
@@ -492130,7 +492900,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -492143,7 +492913,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 90 / Curral Curral E6",
           "Boi Magro",
           2,
-          677.0,
+          658.8,
           "MG",
           360.26,
           {
@@ -492170,7 +492940,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -492183,7 +492953,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 90 / Curral Curral E6",
           "Garrote",
           11,
-          608.2273,
+          606.5091,
           "MG",
           360.26,
           {
@@ -492212,7 +492982,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 11
             },
             "weightSources": {
-              "peso_projetado": 11
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 10
             },
             "gtas": [],
             "notas": [],
@@ -492348,7 +493119,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 92 / Curral Curral E5",
           "Boi Gordo",
           1,
-          753.5,
+          735.4,
           "MG",
           360.26,
           {
@@ -492375,7 +493146,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -492388,7 +493159,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 92 / Curral Curral E5",
           "Boi Magro",
           4,
-          668.125,
+          649.95,
           "MG",
           360.26,
           {
@@ -492417,7 +493188,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 4
             },
             "weightSources": {
-              "peso_projetado": 4
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -492639,7 +493410,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 94 / Curral Curral I4",
           "Garrote",
           19,
-          593.4474,
+          592.5684,
           "MG",
           360.26,
           {
@@ -492673,7 +493444,8 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 4
             },
             "weightSources": {
-              "peso_projetado": 19
+              "peso_projetado": 18,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -492686,7 +493458,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 95 / Curral Curral I5",
           "Boi Gordo",
           1,
-          726.5,
+          708.4,
           "MG",
           360.26,
           {
@@ -492713,7 +493485,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -492726,7 +493498,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 95 / Curral Curral I5",
           "Boi Magro",
           1,
-          677.0,
+          662.0,
           "MG",
           360.26,
           {
@@ -492753,7 +493525,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -492766,7 +493538,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 95 / Curral Curral I5",
           "Garrote",
           2,
-          621.5,
+          614.0,
           "MG",
           360.26,
           {
@@ -492795,7 +493567,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 1,
+              "peso_projetado": 1
             },
             "gtas": [],
             "notas": [],
@@ -492808,7 +493581,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 96 / Curral Curral I6",
           "Boi Gordo",
           1,
-          760.5,
+          743.8,
           "MG",
           360.26,
           {
@@ -492835,7 +493608,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -492848,7 +493621,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 96 / Curral Curral I6",
           "Boi Magro",
           2,
-          667.5,
+          652.5,
           "MG",
           360.26,
           {
@@ -492875,7 +493648,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -492928,7 +493701,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 97 / Curral Curral J2",
           "Boi Magro",
           2,
-          671.0,
+          654.3,
           "MG",
           360.26,
           {
@@ -492955,7 +493728,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -493863,7 +494636,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 530 / Curral Curral 26",
           "Boi Magro",
           1,
-          694.0,
+          688.4,
           "BA",
           350.92,
           {
@@ -493890,7 +494663,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -493903,7 +494676,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 531 / Curral Curral S11",
           "Boi Magro",
           1,
-          707.5,
+          702.0,
           "BA",
           350.92,
           {
@@ -493930,7 +494703,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -493983,7 +494756,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 536 / Curral Curral S08",
           "Boi Magro",
           1,
-          668.5,
+          656.0,
           "BA",
           350.92,
           {
@@ -494010,7 +494783,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -494023,7 +494796,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 540 / Curral Curral S14",
           "Garrote",
           2,
-          636.0,
+          620.9,
           "BA",
           350.92,
           {
@@ -494050,7 +494823,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -494143,7 +494916,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 542 / Curral Curral S17",
           "Boi Magro",
           2,
-          668.0,
+          656.8,
           "BA",
           350.92,
           {
@@ -494170,7 +494943,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -494223,7 +494996,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 546 / Curral Curral S06",
           "Boi Magro",
           24,
-          655.4167,
+          646.0667,
           "BA",
           350.92,
           {
@@ -494255,7 +495028,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 19
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado_ajustado_gmd_140": 24
             },
             "gtas": [],
             "notas": [],
@@ -494313,7 +495086,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 552 / Curral Curral S04",
           "Boi Magro",
           1,
-          694.5,
+          682.0,
           "BA",
           350.92,
           {
@@ -494340,7 +495113,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503362,7 +504135,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J278 / Curral 73",
           "Boi Gordo",
           1,
-          777.9,
+          712.8,
           "GO",
           351.33,
           {
@@ -503389,7 +504162,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503402,7 +504175,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J278 / Curral 73",
           "Boi Magro",
           1,
-          762.9,
+          697.8,
           "GO",
           351.33,
           {
@@ -503429,7 +504202,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503442,7 +504215,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J289 / Curral 78",
           "Boi Magro",
           1,
-          792.0,
+          729.0,
           "GO",
           351.33,
           {
@@ -503469,7 +504242,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503482,7 +504255,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J310 / Curral 58",
           "Garrote",
           1,
-          645.2,
+          586.4,
           "GO",
           351.33,
           {
@@ -503509,7 +504282,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503522,7 +504295,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J345 / Curral 133",
           "Garrote",
           1,
-          634.0,
+          577.0,
           "GO",
           351.33,
           {
@@ -503549,7 +504322,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503562,7 +504335,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J346 / Curral 133",
           "Garrote",
           1,
-          646.3,
+          589.6,
           "GO",
           351.33,
           {
@@ -503589,7 +504362,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503602,7 +504375,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J355 / Curral 129",
           "Boi Magro",
           1,
-          718.1,
+          663.2,
           "GO",
           351.33,
           {
@@ -503629,7 +504402,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503722,7 +504495,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J372 / Curral 43",
           "Garrote",
           1,
-          622.2,
+          569.4,
           "GO",
           351.33,
           {
@@ -503749,7 +504522,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503802,7 +504575,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J378 / Curral 44",
           "Boi Gordo",
           1,
-          625.8,
+          573.6,
           "GO",
           351.33,
           {
@@ -503829,7 +504602,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503882,7 +504655,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J383 / Curral 47",
           "Boi Gordo",
           1,
-          646.0,
+          597.8,
           "GO",
           351.33,
           {
@@ -503909,7 +504682,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -503962,7 +504735,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J389 / Curral 50",
           "Boi Magro",
           1,
-          709.0,
+          658.0,
           "GO",
           351.33,
           {
@@ -503989,7 +504762,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -504082,7 +504855,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J397 / Curral 51",
           "Boi Magro",
           1,
-          667.2,
+          617.4,
           "GO",
           351.33,
           {
@@ -504109,7 +504882,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -504162,7 +504935,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Merola - BTG / Lote J399 / Curral 54",
           "Garrote",
           1,
-          642.7,
+          594.4,
           "GO",
           351.33,
           {
@@ -504189,7 +504962,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -506066,7 +506839,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10178 / Curral D10",
           "Boi Magro",
           1,
-          687.5,
+          667.0,
           "MT",
           349.08,
           {
@@ -506093,7 +506866,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -506146,7 +506919,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10200 / Curral F07",
           "Boi Magro",
           1,
-          707.5,
+          687.0,
           "MT",
           349.08,
           {
@@ -506173,7 +506946,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -506226,7 +506999,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10212 / Curral F09",
           "Boi Magro",
           1,
-          723.0,
+          702.6,
           "MT",
           349.08,
           {
@@ -506253,7 +507026,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -507044,7 +507817,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10241 / Curral A01",
           "Boi Gordo",
           1,
-          757.5,
+          737.0,
           "MT",
           349.08,
           {
@@ -507071,7 +507844,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -507084,7 +507857,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10241 / Curral A01",
           "Garrote",
           2,
-          657.5,
+          637.0,
           "MT",
           349.08,
           {
@@ -507111,7 +507884,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -507448,7 +508221,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10279 / Curral G05",
           "Boi Magro",
           1,
-          697.5,
+          677.0,
           "MT",
           349.08,
           {
@@ -507475,7 +508248,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -507773,7 +508546,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10292 / Curral G06",
           "Boi Magro",
           1,
-          696.5,
+          676.0,
           "MT",
           349.08,
           {
@@ -507800,7 +508573,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -507813,7 +508586,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10294 / Curral D08",
           "Garrote",
           1,
-          638.5,
+          618.0,
           "MT",
           349.08,
           {
@@ -507840,7 +508613,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -508175,7 +508948,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10398 / Curral C10",
           "Garrote",
           2,
-          669.25,
+          649.1,
           "MT",
           349.08,
           {
@@ -508202,7 +508975,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -508415,7 +509188,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 10448 / Curral F02",
           "Boi Magro",
           2,
-          677.5,
+          672.7,
           "MT",
           349.08,
           {
@@ -508442,7 +509215,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -508655,7 +509428,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II - BTG / Lote 11404 / Curral C04",
           "Garrote",
           1,
-          636.5,
+          616.4,
           "MT",
           349.08,
           {
@@ -508682,7 +509455,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -508695,7 +509468,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10115 / Curral A02",
           "Boi Magro",
           1,
-          897.0,
+          866.8,
           "MT",
           349.08,
           {
@@ -508722,7 +509495,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -508735,7 +509508,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10115 / Curral A02",
           "Garrote",
           1,
-          1021.5,
+          974.4,
           "MT",
           349.08,
           {
@@ -508762,7 +509535,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -508855,7 +509628,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10181 / Curral B06",
           "Boi Gordo",
           1,
-          897.0,
+          867.4,
           "MT",
           349.08,
           {
@@ -508882,7 +509655,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -508938,7 +509711,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10214 / Curral REC12",
           "Boi Gordo",
           2,
-          943.25,
+          910.6,
           "MT",
           349.08,
           {
@@ -508965,7 +509738,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -508978,7 +509751,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10214 / Curral REC12",
           "Boi Magro",
           2,
-          1042.75,
+          1000.6,
           "MT",
           349.08,
           {
@@ -509005,7 +509778,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -509018,7 +509791,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Palotina II / Lote 10214 / Curral REC12",
           "Garrote",
           2,
-          1046.5,
+          999.2,
           "MT",
           349.08,
           {
@@ -509045,7 +509818,7 @@ window.ceresBiologicalAssets = {
               "numero_titulo_veiculo_divergente": 2
             },
             "weightSources": {
-              "peso_projetado": 2
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -510155,7 +510928,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Santa Ana - BTG / Lote 239",
           "Boi Magro",
           1,
-          671.0,
+          653.4,
           "TO",
           351.1,
           {
@@ -510182,7 +510955,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -512007,7 +512780,7 @@ window.ceresBiologicalAssets = {
           "Fazenda São Sebastião - BTG / Lote 32 / Curral PR1",
           "Boi Gordo",
           24,
-          546.375,
+          546.2583,
           "MG",
           377.08,
           {
@@ -512034,7 +512807,8 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 24
             },
             "weightSources": {
-              "peso_projetado": 24
+              "peso_projetado": 20,
+              "peso_projetado_ajustado_gmd_140": 4
             },
             "gtas": [],
             "notas": [],
@@ -512249,7 +513023,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 10 / Curral C 01",
           "Boi Gordo",
           103,
-          555.5728,
+          552.8078,
           "RO",
           348.08,
           {
@@ -512276,7 +513050,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 103
             },
             "weightSources": {
-              "peso_projetado": 103
+              "peso_projetado": 100,
+              "peso_projetado_ajustado_gmd_140": 3
             },
             "gtas": [],
             "notas": [],
@@ -512369,7 +513144,7 @@ window.ceresBiologicalAssets = {
           "FAZENDA SERRA VERDE - BTG / Lote Lote 11 / Curral C02",
           "Boi Gordo",
           14,
-          586.0714,
+          572.6286,
           "RO",
           348.08,
           {
@@ -512396,7 +513171,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 14
             },
             "weightSources": {
-              "peso_projetado": 14
+              "peso_projetado": 12,
+              "peso_projetado_ajustado_gmd_140": 2
             },
             "gtas": [],
             "notas": [],
@@ -515053,7 +515829,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Bom Sucesso - BTG / Lote 86 / Curral Curral H4",
           "Boi Gordo",
           1,
-          818.0,
+          772.8,
           "MG",
           360.26,
           {
@@ -515080,7 +515856,7 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -516367,7 +517143,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 535 / Curral Curral S09",
           "Boi Gordo",
           5,
-          560.2,
+          555.72,
           "BA",
           350.92,
           {
@@ -516396,7 +517172,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 5
             },
             "weightSources": {
-              "peso_projetado": 5
+              "peso_projetado": 4,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -516571,7 +517348,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Frilem - BTG / Lote 540 / Curral Curral S14",
           "Boi Gordo",
           7,
-          566.4286,
+          565.8571,
           "BA",
           350.92,
           {
@@ -516600,7 +517377,8 @@ window.ceresBiologicalAssets = {
               "lastro_veiculo_divergente": 7
             },
             "weightSources": {
-              "peso_projetado": 7
+              "peso_projetado": 6,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -518363,7 +519141,7 @@ window.ceresBiologicalAssets = {
           "Fazenda Ouro Branco / Lote PTO-08 / Curral A10",
           "Vaca",
           10,
-          475.9,
+          473.5,
           "MT",
           319.14,
           {
@@ -518396,7 +519174,8 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 2
             },
             "weightSources": {
-              "peso_projetado": 10
+              "peso_projetado": 9,
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -519093,16 +519872,16 @@ window.ceresBiologicalAssets = {
         "veiculo_nao_controlado": 2093
       },
       "totalHeads": 5827,
-      "totalWeightKg": 2334222.6378,
-      "totalArrobas": 155614.8425,
-      "totalValue": 55358964.39,
+      "totalWeightKg": 2329976.9356,
+      "totalArrobas": 155331.7957,
+      "totalValue": 55258078.23,
       "transitHeads": 1076,
-      "transitWeightKg": 528774.9986,
-      "transitValue": 12275659.63,
+      "transitWeightKg": 528206.4039,
+      "transitValue": 12262469.68,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 67634624.03,
+      "coverageValue": 67520547.91,
       "sourceVehicleNames": [
         "Ceres Confina LTDA"
       ],
@@ -519121,13 +519900,13 @@ window.ceresBiologicalAssets = {
       "controlledOperation": false,
       "quoteSource": "DATAGRO Indicador do Boi 2026-10-06",
       "quoteDate": "2026-10-06",
-      "quotePerArroba": 347.9265,
+      "quotePerArroba": 347.8264,
       "lots": [
         [
           "Fazenda Bom Sucesso - BTG / Lote 26 / Curral Curral H2",
           "Bezerro",
           1,
-          718.0,
+          687.8,
           "MG",
           360.26,
           {
@@ -519148,7 +519927,7 @@ window.ceresBiologicalAssets = {
               "veiculo_nao_controlado": 1
             },
             "weightSources": {
-              "peso_projetado": 1
+              "peso_projetado_ajustado_gmd_140": 1
             },
             "gtas": [],
             "notas": [],
@@ -519369,16 +520148,16 @@ window.ceresBiologicalAssets = {
         "veiculo_nao_controlado": 27
       },
       "totalHeads": 25,
-      "totalWeightKg": 2774.9,
-      "totalArrobas": 184.9933,
-      "totalValue": 64547.63,
+      "totalWeightKg": 2744.7,
+      "totalArrobas": 182.98,
+      "totalValue": 63822.31,
       "transitHeads": 2,
       "transitWeightKg": 977.0,
       "transitValue": 22478.05,
       "purchasedTransitHeads": 0,
       "purchasedTransitWeightKg": 0,
       "purchasedTransitValue": 0.0,
-      "coverageValue": 87025.69,
+      "coverageValue": 86300.36,
       "sourceVehicleNames": [
         "Sem veiculo"
       ],
