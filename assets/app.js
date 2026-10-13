@@ -154,6 +154,7 @@ const formatDateTime = (isoDate) => {
 const ARROBA_KG = 15;
 const BIOLOGICAL_GUARANTEE_FACTOR = 1;
 const quoteSnapshot = window.ceresCattleQuotes || { rows: [], historyRows: [] };
+const guaranteeRegionalQuoteCache = new Map();
 const diRateSnapshot = window.LAMINA_DI_RATES || {};
 const partnershipTitleData = window.ceresPartnershipTitles || { targetMonthlyRate: 0.017, guaranteeFactor: 0.5, titles: [] };
 const partnershipTitleRows = Array.isArray(partnershipTitleData.titles) ? partnershipTitleData.titles : [];
@@ -1024,13 +1025,17 @@ function quoteRowsByMap(mapType) {
   return quoteRows().filter((row) => row.map_type === mapType);
 }
 
-function quoteRowsForDate(dateKey = state.dateKey) {
-  const currentRows = quoteRows();
+function snapshotQuoteRowsForDate(snapshot, dateKey) {
+  const currentRows = Array.isArray(snapshot.rows) ? snapshot.rows : [];
   const currentDate = latestQuoteDate(currentRows);
   if (!dateKey || dateKey === currentDate) return currentRows;
-  const selectedRows = quoteHistoryRows().filter((row) => row.quote_date === dateKey);
+  const selectedRows = (snapshot.historyRows || []).filter((row) => row.quote_date === dateKey);
   const bulletinRows = selectedRows.filter((row) => row.map_type !== "historical_series");
   return bulletinRows.length ? bulletinRows : selectedRows;
+}
+
+function quoteRowsForDate(dateKey = state.dateKey) {
+  return snapshotQuoteRowsForDate(quoteSnapshot, dateKey);
 }
 
 function selectedQuoteRows() {
@@ -1074,21 +1079,31 @@ function guaranteeQuoteCategory(category) {
 }
 
 function guaranteeRegionalQuoteRows(dateKey = state.dateKey) {
-  const selectedRows = quoteRowsForDate(dateKey);
+  if (guaranteeRegionalQuoteCache.has(dateKey)) return guaranteeRegionalQuoteCache.get(dateKey);
+  const frozen = quoteSnapshot.frozenGuaranteeQuotes;
+  const preserveClosedDate = Boolean(frozen?.throughDate && dateKey && dateKey <= frozen.throughDate);
+  const source = preserveClosedDate ? frozen : quoteSnapshot;
+  const selectedRows = snapshotQuoteRowsForDate(source, dateKey);
   const selectedRegionalRows = selectedRows.filter((row) =>
     row.product === "boi_gordo" &&
     (row.map_type === "regional_map" || row.map_type === "historical_series")
   );
-  if (selectedRegionalRows.length) return selectedRegionalRows;
+  if (selectedRegionalRows.length) {
+    guaranteeRegionalQuoteCache.set(dateKey, selectedRegionalRows);
+    return selectedRegionalRows;
+  }
 
-  const latestDate = latestQuoteDate(quoteRows().filter((row) =>
-    row.product === "boi_gordo" && row.map_type === "regional_map"
-  ));
-  return quoteRows().filter((row) =>
+  // Keep accepted valuations closed; subsequent dates can only use an earlier bulletin.
+  const candidates = preserveClosedDate ? source.rows : [...(source.historyRows || []), ...(source.rows || [])];
+  const regionalRows = candidates.filter((row) =>
     row.product === "boi_gordo" &&
     row.map_type === "regional_map" &&
-    (!latestDate || row.quote_date === latestDate)
+    (preserveClosedDate || !dateKey || row.quote_date <= dateKey)
   );
+  const latestDate = latestQuoteDate(regionalRows);
+  const result = regionalRows.filter((row) => row.quote_date === latestDate);
+  guaranteeRegionalQuoteCache.set(dateKey, result);
+  return result;
 }
 
 function fallbackRegionalQuote(category, rows) {

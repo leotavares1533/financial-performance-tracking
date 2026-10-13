@@ -30,6 +30,14 @@ Controle gerencial apartado para acompanhar carteiras/fundings fora da estrutura
 - A serie historica publica do site esta disponivel para Boi Gordo - Sao Paulo e fica gravada como `historical_series`.
 - Os mapas de reposicao gravam a grade numerica em `R$/kg` com linha, coluna e coordenadas, pois os rotulos visiveis ficam no desenho do boletim.
 
+### Sincronizacao Com O Site
+
+- O banco da coleta permanece em `../landing-page-responsiva/financial-performance-tracking/data/pecuaria/cotacoes-pecuaria.sqlite`. Este checkout e a origem da publicacao no GitHub Pages.
+- Apos a coleta visual, execute `scripts/sync-local-cattle-quotes.py` com o Python do runtime. O script le o SQLite sem modifica-lo e atualiza o snapshot deste site.
+- `quote_date` indica a referencia do boletim; `collected_at` conserva o momento da coleta. As execucoes antigas de 08/10, 09/10 e 13/10 correspondem aos boletins de 07/10, 08/10 e 09/10, respectivamente.
+- As garantias aceitas ate 06/10/2026 conservam suas cotacoes. Depois dessa data, cada posicao usa seu boletim ou o ultimo boletim anterior disponivel, nunca um futuro. Cotacoes ja publicadas com precos divergentes interrompem a sincronizacao para revisao.
+- Verifique `scripts/verify-cattle-quote-sync.mjs` com o Node do runtime, atualize o cache da cotacao no `index.html` e publique somente esses dois arquivos. A automacao diaria inclui esses passos.
+
 ## Validacoes operacionais
 
 - Confina CPRF 100MM: historico validado. Manter os ajustes manuais ja combinados e, sem nova base de carteira, atualizar somente a posicao para frente.
