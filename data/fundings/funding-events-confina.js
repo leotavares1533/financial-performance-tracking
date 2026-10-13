@@ -1,5 +1,5 @@
 window.ceresFundingManualEvents = {
-  updatedAt: "2026-10-06",
+  updatedAt: "2026-10-08",
   events: [
     {
       operationId: "confina-cras-carteira-100",
@@ -97,6 +97,48 @@ window.ceresFundingManualEvents = {
       interestPaid: 0,
       amortization: 19205829.98,
       note: "Amortizacao JOSE ARNALDO FAVARETTO em 06/10/2026 conforme veiculo 65a - CRA Ceres 2. Ajuste: lastro 484624 considerado em R$ 653.987,40 e R$ 167.979,25 realocado para 485100."
+    },
+    {
+      operationId: "confina-cras-carteira-100",
+      component: "CRA Carteira 100mm 2 (1.8%)",
+      date: "2026-10-07",
+      amount: 4029312.25,
+      interestPaid: 0,
+      amortization: 4029312.25,
+      note: "Amortizacao PEDRO RIBEIRO MEROLA em 07/10/2026 conforme veiculo 42a - CRA Ceres. Carteira 100MM confirmada pelo usuario; componente 2 iniciado em 19/05/2026, data de aquisicao dos lastros atuais 466114, 466117 e 466118."
+    },
+    {
+      operationId: "confina-cras-carteira-50",
+      component: "CRA Carteira 50mm 1 (1.8%)",
+      date: "2026-10-07",
+      amount: 7583803.82,
+      interestPaid: 0,
+      amortization: 7583803.82,
+      note: "Amortizacao PEDRO RIBEIRO MEROLA em 07/10/2026 indicada como 59a emissao. Usuario confirmou abatimento nos dois CRAs Carteira antigos. PM1492026, PM1522026, PM1532026 e PM1552026 vinculam-se aos lastros 481204, 481205, 481206 e 481207 da Carteira 50MM, adquiridos em 16/06/2026 (componente 1), e hoje constam como 537447, 537448, 537449 e 537450 no CRA 42/65."
+    },
+    {
+      operationId: "confina-cra-65-200",
+      date: "2026-10-07",
+      amount: 8386883.93,
+      interestPaid: 0,
+      amortization: 8386883.93,
+      note: "Amortizacao PEDRO RIBEIRO MEROLA em 07/10/2026 conforme veiculo 65a - CRA Ceres 2."
+    },
+    {
+      operationId: "confina-cra-65-200",
+      date: "2026-10-07",
+      amount: 46468.74,
+      interestPaid: 0,
+      amortization: 46468.74,
+      note: "Amortizacao JOSE ARNALDO FAVARETTO 542419 em 07/10/2026 conforme veiculo 65a - CRA Ceres 2."
+    },
+    {
+      operationId: "confina-cra-65-200",
+      date: "2026-10-08",
+      amount: 2929136.53,
+      interestPaid: 0,
+      amortization: 2929136.53,
+      note: "Amortizacao VITOR RORATTO NEVES E OUTRO em 08/10/2026 conforme veiculo 65a - CRA Ceres 2."
     }
   ]
 };

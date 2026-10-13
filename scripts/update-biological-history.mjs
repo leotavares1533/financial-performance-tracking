@@ -6,9 +6,9 @@ const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "
 const args = process.argv.slice(2);
 const maxDateIndex = args.indexOf("--max-date");
 const maxDate = maxDateIndex >= 0 ? String(args[maxDateIndex + 1] || "") : "";
+const archiveCurrent = args.includes("--archive-current");
 const biologicalDir = path.join(projectRoot, "data", "biological");
 const historyDir = path.join(biologicalDir, "history");
-const tmpDir = path.join(projectRoot, "tmp");
 const currentFile = path.join(biologicalDir, "biological-assets-confina.js");
 const outputFile = path.join(biologicalDir, "biological-assets-history-confina.js");
 
@@ -22,42 +22,100 @@ function readJsObject(filePath, variableName = "window.ceresBiologicalAssets") {
   return JSON.parse(match[1]);
 }
 
-function candidateFiles() {
-  const files = [];
-  for (const dir of [historyDir, tmpDir]) {
-    if (!fs.existsSync(dir)) continue;
-    for (const name of fs.readdirSync(dir)) {
-      if (/^biological-assets-confina.*\.js$/i.test(name)) {
-        files.push(path.join(dir, name));
-      }
-    }
-  }
-  if (fs.existsSync(currentFile)) files.push(currentFile);
-  return Array.from(new Set(files));
-}
-
 function snapshotDate(snapshot) {
   return String(snapshot?.referenceDate || snapshot?.summary?.referenceDate || "").slice(0, 10);
 }
 
 const byDate = new Map();
-for (const file of candidateFiles()) {
-  try {
-    const snapshot = readJsObject(file);
-    const date = snapshotDate(snapshot);
-    if (!date) continue;
-    if (maxDate && date > maxDate) continue;
-    const current = byDate.get(date);
-    const currentUpdatedAt = String(current?.updatedAt || "");
-    const nextUpdatedAt = String(snapshot.updatedAt || "");
-    if (!current || nextUpdatedAt >= currentUpdatedAt) {
-      byDate.set(date, {
-        ...snapshot,
-        historySourceFile: file
-      });
+if (fs.existsSync(outputFile)) {
+  const history = readJsObject(outputFile, "window.ceresBiologicalAssetsHistory");
+  for (const snapshot of history.snapshots || []) {
+    byDate.set(snapshotDate(snapshot), snapshot);
+  }
+}
+
+const partnershipFile = path.join(projectRoot, "data", "portfolio", "partnership-titles-confina.js");
+const partnerships = readJsObject(partnershipFile, "window.ceresPartnershipTitles");
+const partnershipLastros = new Set((partnerships.titles || []).map((title) => String(title.lastro)));
+
+function compactLots(rows = []) {
+  const groups = new Map();
+  for (const row of rows) {
+    const meta = row[6] || {};
+    const partnership = Boolean(meta.isPartnershipGuarantee) ||
+      (meta.lastros || []).some((lastro) => partnershipLastros.has(String(lastro)));
+    const factor = Number(meta.guaranteeFactor || (partnership ? partnerships.guaranteeFactor : 1));
+    const farm = String(meta.farm || row[0]);
+    const key = JSON.stringify([farm, row[1], row[4], row[5], meta.sourceVehicleName, meta.reportedOperationId, factor, Number(meta.valueOverride || 0) > 0]);
+    let group = groups.get(key);
+    if (!group) {
+      group = { row, farm, factor, partnership, heads: 0, weight: 0, value: 0, lastros: new Set(), titles: new Set() };
+      groups.set(key, group);
     }
-  } catch (error) {
-    console.warn(error.message);
+    group.heads += Number(row[2] || 0);
+    group.weight += Number(row[2] || 0) * Number(row[3] || 0);
+    group.value += Number(meta.valueOverride || 0);
+    (meta.lastros || []).forEach((value) => group.lastros.add(value));
+    (meta.numeroTitulos || []).forEach((value) => group.titles.add(value));
+  }
+  return Array.from(groups.values(), (group) => {
+    const [location, category, , , uf, price, meta = {}] = group.row;
+    return [group.farm || location, category, group.heads, group.heads ? group.weight / group.heads : 0, uf, price, {
+      farm: group.farm,
+      uf: meta.uf || uf,
+      sourceVehicleName: meta.sourceVehicleName,
+      reportedOperationId: meta.reportedOperationId,
+      bucket: meta.bucket,
+      grouped: true,
+      lastros: Array.from(group.lastros).sort(),
+      numeroTitulos: Array.from(group.titles).sort(),
+      valueOverride: group.value,
+      isPartnershipGuarantee: group.partnership,
+      guaranteeFactor: group.factor
+    }];
+  });
+}
+
+function compactSnapshot(snapshot) {
+  const vehicles = (snapshot.vehicles || Object.values(snapshot.assetsByOperationId || {})).map((asset) => ({
+    ...asset,
+    lots: compactLots(asset.lots),
+    transitLots: compactLots(asset.transitLots),
+    purchasedTransitLots: compactLots(asset.purchasedTransitLots)
+  }));
+  return {
+    ...snapshot,
+    vehicles,
+    assetsByOperationId: Object.fromEntries(vehicles.map((asset) => [asset.operationId, asset])),
+    compacted: true,
+    compactedAt: new Date().toISOString()
+  };
+}
+
+// Closed snapshots come from the history file, never from temporary reprocessing.
+if (fs.existsSync(historyDir)) {
+  for (const name of fs.readdirSync(historyDir).sort()) {
+    if (!/^biological-assets-confina.*\.js$/i.test(name)) continue;
+    const snapshot = readJsObject(path.join(historyDir, name));
+    const date = snapshotDate(snapshot);
+    if (date && !byDate.has(date) && (!maxDate || date <= maxDate)) {
+      byDate.set(date, compactSnapshot(snapshot));
+    }
+  }
+}
+
+const current = readJsObject(currentFile);
+const currentDate = snapshotDate(current);
+if (!currentDate) throw new Error("Garantia atual sem data de referencia.");
+if (!maxDate || currentDate <= maxDate) {
+  const existing = byDate.get(currentDate);
+  const latestDate = Array.from(byDate.keys()).sort().at(-1);
+  if (existing && archiveCurrent && currentDate !== latestDate) {
+    throw new Error(`Nao e permitido substituir uma data fechada: ${currentDate}`);
+  }
+  if (!existing || archiveCurrent) byDate.set(currentDate, compactSnapshot(current));
+  else if (String(existing.updatedAt) !== String(current.updatedAt)) {
+    throw new Error(`Garantia ${currentDate} ja arquivada. Requer revisao antes de substituir.`);
   }
 }
 
