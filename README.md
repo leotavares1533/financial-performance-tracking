@@ -40,6 +40,11 @@ Controle gerencial apartado para acompanhar carteiras/fundings fora da estrutura
 
 ## Validacoes operacionais
 
+- Posicoes de 09 e 13/10/2026 processadas com as bases recebidas em 14/10. Comparacao titulo a titulo e historico diario sem mudancas ate 08/10. Nove compras da CPRF 50 em 13/10 somam R$ 11.993.671,69; nenhuma nova amortizacao de funding informada.
+- Feriado de 12/10 sem CDI de caixa. Comparativos novos respeitam feriados: 13/10 compara com 09/10; os comparativos aceitos ate 08/10 conservam o calendario anterior. Titulos e fundings em base 360 continuam com accrual por dias corridos.
+- Garantia de 09/10 conserva a composicao conhecida de 08/10, explicitada em tela, com cotacao de 09/10. Garantia de 13/10 usa GERANIMAL (19), relatorio de transito de 14/10 e cotacao de 13/10. Snapshots anteriores preservados; GMD de 1,40 somente nos pesos projetados distorcidos e desconto de parceria de 50% mantidos.
+- Validacao reproduzivel: `scripts/verify-processing-20261013.mjs`, comparando com o fechamento `65d6df9`. Arquivamento de uma garantia sem substituir a atual: `scripts/update-biological-history.mjs --snapshot-file <arquivo>`.
+
 - Confina CPRF 100MM: historico validado. Manter os ajustes manuais ja combinados e, sem nova base de carteira, atualizar somente a posicao para frente.
 - Confina CPRF 50MM: validado em 18/09/2026 com o mesmo criterio do CPRF 100MM. Manter o historico ja processado; novos ajustes devem ser aplicados apenas quando o usuario apontar itens especificos ou enviar uma nova carteira.
 - Confina CRA 42a 50MM: validado em 22/09/2026 para a posicao de 17/09/2026 usando o controle do prototipo como base. Manter o historico ate 17/09/2026 sem novos ajustes contra o controle paralelo; novas carteiras devem ser processadas somente da nova data de referencia para frente. Baseline aceito: VP carteira R$ 38.906.907,39, caixa R$ 7.177.130,13, funding R$ 40.069.455,07.

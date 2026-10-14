@@ -386,11 +386,16 @@ const latestDiRateDate = diRateRows.length ? diRateRows[diRateRows.length - 1].d
 const addBusinessDaysBack = (dateKey, daysBack) => {
   const date = parseDateKey(dateKey);
   if (!date) return dateKey;
+  // Keep accepted comparisons closed through 08/10; new positions skip holidays.
+  const preserveClosedCalendar = dateKey <= "2026-10-08";
   let remaining = daysBack;
   while (remaining > 0) {
     date.setDate(date.getDate() - 1);
     const dayOfWeek = date.getDay();
-    if (dayOfWeek !== 0 && dayOfWeek !== 6) remaining -= 1;
+    const businessDay = preserveClosedCalendar
+      ? dayOfWeek !== 0 && dayOfWeek !== 6
+      : isBusinessDayKey(dateKeyFromLocalDate(date));
+    if (businessDay) remaining -= 1;
   }
   return dateKeyFromLocalDate(date);
 };
@@ -733,6 +738,11 @@ function guaranteeSnapshotLabel(dateKey = "") {
   const snapshot = biologicalAssetDataForDate(dateKey);
   const snapshotDate = biologicalAssetSnapshotDate(snapshot);
   if (!snapshotDate) return "Sem historico de garantia";
+  const compositionDate = snapshot.compositionReferenceDate || snapshotDate;
+  if (compositionDate !== snapshotDate) {
+    const valuationDate = dateKey || snapshotDate;
+    return `Garantia ${formatDate(valuationDate)} (composicao ${formatDate(compositionDate)})`;
+  }
   if (!dateKey || snapshotDate === dateKey) return `Garantia ${formatDate(snapshotDate)}`;
   return `Garantia ${formatDate(snapshotDate)} usada em ${formatDate(dateKey)}`;
 }

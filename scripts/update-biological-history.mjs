@@ -7,9 +7,15 @@ const args = process.argv.slice(2);
 const maxDateIndex = args.indexOf("--max-date");
 const maxDate = maxDateIndex >= 0 ? String(args[maxDateIndex + 1] || "") : "";
 const archiveCurrent = args.includes("--archive-current");
+const snapshotFileIndex = args.indexOf("--snapshot-file");
+if (snapshotFileIndex >= 0 && (!args[snapshotFileIndex + 1] || args[snapshotFileIndex + 1].startsWith("--"))) {
+  throw new Error("Informe o arquivo apos --snapshot-file.");
+}
 const biologicalDir = path.join(projectRoot, "data", "biological");
 const historyDir = path.join(biologicalDir, "history");
-const currentFile = path.join(biologicalDir, "biological-assets-confina.js");
+const currentFile = snapshotFileIndex >= 0
+  ? path.resolve(projectRoot, args[snapshotFileIndex + 1])
+  : path.join(biologicalDir, "biological-assets-confina.js");
 const outputFile = path.join(biologicalDir, "biological-assets-history-confina.js");
 
 function readJsObject(filePath, variableName = "window.ceresBiologicalAssets") {
