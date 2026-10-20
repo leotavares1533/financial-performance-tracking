@@ -1,0 +1,2392 @@
+{
+  "baseline": "789b90c",
+  "ledger": {
+    "baseline": "789b90c",
+    "authorizedHistoricalRevision": {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-09-30",
+      "titleIds": [
+        "542982",
+        "542983",
+        "542984",
+        "542985",
+        "542986",
+        "542987"
+      ],
+      "purchaseAmount": 1718636.65,
+      "userAuthorizationDate": "2026-10-20"
+    },
+    "newOperation": {
+      "operationId": "confina-cra-65-outubro",
+      "date": "2026-10-14",
+      "principal": 75790266.29,
+      "acquisitionValue": 75108237.81,
+      "initialCash": 0,
+      "initialSyntheticSub": -682028.48,
+      "titles": 89
+    },
+    "sellers": {
+      "confina-cprf-100": {
+        "titleCount": 35,
+        "carryingValue14": 33311564.26,
+        "cashReceived": 33787444.78,
+        "saleResult": 475880.52
+      },
+      "confina-cprf-50": {
+        "titleCount": 12,
+        "carryingValue14": 8976363.92,
+        "cashReceived": 9042510.79,
+        "saleResult": 66146.87
+      },
+      "confina-cra-42-50": {
+        "titleCount": 16,
+        "carryingValue14": 12831094.22,
+        "cashReceived": 12857333.84,
+        "saleResult": 26239.62
+      }
+    },
+    "externalSeller": {
+      "name": "Ceres Confina LTDA",
+      "cashAmount": 20102976.89,
+      "controlled": false
+    },
+    "sourceRoundingDifference": 0.01,
+    "transferRows": [
+      {
+        "newLastro": "555189",
+        "originalLastro": "478112",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 844664.95,
+        "reportedAcquisitionValue": 844664.95,
+        "outstandingFaceValue": 861389.31,
+        "monthlyRate": 0.019799999999999998
+      },
+      {
+        "newLastro": "555190",
+        "originalLastro": "482952",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 3267942.43,
+        "reportedAcquisitionValue": 3267942.43,
+        "outstandingFaceValue": 3367679.42,
+        "monthlyRate": 0.019799999999999998
+      },
+      {
+        "newLastro": "555143",
+        "originalLastro": "498057",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 2979742.92,
+        "reportedAcquisitionValue": 3310587.09,
+        "outstandingFaceValue": 3081438.59,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555144",
+        "originalLastro": "500313",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 8764.01,
+        "reportedAcquisitionValue": 8764.01,
+        "outstandingFaceValue": 9240.34,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555145",
+        "originalLastro": "505148",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1682366.1,
+        "reportedAcquisitionValue": 1682366.1,
+        "outstandingFaceValue": 1794229.29,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555146",
+        "originalLastro": "508654",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 304196.83,
+        "reportedAcquisitionValue": 304196.83,
+        "outstandingFaceValue": 324749.91,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555147",
+        "originalLastro": "508983",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 982361.6,
+        "reportedAcquisitionValue": 982361.6,
+        "outstandingFaceValue": 1051231.68,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555148",
+        "originalLastro": "509222",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1032176.38,
+        "reportedAcquisitionValue": 1032176.38,
+        "outstandingFaceValue": 1107203.67,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555149",
+        "originalLastro": "509673",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1312053.95,
+        "reportedAcquisitionValue": 1312053.95,
+        "outstandingFaceValue": 1405800.52,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555150",
+        "originalLastro": "509683",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1034368.82,
+        "reportedAcquisitionValue": 1034368.82,
+        "outstandingFaceValue": 1106282.08,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555151",
+        "originalLastro": "509918",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1103813.82,
+        "reportedAcquisitionValue": 1103813.82,
+        "outstandingFaceValue": 1183444.11,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555152",
+        "originalLastro": "509921",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 712539.61,
+        "reportedAcquisitionValue": 712539.61,
+        "outstandingFaceValue": 765369.08,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555153",
+        "originalLastro": "509931",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 320414.14,
+        "reportedAcquisitionValue": 320414.14,
+        "outstandingFaceValue": 344812.62,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555154",
+        "originalLastro": "509955",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1317770.2,
+        "reportedAcquisitionValue": 1317770.2,
+        "outstandingFaceValue": 1418114.04,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555155",
+        "originalLastro": "511028",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 2219546.6,
+        "reportedAcquisitionValue": 2219546.6,
+        "outstandingFaceValue": 2385605.56,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555156",
+        "originalLastro": "511557",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 373679.98,
+        "reportedAcquisitionValue": 373679.98,
+        "outstandingFaceValue": 402652.55,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555157",
+        "originalLastro": "511792",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 810260.73,
+        "reportedAcquisitionValue": 810260.73,
+        "outstandingFaceValue": 871428.25,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555159",
+        "originalLastro": "512318",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1058918.73,
+        "reportedAcquisitionValue": 1058918.73,
+        "outstandingFaceValue": 1141019.99,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555158",
+        "originalLastro": "512169",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 119307.47,
+        "reportedAcquisitionValue": 119307.47,
+        "outstandingFaceValue": 128149.13,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555142",
+        "originalLastro": "498048",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1120992.93,
+        "reportedAcquisitionValue": 1077756.5,
+        "outstandingFaceValue": 1077756.5,
+        "monthlyRate": 0.017
+      },
+      {
+        "newLastro": "555177",
+        "originalLastro": "521397",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 244728.12,
+        "reportedAcquisitionValue": 244728.12,
+        "outstandingFaceValue": 263864.29,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555201",
+        "originalLastro": "537373",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 539829.35,
+        "reportedAcquisitionValue": 534096.69,
+        "outstandingFaceValue": 534096.69,
+        "monthlyRate": 0.017
+      },
+      {
+        "newLastro": "555178",
+        "originalLastro": "521662",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 262000.36,
+        "reportedAcquisitionValue": 262000.36,
+        "outstandingFaceValue": 282841.79,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555179",
+        "originalLastro": "521932",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 269106.61,
+        "reportedAcquisitionValue": 269106.61,
+        "outstandingFaceValue": 289934.06,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555180",
+        "originalLastro": "526430",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 2480423.4,
+        "reportedAcquisitionValue": 2480423.4,
+        "outstandingFaceValue": 2680572.32,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555181",
+        "originalLastro": "527941",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 297096.44,
+        "reportedAcquisitionValue": 297096.44,
+        "outstandingFaceValue": 321939.28,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555182",
+        "originalLastro": "527944",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 466260.58,
+        "reportedAcquisitionValue": 466260.58,
+        "outstandingFaceValue": 503136.57,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555183",
+        "originalLastro": "528584",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 248265.02,
+        "reportedAcquisitionValue": 248265.02,
+        "outstandingFaceValue": 268461.87,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555160",
+        "originalLastro": "528714",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 281368.1,
+        "reportedAcquisitionValue": 281368.1,
+        "outstandingFaceValue": 305731.33,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555161",
+        "originalLastro": "528774",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1126300.64,
+        "reportedAcquisitionValue": 1126300.64,
+        "outstandingFaceValue": 1221246.47,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555162",
+        "originalLastro": "528781",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 289129.39,
+        "reportedAcquisitionValue": 289129.39,
+        "outstandingFaceValue": 312841.73,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555163",
+        "originalLastro": "534440",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1357709.53,
+        "reportedAcquisitionValue": 1357709.53,
+        "outstandingFaceValue": 1473086.77,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555164",
+        "originalLastro": "534715",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 245811.51,
+        "reportedAcquisitionValue": 245811.51,
+        "outstandingFaceValue": 267267.94,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555184",
+        "originalLastro": "534070",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 453710.89,
+        "reportedAcquisitionValue": 453710.89,
+        "outstandingFaceValue": 491221.11,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555191",
+        "originalLastro": "535257",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 286894.47,
+        "reportedAcquisitionValue": 286894.47,
+        "outstandingFaceValue": 310803.11,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555192",
+        "originalLastro": "535265",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 1438866.61,
+        "reportedAcquisitionValue": 1438866.61,
+        "outstandingFaceValue": 1567482.62,
+        "monthlyRate": 0.019799999999999998
+      },
+      {
+        "newLastro": "555193",
+        "originalLastro": "535306",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 632988.87,
+        "reportedAcquisitionValue": 632988.87,
+        "outstandingFaceValue": 688094.76,
+        "monthlyRate": 0.019299999999999998
+      },
+      {
+        "newLastro": "555194",
+        "originalLastro": "535979",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 559212.7,
+        "reportedAcquisitionValue": 559212.7,
+        "outstandingFaceValue": 605815.25,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555195",
+        "originalLastro": "535980",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 208504.66,
+        "reportedAcquisitionValue": 208504.66,
+        "outstandingFaceValue": 225880.61,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555196",
+        "originalLastro": "535983",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 88676.79,
+        "reportedAcquisitionValue": 88676.79,
+        "outstandingFaceValue": 96272.87,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555197",
+        "originalLastro": "535987",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 346324.64,
+        "reportedAcquisitionValue": 346324.64,
+        "outstandingFaceValue": 376797.17,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555198",
+        "originalLastro": "536012",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 100331.4,
+        "reportedAcquisitionValue": 100331.4,
+        "outstandingFaceValue": 108692.62,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555199",
+        "originalLastro": "536036",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 1182563.09,
+        "reportedAcquisitionValue": 1182563.09,
+        "outstandingFaceValue": 1283861.74,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555200",
+        "originalLastro": "537336",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 2069308.11,
+        "reportedAcquisitionValue": 2069308.11,
+        "outstandingFaceValue": 2241755.98,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555185",
+        "originalLastro": "537668",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 1401667.12,
+        "reportedAcquisitionValue": 1401667.12,
+        "outstandingFaceValue": 1524601.14,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555186",
+        "originalLastro": "539241",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 353135.61,
+        "reportedAcquisitionValue": 353135.61,
+        "outstandingFaceValue": 383266.45,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555203",
+        "originalLastro": "537581",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 74331.94,
+        "reportedAcquisitionValue": 73666.66,
+        "outstandingFaceValue": 73666.66,
+        "monthlyRate": 0.017
+      },
+      {
+        "newLastro": "555204",
+        "originalLastro": "537652",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 123191.24,
+        "reportedAcquisitionValue": 122088.66,
+        "outstandingFaceValue": 122088.66,
+        "monthlyRate": 0.017
+      },
+      {
+        "newLastro": "555167",
+        "originalLastro": "541984",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1034168.95,
+        "reportedAcquisitionValue": 1034168.95,
+        "outstandingFaceValue": 1127787.66,
+        "monthlyRate": 0.019299999999999998
+      },
+      {
+        "newLastro": "555168",
+        "originalLastro": "542255",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 93708.2,
+        "reportedAcquisitionValue": 93708.2,
+        "outstandingFaceValue": 101828.1,
+        "monthlyRate": 0.018500000000000003
+      },
+      {
+        "newLastro": "555169",
+        "originalLastro": "542274",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 874855.33,
+        "reportedAcquisitionValue": 874855.33,
+        "outstandingFaceValue": 952779.8,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555188",
+        "originalLastro": "542027",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 753000.17,
+        "reportedAcquisitionValue": 753000.17,
+        "outstandingFaceValue": 821896.6,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555170",
+        "originalLastro": "542567",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1728970.23,
+        "reportedAcquisitionValue": 1728970.23,
+        "outstandingFaceValue": 1886688.02,
+        "monthlyRate": 0.019299999999999998
+      },
+      {
+        "newLastro": "555173",
+        "originalLastro": "542706",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 633876.93,
+        "reportedAcquisitionValue": 633876.93,
+        "outstandingFaceValue": 690770.4,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555174",
+        "originalLastro": "542707",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 491610.11,
+        "reportedAcquisitionValue": 491610.11,
+        "outstandingFaceValue": 535734.46,
+        "monthlyRate": 0.019
+      },
+      {
+        "newLastro": "555175",
+        "originalLastro": "542708",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1807803.69,
+        "reportedAcquisitionValue": 1807803.69,
+        "outstandingFaceValue": 1974480.97,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555176",
+        "originalLastro": "542709",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 504941.39,
+        "reportedAcquisitionValue": 504941.39,
+        "outstandingFaceValue": 551496.37,
+        "monthlyRate": 0.0195
+      },
+      {
+        "newLastro": "555116",
+        "originalLastro": "543005",
+        "sourceOperationId": null,
+        "acquisitionValue": 550156.9,
+        "reportedAcquisitionValue": 550156.9
+      },
+      {
+        "newLastro": "555118",
+        "originalLastro": "543014",
+        "sourceOperationId": null,
+        "acquisitionValue": 597472.65,
+        "reportedAcquisitionValue": 597472.65
+      },
+      {
+        "newLastro": "555119",
+        "originalLastro": "543020",
+        "sourceOperationId": null,
+        "acquisitionValue": 240409.99,
+        "reportedAcquisitionValue": 240409.99
+      },
+      {
+        "newLastro": "555120",
+        "originalLastro": "543032",
+        "sourceOperationId": null,
+        "acquisitionValue": 257732.18,
+        "reportedAcquisitionValue": 257732.18
+      },
+      {
+        "newLastro": "555121",
+        "originalLastro": "543033",
+        "sourceOperationId": null,
+        "acquisitionValue": 163031.03,
+        "reportedAcquisitionValue": 163031.03
+      },
+      {
+        "newLastro": "555122",
+        "originalLastro": "543035",
+        "sourceOperationId": null,
+        "acquisitionValue": 2370984.04,
+        "reportedAcquisitionValue": 2370984.04
+      },
+      {
+        "newLastro": "555123",
+        "originalLastro": "544161",
+        "sourceOperationId": null,
+        "acquisitionValue": 574265.32,
+        "reportedAcquisitionValue": 574265.32
+      },
+      {
+        "newLastro": "555124",
+        "originalLastro": "544165",
+        "sourceOperationId": null,
+        "acquisitionValue": 251735.57,
+        "reportedAcquisitionValue": 251735.57
+      },
+      {
+        "newLastro": "555125",
+        "originalLastro": "544167",
+        "sourceOperationId": null,
+        "acquisitionValue": 414993.78,
+        "reportedAcquisitionValue": 414993.78
+      },
+      {
+        "newLastro": "555126",
+        "originalLastro": "544177",
+        "sourceOperationId": null,
+        "acquisitionValue": 159939.56,
+        "reportedAcquisitionValue": 159939.56
+      },
+      {
+        "newLastro": "555127",
+        "originalLastro": "544178",
+        "sourceOperationId": null,
+        "acquisitionValue": 2186601.42,
+        "reportedAcquisitionValue": 2186601.42
+      },
+      {
+        "newLastro": "555128",
+        "originalLastro": "545577",
+        "sourceOperationId": null,
+        "acquisitionValue": 696920.75,
+        "reportedAcquisitionValue": 696920.75
+      },
+      {
+        "newLastro": "555129",
+        "originalLastro": "545578",
+        "sourceOperationId": null,
+        "acquisitionValue": 875137.75,
+        "reportedAcquisitionValue": 875137.75
+      },
+      {
+        "newLastro": "555130",
+        "originalLastro": "545579",
+        "sourceOperationId": null,
+        "acquisitionValue": 237741.32,
+        "reportedAcquisitionValue": 237741.32
+      },
+      {
+        "newLastro": "555131",
+        "originalLastro": "545598",
+        "sourceOperationId": null,
+        "acquisitionValue": 1288577.45,
+        "reportedAcquisitionValue": 1288577.45
+      },
+      {
+        "newLastro": "555132",
+        "originalLastro": "545599",
+        "sourceOperationId": null,
+        "acquisitionValue": 347237.05,
+        "reportedAcquisitionValue": 347237.05
+      },
+      {
+        "newLastro": "555133",
+        "originalLastro": "545911",
+        "sourceOperationId": null,
+        "acquisitionValue": 418686.32,
+        "reportedAcquisitionValue": 418686.32
+      },
+      {
+        "newLastro": "555134",
+        "originalLastro": "545912",
+        "sourceOperationId": null,
+        "acquisitionValue": 1935906.08,
+        "reportedAcquisitionValue": 1935906.08
+      },
+      {
+        "newLastro": "555135",
+        "originalLastro": "546164",
+        "sourceOperationId": null,
+        "acquisitionValue": 391617.46,
+        "reportedAcquisitionValue": 391617.46
+      },
+      {
+        "newLastro": "555136",
+        "originalLastro": "546520",
+        "sourceOperationId": null,
+        "acquisitionValue": 191266.18,
+        "reportedAcquisitionValue": 191266.18
+      },
+      {
+        "newLastro": "555137",
+        "originalLastro": "546525",
+        "sourceOperationId": null,
+        "acquisitionValue": 1140280.79,
+        "reportedAcquisitionValue": 1140280.79
+      },
+      {
+        "newLastro": "555138",
+        "originalLastro": "546624",
+        "sourceOperationId": null,
+        "acquisitionValue": 809909.77,
+        "reportedAcquisitionValue": 809909.77
+      },
+      {
+        "newLastro": "555139",
+        "originalLastro": "546626",
+        "sourceOperationId": null,
+        "acquisitionValue": 421432.79,
+        "reportedAcquisitionValue": 421432.79
+      },
+      {
+        "newLastro": "555140",
+        "originalLastro": "547538",
+        "sourceOperationId": null,
+        "acquisitionValue": 994286.13,
+        "reportedAcquisitionValue": 994286.13
+      },
+      {
+        "newLastro": "555141",
+        "originalLastro": "547542",
+        "sourceOperationId": null,
+        "acquisitionValue": 153212,
+        "reportedAcquisitionValue": 153212
+      },
+      {
+        "newLastro": "555202",
+        "originalLastro": "537380",
+        "sourceOperationId": "confina-cra-42-50",
+        "acquisitionValue": 1067462.97,
+        "reportedAcquisitionValue": 1067462.97,
+        "outstandingFaceValue": 1217385.48,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555187",
+        "originalLastro": "540282",
+        "sourceOperationId": "confina-cprf-50",
+        "acquisitionValue": 1746969.6,
+        "reportedAcquisitionValue": 1746969.6,
+        "outstandingFaceValue": 1997071.82,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555165",
+        "originalLastro": "541982",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 693291.17,
+        "reportedAcquisitionValue": 693291.17,
+        "outstandingFaceValue": 793016.58,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555166",
+        "originalLastro": "541983",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1322531.3,
+        "reportedAcquisitionValue": 1322531.3,
+        "outstandingFaceValue": 1512768.78,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555171",
+        "originalLastro": "542675",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 1963013.83,
+        "reportedAcquisitionValue": 1963013.83,
+        "outstandingFaceValue": 2246716.18,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555172",
+        "originalLastro": "542689",
+        "sourceOperationId": "confina-cprf-100",
+        "acquisitionValue": 369199.14,
+        "reportedAcquisitionValue": 369199.14,
+        "outstandingFaceValue": 422557.23,
+        "monthlyRate": 0.018000000000000002
+      },
+      {
+        "newLastro": "555117",
+        "originalLastro": "543012",
+        "sourceOperationId": null,
+        "acquisitionValue": 2319681.13,
+        "reportedAcquisitionValue": 2319681.13
+      }
+    ],
+    "fundingPayments": [
+      {
+        "operationId": "confina-cra-65-200",
+        "date": "2026-10-15",
+        "amount": 485522.13,
+        "interestPaid": 0,
+        "amortization": 485522.13,
+        "note": "BoiPremium FR28/FR29: baixa apenas do principal confirmada no e-mail; juros R$ 1.737,76 pendentes, nao pagos."
+      },
+      {
+        "operationId": "confina-cra-65-200",
+        "date": "2026-10-15",
+        "amount": 7956495.72,
+        "interestPaid": 3315.56,
+        "amortization": 7953180.16,
+        "note": "Amortizacao Fabio Schmitt FS65 a FS75, total/parcial conforme demonstrativo de 15/10."
+      },
+      {
+        "operationId": "confina-cra-65-200",
+        "date": "2026-10-15",
+        "amount": 2728261.81,
+        "interestPaid": 21250.6,
+        "amortization": 2707011.21,
+        "note": "Amortizacao Green Farming GF93/GF95/GF96/GF97 conforme demonstrativo de 15/10."
+      },
+      {
+        "operationId": "confina-cra-42-50",
+        "date": "2026-10-15",
+        "amount": 7290683.67,
+        "interestPaid": 0,
+        "amortization": 7290683.67,
+        "note": "Pagamento do funding CRA 42a 50MM em 15/10, valor informado diretamente pelo usuario."
+      }
+    ],
+    "guaranteePending": true
+  },
+  "portfolioSources": [
+    {
+      "file": "Relatório Confina CRAs Carteira 10_2026  (4).csv",
+      "operationId": "confina-cras-carteira-10",
+      "reportName": "Confina CRAs Carteira 10/2026",
+      "positionDate": "2026-10-19",
+      "rows": 59
+    },
+    {
+      "file": "Relatório CONFINA - CRA INTERNO - 50 MM - JUNHO_2026 (14).csv",
+      "operationId": "confina-cras-carteira-50",
+      "reportName": "CONFINA - CRA INTERNO - 50 MM - JUNHO/2026",
+      "positionDate": "2026-10-19",
+      "rows": 41
+    },
+    {
+      "file": "Relatório Confina CRA`s Carteiras CERES  (15).csv",
+      "operationId": "confina-cras-carteira-100",
+      "reportName": "Confina CRA`s Carteiras CERES",
+      "positionDate": "2026-10-19",
+      "rows": 185
+    },
+    {
+      "file": "Relatório Confina BTG 50MM - ABRIL_2026 (14).csv",
+      "operationId": "confina-cprf-50",
+      "reportName": "Confina BTG 50MM - ABRIL/2026",
+      "positionDate": "2026-10-19",
+      "rows": 168
+    },
+    {
+      "file": "Relatório Super CRA - CONFINA 50 MM (15).csv",
+      "operationId": "confina-cra-42-50",
+      "reportName": "Super CRA - CONFINA 50 MM",
+      "positionDate": "2026-10-19",
+      "rows": 389
+    },
+    {
+      "file": "Relatório Confina BTG 100 MM (17).csv",
+      "operationId": "confina-cprf-100",
+      "reportName": "Confina BTG 100 MM",
+      "positionDate": "2026-10-19",
+      "rows": 707
+    },
+    {
+      "file": "Relatório 65ª - Confina CRA - SETEMBRO_2026 (12).csv",
+      "operationId": "confina-cra-65-setembro",
+      "reportName": "65ª - Confina CRA - SETEMBRO/2026",
+      "positionDate": "2026-10-19",
+      "rows": 35
+    },
+    {
+      "file": "Relatório 65ª - Confina CRA 80MM (14).csv",
+      "operationId": "confina-cra-65-80",
+      "reportName": "65ª - Confina CRA 80MM",
+      "positionDate": "2026-10-19",
+      "rows": 112
+    },
+    {
+      "file": "Relatório 65ª - Confina CRA (21).csv",
+      "operationId": "confina-cra-65-200",
+      "reportName": "65ª - Confina CRA",
+      "positionDate": "2026-10-19",
+      "rows": 383
+    },
+    {
+      "file": "Relatório 42ª_65ª CRA CONFINA 09_2026 (10).csv",
+      "operationId": "confina-cra-42-65-setembro",
+      "reportName": "42ª/65ª CRA CONFINA 09/2026",
+      "positionDate": "2026-10-19",
+      "rows": 72
+    },
+    {
+      "file": "Relatório 65ª - Confina Outubro_2026.csv",
+      "operationId": "confina-cra-65-outubro",
+      "reportName": "65ª - Confina Outubro/2026",
+      "positionDate": "2026-10-19",
+      "rows": 89
+    }
+  ],
+  "pendingGuaranteeReport": "Relatorio de 42_2026-10-20T17_23_47.069Z.csv",
+  "authorizedHistoricalRevision": [
+    {
+      "date": "2026-09-30",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 137896254.22,
+        "cash": 10431359.58,
+        "funding": 146791739.97,
+        "sub": 1535873.83,
+        "heads": 21311,
+        "transitHeads": 7750,
+        "purchasedHeads": 0,
+        "biological": 274694791.47,
+        "guarantee": 285126151.05
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 139613756.77,
+        "cash": 8711919.9,
+        "funding": 146791739.97,
+        "sub": 1533936.7,
+        "heads": 21311,
+        "transitHeads": 7750,
+        "purchasedHeads": 0,
+        "biological": 274694791.47,
+        "guarantee": 283406711.37
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1719439.68,
+        "funding": 0,
+        "sub": -1937.13
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 137982399.08,
+        "cash": 10436233.63,
+        "funding": 146874246,
+        "sub": 1544386.71,
+        "heads": 19964,
+        "transitHeads": 9034,
+        "purchasedHeads": 0,
+        "biological": 276373109.06,
+        "guarantee": 286809342.69
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 139699901.63,
+        "cash": 8715990.54,
+        "funding": 146874246,
+        "sub": 1541646.17,
+        "heads": 19964,
+        "transitHeads": 9034,
+        "purchasedHeads": 0,
+        "biological": 276373109.06,
+        "guarantee": 285089099.6
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1720243.09,
+        "funding": 0,
+        "sub": -2740.54
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 138068597.89,
+        "cash": 10441109.96,
+        "funding": 146956798.4,
+        "sub": 1552909.45,
+        "heads": 19303,
+        "transitHeads": 9676,
+        "purchasedHeads": 0,
+        "biological": 281963916.4,
+        "guarantee": 292405026.36
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 139786100.44,
+        "cash": 8720063.08,
+        "funding": 146956798.4,
+        "sub": 1549365.12,
+        "heads": 19303,
+        "transitHeads": 9676,
+        "purchasedHeads": 0,
+        "biological": 281963916.4,
+        "guarantee": 290683979.48
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1721046.88,
+        "funding": 0,
+        "sub": -3544.33
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 138326870.51,
+        "cash": 10445988.56,
+        "funding": 147204734.11,
+        "sub": 1568124.96,
+        "heads": 19303,
+        "transitHeads": 9676,
+        "purchasedHeads": 0,
+        "biological": 284100965.54,
+        "guarantee": 294546954.1
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 140044373.06,
+        "cash": 8724137.53,
+        "funding": 147204734.11,
+        "sub": 1563776.48,
+        "heads": 19303,
+        "transitHeads": 9676,
+        "purchasedHeads": 0,
+        "biological": 284100965.54,
+        "guarantee": 292825103.07
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1721851.03,
+        "funding": 0,
+        "sub": -4348.48
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 119554846.48,
+        "cash": 10102667.55,
+        "funding": 128081642.29,
+        "sub": 1575871.74,
+        "heads": 18099,
+        "transitHeads": 10877,
+        "purchasedHeads": 0,
+        "biological": 287556357.71,
+        "guarantee": 297659025.26
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 121272349.03,
+        "cash": 8380011.99,
+        "funding": 128081642.29,
+        "sub": 1570718.73,
+        "heads": 18099,
+        "transitHeads": 10877,
+        "purchasedHeads": 0,
+        "biological": 287556357.71,
+        "guarantee": 295936369.7
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1722655.56,
+        "funding": 0,
+        "sub": -5153.01
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 111250522.27,
+        "cash": 10066507.94,
+        "funding": 119720279.42,
+        "sub": 1596750.79,
+        "heads": 18099,
+        "transitHeads": 10877,
+        "purchasedHeads": 0,
+        "biological": 289245658.13,
+        "guarantee": 299312166.07
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 112968024.82,
+        "cash": 8343047.46,
+        "funding": 119720279.42,
+        "sub": 1590792.86,
+        "heads": 18099,
+        "transitHeads": 10877,
+        "purchasedHeads": 0,
+        "biological": 289245658.13,
+        "guarantee": 297588705.59
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1723460.48,
+        "funding": 0,
+        "sub": -5957.93
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 108387548.47,
+        "cash": 10044248.39,
+        "funding": 116858433.08,
+        "sub": 1573363.78,
+        "heads": 17262,
+        "transitHeads": 11166,
+        "purchasedHeads": 0,
+        "biological": 284323661.76,
+        "guarantee": 294367910.15
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 110105051.02,
+        "cash": 8319982.62,
+        "funding": 116858433.08,
+        "sub": 1566600.56,
+        "heads": 17262,
+        "transitHeads": 11166,
+        "purchasedHeads": 0,
+        "biological": 284323661.76,
+        "guarantee": 292643644.38
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1724265.77,
+        "funding": 0,
+        "sub": -6763.22
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 108466342.05,
+        "cash": 10048941.56,
+        "funding": 116924114.74,
+        "sub": 1591168.87,
+        "heads": 17262,
+        "transitHeads": 11166,
+        "purchasedHeads": 0,
+        "biological": 284406415.46,
+        "guarantee": 294455357.02
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 110183844.6,
+        "cash": 8323870.13,
+        "funding": 116924114.74,
+        "sub": 1583599.99,
+        "heads": 17262,
+        "transitHeads": 11166,
+        "purchasedHeads": 0,
+        "biological": 284406415.46,
+        "guarantee": 292730285.59
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1725071.43,
+        "funding": 0,
+        "sub": -7568.88
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "before": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 108781881.54,
+        "cash": 10053636.92,
+        "funding": 117187210.77,
+        "sub": 1648307.69,
+        "heads": 16275,
+        "transitHeads": 12149,
+        "purchasedHeads": 0,
+        "biological": 285968765.26,
+        "guarantee": 296022402.18
+      },
+      "after": {
+        "id": "confina-cra-65-200",
+        "name": "CRA 65a R$ 200MM",
+        "vp": 110499384.09,
+        "cash": 8327759.45,
+        "funding": 117187210.77,
+        "sub": 1639932.77,
+        "heads": 16275,
+        "transitHeads": 12149,
+        "purchasedHeads": 0,
+        "biological": 285968765.26,
+        "guarantee": 294296524.71
+      },
+      "delta": {
+        "vp": 1717502.55,
+        "cash": -1725877.47,
+        "funding": 0,
+        "sub": -8374.92
+      }
+    }
+  ],
+  "historicalBiologicalCompositionUnchanged": true,
+  "guaranteePending": true,
+  "fundingEventsApplied": [
+    {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-10-15",
+      "amount": 485522.13,
+      "interestPaid": 0,
+      "amortization": 485522.13,
+      "note": "BoiPremium FR28/FR29: baixa apenas do principal confirmada no e-mail; juros R$ 1.737,76 pendentes, nao pagos.",
+      "applied": 485522.13
+    },
+    {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-10-15",
+      "amount": 7956495.72,
+      "interestPaid": 3315.56,
+      "amortization": 7953180.16,
+      "note": "Amortizacao Fabio Schmitt FS65 a FS75, total/parcial conforme demonstrativo de 15/10.",
+      "applied": 7956495.72
+    },
+    {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-10-15",
+      "amount": 2728261.81,
+      "interestPaid": 21250.6,
+      "amortization": 2707011.21,
+      "note": "Amortizacao Green Farming GF93/GF95/GF96/GF97 conforme demonstrativo de 15/10.",
+      "applied": 2728261.81
+    },
+    {
+      "operationId": "confina-cra-42-50",
+      "date": "2026-10-15",
+      "amount": 7290683.67,
+      "interestPaid": 0,
+      "amortization": 7290683.67,
+      "note": "Pagamento do funding CRA 42a 50MM em 15/10, valor informado diretamente pelo usuario.",
+      "applied": 7290683.67
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-10-14",
+      "guaranteeLabel": "Garantia 13/10/2026 usada em 14/10/2026",
+      "totals": {
+        "vp": 629287192.53,
+        "cash": 123197428.93,
+        "funding": 734084960.5,
+        "sub": 21471763.79
+      },
+      "operations": [
+        {
+          "id": "confina-cra-65-200",
+          "name": "CRA 65a R$ 200MM",
+          "vp": 110578360.36,
+          "cash": 8331650.59,
+          "funding": 117253077.22,
+          "sub": 1656933.73,
+          "heads": 16275,
+          "transitHeads": 12149,
+          "purchasedHeads": 0,
+          "biological": 288157037.79,
+          "guarantee": 296488688.38
+        },
+        {
+          "id": "confina-cra-65-80",
+          "name": "CRA 65a R$ 80MM",
+          "vp": 82110642.46,
+          "cash": 0,
+          "funding": 82736677.28,
+          "sub": -626034.82,
+          "heads": 12154,
+          "transitHeads": 723,
+          "purchasedHeads": 0,
+          "biological": 129277017.2,
+          "guarantee": 129277017.2
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "name": "CRA 65a Set/26",
+          "vp": 64687525.86,
+          "cash": 395593.55,
+          "funding": 65450568.94,
+          "sub": -367449.53,
+          "heads": 11727,
+          "transitHeads": 725,
+          "purchasedHeads": 0,
+          "biological": 133194156.18,
+          "guarantee": 133589749.73
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "name": "CRA 65a Out/26",
+          "vp": 75108237.81,
+          "cash": 0,
+          "funding": 75790266.29,
+          "sub": -682028.48,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "name": "CRA 42/65 Set/26",
+          "vp": 55570367.85,
+          "cash": 7602136.06,
+          "funding": 63574198.15,
+          "sub": -401694.24,
+          "heads": 6001,
+          "transitHeads": 2630,
+          "purchasedHeads": 0,
+          "biological": 87663952.89,
+          "guarantee": 95266088.95
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "name": "CRAs Carteira 10/2026",
+          "vp": 75968862.15,
+          "cash": 0,
+          "funding": 76054163.13,
+          "sub": -85300.98,
+          "heads": 13144,
+          "transitHeads": 504,
+          "purchasedHeads": 0,
+          "biological": 119166393.76,
+          "guarantee": 119166393.76
+        },
+        {
+          "id": "confina-cra-42-50",
+          "name": "CRA 42a R$ 50MM",
+          "vp": 27182714.33,
+          "cash": 12866866.78,
+          "funding": 33743673.07,
+          "sub": 6305908.04,
+          "heads": 2517,
+          "transitHeads": 833,
+          "purchasedHeads": 342,
+          "biological": 33587039.23,
+          "guarantee": 46453906.01
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "name": "CRAs Carteira R$ 100MM",
+          "vp": 0,
+          "cash": 25557600.25,
+          "funding": 24960664.97,
+          "sub": 596935.28,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 25557600.25
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "name": "CRAs Carteira R$ 50MM",
+          "vp": 0,
+          "cash": 24454202.79,
+          "funding": 24067680.71,
+          "sub": 386522.08,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 24454202.79
+        },
+        {
+          "id": "confina-cprf-100",
+          "name": "CPRF R$ 100MM",
+          "vp": 88431552,
+          "cash": 34053672.26,
+          "funding": 115135021.45,
+          "sub": 8459137.29,
+          "heads": 20642,
+          "transitHeads": 481,
+          "purchasedHeads": 561,
+          "biological": 177210018.75,
+          "guarantee": 211263691.01
+        },
+        {
+          "id": "confina-cprf-50",
+          "name": "CPRF R$ 50MM",
+          "vp": 49648929.71,
+          "cash": 9935706.65,
+          "funding": 55318969.29,
+          "sub": 6228835.42,
+          "heads": 7654,
+          "transitHeads": 732,
+          "purchasedHeads": 4053,
+          "biological": 100258137.64,
+          "guarantee": 110193844.29
+        }
+      ],
+      "cash": [
+        {
+          "id": "confina-cra-65-200",
+          "initial": 8327759.45,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 3891.14,
+          "closing": 8331650.59
+        },
+        {
+          "id": "confina-cra-65-80",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "initial": 395408.8,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 184.75,
+          "closing": 395593.55
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "initial": 75790266.29,
+          "purchases": 75790266.29,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "initial": 7598585.62,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 3550.44,
+          "closing": 7602136.06
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-50",
+          "initial": 3523.71,
+          "purchases": 0,
+          "receipts": 12857333.84,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 6009.23,
+          "closing": 12866866.78
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "initial": 25545664.05,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11936.2,
+          "closing": 25557600.25
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "initial": 24442781.91,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11420.88,
+          "closing": 24454202.79
+        },
+        {
+          "id": "confina-cprf-100",
+          "initial": 12671135.82,
+          "purchases": 12420812.47,
+          "receipts": 33787444.78,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 15904.13,
+          "closing": 34053672.26
+        },
+        {
+          "id": "confina-cprf-50",
+          "initial": 7246071.22,
+          "purchases": 6357515.65,
+          "receipts": 9042510.79,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 4640.29,
+          "closing": 9935706.65
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "guaranteeLabel": "Garantia 13/10/2026 usada em 15/10/2026",
+      "totals": {
+        "vp": 621710335.02,
+        "cash": 113260925.75,
+        "funding": 716049181.19,
+        "sub": 21994182.41
+      },
+      "operations": [
+        {
+          "id": "confina-cra-65-200",
+          "name": "CRA 65a R$ 200MM",
+          "vp": 103104097.22,
+          "cash": 4765560.03,
+          "funding": 106148701.04,
+          "sub": 1720956.21,
+          "heads": 16275,
+          "transitHeads": 12149,
+          "purchasedHeads": 0,
+          "biological": 288157037.79,
+          "guarantee": 292922597.82
+        },
+        {
+          "id": "confina-cra-65-80",
+          "name": "CRA 65a R$ 80MM",
+          "vp": 82163274.31,
+          "cash": 0,
+          "funding": 82783180.41,
+          "sub": -619906.1,
+          "heads": 12154,
+          "transitHeads": 723,
+          "purchasedHeads": 0,
+          "biological": 129277017.2,
+          "guarantee": 129277017.2
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "name": "CRA 65a Set/26",
+          "vp": 64728573.92,
+          "cash": 395778.39,
+          "funding": 65487356.2,
+          "sub": -363003.89,
+          "heads": 11727,
+          "transitHeads": 725,
+          "purchasedHeads": 0,
+          "biological": 133194156.18,
+          "guarantee": 133589934.57
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "name": "CRA 65a Out/26",
+          "vp": 75154983.54,
+          "cash": 0,
+          "funding": 75832865.1,
+          "sub": -677881.56,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "name": "CRA 42/65 Set/26",
+          "vp": 55177878.33,
+          "cash": 8475694.79,
+          "funding": 63609930.78,
+          "sub": 43642.34,
+          "heads": 6001,
+          "transitHeads": 2630,
+          "purchasedHeads": 0,
+          "biological": 87663952.89,
+          "guarantee": 96139647.68
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "name": "CRAs Carteira 10/2026",
+          "vp": 76015217.98,
+          "cash": 0,
+          "funding": 76096910.27,
+          "sub": -81692.29,
+          "heads": 13144,
+          "transitHeads": 504,
+          "purchasedHeads": 0,
+          "biological": 119166393.76,
+          "guarantee": 119166393.76
+        },
+        {
+          "id": "confina-cra-42-50",
+          "name": "CRA 42a R$ 50MM",
+          "vp": 27201574.38,
+          "cash": 5578788.58,
+          "funding": 26477300.83,
+          "sub": 6303062.13,
+          "heads": 2517,
+          "transitHeads": 833,
+          "purchasedHeads": 342,
+          "biological": 33587039.23,
+          "guarantee": 39165827.81
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "name": "CRAs Carteira R$ 100MM",
+          "vp": 0,
+          "cash": 25569542.03,
+          "funding": 24975555.68,
+          "sub": 593986.35,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 25569542.03
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "name": "CRAs Carteira R$ 50MM",
+          "vp": 0,
+          "cash": 24465629.01,
+          "funding": 24081997.15,
+          "sub": 383631.86,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 24465629.01
+        },
+        {
+          "id": "confina-cprf-100",
+          "name": "CPRF R$ 100MM",
+          "vp": 88485393.51,
+          "cash": 34069583.82,
+          "funding": 115203508.46,
+          "sub": 8460403.35,
+          "heads": 20642,
+          "transitHeads": 481,
+          "purchasedHeads": 561,
+          "biological": 177210018.75,
+          "guarantee": 211279602.57
+        },
+        {
+          "id": "confina-cprf-50",
+          "name": "CPRF R$ 50MM",
+          "vp": 49679341.83,
+          "cash": 9940349.1,
+          "funding": 55351875.27,
+          "sub": 6230984.01,
+          "heads": 7654,
+          "transitHeads": 732,
+          "purchasedHeads": 4053,
+          "biological": 100258137.64,
+          "guarantee": 110198486.74
+        }
+      ],
+      "cash": [
+        {
+          "id": "confina-cra-65-200",
+          "initial": 8331650.59,
+          "purchases": 0,
+          "receipts": 7601963.43,
+          "payments": 11170279.66,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 2225.67,
+          "closing": 4765560.03
+        },
+        {
+          "id": "confina-cra-65-80",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "initial": 395593.55,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 184.84,
+          "closing": 395778.39
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "initial": 7602136.06,
+          "purchases": 0,
+          "receipts": 869600.31,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 3958.42,
+          "closing": 8475694.79
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-50",
+          "initial": 12866866.78,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 7290683.67,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 2605.47,
+          "closing": 5578788.58
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "initial": 25557600.25,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11941.78,
+          "closing": 25569542.03
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "initial": 24454202.79,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11426.22,
+          "closing": 24465629.01
+        },
+        {
+          "id": "confina-cprf-100",
+          "initial": 34053672.26,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 15911.56,
+          "closing": 34069583.82
+        },
+        {
+          "id": "confina-cprf-50",
+          "initial": 9935706.65,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 4642.45,
+          "closing": 9940349.1
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "guaranteeLabel": "Garantia 13/10/2026 usada em 16/10/2026",
+      "totals": {
+        "vp": 621397289.25,
+        "cash": 114086316.26,
+        "funding": 716463081.19,
+        "sub": 22092627.15
+      },
+      "operations": [
+        {
+          "id": "confina-cra-65-200",
+          "name": "CRA 65a R$ 200MM",
+          "vp": 102465312.76,
+          "cash": 5540256.11,
+          "funding": 106208363.17,
+          "sub": 1797205.7,
+          "heads": 16275,
+          "transitHeads": 12149,
+          "purchasedHeads": 0,
+          "biological": 288157037.79,
+          "guarantee": 293697293.9
+        },
+        {
+          "id": "confina-cra-65-80",
+          "name": "CRA 65a R$ 80MM",
+          "vp": 82215939.95,
+          "cash": 0,
+          "funding": 82829709.67,
+          "sub": -613769.72,
+          "heads": 12154,
+          "transitHeads": 723,
+          "purchasedHeads": 0,
+          "biological": 129277017.2,
+          "guarantee": 129277017.2
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "name": "CRA 65a Set/26",
+          "vp": 64769647.89,
+          "cash": 395963.32,
+          "funding": 65524164.15,
+          "sub": -358552.94,
+          "heads": 11727,
+          "transitHeads": 725,
+          "purchasedHeads": 0,
+          "biological": 133194156.18,
+          "guarantee": 133590119.5
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "name": "CRA 65a Out/26",
+          "vp": 75201758.39,
+          "cash": 0,
+          "funding": 75875487.86,
+          "sub": -673729.47,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "name": "CRA 42/65 Set/26",
+          "vp": 55213541.65,
+          "cash": 8479655.06,
+          "funding": 63645683.49,
+          "sub": 47513.22,
+          "heads": 6001,
+          "transitHeads": 2630,
+          "purchasedHeads": 0,
+          "biological": 87663952.89,
+          "guarantee": 96143607.95
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "name": "CRAs Carteira 10/2026",
+          "vp": 76061602.16,
+          "cash": 0,
+          "funding": 76139681.43,
+          "sub": -78079.27,
+          "heads": 13144,
+          "transitHeads": 504,
+          "purchasedHeads": 0,
+          "biological": 119166393.76,
+          "guarantee": 119166393.76
+        },
+        {
+          "id": "confina-cra-42-50",
+          "name": "CRA 42a R$ 50MM",
+          "vp": 27220445.91,
+          "cash": 5581395.27,
+          "funding": 26496377.03,
+          "sub": 6305464.15,
+          "heads": 2517,
+          "transitHeads": 833,
+          "purchasedHeads": 342,
+          "biological": 33587039.23,
+          "guarantee": 39168434.5
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "name": "CRAs Carteira R$ 100MM",
+          "vp": 0,
+          "cash": 25581489.39,
+          "funding": 24990455.27,
+          "sub": 591034.12,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 25581489.39
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "name": "CRAs Carteira R$ 50MM",
+          "vp": 0,
+          "cash": 24477060.57,
+          "funding": 24096322.1,
+          "sub": 380738.47,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 24477060.57
+        },
+        {
+          "id": "confina-cprf-100",
+          "name": "CPRF R$ 100MM",
+          "vp": 88539267.92,
+          "cash": 34085502.82,
+          "funding": 115272036.2,
+          "sub": 8461669.02,
+          "heads": 20642,
+          "transitHeads": 481,
+          "purchasedHeads": 561,
+          "biological": 177210018.75,
+          "guarantee": 211295521.57
+        },
+        {
+          "id": "confina-cprf-50",
+          "name": "CPRF R$ 50MM",
+          "vp": 49709772.62,
+          "cash": 9944993.72,
+          "funding": 55384800.82,
+          "sub": 6233133.87,
+          "heads": 7654,
+          "transitHeads": 732,
+          "purchasedHeads": 4053,
+          "biological": 100258137.64,
+          "guarantee": 110203131.36
+        }
+      ],
+      "cash": [
+        {
+          "id": "confina-cra-65-200",
+          "initial": 4765560.03,
+          "purchases": 0,
+          "receipts": 772108.61,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 2587.47,
+          "closing": 5540256.11
+        },
+        {
+          "id": "confina-cra-65-80",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "initial": 395778.39,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 184.93,
+          "closing": 395963.32
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "initial": 8475694.79,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 3960.27,
+          "closing": 8479655.06
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-50",
+          "initial": 5578788.58,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 2606.69,
+          "closing": 5581395.27
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "initial": 25569542.03,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11947.36,
+          "closing": 25581489.39
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "initial": 24465629.01,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11431.56,
+          "closing": 24477060.57
+        },
+        {
+          "id": "confina-cprf-100",
+          "initial": 34069583.82,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 15919,
+          "closing": 34085502.82
+        },
+        {
+          "id": "confina-cprf-50",
+          "initial": 9940349.1,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 4644.62,
+          "closing": 9944993.72
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "guaranteeLabel": "Garantia 13/10/2026 usada em 19/10/2026",
+      "totals": {
+        "vp": 632493957.37,
+        "cash": 104233121.4,
+        "funding": 717668000.44,
+        "sub": 22131181.16
+      },
+      "operations": [
+        {
+          "id": "confina-cra-65-200",
+          "name": "CRA 65a R$ 200MM",
+          "vp": 102681672.15,
+          "cash": 5542844.79,
+          "funding": 106387550.84,
+          "sub": 1836966.1,
+          "heads": 16275,
+          "transitHeads": 12149,
+          "purchasedHeads": 0,
+          "biological": 288157037.79,
+          "guarantee": 293699882.58
+        },
+        {
+          "id": "confina-cra-65-80",
+          "name": "CRA 65a R$ 80MM",
+          "vp": 82374139.75,
+          "cash": 0,
+          "funding": 82969454.43,
+          "sub": -595314.68,
+          "heads": 12154,
+          "transitHeads": 723,
+          "purchasedHeads": 0,
+          "biological": 129277017.2,
+          "guarantee": 129277017.2
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "name": "CRA 65a Set/26",
+          "vp": 64893025.46,
+          "cash": 396148.33,
+          "funding": 65634712.15,
+          "sub": -345538.36,
+          "heads": 11727,
+          "transitHeads": 725,
+          "purchasedHeads": 0,
+          "biological": 133194156.18,
+          "guarantee": 133590304.51
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "name": "CRA 65a Out/26",
+          "vp": 75342257.9,
+          "cash": 0,
+          "funding": 76003499.92,
+          "sub": -661242.02,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "name": "CRA 42/65 Set/26",
+          "vp": 55320666.74,
+          "cash": 8483617.18,
+          "funding": 63753062.25,
+          "sub": 51221.67,
+          "heads": 6001,
+          "transitHeads": 2630,
+          "purchasedHeads": 0,
+          "biological": 87663952.89,
+          "guarantee": 96147570.07
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "name": "CRAs Carteira 10/2026",
+          "vp": 76200925.1,
+          "cash": 0,
+          "funding": 76268139.23,
+          "sub": -67214.13,
+          "heads": 13144,
+          "transitHeads": 504,
+          "purchasedHeads": 0,
+          "biological": 119166393.76,
+          "guarantee": 119166393.76
+        },
+        {
+          "id": "confina-cra-42-50",
+          "name": "CRA 42a R$ 50MM",
+          "vp": 27277129.46,
+          "cash": 5584003.17,
+          "funding": 26515466.98,
+          "sub": 6345665.65,
+          "heads": 2517,
+          "transitHeads": 833,
+          "purchasedHeads": 342,
+          "biological": 33587039.23,
+          "guarantee": 39171042.4
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "name": "CRAs Carteira R$ 100MM",
+          "vp": 0,
+          "cash": 25593442.33,
+          "funding": 25035207.38,
+          "sub": 558234.95,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 25593442.33
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "name": "CRAs Carteira R$ 50MM",
+          "vp": 0,
+          "cash": 24488497.47,
+          "funding": 24139348.11,
+          "sub": 349149.36,
+          "heads": 0,
+          "transitHeads": 0,
+          "purchasedHeads": 0,
+          "biological": 0,
+          "guarantee": 24488497.47
+        },
+        {
+          "id": "confina-cprf-100",
+          "name": "CPRF R$ 100MM",
+          "vp": 98602963.76,
+          "cash": 24194927.62,
+          "funding": 115477864.11,
+          "sub": 8428961.75,
+          "heads": 20642,
+          "transitHeads": 481,
+          "purchasedHeads": 561,
+          "biological": 177210018.75,
+          "guarantee": 201404946.37
+        },
+        {
+          "id": "confina-cprf-50",
+          "name": "CPRF R$ 50MM",
+          "vp": 49801177.05,
+          "cash": 9949640.51,
+          "funding": 55483695.04,
+          "sub": 6230290.87,
+          "heads": 7654,
+          "transitHeads": 732,
+          "purchasedHeads": 4053,
+          "biological": 100258137.64,
+          "guarantee": 110207778.15
+        }
+      ],
+      "cash": [
+        {
+          "id": "confina-cra-65-200",
+          "initial": 5540256.11,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 2588.68,
+          "closing": 5542844.79
+        },
+        {
+          "id": "confina-cra-65-80",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "initial": 395963.32,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 185.01,
+          "closing": 396148.33
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "initial": 8479655.06,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 3962.12,
+          "closing": 8483617.18
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "initial": 0,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 0,
+          "closing": 0
+        },
+        {
+          "id": "confina-cra-42-50",
+          "initial": 5581395.27,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 2607.9,
+          "closing": 5584003.17
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "initial": 25581489.39,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11952.94,
+          "closing": 25593442.33
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "initial": 24477060.57,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11436.9,
+          "closing": 24488497.47
+        },
+        {
+          "id": "confina-cprf-100",
+          "initial": 34085502.82,
+          "purchases": 9901874.99,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 11299.79,
+          "closing": 24194927.62
+        },
+        {
+          "id": "confina-cprf-50",
+          "initial": 9944993.72,
+          "purchases": 0,
+          "receipts": 0,
+          "payments": 0,
+          "inflows": 0,
+          "adjustments": 0,
+          "income": 4646.79,
+          "closing": 9949640.51
+        }
+      ]
+    }
+  ]
+}

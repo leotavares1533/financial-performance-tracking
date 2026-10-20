@@ -22,6 +22,7 @@ OPERATION_MAP = {
     "65a confina cra 80mm": "confina-cra-65-80",
     "65a confina cra setembro 2026": "confina-cra-65-setembro",
     "65 confina cra setembro 2026": "confina-cra-65-setembro",
+    "65a confina outubro 2026": "confina-cra-65-outubro",
     "42a 65a cra confina 09 2026": "confina-cra-42-65-setembro",
     "confina cras carteira 10 2026": "confina-cras-carteira-10",
     "confina cra interno 50 mm junho 2026": "confina-cras-carteira-50",
@@ -36,6 +37,7 @@ OPERATION_START_DATES = {
     "confina-cra-65-200": "2026-07-06",
     "confina-cra-65-80": "2026-08-21",
     "confina-cra-65-setembro": "2026-09-18",
+    "confina-cra-65-outubro": "2026-10-14",
     "confina-cra-42-65-setembro": "2026-09-25",
     "confina-cras-carteira-10": "2026-10-05",
     "confina-cra-42-50": "2025-05-13",
@@ -49,6 +51,7 @@ OPERATION_ORDER = [
     "confina-cra-65-200",
     "confina-cra-65-80",
     "confina-cra-65-setembro",
+    "confina-cra-65-outubro",
     "confina-cra-42-65-setembro",
     "confina-cras-carteira-10",
     "confina-cra-42-50",
@@ -63,6 +66,7 @@ FILE_OPERATION_PATTERNS = [
     ("65a confina cra 80mm", "confina-cra-65-80"),
     ("65a confina cra setembro 2026", "confina-cra-65-setembro"),
     ("65 confina cra setembro 2026", "confina-cra-65-setembro"),
+    ("65a confina outubro 2026", "confina-cra-65-outubro"),
     ("42a 65a cra confina 09 2026", "confina-cra-42-65-setembro"),
     ("confina cras carteira 10 2026", "confina-cras-carteira-10"),
     ("super cra confina 50 mm cra 42", "confina-cra-42-50"),
@@ -395,7 +399,8 @@ def fund_purchase_date_override(operation_id: str, lastro: Any) -> date | None:
     return parse_date(FUND_PURCHASE_DATE_BY_OPERATION_LASTRO.get(operation_id, {}).get(id_text(lastro)))
 
 
-def load_manual_adjustments(path: Path = MANUAL_ADJUSTMENTS_PATH) -> list[dict[str, Any]]:
+def load_manual_adjustments(path: Path | None = None) -> list[dict[str, Any]]:
+    path = path or MANUAL_ADJUSTMENTS_PATH
     if not path.exists():
         return []
     data = json.loads(path.read_text(encoding="utf-8-sig"))
@@ -476,6 +481,19 @@ def cash_liquidation_is_suppressed(title_override: dict[str, Any], payment_date_
         if item_date == payment_date_key and (not item_amount or abs(item_amount - round(paid, 2)) <= 0.01):
             return True
     return False
+
+
+def title_payment_date(row: dict[str, Any], column_map: dict[str, str], title_override: dict[str, Any]) -> date | None:
+    payment_date = parse_date(row_get(row, column_map, "Data do pagamento"))
+    paid = round(parse_number(row_get(row, column_map, "Valor pago")), 2)
+    for item in title_override.get("paymentDateOverrides", []):
+        if not isinstance(item, dict) or date_key(payment_date) != str(item.get("fromDate") or ""):
+            continue
+        amount = item.get("amount")
+        if amount is not None and abs(parse_number(amount) - paid) > 0.01:
+            continue
+        return parse_date(item.get("toDate")) or payment_date
+    return payment_date
 
 
 def find_title_exclusion(exclusions: list[dict[str, Any]], key: Any, title: dict[str, Any]) -> dict[str, Any] | None:
@@ -564,6 +582,17 @@ def apply_manual_adjustments(
                     event.get("operationId") == operation_id
                     and event.get("type") == event_type
                     and event.get("date") == event_date
+                )
+            ]
+        elif adjustment_mode == "replace_title_group_day_type":
+            replacement_ids = {str(item) for item in adjustment.get("replaceTitleIds", [])}
+            cash_events[:] = [
+                event for event in cash_events
+                if not (
+                    event.get("operationId") == operation_id
+                    and event.get("type") == event_type
+                    and event.get("date") == event_date
+                    and str(event.get("titleId") or "") in replacement_ids | {title_id}
                 )
             ]
 
@@ -981,7 +1010,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
             purchase = parse_date(operation_start) or purchase
         days_to_maturity = (maturity - position_day).days if maturity else int(parse_number(row_get(master, column_map, "Dias ate o vencimento")))
         payment_dates = [
-            parse_date(row_get(row, column_map, "Data do pagamento"))
+            title_payment_date(row, column_map, title_override)
             for row in grouped_rows
             if parse_number(row_get(row, column_map, "Valor pago")) > 0
         ]
@@ -989,10 +1018,14 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         title_status = str(row_get(master, column_map, "Status do titulo") or "").strip()
         payment_status = str(row_get(master, column_map, "Status do Pagamento") or "").strip()
         status = title_status or payment_status
-        is_eligible = not is_pending(title_status)
+        is_eligible = bool(title_override.get("portfolioEligible", not is_pending(title_status)))
         raw_settled_date = max(payment_dates) if payment_dates and is_settled(status) else None
+        if title_override.get("settledDate"):
+            raw_settled_date = parse_date(title_override["settledDate"])
         settled_date = raw_settled_date.isoformat() if raw_settled_date and raw_settled_date <= position_day else ""
         settled_without_date = bool(is_settled(status) and not payment_dates and not is_open_position(title_status, payment_status))
+        if raw_settled_date:
+            settled_without_date = False
         purchase_is_in_position = bool(purchase and purchase <= position_day)
         active_as_of_position = bool(
             is_eligible
@@ -1019,7 +1052,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         collect_partial_liquidations = bool(is_partial_settlement(status, payment_status) or has_intermediate_payments)
         if collect_partial_liquidations:
             for row in grouped_rows:
-                payment_date = parse_date(row_get(row, column_map, "Data do pagamento"))
+                payment_date = title_payment_date(row, column_map, title_override)
                 paid = parse_number(row_get(row, column_map, "Valor pago"))
                 if not payment_date or paid <= 0 or payment_date > position_day:
                     continue
@@ -1190,7 +1223,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         for row in grouped_rows:
             if not title["portfolioEligible"]:
                 continue
-            payment_date = parse_date(row_get(row, column_map, "Data do pagamento"))
+            payment_date = title_payment_date(row, column_map, title_override)
             paid = parse_number(row_get(row, column_map, "Valor pago"))
             if not payment_date or paid <= 0 or payment_date > position_day:
                 continue
@@ -1400,12 +1433,15 @@ def merge_imports(imports: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def main() -> None:
+    global MANUAL_ADJUSTMENTS_PATH
     parser = argparse.ArgumentParser(description="Importa relatorio de carteira do Confina.")
     parser.add_argument("csv_path", nargs="+", help="Caminho do CSV exportado.")
     parser.add_argument("--output", default=str(OUTPUT_PATH), help="Arquivo JS de saida.")
     parser.add_argument("--position-date", default="", help="Data-base da posicao no formato YYYY-MM-DD.")
     parser.add_argument("--summary", action="store_true", help="Mostra resumo no terminal.")
+    parser.add_argument("--manual-adjustments", default=str(MANUAL_ADJUSTMENTS_PATH), help="Arquivo de ajustes manuais.")
     args = parser.parse_args()
+    MANUAL_ADJUSTMENTS_PATH = Path(args.manual_adjustments)
 
     if args.position_date:
         datetime.strptime(args.position_date, "%Y-%m-%d")

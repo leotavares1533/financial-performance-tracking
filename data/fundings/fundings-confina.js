@@ -1,7 +1,7 @@
 window.ceresFundingData = {
   "sourceWorkbook": "C:\\Users\\leonardo.silva\\Downloads\\funding confina.xlsx",
-  "positionDate": "2026-10-05",
-  "exportedAt": "2026-10-07T00:10:00+00:00",
+  "positionDate": "2026-10-19",
+  "exportedAt": "2026-10-20T18:08:09.753Z",
   "operations": [
     {
       "id": "confina-cra-65-200",
@@ -59,7 +59,7 @@ window.ceresFundingData = {
               "date": "2026-07-21",
               "amount": 319078.66,
               "interestPaid": 319078.66,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 25
             },
             {
@@ -94,7 +94,7 @@ window.ceresFundingData = {
               "date": "2026-08-04",
               "amount": 394793.82,
               "interestPaid": 394793.82,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 39
             },
             {
@@ -108,7 +108,7 @@ window.ceresFundingData = {
               "date": "2026-08-07",
               "amount": 198311.11,
               "interestPaid": 198311.11,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 42
             },
             {
@@ -129,7 +129,7 @@ window.ceresFundingData = {
               "date": "2026-08-19",
               "amount": 203623.51,
               "interestPaid": 203623.51,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 54
             },
             {
@@ -143,7 +143,7 @@ window.ceresFundingData = {
               "date": "2026-08-24",
               "amount": 307969.13,
               "interestPaid": 307969.13,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 59
             },
             {
@@ -157,7 +157,7 @@ window.ceresFundingData = {
               "date": "2026-09-01",
               "amount": 402310.38,
               "interestPaid": 402310.38,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 67
             },
             {
@@ -171,21 +171,21 @@ window.ceresFundingData = {
               "date": "2026-09-09",
               "amount": 202221.35,
               "interestPaid": 202221.35,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 75
             },
             {
               "date": "2026-09-10",
               "amount": 413754.86,
               "interestPaid": 413754.86,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 76
             },
             {
               "date": "2026-09-11",
               "amount": 2679.76,
               "interestPaid": 2679.76,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 77
             },
             {
@@ -206,7 +206,7 @@ window.ceresFundingData = {
           "rateSchedule": [],
           "workbookBalanceAtPosition": 169534014.22,
           "calculatedBalanceAtPosition": 169534014.22,
-          "validationDelta": 0.0
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
@@ -259,14 +259,14 @@ window.ceresFundingData = {
           "baseDays": 360,
           "issueDate": "2026-08-21",
           "maturityDate": null,
-          "interestPaidToDate": 0.0,
-          "amortizationPaidToDate": 0.0,
-          "installmentPaidToDate": 0.0,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
           "events": [],
           "rateSchedule": [],
           "workbookBalanceAtPosition": 81079849.16,
           "calculatedBalanceAtPosition": 81079849.16,
-          "validationDelta": 0.0
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
@@ -326,6 +326,66 @@ window.ceresFundingData = {
           "rateSchedule": [],
           "workbookBalanceAtPosition": 64682792.19,
           "calculatedBalanceAtPosition": 64682792.19,
+          "validationDelta": 0
+        }
+      ],
+      "fundingControlMode": "calculated_in_browser"
+    },
+    {
+      "id": "confina-cra-65-outubro",
+      "investor": "Ceres",
+      "name": "Confina CRA 65a - Outubro/2026",
+      "shortName": "CRA 65a Out/26",
+      "account": "A cadastrar",
+      "positionDate": "2026-10-14",
+      "sourceSheets": [
+        "Confina CRA 65a - Outubro/2026"
+      ],
+      "issueDate": "2026-10-14",
+      "maturityDate": null,
+      "fundingPrincipal": 75790266.29,
+      "fundingBalance": 75790266.29,
+      "fundingPrevious": 0,
+      "fundingMonthStart": 0,
+      "fundingRate": 1.7,
+      "fundingRateLabel": "1.70% a.m.",
+      "fundingRateType": "monthly_fixed",
+      "baseDays": 360,
+      "cash": 0,
+      "portfolioVp": 0,
+      "portfolioVn": 0,
+      "portfolioRate": 0,
+      "duration": 0,
+      "overdue": 0,
+      "warning": "ok",
+      "syntheticSub": -75790266.29,
+      "previousSyntheticSub": 0,
+      "monthStartSyntheticSub": 0,
+      "portfolio": [],
+      "fundingComponents": [
+        {
+          "sheet": "Confina CRA 65a - Outubro/2026",
+          "operationLabel": "CRA 65a Out/26",
+          "principal": 75790266.29,
+          "startDate": "2026-10-14",
+          "accrueOnStartDate": false,
+          "fundingBalance": 75790266.29,
+          "fundingRate": 1.7,
+          "fundingRateLabel": "1.70% a.m.",
+          "fundingRateType": "monthly_fixed",
+          "cdiRate": null,
+          "spreadRate": null,
+          "annualRate": 0.22419735005332386,
+          "baseDays": 360,
+          "issueDate": "2026-10-14",
+          "maturityDate": null,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
+          "events": [],
+          "rateSchedule": [],
+          "workbookBalanceAtPosition": 75790266.29,
+          "calculatedBalanceAtPosition": 75790266.29,
           "validationDelta": 0
         }
       ],
@@ -463,9 +523,9 @@ window.ceresFundingData = {
       ],
       "issueDate": "2025-05-12",
       "maturityDate": "2029-05-12",
-      "fundingPrincipal": 50000000.0,
+      "fundingPrincipal": 50000000,
       "fundingBalance": 39397513.64,
-      "fundingPrevious": 39389144.0,
+      "fundingPrevious": 39389144,
       "fundingMonthStart": 39364045.75,
       "fundingRate": 1.5981,
       "fundingRateLabel": "CDI 14.65% a.a. + spread 5.50% a.a.",
@@ -479,14 +539,14 @@ window.ceresFundingData = {
       "overdue": 0,
       "warning": "ok",
       "syntheticSub": -39397513.64,
-      "previousSyntheticSub": -39389144.0,
+      "previousSyntheticSub": -39389144,
       "monthStartSyntheticSub": -39364045.75,
       "portfolio": [],
       "fundingComponents": [
         {
           "sheet": "CPRF CONFINA CRA 42",
           "operationLabel": "CPRF Confina",
-          "principal": 50000000.0,
+          "principal": 50000000,
           "startDate": "2025-05-13",
           "accrueOnStartDate": true,
           "fundingBalance": 39397513.64,
@@ -2595,7 +2655,7 @@ window.ceresFundingData = {
           ],
           "workbookBalanceAtPosition": 40069455.07,
           "calculatedBalanceAtPosition": 40069455.07,
-          "validationDelta": 0.0
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
@@ -2653,14 +2713,14 @@ window.ceresFundingData = {
           "baseDays": 360,
           "issueDate": "2026-05-20",
           "maturityDate": "2026-10-17",
-          "interestPaidToDate": 0.0,
-          "amortizationPaidToDate": 0.0,
-          "installmentPaidToDate": 0.0,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
           "events": [],
           "rateSchedule": [],
           "workbookBalanceAtPosition": 6864842.78,
           "calculatedBalanceAtPosition": 6864842.78,
-          "validationDelta": 0.0
+          "validationDelta": 0
         },
         {
           "sheet": "CRA Carteira 100mm 2 (1.8%)",
@@ -2693,7 +2753,7 @@ window.ceresFundingData = {
           "rateSchedule": [],
           "workbookBalanceAtPosition": 18952791.19,
           "calculatedBalanceAtPosition": 18952791.19,
-          "validationDelta": 0.0
+          "validationDelta": 0
         },
         {
           "sheet": "CRA Carteira 100mm 3 (1.8%)",
@@ -2701,7 +2761,7 @@ window.ceresFundingData = {
           "principal": 9067383.05,
           "startDate": "2026-04-01",
           "accrueOnStartDate": false,
-          "fundingBalance": 0.0,
+          "fundingBalance": 0,
           "fundingRate": 1.85,
           "fundingRateLabel": "1.85% a.m.",
           "fundingRateType": "monthly_fixed",
@@ -2724,9 +2784,9 @@ window.ceresFundingData = {
             }
           ],
           "rateSchedule": [],
-          "workbookBalanceAtPosition": 0.0,
-          "calculatedBalanceAtPosition": 0.0,
-          "validationDelta": 0.0
+          "workbookBalanceAtPosition": 0,
+          "calculatedBalanceAtPosition": 0,
+          "validationDelta": 0
         },
         {
           "sheet": "CRA Carteira 100mm 4 (1.8%)",
@@ -2773,7 +2833,7 @@ window.ceresFundingData = {
           "rateSchedule": [],
           "workbookBalanceAtPosition": 3208828.04,
           "calculatedBalanceAtPosition": 3208828.04,
-          "validationDelta": 0.0
+          "validationDelta": 0
         },
         {
           "sheet": "CRA Carteira 100mm 5 (1.8%)",
@@ -2781,7 +2841,7 @@ window.ceresFundingData = {
           "principal": 7557196.35,
           "startDate": "2026-04-15",
           "accrueOnStartDate": false,
-          "fundingBalance": 0.0,
+          "fundingBalance": 0,
           "fundingRate": 1.8,
           "fundingRateLabel": "1.80% a.m.",
           "fundingRateType": "monthly_fixed",
@@ -2812,7 +2872,7 @@ window.ceresFundingData = {
             {
               "date": "2026-07-22",
               "amount": 333751.54,
-              "interestPaid": 33275.0,
+              "interestPaid": 33275,
               "amortization": 300476.54,
               "sourceRow": 108
             },
@@ -2825,9 +2885,9 @@ window.ceresFundingData = {
             }
           ],
           "rateSchedule": [],
-          "workbookBalanceAtPosition": 0.0,
-          "calculatedBalanceAtPosition": 0.0,
-          "validationDelta": 0.0
+          "workbookBalanceAtPosition": 0,
+          "calculatedBalanceAtPosition": 0,
+          "validationDelta": 0
         },
         {
           "sheet": "CRA Carteira 100mm 6 (1.8%)",
@@ -2835,7 +2895,7 @@ window.ceresFundingData = {
           "principal": 43149862.54,
           "startDate": "2026-04-01",
           "accrueOnStartDate": false,
-          "fundingBalance": 0.0,
+          "fundingBalance": 0,
           "fundingRate": 1.8,
           "fundingRateLabel": "1.80% a.m.",
           "fundingRateType": "monthly_fixed",
@@ -2853,19 +2913,19 @@ window.ceresFundingData = {
               "date": "2026-05-14",
               "amount": 695401.96,
               "interestPaid": 695401.96,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 53
             },
             {
               "date": "2026-06-30",
               "amount": 259930.54,
               "interestPaid": 259930.54,
-              "amortization": 0.0,
+              "amortization": 0,
               "sourceRow": 100
             },
             {
               "date": "2026-07-02",
-              "amount": 1472411.0,
+              "amount": 1472411,
               "interestPaid": 1450255.94,
               "amortization": 22155.06,
               "sourceRow": 102
@@ -2893,9 +2953,9 @@ window.ceresFundingData = {
             }
           ],
           "rateSchedule": [],
-          "workbookBalanceAtPosition": 0.0,
-          "calculatedBalanceAtPosition": 0.0,
-          "validationDelta": 0.0
+          "workbookBalanceAtPosition": 0,
+          "calculatedBalanceAtPosition": 0,
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
@@ -2964,7 +3024,7 @@ window.ceresFundingData = {
           "rateSchedule": [],
           "workbookBalanceAtPosition": 31012058.56,
           "calculatedBalanceAtPosition": 31012058.56,
-          "validationDelta": 0.0
+          "validationDelta": 0
         },
         {
           "sheet": "CRA Carteira 50mm 2 (1.8%)",
@@ -2972,7 +3032,7 @@ window.ceresFundingData = {
           "principal": 5195643.04,
           "startDate": "2026-06-12",
           "accrueOnStartDate": false,
-          "fundingBalance": 0.0,
+          "fundingBalance": 0,
           "fundingRate": 1.8,
           "fundingRateLabel": "1.80% a.m.",
           "fundingRateType": "monthly_fixed",
@@ -2995,9 +3055,9 @@ window.ceresFundingData = {
             }
           ],
           "rateSchedule": [],
-          "workbookBalanceAtPosition": 0.0,
-          "calculatedBalanceAtPosition": 0.0,
-          "validationDelta": 0.0
+          "workbookBalanceAtPosition": 0,
+          "calculatedBalanceAtPosition": 0,
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
@@ -3014,7 +3074,7 @@ window.ceresFundingData = {
       ],
       "issueDate": "2026-02-20",
       "maturityDate": "2027-01-30",
-      "fundingPrincipal": 100000000.0,
+      "fundingPrincipal": 100000000,
       "fundingBalance": 112696418.05,
       "fundingPrevious": 112629421.47,
       "fundingMonthStart": 112228277.6,
@@ -3037,7 +3097,7 @@ window.ceresFundingData = {
         {
           "sheet": "CPRF 100MM BTG",
           "operationLabel": "CPRF 100MM",
-          "principal": 100000000.0,
+          "principal": 100000000,
           "startDate": "2026-02-20",
           "accrueOnStartDate": true,
           "fundingBalance": 112696418.05,
@@ -3050,14 +3110,14 @@ window.ceresFundingData = {
           "baseDays": 360,
           "issueDate": "2026-02-20",
           "maturityDate": "2027-01-30",
-          "interestPaidToDate": 0.0,
-          "amortizationPaidToDate": 0.0,
-          "installmentPaidToDate": 0.0,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
           "events": [],
           "rateSchedule": [],
           "workbookBalanceAtPosition": 112696418.05,
           "calculatedBalanceAtPosition": 112696418.05,
-          "validationDelta": 0.0
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
@@ -3074,7 +3134,7 @@ window.ceresFundingData = {
       ],
       "issueDate": "2026-04-27",
       "maturityDate": "2027-04-08",
-      "fundingPrincipal": 50000000.0,
+      "fundingPrincipal": 50000000,
       "fundingBalance": 54147292.55,
       "fundingPrevious": 54115102.68,
       "fundingMonthStart": 53922364.92,
@@ -3097,7 +3157,7 @@ window.ceresFundingData = {
         {
           "sheet": "CPRF 50MM BTG",
           "operationLabel": "CPRF 50MM",
-          "principal": 50000000.0,
+          "principal": 50000000,
           "startDate": "2026-04-27",
           "accrueOnStartDate": false,
           "fundingBalance": 54147292.55,
@@ -3110,14 +3170,14 @@ window.ceresFundingData = {
           "baseDays": 360,
           "issueDate": "2026-04-27",
           "maturityDate": "2027-04-08",
-          "interestPaidToDate": 0.0,
-          "amortizationPaidToDate": 0.0,
-          "installmentPaidToDate": 0.0,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
           "events": [],
           "rateSchedule": [],
           "workbookBalanceAtPosition": 54147292.55,
           "calculatedBalanceAtPosition": 54147292.55,
-          "validationDelta": 0.0
+          "validationDelta": 0
         }
       ],
       "fundingControlMode": "calculated_in_browser"
