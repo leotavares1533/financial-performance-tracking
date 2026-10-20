@@ -7,15 +7,17 @@ const args = process.argv.slice(2);
 const maxDateIndex = args.indexOf("--max-date");
 const maxDate = maxDateIndex >= 0 ? String(args[maxDateIndex + 1] || "") : "";
 const archiveCurrent = args.includes("--archive-current");
+const preserveLots = args.includes("--preserve-lots");
 const snapshotFileIndex = args.indexOf("--snapshot-file");
 if (snapshotFileIndex >= 0 && (!args[snapshotFileIndex + 1] || args[snapshotFileIndex + 1].startsWith("--"))) {
   throw new Error("Informe o arquivo apos --snapshot-file.");
 }
 const biologicalDir = path.join(projectRoot, "data", "biological");
 const historyDir = path.join(biologicalDir, "history");
+const publishedCurrentFile = path.join(biologicalDir, "biological-assets-confina.js");
 const currentFile = snapshotFileIndex >= 0
   ? path.resolve(projectRoot, args[snapshotFileIndex + 1])
-  : path.join(biologicalDir, "biological-assets-confina.js");
+  : publishedCurrentFile;
 const outputFile = path.join(biologicalDir, "biological-assets-history-confina.js");
 
 function readJsObject(filePath, variableName = "window.ceresBiologicalAssets") {
@@ -113,13 +115,22 @@ if (fs.existsSync(historyDir)) {
 const current = readJsObject(currentFile);
 const currentDate = snapshotDate(current);
 if (!currentDate) throw new Error("Garantia atual sem data de referencia.");
+// The app prefers the full current snapshot over a compacted copy of that date.
+// Preserve that effective snapshot before switching to a later composition.
+if (preserveLots && currentFile !== publishedCurrentFile && fs.existsSync(publishedCurrentFile)) {
+  const published = readJsObject(publishedCurrentFile);
+  const publishedDate = snapshotDate(published);
+  if (publishedDate && publishedDate < currentDate && (!maxDate || publishedDate <= maxDate)) {
+    byDate.set(publishedDate, published);
+  }
+}
 if (!maxDate || currentDate <= maxDate) {
   const existing = byDate.get(currentDate);
   const latestDate = Array.from(byDate.keys()).sort().at(-1);
   if (existing && archiveCurrent && currentDate !== latestDate) {
     throw new Error(`Nao e permitido substituir uma data fechada: ${currentDate}`);
   }
-  if (!existing || archiveCurrent) byDate.set(currentDate, compactSnapshot(current));
+  if (!existing || archiveCurrent) byDate.set(currentDate, preserveLots ? current : compactSnapshot(current));
   else if (String(existing.updatedAt) !== String(current.updatedAt)) {
     throw new Error(`Garantia ${currentDate} ja arquivada. Requer revisao antes de substituir.`);
   }
