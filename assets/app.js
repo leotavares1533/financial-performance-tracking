@@ -578,6 +578,7 @@ const fallbackOperations = [
 const fundingData = window.ceresFundingData || { positionDate: "2026-09-03", operations: [] };
 const manualFundingEvents = window.ceresFundingManualEvents || { events: [] };
 const portfolioData = window.ceresPortfolioData || { operations: [] };
+const managementPresentationPolicy = window.ceresManagementPresentationPolicy || {};
 const frozenPortfolioData = window.ceresFrozenPortfolioData || { operations: [] };
 const cashData = window.ceresCashData || {
   events: [],
@@ -798,7 +799,26 @@ function biologicalOnlyOperationsForDate(dateKey = "") {
 }
 
 function guaranteeOperations(dateKey = state.dateKey) {
-  return [...operations, ...biologicalOnlyOperationsForDate(dateKey)];
+  return [...laminaOperationsForDate(dateKey), ...biologicalOnlyOperationsForDate(dateKey)];
+}
+
+// Keep the underlying ledgers intact; segregation applies only to the dated presentation.
+function laminaOperationsForDate(dateKey = state.dateKey) {
+  if (!managementPresentationPolicy.effectiveDate || dateKey < managementPresentationPolicy.effectiveDate) return operations;
+  const excluded = new Set(managementPresentationPolicy.excludedOperationIds || []);
+  return operations.filter((operation) => !excluded.has(operation.id));
+}
+
+function normalizeLaminaSelections() {
+  const visible = laminaOperationsForDate();
+  const visibleIds = new Set(visible.map((operation) => operation.id));
+  for (const key of ["cashId", "portfolioId", "evolutionId"]) {
+    if (state[key] !== "gerencial" && !visibleIds.has(state[key])) state[key] = "gerencial";
+  }
+  if (!visibleIds.has(state.selectedId)) {
+    state.selectedId = visible[0]?.id || "";
+    if (state.view === "individual") state.view = "gerencial";
+  }
 }
 
 const initialParams = new URLSearchParams(window.location.search);
@@ -809,7 +829,7 @@ const portfolioPositionDates = importedPortfolioOperations
   .map((item) => item.positionDate)
   .filter(Boolean);
 const latestPortfolioPositionDate = portfolioPositionDates.sort().slice(-1)[0] || "";
-const initialDateKey = [fundingData.positionDate, latestPortfolioPositionDate]
+const initialDateKey = [fundingData.positionDate, latestPortfolioPositionDate, managementPresentationPolicy.positionDate]
   .filter(Boolean)
   .sort()
   .slice(-1)[0] || "2026-09-03";
@@ -951,7 +971,7 @@ const nodes = {
   portfolioTable: document.getElementById("portfolio-table")
 };
 
-const selectedOperation = () => operations.find((item) => item.id === state.selectedId) || operations[0];
+const selectedOperation = () => laminaOperationsForDate().find((item) => item.id === state.selectedId) || laminaOperationsForDate()[0];
 
 function quoteRows() {
   return Array.isArray(quoteSnapshot.rows) ? quoteSnapshot.rows : [];
@@ -1663,9 +1683,10 @@ function fundingEvents(operation) {
 }
 
 function selectedEvolutionOperations() {
-  if (state.evolutionId === "gerencial") return operations;
-  const selected = operations.find((operation) => operation.id === state.evolutionId);
-  return selected ? [selected] : operations;
+  const visible = laminaOperationsForDate();
+  if (state.evolutionId === "gerencial") return visible;
+  const selected = visible.find((operation) => operation.id === state.evolutionId);
+  return selected ? [selected] : visible;
 }
 
 function selectedEvolutionLabel() {
@@ -1892,9 +1913,10 @@ function fundingDualLineChart(rows, series, ariaLabel = "Evolucao comparativa") 
 }
 
 function selectedCashOperations() {
-  if (state.cashId === "gerencial") return operations;
-  const selected = operations.find((operation) => operation.id === state.cashId);
-  return selected ? [selected] : operations;
+  const visible = laminaOperationsForDate();
+  if (state.cashId === "gerencial") return visible;
+  const selected = visible.find((operation) => operation.id === state.cashId);
+  return selected ? [selected] : visible;
 }
 
 function selectedCashLabel() {
@@ -1925,9 +1947,10 @@ function portfolioDataForOperationAtDate(operation, dateKey) {
 }
 
 function selectedPortfolioOperations() {
-  if (state.portfolioId === "gerencial") return operations;
-  const selected = operations.find((operation) => operation.id === state.portfolioId);
-  return selected ? [selected] : operations;
+  const visible = laminaOperationsForDate();
+  if (state.portfolioId === "gerencial") return visible;
+  const selected = visible.find((operation) => operation.id === state.portfolioId);
+  return selected ? [selected] : visible;
 }
 
 function selectedPortfolioLabel() {
@@ -2673,7 +2696,7 @@ function portfolioConcentration(operation) {
     .sort((a, b) => b.vp - a.vp);
 }
 
-function partnerRiskRows(scopeOperations = operations, dateKey = state.dateKey) {
+function partnerRiskRows(scopeOperations = laminaOperationsForDate(), dateKey = state.dateKey) {
   const grouped = new Map();
   scopeOperations.forEach((operation) => {
     const position = operationPortfolioPositionAtDate(operation, dateKey);
@@ -3524,12 +3547,12 @@ function buildHistoryRows() {
     return {
       day: dayIndex,
       dateKey,
-      values: operations.map((operation) => syntheticAtDate(operation, dateKey) ?? syntheticAtDay(operation, dayIndex))
+      values: laminaOperationsForDate().map((operation) => syntheticAtDate(operation, dateKey) ?? syntheticAtDay(operation, dayIndex))
     };
   });
 }
 
-function buildSeniorSubordinadaRows(scopeOperations = operations) {
+function buildSeniorSubordinadaRows(scopeOperations = laminaOperationsForDate()) {
   return fundingEvolutionDates().map((dateKey) => {
     const senior = scopeOperations.reduce((sum, operation) =>
       sum + (fundingBalanceAtDate(operation, dateKey) ?? 0)
@@ -3553,7 +3576,7 @@ function selectedSeniorSubordinadaOperations() {
   if (state.view === "caixa") return selectedCashOperations();
   if (state.view === "carteira") return selectedPortfolioOperations();
   if (state.view === "evolucao") return selectedEvolutionOperations();
-  return operations;
+  return laminaOperationsForDate();
 }
 
 function renderSeniorSubordinadaCharts() {
@@ -3580,7 +3603,7 @@ function renderSeniorSubordinadaCharts() {
 function renderSelectors() {
   nodes.fundingSelector.innerHTML = `
     <option value="gerencial">Todos os fundings</option>
-    ${operations.map((operation) =>
+    ${laminaOperationsForDate().map((operation) =>
       `<option value="${operation.id}">${operation.investor} - ${operation.shortName}</option>`
     ).join("")}
   `;
@@ -3829,7 +3852,7 @@ function renderSummary() {
   }
 
   const selected = selectedOperation();
-  const source = state.view === "individual" ? [selected] : operations;
+  const source = state.view === "individual" ? [selected] : laminaOperationsForDate();
   const totalCash = source.reduce((sum, item) => sum + item.cash, 0);
   const totalPortfolio = source.reduce((sum, item) => sum + item.portfolioVp, 0);
   const totalFunding = source.reduce((sum, item) => sum + item.fundingBalance, 0);
@@ -3859,6 +3882,7 @@ function renderSummary() {
 }
 
 function renderManagement() {
+  const visibleOperations = laminaOperationsForDate();
   nodes.managementDate.textContent = formatDate(state.dateKey);
   if (nodes.guaranteeHistoryDate) {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
@@ -3869,8 +3893,8 @@ function renderManagement() {
   if (nodes.resultDayHead) nodes.resultDayHead.textContent = `Resultado no dia (${formatDate(state.dateKey)} - ${formatDate(previousKey)})`;
   if (nodes.resultMonthHead) nodes.resultMonthHead.textContent = `Resultado 21 d.u. (${formatDate(state.dateKey)} - ${formatDate(monthStartKey)})`;
 
-  const cashTotal = operations.reduce((sum, item) => sum + item.cash, 0);
-  nodes.cashTable.innerHTML = operations.map((operation) => `
+  const cashTotal = visibleOperations.reduce((sum, item) => sum + item.cash, 0);
+  nodes.cashTable.innerHTML = visibleOperations.map((operation) => `
     <tr>
       <td>${operation.name}</td>
       <td class="num">${formatCurrency(operation.cash)}</td>
@@ -3882,10 +3906,10 @@ function renderManagement() {
     </tr>
   `;
 
-  const resultTotal = operations.reduce((sum, item) => sum + item.syntheticSub, 0);
-  const dayTotal = operations.reduce((sum, item) => sum + item.syntheticSub - item.previousSyntheticSub, 0);
-  const monthTotal = operations.reduce((sum, item) => sum + item.syntheticSub - item.monthStartSyntheticSub, 0);
-  nodes.resultTable.innerHTML = operations.map((operation) => {
+  const resultTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub, 0);
+  const dayTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub - item.previousSyntheticSub, 0);
+  const monthTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub - item.monthStartSyntheticSub, 0);
+  nodes.resultTable.innerHTML = visibleOperations.map((operation) => {
     const day = operation.syntheticSub - operation.previousSyntheticSub;
     const month = operation.syntheticSub - operation.monthStartSyntheticSub;
     return `
@@ -4013,10 +4037,10 @@ function renderManagement() {
     <tr>
       <th rowspan="2">Dias</th>
       <th rowspan="2">Data</th>
-      ${operations.map((operation) => `<th>${operation.investor}</th>`).join("")}
+      ${visibleOperations.map((operation) => `<th>${operation.investor}</th>`).join("")}
     </tr>
     <tr>
-      ${operations.map((operation) => `<th>${operation.shortName}</th>`).join("")}
+      ${visibleOperations.map((operation) => `<th>${operation.shortName}</th>`).join("")}
     </tr>
   `;
   nodes.historyHead.innerHTML = headTop;
@@ -4761,7 +4785,17 @@ function renderDetail() {
 }
 
 function render() {
+  if (window.ceresFinanceEngineOnly) return;
+  normalizeLaminaSelections();
   recalculateFundingPositions();
+  const positionNotice = document.getElementById("position-notice");
+  if (positionNotice) {
+    const carried = Boolean(latestPortfolioPositionDate && state.dateKey > latestPortfolioPositionDate);
+    positionNotice.hidden = !carried;
+    positionNotice.textContent = carried
+      ? `Posicao evoluida para ${formatDate(state.dateKey)} com carteira-base de ${formatDate(latestPortfolioPositionDate)}. Sem nova importacao de carteira; comparativos usam os fundings do filtro atual.`
+      : "";
+  }
   renderSelectors();
   renderSummary();
   renderManagement();
@@ -4780,6 +4814,7 @@ function render() {
   nodes.detailView.hidden = state.view !== "individual";
 }
 
+if (!window.ceresFinanceEngineOnly) {
 nodes.dateSelector.addEventListener("change", (event) => {
   state.dateKey = event.target.value || state.dateKey;
   render();
@@ -4986,5 +5021,6 @@ if (nodes.premiumMemoryTable) {
 nodes.printButton.addEventListener("click", () => {
   window.print();
 });
+}
 
 render();

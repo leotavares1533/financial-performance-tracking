@@ -2737,3 +2737,15 @@ tfoot td,
     font-size: 4.1pt;
   }
 }
+:root .position-notice {
+  margin: 0 0 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid #cbd5d1;
+  color: #34443d;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+:root .position-notice[hidden] {
+  display: none;
+}
