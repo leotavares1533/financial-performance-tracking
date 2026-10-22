@@ -51,11 +51,24 @@ for (const date of ["2026-06-30", "2026-07-31", "2026-08-31", "2026-09-30", "202
   for (const key of uiKeys) assert.equal(after.nodes.get(key)?.innerHTML, before.nodes.get(key)?.innerHTML, `Tela historica alterada: ${date} ${key}`);
 }
 const excluded = ["confina-cras-carteira-100", "confina-cras-carteira-50"];
+const surplusId = "confina-caixa-operacao";
+const releasedCash = 878090.06;
+assert.equal(evaluate(after, "cashBalanceAtDate(operatingCashOperation,'2026-10-19')"), 0);
+assert.equal(evaluate(after, "syntheticAtDate(operatingCashOperation,'2026-10-19')"), 907384.31);
+assert.equal(evaluate(after, "cashBalanceAtDate(operatingCashOperation,'2026-10-20')"), releasedCash);
+assert.equal(evaluate(after, "operationCashPositionAtDate(operatingCashOperation,'2026-10-20').investmentIncome"), 0);
+assert.equal(evaluate(after, "operationCashPositionAtDate(operatingCashOperation,'2026-10-21').adjustment"), 0);
+assert.equal(evaluate(after, "operationCashPositionAtDate(operatingCashOperation,'2026-10-21').totalAdjustment"), releasedCash);
+assert.equal(evaluate(after, "fundingBalanceAtDate(operatingCashOperation,'2026-10-21')"), 0);
+assert.ok(evaluate(after, "operationCashPositionAtDate(operatingCashOperation,'2026-10-21').investmentIncome") > 0);
 const latest = [];
 for (const date of ["2026-10-20", "2026-10-21", "2026-10-22", "2026-10-24", "2026-10-26"]) {
   vm.runInContext(`state.dateKey='${date}';state.view='gerencial';render();`, after.context);
   const ids = evaluate(after, "laminaOperationsForDate().map(op=>op.id)");
-  assert.equal(ids.length, 9);
+  assert.equal(ids.length, 10);
+  assert.ok(ids.includes(surplusId));
+  assert.equal(evaluate(after, "selectedEvolutionOperations().length"), 9);
+  assert.equal(evaluate(after, "selectedPortfolioOperations().length"), 9);
   for (const id of excluded) {
     assert.ok(!ids.includes(id));
     for (const getter of ["selectedEvolutionOperations", "selectedCashOperations", "selectedPortfolioOperations", "guaranteeOperations"]) {
@@ -71,8 +84,25 @@ for (const date of ["2026-10-20", "2026-10-21", "2026-10-22", "2026-10-24", "202
   const previousDate = evaluate(after, `addBusinessDaysBack('${date}',1)`);
   const prior = rawPosition(before, previousDate).filter((row) => ids.includes(row.id));
   const expected = Math.round((raw.reduce((s, r) => s + r.sub, 0) - prior.reduce((s, r) => s + r.sub, 0)) * 100) / 100;
-  assert.ok(Math.abs(expectedDayResult - expected) < 0.03, `Resultado ficticio por segregacao: ${date}`);
-  latest.push({ date, visibleFundings: ids.length,
+  const surplus = evaluate(after, `syntheticAtDate(operatingCashOperation,'${date}')`);
+  const priorSurplus = evaluate(after, `syntheticAtDate(operatingCashOperation,'${previousDate}')`);
+  assert.ok(Math.abs(expectedDayResult - expected - surplus + priorSurplus) < 0.03, `Resultado ficticio por segregacao: ${date}`);
+  if (previousDate < "2026-10-20") {
+    const legacyGain = rawPosition(before, previousDate).filter((row) => excluded.includes(row.id)).reduce((sum, row) => sum + row.sub, 0);
+    assert.ok(Math.abs(priorSurplus - legacyGain) < 0.01, "Ganho anterior perdido na reclassificacao");
+  }
+  const monthDate = evaluate(after, `rollingMonthReferenceKey('${date}')`);
+  if (monthDate < "2026-10-20") {
+    const legacyMonth = rawPosition(before, monthDate).filter((row) => excluded.includes(row.id)).reduce((sum, row) => sum + row.sub, 0);
+    const monthBaseline = evaluate(after, "operatingCashOperation.monthStartSyntheticSub");
+    assert.ok(Math.abs(monthBaseline - legacyMonth) < 0.01, "Comparativo de 21 dias alterou o ganho historico");
+  }
+  const guaranteeCash = evaluate(after, "guaranteeOperations().filter(op=>!op.biologicalOnly).reduce((s,op)=>s+guaranteeSummary(op).cashCoverage,0)");
+  const publicCash = evaluate(after, "laminaOperationsForDate().reduce((s,op)=>s+op.cash,0)");
+  assert.ok(Math.abs(guaranteeCash - publicCash) < 0.01);
+  assert.ok(after.nodes.get("cash-table").innerHTML.includes("Caixa da operacao"));
+  assert.ok(after.nodes.get("result-table").innerHTML.includes("Caixa da operacao"));
+  latest.push({ date, visibleFundings: ids.length - 1, operatingCash: surplus,
     cash: evaluate(after, "roundMoney(laminaOperationsForDate().reduce((s,op)=>s+op.cash,0))"),
     funding: evaluate(after, "roundMoney(laminaOperationsForDate().reduce((s,op)=>s+op.fundingBalance,0))") });
 }
@@ -86,7 +116,9 @@ const privateRows = [];
 for (const date of ["2026-10-20", "2026-10-21", "2026-10-22", "2026-10-24", "2026-10-26"]) {
   const rows = evaluate(after, `parallelPositionsAtDate('${date}')`);
   assert.equal(rows.length, 2);
-  assert.equal(Math.round(rows.reduce((sum, row) => sum + row.cash, 0) * 100), 5008193980);
+  assert.equal(Math.round(rows.reduce((sum, row) => sum + row.cash, 0) * 100), 4920384974);
+  assert.equal(Math.round(rows.reduce((sum, row) => sum + row.cash + row.operatingCashReleased, 0) * 100), 5008193980);
+  assert.equal(Math.round(rows.reduce((sum, row) => sum + row.operatingCashReleased, 0) * 100), Math.round(releasedCash * 100));
   for (const row of rows) {
     assert.equal(row.cashIncome, 0);
     assert.equal(row.portfolioVp, 0);
@@ -107,9 +139,13 @@ vm.runInContext(`{
 }`, after.context);
 const withPayment = evaluate(after, "parallelPositionsAtDate('2026-10-22').find(r=>r.operationId==='confina-cras-carteira-50')");
 const originalAccount = evaluate(before, "cashBalanceAtDate(operations.find(op=>op.id==='confina-cras-carteira-50'),'2026-10-19')");
-assert.equal(withPayment.cash, originalAccount - 1000);
+assert.equal(withPayment.cash, originalAccount - withPayment.operatingCashReleased - 1000);
 assert.equal(withPayment.payment, 1000);
 assert.deepEqual(evaluate(after, "parallelPositionsAtDate('2026-10-21')"), frozen);
+assert.equal(evaluate(after, "cashBalanceAtDate(operatingCashOperation,'2026-10-20')"), releasedCash);
+const data = evaluate(after, "parallelControlData");
+assert.ok(fs.existsSync(path.join(output, data.revisions.at(-1).backupFile)));
+assert.equal(data.revisions.at(-1).operatingCashReleased, releasedCash);
 assert.ok(!fs.readFileSync("index.html", "utf8").includes("controle-paralelo"));
 assert.ok(!fs.existsSync("controle-paralelo-confina"));
 console.log(JSON.stringify({ historicalDaysVerified: dates.length, historicalScreensVerified: 9,

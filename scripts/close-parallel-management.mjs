@@ -24,9 +24,11 @@ const context = vm.createContext({ console, Date, Intl, URLSearchParams,
 for (const file of files) vm.runInContext(fs.readFileSync(file, "utf8"), context, { filename: file });
 const read = (code) => JSON.parse(JSON.stringify(vm.runInContext(code, context)));
 let data;
+let newControl = false;
 if (fs.existsSync(target)) {
   data = JSON.parse(fs.readFileSync(target, "utf8").replace(/^[\s\S]*?=\s*/, "").replace(/;\s*$/, ""));
 } else {
+  newControl = true;
   const accounts = read(`operations.filter(op=>managementPresentationPolicy.excludedOperationIds.includes(op.id)).map(op=>({
     operationId:op.id,name:op.shortName,
     openingCash:cashBalanceAtDate(op,'2026-10-19'),
@@ -38,6 +40,38 @@ if (fs.existsSync(target)) {
     cashTreatment: "nominal_without_simulated_cdi", debtTreatment: "continues_original_accrual_without_fictitious_payment",
     accounts, positions: [] };
 }
+const surplusPolicy = context.window.ceresManagementPresentationPolicy.operatingCash;
+const revisionRequested = process.argv.includes("--retain-operating-surplus");
+const needsRevision = data.cashTreatment !== "reserved_cash_after_operating_surplus_reclassification";
+if (needsRevision) {
+  assert.ok(newControl || revisionRequested, "A separacao da sobra exige --retain-operating-surplus e autorizacao para revisar 20/10 em diante");
+  assert.equal(data.effectiveDate, "2026-10-20");
+  assert.ok(data.positions.every((row) => row.dateKey >= data.effectiveDate));
+  assert.ok(data.positions.every((row) => row.dateKey <= through), "A revisao deve abranger todas as posicoes paralelas ja preservadas");
+  let backupFile = "";
+  if (!newControl) {
+    const original = fs.readFileSync(target);
+    const digest = crypto.createHash("sha256").update(original).digest("hex");
+    backupFile = `posicoes-antes-sobra-operacional-${digest.slice(0, 12)}.js`;
+    const backup = path.join(output, backupFile);
+    if (fs.existsSync(backup)) assert.deepEqual(fs.readFileSync(backup), original);
+    else fs.copyFileSync(target, backup);
+  }
+  for (const account of data.accounts) {
+    const allocation = surplusPolicy.allocations.find((row) => row.operationId === account.operationId);
+    assert.ok(allocation, `Falta a alocacao de sobra: ${account.operationId}`);
+    const debt = read(`fundingBalanceAtDate(operations.find(op=>op.id==='${account.operationId}'),'${data.effectiveDate}')`);
+    assert.equal(Math.round((account.openingCash - debt) * 100), Math.round(allocation.amount * 100));
+    account.operatingCashReleased = allocation.amount;
+  }
+  data.cashTreatment = "reserved_cash_after_operating_surplus_reclassification";
+  data.revisions = [...(data.revisions || []), {
+    authorizationDate: "2026-10-22", effectiveDate: data.effectiveDate,
+    reason: "User correction: cash less funding at segregation remains operating cash and preserves existing gain",
+    operatingCashReleased: Math.round(data.accounts.reduce((sum, row) => sum + row.operatingCashReleased, 0) * 100) / 100,
+    backupFile
+  }];
+}
 context.window.ceresParallelManagementData = data;
 vm.runInContext(fs.readFileSync(path.join(output, "controle.js"), "utf8"), context);
 assert.ok(through >= data.effectiveDate);
@@ -48,6 +82,12 @@ for (const date of dates) {
   assert.ok(accounts.every((row) => row.portfolioVp === 0), `Carteira ativa em veiculo segregado: ${date}`);
   const existing = data.positions.find((row) => row.dateKey === date);
   if (existing) {
+    if (needsRevision) {
+      existing.accounts = accounts;
+      existing.revision = "operating_surplus_retained_authorized_2026-10-22";
+      existing.revisionSourceHashes = dataHashes;
+      continue;
+    }
     const financialValues = (rows) => rows.map(({ portfolioSourceDate, ...row }) => row);
     assert.deepEqual(financialValues(accounts), financialValues(existing.accounts), `Posicao paralela preservada divergiu em ${date}; requer revisao autorizada antes de alterar`);
   } else {
@@ -63,6 +103,7 @@ for (const [file, hash] of Object.entries(dataHashes)) {
 }
 console.log(JSON.stringify({ file: target, preserved: data.positions.length, added: additions.length,
   positions: data.positions.map((row) => ({ date: row.dateKey,
+    operatingCashReleased: Math.round(row.accounts.reduce((sum, account) => sum + account.operatingCashReleased, 0) * 100) / 100,
     cash: Math.round(row.accounts.reduce((sum, account) => sum + account.cash, 0) * 100) / 100,
     debt: Math.round(row.accounts.reduce((sum, account) => sum + account.debt, 0) * 100) / 100,
     interest: Math.round(row.accounts.reduce((sum, account) => sum + account.interest, 0) * 100) / 100 })) }, null, 2));

@@ -612,6 +612,30 @@ const operations = (
   ...operation
 }));
 
+const operatingCashPolicy = managementPresentationPolicy.operatingCash;
+const operatingCashOperation = operatingCashPolicy ? {
+  id: operatingCashPolicy.id,
+  investor: "Operacao",
+  name: operatingCashPolicy.name,
+  shortName: operatingCashPolicy.name,
+  cashOnly: true,
+  account: "Caixa operacional gerencial",
+  issueDate: operatingCashPolicy.openingDate,
+  cashIncomeStartDate: operatingCashPolicy.incomeStartDate,
+  fundingRate: 0,
+  fundingHistory: [],
+  fundingComponents: [],
+  portfolio: [],
+  portfolioRate: 0,
+  duration: 0,
+  overdue: 0,
+  cashEvents: [{
+    date: operatingCashPolicy.openingDate,
+    type: "management_cash_reclassification",
+    amount: roundMoney(operatingCashPolicy.allocations.reduce((sum, row) => sum + row.amount, 0))
+  }]
+} : null;
+
 const fallbackBiologicalAssets = {
   "btg-cpra-50": {
     quotePerArroba: 318,
@@ -806,7 +830,9 @@ function guaranteeOperations(dateKey = state.dateKey) {
 function laminaOperationsForDate(dateKey = state.dateKey) {
   if (!managementPresentationPolicy.effectiveDate || dateKey < managementPresentationPolicy.effectiveDate) return operations;
   const excluded = new Set(managementPresentationPolicy.excludedOperationIds || []);
-  return operations.filter((operation) => !excluded.has(operation.id));
+  const visible = operations.filter((operation) => !excluded.has(operation.id));
+  if (operatingCashOperation && dateKey >= operatingCashPolicy.openingDate) visible.push(operatingCashOperation);
+  return visible;
 }
 
 function normalizeLaminaSelections() {
@@ -1495,6 +1521,7 @@ function fundingHistoryBalanceAtDate(operation, dateKey) {
 }
 
 function fundingBalanceAtDate(operation, dateKey) {
+  if (operation.cashOnly) return 0;
   prepareFundingInputs(operation);
   if (operation.fundingComponents.length) {
     return roundMoney(operation.fundingComponents.reduce(
@@ -1615,6 +1642,12 @@ function fundingAtOffset(operation, offset) {
 }
 
 function syntheticAtDate(operation, dateKey) {
+  // Comparable legacy gain is not a backdated entry in the new cash account.
+  if (operation.cashOnly && dateKey < operatingCashPolicy.openingDate) {
+    const originIds = new Set(operatingCashPolicy.allocations.map((row) => row.operationId));
+    return roundMoney(operations.filter((item) => originIds.has(item.id))
+      .reduce((sum, item) => sum + (syntheticAtDate(item, dateKey) || 0), 0));
+  }
   const funding = fundingBalanceAtDate(operation, dateKey);
   if (funding === null) return null;
   const portfolioPosition = operationPortfolioPositionAtDate(operation, dateKey);
@@ -1683,7 +1716,7 @@ function fundingEvents(operation) {
 }
 
 function selectedEvolutionOperations() {
-  const visible = laminaOperationsForDate();
+  const visible = laminaOperationsForDate().filter((operation) => !operation.cashOnly);
   if (state.evolutionId === "gerencial") return visible;
   const selected = visible.find((operation) => operation.id === state.evolutionId);
   return selected ? [selected] : visible;
@@ -1921,7 +1954,7 @@ function selectedCashOperations() {
 
 function selectedCashLabel() {
   if (state.cashId === "gerencial") return "Todos os fundings";
-  const selected = operations.find((operation) => operation.id === state.cashId);
+  const selected = laminaOperationsForDate().find((operation) => operation.id === state.cashId);
   return selected ? selected.shortName : "Todos os fundings";
 }
 
@@ -1947,7 +1980,7 @@ function portfolioDataForOperationAtDate(operation, dateKey) {
 }
 
 function selectedPortfolioOperations() {
-  const visible = laminaOperationsForDate();
+  const visible = laminaOperationsForDate().filter((operation) => !operation.cashOnly);
   if (state.portfolioId === "gerencial") return visible;
   const selected = visible.find((operation) => operation.id === state.portfolioId);
   return selected ? [selected] : visible;
@@ -2478,7 +2511,8 @@ function operationCashDailyRows(operation, endDateKey) {
       portfolioLiquidation -
       fundingAmortization +
       adjustment;
-    const investmentIncome = balanceBeforeIncome > 0 ? balanceBeforeIncome * CASH_APPLIED_SHARE * cdiDailyRate : 0;
+    const earnsIncome = !operation.cashIncomeStartDate || currentKey >= operation.cashIncomeStartDate;
+    const investmentIncome = earnsIncome && balanceBeforeIncome > 0 ? balanceBeforeIncome * CASH_APPLIED_SHARE * cdiDailyRate : 0;
     const currentBalance = roundMoney(balanceBeforeIncome + investmentIncome);
     const appliedBalance = roundMoney(currentBalance * CASH_APPLIED_SHARE);
     const freeBalance = roundMoney(currentBalance - appliedBalance);
@@ -2611,7 +2645,7 @@ function recalculateFundingPositions() {
   const previousKey = addBusinessDaysBack(dateKey, 1);
   const monthStartKey = rollingMonthReferenceKey(dateKey);
 
-  operations.forEach((operation) => {
+  [...operations, ...(operatingCashOperation ? [operatingCashOperation] : [])].forEach((operation) => {
     const fundingBalance = fundingBalanceAtDate(operation, dateKey);
     if (fundingBalance === null) return;
     const fundingPrevious = fundingBalanceAtDate(operation, previousKey) ?? fundingBalance;
@@ -2648,6 +2682,10 @@ function recalculateFundingPositions() {
     operation.syntheticSub = roundMoney(operation.portfolioVp + operation.cash + operation.syntheticAdjustment - operation.fundingBalance);
     operation.previousSyntheticSub = roundMoney(operation.portfolioPreviousVp + operation.cashPrevious + operation.previousSyntheticAdjustment - operation.fundingPrevious);
     operation.monthStartSyntheticSub = roundMoney(operation.portfolioMonthStartVp + operation.cashMonthStart + operation.monthStartSyntheticAdjustment - operation.fundingMonthStart);
+    if (operation.cashOnly) {
+      operation.previousSyntheticSub = syntheticAtDate(operation, previousKey);
+      operation.monthStartSyntheticSub = syntheticAtDate(operation, monthStartKey);
+    }
     if (portfolioPosition.imported) {
       operation.duration = Math.max(0, Number(portfolioPosition.weightedDays || 0));
     } else if (operation.maturityDate) {
@@ -3559,6 +3597,7 @@ function buildSeniorSubordinadaRows(scopeOperations = laminaOperationsForDate())
     , 0);
     const assetValue = scopeOperations.reduce((sum, operation) => {
       const portfolioPosition = operationPortfolioPositionAtDate(operation, dateKey);
+      if (operation.cashOnly && dateKey < operatingCashPolicy.openingDate) return sum + syntheticAtDate(operation, dateKey);
       return sum + Number(portfolioPosition.portfolioVp || 0) + cashBalanceAtDate(operation, dateKey);
     }, 0);
     const subordinada = assetValue - senior;
@@ -3603,7 +3642,7 @@ function renderSeniorSubordinadaCharts() {
 function renderSelectors() {
   nodes.fundingSelector.innerHTML = `
     <option value="gerencial">Todos os fundings</option>
-    ${laminaOperationsForDate().map((operation) =>
+    ${laminaOperationsForDate().filter((operation) => state.view === "caixa" || !operation.cashOnly).map((operation) =>
       `<option value="${operation.id}">${operation.investor} - ${operation.shortName}</option>`
     ).join("")}
   `;
@@ -3955,7 +3994,7 @@ function renderManagement() {
     const hasFunding = guarantee.hasFunding;
     const lotCount = guarantee.lots.length + guarantee.transitLots.length + guarantee.purchasedTransitLots.length + (guarantee.cashCoverage > 0 ? 1 : 0);
     const tone = hasFunding ? guaranteeTone(guarantee.coverage, lotCount) : hasGuarantee ? "pending" : guaranteeTone(guarantee.coverage, lotCount);
-    const statusLabel = operation.biologicalOnly && hasGuarantee ? "Sem funding" : guaranteeLabel(tone);
+    const statusLabel = (operation.biologicalOnly || operation.cashOnly) && hasGuarantee ? "Sem funding" : guaranteeLabel(tone);
     return `
       <tr>
         <td>${operation.shortName}</td>
