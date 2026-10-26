@@ -1,7 +1,7 @@
 window.ceresFundingData = {
   "sourceWorkbook": "C:\\Users\\leonardo.silva\\Downloads\\funding confina.xlsx",
-  "positionDate": "2026-10-19",
-  "exportedAt": "2026-10-20T18:08:09.753Z",
+  "positionDate": "2026-10-23",
+  "exportedAt": "2026-10-26T20:22:52.970Z",
   "operations": [
     {
       "id": "confina-cra-65-200",
@@ -339,11 +339,12 @@ window.ceresFundingData = {
       "account": "A cadastrar",
       "positionDate": "2026-10-14",
       "sourceSheets": [
-        "Confina CRA 65a - Outubro/2026"
+        "Confina CRA 65a - Outubro/2026",
+        "CRA 65a Outubro - Aporte 22/10/2026"
       ],
       "issueDate": "2026-10-14",
       "maturityDate": null,
-      "fundingPrincipal": 75790266.29,
+      "fundingPrincipal": 144551451.13,
       "fundingBalance": 75790266.29,
       "fundingPrevious": 0,
       "fundingMonthStart": 0,
@@ -387,9 +388,37 @@ window.ceresFundingData = {
           "workbookBalanceAtPosition": 75790266.29,
           "calculatedBalanceAtPosition": 75790266.29,
           "validationDelta": 0
+        },
+        {
+          "sheet": "CRA 65a Outubro - Aporte 22/10/2026",
+          "operationLabel": "CRA 65a Out/26 - 22/10",
+          "principal": 68761184.84,
+          "startDate": "2026-10-22",
+          "accrueOnStartDate": false,
+          "fundingBalance": 68761184.84,
+          "fundingRate": 1.7,
+          "fundingRateLabel": "1.70% a.m.",
+          "fundingRateType": "monthly_fixed",
+          "cdiRate": null,
+          "spreadRate": null,
+          "annualRate": 0.22419735005332386,
+          "baseDays": 360,
+          "issueDate": "2026-10-22",
+          "maturityDate": null,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
+          "events": [],
+          "rateSchedule": [],
+          "workbookBalanceAtPosition": 68761184.84,
+          "calculatedBalanceAtPosition": 68761184.84,
+          "validationDelta": 0,
+          "componentId": "65-outubro-aporte-20261022"
         }
       ],
-      "fundingControlMode": "calculated_in_browser"
+      "fundingControlMode": "calculated_in_browser",
+      "fundingPrincipalByComponentDate": true,
+      "requireFundingComponentOnPayments": true
     },
     {
       "id": "confina-cra-42-65-setembro",

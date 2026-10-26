@@ -1370,7 +1370,10 @@ function applyManualFundingEvents(operation) {
     .filter((event) => event.operationId === operation.id || event.fundingId === operation.id)
     .forEach((event) => {
       const component = manualEventTargetComponent(operation, event);
-      if (!component) return;
+      if (!component) {
+        if (operation.requireFundingComponentOnPayments) throw new Error(`Informe o componente do funding para a amortizacao de ${event.date}: ${operation.name}`);
+        return;
+      }
       component.events = Array.isArray(component.events) ? component.events : [];
       const interestPaid = Number(event.interestPaid || 0);
       const amortization = Number(event.amortization || 0);
@@ -1690,7 +1693,8 @@ function buildDetailHistory(operation) {
 
 function fundingComponentRows(operation) {
   prepareFundingInputs(operation);
-  return operation.fundingComponents.map((component) => ({
+  return operation.fundingComponents.filter((component) => !operation.fundingPrincipalByComponentDate ||
+    (component.startDate || component.issueDate) <= state.dateKey).map((component) => ({
     name: component.sheet || component.operationLabel || operation.shortName,
     principal: Number(component.principal || 0),
     startDate: component.startDate || component.issueDate,
@@ -1742,6 +1746,11 @@ function operationFundingEventsCount(operation) {
 
 function operationFundingPrincipal(operation) {
   prepareFundingInputs(operation);
+  if (operation.fundingPrincipalByComponentDate) {
+    return roundMoney(operation.fundingComponents.filter((component) =>
+      (component.startDate || component.issueDate) <= state.dateKey)
+      .reduce((sum, component) => sum + Number(component.principal || 0), 0));
+  }
   return Number(operation.fundingPrincipal || 0) || operation.fundingComponents.reduce(
     (sum, component) => sum + Number(component.principal || 0),
     0
@@ -4344,7 +4353,7 @@ function renderFundingEvolution() {
   const dailyRows = fundingEvolutionDailyRows();
   const componentCount = scopeOperations.reduce((sum, operation) => {
     prepareFundingInputs(operation);
-    return sum + operation.fundingComponents.length;
+    return sum + fundingComponentRows(operation).length;
   }, 0);
   const eventCount = scopeOperations.reduce((sum, operation) => sum + operationFundingEventsCount(operation), 0);
   const totalPrincipal = scopeOperations.reduce((sum, operation) => sum + operationFundingPrincipal(operation), 0);

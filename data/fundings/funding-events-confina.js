@@ -1,5 +1,5 @@
 window.ceresFundingManualEvents = {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-26",
   "events": [
     {
       "operationId": "confina-cras-carteira-100",
@@ -171,6 +171,30 @@ window.ceresFundingManualEvents = {
       "interestPaid": 0,
       "amortization": 7290683.67,
       "note": "Pagamento do funding CRA 42a 50MM em 15/10, valor informado diretamente pelo usuario."
+    },
+    {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-10-23",
+      "amount": 2032746.88,
+      "interestPaid": 10935.52,
+      "amortization": 2021811.36,
+      "note": "Amortizacao Green Farming GF98/GF99, conforme demonstrativo de 23/10, lastros reais 484612 e 484614."
+    },
+    {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-10-23",
+      "amount": 5364005.73,
+      "interestPaid": 2779.92,
+      "amortization": 5361225.81,
+      "note": "Amortizacao Ramax RX55 a RX62 de 23/10. Total do comprovante R$ 5.364.005,73; diferenca de R$ 0,01 frente a soma dos juros por linha, preservado o total informado."
+    },
+    {
+      "operationId": "confina-cra-42-65-setembro",
+      "date": "2026-10-23",
+      "amount": 890795.01,
+      "interestPaid": 2073.68,
+      "amortization": 888721.33,
+      "note": "Amortizacao PM1492026-1-1, lastro real 549901, conforme demonstrativo de 23/10; destino confirmado pelo usuario em 26/10."
     }
   ]
 };
