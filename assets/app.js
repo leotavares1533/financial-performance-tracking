@@ -766,7 +766,8 @@ function guaranteeSnapshotLabel(dateKey = "") {
   const compositionDate = snapshot.compositionReferenceDate || snapshotDate;
   if (compositionDate !== snapshotDate) {
     const valuationDate = dateKey || snapshotDate;
-    return `Garantia ${formatDate(valuationDate)} (composicao ${formatDate(compositionDate)})`;
+    const quoteNote = snapshot.quoteUnavailableOnReferenceDate && snapshot.quoteDate ? `; cotacao ${formatDate(snapshot.quoteDate)}` : "";
+    return `Garantia ${formatDate(valuationDate)} (composicao ${formatDate(compositionDate)}${quoteNote})`;
   }
   if (!dateKey || snapshotDate === dateKey) return `Garantia ${formatDate(snapshotDate)}`;
   return `Garantia ${formatDate(snapshotDate)} usada em ${formatDate(dateKey)}`;
@@ -828,9 +829,10 @@ function guaranteeOperations(dateKey = state.dateKey) {
 
 // Keep the underlying ledgers intact; segregation applies only to the dated presentation.
 function laminaOperationsForDate(dateKey = state.dateKey) {
-  if (!managementPresentationPolicy.effectiveDate || dateKey < managementPresentationPolicy.effectiveDate) return operations;
+  const datedOperations = operations.filter((operation) => !operation.visibleFromDate || dateKey >= operation.visibleFromDate);
+  if (!managementPresentationPolicy.effectiveDate || dateKey < managementPresentationPolicy.effectiveDate) return datedOperations;
   const excluded = new Set(managementPresentationPolicy.excludedOperationIds || []);
-  const visible = operations.filter((operation) => !excluded.has(operation.id));
+  const visible = datedOperations.filter((operation) => !excluded.has(operation.id));
   if (operatingCashOperation && dateKey >= operatingCashPolicy.openingDate) visible.push(operatingCashOperation);
   return visible;
 }
@@ -1139,12 +1141,19 @@ function guaranteeRegionalQuoteRows(dateKey = state.dateKey) {
   const frozen = quoteSnapshot.frozenGuaranteeQuotes;
   const preserveClosedDate = Boolean(frozen?.throughDate && dateKey && dateKey <= frozen.throughDate);
   const source = preserveClosedDate ? frozen : quoteSnapshot;
+  const regionalPolicy = source.regionalGuaranteePolicy;
+  const requireRegionalBulletin = Boolean(regionalPolicy?.effectiveDate && dateKey >= regionalPolicy.effectiveDate);
+  const hasFullRegionalCoverage = (rows) => REGION_ORDER.every((region) =>
+    ["boi", "vaca", "novilha"].every((category) => rows.some((row) =>
+      row.map_type === "regional_map" && row.region === region && row.category === category && Number(row.price) > 0
+    ))
+  );
   const selectedRows = snapshotQuoteRowsForDate(source, dateKey);
   const selectedRegionalRows = selectedRows.filter((row) =>
     row.product === "boi_gordo" &&
-    (row.map_type === "regional_map" || row.map_type === "historical_series")
+    (row.map_type === "regional_map" || (!requireRegionalBulletin && row.map_type === "historical_series"))
   );
-  if (selectedRegionalRows.length) {
+  if (selectedRegionalRows.length && (!requireRegionalBulletin || hasFullRegionalCoverage(selectedRegionalRows))) {
     guaranteeRegionalQuoteCache.set(dateKey, selectedRegionalRows);
     return selectedRegionalRows;
   }
@@ -1156,7 +1165,10 @@ function guaranteeRegionalQuoteRows(dateKey = state.dateKey) {
     row.map_type === "regional_map" &&
     (preserveClosedDate || !dateKey || row.quote_date <= dateKey)
   );
-  const latestDate = latestQuoteDate(regionalRows);
+  const completeDates = requireRegionalBulletin
+    ? [...new Set(regionalRows.map((row) => row.quote_date))].filter((date) => hasFullRegionalCoverage(regionalRows.filter((row) => row.quote_date === date))).sort()
+    : [];
+  const latestDate = requireRegionalBulletin ? completeDates.at(-1) || "" : latestQuoteDate(regionalRows);
   const result = regionalRows.filter((row) => row.quote_date === latestDate);
   guaranteeRegionalQuoteCache.set(dateKey, result);
   return result;
