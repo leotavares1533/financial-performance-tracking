@@ -1,5 +1,5 @@
 window.ceresFundingManualEvents = {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-03",
   "events": [
     {
       "operationId": "confina-cras-carteira-100",
@@ -497,6 +497,72 @@ window.ceresFundingManualEvents = {
       "amortization": 5302863.14,
       "allocationAuthorizedAt": "2026-10-29",
       "note": "Pagamento PM152 e PM153, lastros reais 549902 e 549933, em 28/10. Usuario confirmou CRA 42/65 Setembro. Os titulos gerenciais 537448 e 537449 ja foram liquidados em 07/10; registrar apenas pagamento do funding, sem criar novo recebimento de carteira."
+    },
+    {
+      "date": "2026-10-29",
+      "realLastro": "484475",
+      "managerialLastro": "485009",
+      "invoice": "JF01",
+      "amortization": 35730.15,
+      "interestPaid": 142.92,
+      "amount": 35873.07,
+      "operationId": "confina-cra-65-200",
+      "note": "Amortizacao total JF01, lastro real 484475, CRA 65a Ceres 2. Lastro gerencial 485009."
+    },
+    {
+      "date": "2026-10-29",
+      "realLastro": "485103",
+      "managerialLastro": "484605",
+      "invoice": "JF02",
+      "amortization": 169286.08,
+      "interestPaid": 620.72,
+      "amount": 169906.8,
+      "operationId": "confina-cra-65-200",
+      "note": "Amortizacao total JF02, lastro real 485103, CRA 65a Ceres 2. Lastro gerencial 484605."
+    },
+    {
+      "date": "2026-10-30",
+      "realLastro": "484624",
+      "managerialLastro": "485010",
+      "invoice": "JF03",
+      "amortization": 20019.7,
+      "interestPaid": 73.41,
+      "amount": 20093.11,
+      "operationId": "confina-cra-65-200",
+      "note": "Amortizacao total JF03, lastro real 484624, CRA 65a Ceres 2. Lastro gerencial 485010."
+    },
+    {
+      "date": "2026-10-30",
+      "realLastro": "485100",
+      "managerialLastro": "484606",
+      "invoice": "JF04",
+      "amortization": 67527.08,
+      "interestPaid": 180.07,
+      "amount": 67707.15,
+      "operationId": "confina-cra-65-200",
+      "note": "Amortizacao total JF04, lastro real 485100, CRA 65a Ceres 2. Lastro gerencial 484606."
+    },
+    {
+      "date": "2026-10-30",
+      "realLastro": "485101",
+      "managerialLastro": "484607",
+      "invoice": "JF05",
+      "amortization": 338917.69,
+      "interestPaid": 790.81,
+      "amount": 339708.5,
+      "operationId": "confina-cra-65-200",
+      "note": "Amortizacao total JF05, lastro real 485101, CRA 65a Ceres 2. Lastro gerencial 484607."
+    },
+    {
+      "date": "2026-10-30",
+      "realLastro": "485102",
+      "managerialLastro": "484608",
+      "invoice": "JF06",
+      "amortization": 65503.7,
+      "interestPaid": 152.84,
+      "amount": 65656.54,
+      "operationId": "confina-cra-65-200",
+      "note": "Amortizacao total JF06, lastro real 485102, CRA 65a Ceres 2. Lastro gerencial 484608."
     }
   ]
 };

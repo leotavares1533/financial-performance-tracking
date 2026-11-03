@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DB = ROOT.parent / "landing-page-responsiva/financial-performance-tracking/data/pecuaria/cotacoes-pecuaria.sqlite"
 OUTPUT = ROOT / "data/pecuaria/cotacoes-pecuaria-latest.js"
 CLOSED_THROUGH = "2026-10-06"
+GUARANTEE_REGIONS = {"BA", "GO", "MT", "MS", "MG", "PA", "RO", "SP", "TO"}
 # These bulletin dates were recorded in the collection log before the date rule was corrected.
 LEGACY_RUN_REFERENCE_DATES = {47: ("2026-10-06", "2026-10-05"), 48: ("2026-10-07", "2026-10-06"), 49: ("2026-10-08", "2026-10-07"), 50: ("2026-10-09", "2026-10-08"), 51: ("2026-10-13", "2026-10-09"), 54: ("2026-10-13", "2026-10-09")}
 STATES = {"bahia": "BA", "goias": "GO", "mato grosso": "MT", "mato grosso do sul": "MS", "minas gerais": "MG", "para": "PA", "rondonia": "RO", "sao paulo": "SP", "tocantins": "TO", "parana": "PR", "rio grande do sul": "RS"}
@@ -103,7 +104,7 @@ def main():
         old = previous_new.get(key)
         if old and float(old.get("price") or 0) != float(row["price"]):
             raise ValueError(f"Cotacao publicada mudou. Revisar antes de substituir {key}: {old['price']} -> {row['price']}")
-    previous_new.update(incoming)
+        previous_new.setdefault(key, row)
     closed_rows = [row for row in published["historyRows"] if row["quote_date"] <= CLOSED_THROUGH]
     history = closed_rows + sorted(previous_new.values(), key=lambda row: row_key(row))
     current_date = max(row["quote_date"] for row in history if row["map_type"] == "regional_map")
@@ -111,9 +112,14 @@ def main():
     counts = defaultdict(Counter)
     for row in previous_new.values():
         counts[row["quote_date"]][row["map_type"]] += 1
+    coverage = defaultdict(set)
+    for row in previous_new.values():
+        if row["map_type"] == "regional_map" and row["price"] > 0:
+            coverage[row["quote_date"]].add((row["category"], row["region"]))
+    required = {(category, region) for category in ("boi", "vaca", "novilha") for region in GUARANTEE_REGIONS}
     for date, day in counts.items():
-        if day["regional_map"] not in {0, 27}:
-            raise ValueError(f"Boletim regional incompleto em {date}: {day['regional_map']}")
+        if day["regional_map"] and not required.issubset(coverage[date]):
+            raise ValueError(f"Boletim regional incompleto em {date}: {sorted(required - coverage[date])}")
     # A downloaded SP series corroborates the bulletin date instead of the collection date.
     for date in counts:
         sp = [row for row in previous_new.values() if row["quote_date"] == date and row["category"] == "boi" and row["region"] == "SP"]
@@ -132,6 +138,8 @@ def main():
         "rows": rows,
         "historyRows": history,
     }
+    if "regionalGuaranteePolicy" in published:
+        payload["regionalGuaranteePolicy"] = published["regionalGuaranteePolicy"]
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text("window.ceresCattleQuotes = " + json.dumps(payload, ensure_ascii=True, indent=2) + ";\n", encoding="utf-8")
     print(json.dumps({"output": str(args.output), "marketReferenceDate": current_date, "collectedAt": payload["exportedAt"], "preservedThrough": CLOSED_THROUGH, "dates": counts}, indent=2))

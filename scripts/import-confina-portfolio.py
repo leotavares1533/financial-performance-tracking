@@ -920,8 +920,10 @@ def synthetic_title_from_adjustment(
     }
 
 
-def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]:
-    rows = read_csv(path)
+def build_import(path: Path, position_date_override: str = "", *,
+                 rows: list[dict[str, Any]] | None = None, unified: bool = False) -> dict[str, Any]:
+    if rows is None:
+        rows = read_csv(path)
     if not rows:
         raise ValueError("CSV sem linhas.")
 
@@ -929,7 +931,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
     position_date = position_date_override or infer_position_date(rows, column_map)
     position_day = datetime.strptime(position_date, "%Y-%m-%d").date()
     report_name = str(row_get(rows[0], column_map, "Nome CRA") or "").strip()
-    operation_id = operation_id_for_name(report_name, path.name)
+    operation_id = operation_id_for_name(report_name, "" if unified else path.name)
 
     groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for index, row in enumerate(rows, start=2):
@@ -937,7 +939,7 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         invoice = str(row_get(row, column_map, "Numero NF") or "").strip()
         installment = str(row_get(row, column_map, "Parcela") or "").strip()
         key = lastro or f"{invoice}-{installment}-{index}"
-        row["_sourceRow"] = index
+        row.setdefault("_sourceRow", index)
         groups[key].append(row)
 
     titles: list[dict[str, Any]] = []
@@ -1069,7 +1071,8 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
                 })
         partial_liquidation_amount = round(sum(item["amount"] for item in partial_liquidations), 2)
         partial_reported_zero = bool(
-            partial_liquidations
+            not unified
+            and partial_liquidations
             and reported_present_value <= 0.01
             and not raw_settled_date
         )
@@ -1114,6 +1117,12 @@ def build_import(path: Path, position_date_override: str = "") -> dict[str, Any]
         outstanding_face_value = max(0.0, face_value - partial_liquidation_amount) if partial_liquidation_amount > 0 else face_value
         if partial_reported_zero:
             outstanding_face_value = 0.0
+        if unified and active_as_of_position:
+            if raw_settled_date and raw_settled_date > position_day:
+                status = "BAIXA PARCIAL" if partial_liquidations else "EM CARTEIRA"
+                payment_status = "VENCIDO" if days_to_maturity < 0 else "VINCENDO"
+            elif normalize_text(payment_status) in {"vencido", "vincendo"}:
+                payment_status = "VENCIDO" if days_to_maturity < 0 else "VINCENDO"
 
         title = {
             "id": str(key),
@@ -1432,6 +1441,24 @@ def merge_imports(imports: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def import_source(path: Path, position_date: str) -> list[dict[str, Any]]:
+    rows = read_csv(path)
+    columns = {normalize_text(header): header for header in rows[0] if header}
+    by_vehicle: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for index, row in enumerate(rows, start=2):
+        row["_sourceRow"] = index
+        name = str(row_get(row, columns, "Nome CRA") or "").strip()
+        by_vehicle[name].append(row)
+    if len(by_vehicle) <= 1:
+        return [build_import(path, position_date, rows=rows)]
+    if "" in by_vehicle:
+        raise ValueError(f"CSV unificado contem linhas sem Nome CRA: {path.name}")
+    ids = [operation_id_for_name(name) for name in by_vehicle]
+    if len(ids) != len(set(ids)):
+        raise ValueError(f"CSV unificado contem nomes conflitantes para a mesma carteira: {path.name}")
+    return [build_import(path, position_date, rows=group, unified=True) for group in by_vehicle.values()]
+
+
 def main() -> None:
     global MANUAL_ADJUSTMENTS_PATH
     parser = argparse.ArgumentParser(description="Importa relatorio de carteira do Confina.")
@@ -1446,7 +1473,7 @@ def main() -> None:
     if args.position_date:
         datetime.strptime(args.position_date, "%Y-%m-%d")
 
-    imports = [build_import(Path(csv_path), args.position_date) for csv_path in args.csv_path]
+    imports = [entry for csv_path in args.csv_path for entry in import_source(Path(csv_path), args.position_date)]
     data = merge_imports(imports)
     write_js(Path(args.output), data)
 

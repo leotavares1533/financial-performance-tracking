@@ -763,6 +763,10 @@ function guaranteeSnapshotLabel(dateKey = "") {
   const snapshot = biologicalAssetDataForDate(dateKey);
   const snapshotDate = biologicalAssetSnapshotDate(snapshot);
   if (!snapshotDate) return "Sem historico de garantia";
+  if (snapshot.compositionEstimated && (!dateKey || dateKey === snapshotDate)) {
+    const quoteNote = snapshot.quoteUnavailableOnReferenceDate ? `; cotacao ${formatDate(snapshot.quoteDate)}` : "";
+    return `Garantia ${formatDate(snapshotDate)} (composicao estimada${quoteNote})`;
+  }
   const compositionDate = snapshot.compositionReferenceDate || snapshotDate;
   if (compositionDate !== snapshotDate) {
     const valuationDate = dateKey || snapshotDate;

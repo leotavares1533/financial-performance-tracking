@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-03",
   "source": "atualizacao_carteiras_2026_09_28",
   "description": "Ajustes persistidos, incluindo transferencia de 14/10 e correcao autorizada das seis confissoes em 30/09.",
   "events": [
@@ -5713,10 +5713,26 @@
       "type": "title_exclusion",
       "titleId": "555852",
       "note": "Usuario confirmou cancelamento e autorizou em 29/10 retirar desde a compra de 19/10, inclusive a saida gerencial de caixa. Sem registrar recebimento efetivo."
+    },
+    {
+      "id": "baixa-preservada-unificado-453611",
+      "operationId": "confina-cra-42-50",
+      "titleId": "453611",
+      "type": "title_override",
+      "settledDate": "2026-05-04",
+      "note": "Baixa ja consolidada ate 28/10. Preservada na transicao para a leitura unificada sem inferir novas baixas pelo VP do sistema."
+    },
+    {
+      "id": "baixa-preservada-unificado-458188",
+      "operationId": "confina-cras-carteira-100",
+      "titleId": "458188",
+      "type": "title_override",
+      "settledDate": "2026-07-10",
+      "note": "Baixa ja consolidada ate 28/10. Preservada na transicao para a leitura unificada sem inferir novas baixas pelo VP do sistema."
     }
   ],
   "totals": {
-    "rows": 430,
+    "rows": 432,
     "amount": 727957372.35
   }
 }
