@@ -1,5 +1,5 @@
 window.ceresFundingManualEvents = {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "events": [
     {
       "operationId": "confina-cras-carteira-100",
@@ -563,6 +563,29 @@ window.ceresFundingManualEvents = {
       "amount": 65656.54,
       "operationId": "confina-cra-65-200",
       "note": "Amortizacao total JF06, lastro real 485102, CRA 65a Ceres 2. Lastro gerencial 484608."
+    },
+    {
+      "date": "2026-11-03",
+      "operationId": "confina-cra-42-65-setembro",
+      "realLastro": "549937",
+      "managerialLastro": "537450",
+      "invoice": "PM1552026",
+      "amortization": 5318911.03,
+      "interestPaid": 21275.64,
+      "amount": 5340186.67,
+      "note": "Amortizacao total da 42a, no CRA 42/65 Setembro, seguindo o vinculo confirmado em 27/10. Recebimento do ativo lido separadamente no CSV."
+    },
+    {
+      "date": "2026-11-03",
+      "operationId": "confina-cras-carteira-50",
+      "component": "CRA Carteira 50mm 1 (1.8%)",
+      "realLastro": "479319",
+      "managerialLastro": "481207",
+      "invoice": "PM1552026",
+      "amortization": 3883763.4,
+      "interestPaid": 15535.05,
+      "amount": 3899298.45,
+      "note": "Amortizacao total da 59a no componente 1 da Carteira 50MM segregada. Lastro de origem 481207, conforme vinculo ja confirmado em outubro. Sem novo recebimento neste veiculo."
     }
   ]
 };

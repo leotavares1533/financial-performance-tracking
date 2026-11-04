@@ -1,0 +1,513 @@
+{
+  "date": "2026-11-03",
+  "cutoff": "2026-10-30",
+  "base": "549c1692e7d5c953b5f859ae9a352b2f06cc2e2d",
+  "sources": [
+    {
+      "file": "CRA_GER004 - Títulos (3).csv",
+      "sha256": "f83abb5bde7cfd204b9b8d3f1b9f12aff368ff6408b608fc2862265b83fb89cd"
+    },
+    {
+      "file": "relatorio_GERANIMAL02 (25).csv",
+      "sha256": "99afcfbed2e356ad8128409d212ff8f5dfd2d6815fe3b25249f28fa2dd9eb1dc"
+    },
+    {
+      "file": "Relatório de 42_2026-11-04T18_37_33.517Z.csv",
+      "sha256": "349f0f355b5ef39b105f05608862644496991a049d25233f2b79fe97b006d0c8"
+    },
+    {
+      "file": "relatorio_GERANIMAL02 (24).csv",
+      "sha256": "3349ac6612830be8e81e0e8b5e18cd2f416ae19aa1270ce04716a37225bf170c"
+    }
+  ],
+  "baselineHashes": {
+    "data/portfolio/portfolio-confina.js": "411ba14885e4dcc320c08ca264add68cc81ef14cba439de74b5cecaf806fac54",
+    "data/portfolio/manual-portfolio-adjustments-confina.json": "88064e09cc744f02680d69da49858df9ff47dd0d864c797f44350e4b34c59b08",
+    "data/portfolio/portfolio-confina-frozen-2026-10-02.js": "66e6f78132588ee6360b78251bf51e3c57f481c053a8443355e0288c40d73ba7",
+    "data/fundings/fundings-confina.js": "0d51905402a0d8dbb937906fdf466801e1c15b6c6aea37f21c27ae57be0145fb",
+    "data/fundings/funding-events-confina.js": "7ab1cfe3efb07fec957ad11a85329b570fc7c186de13edbc4db1f598243620f8",
+    "data/pecuaria/cotacoes-pecuaria-latest.js": "29ff2af760a57c57c75950542b65e820260cc7656ceb166c11060d9c15294edb",
+    "data/biological/biological-assets-confina.js": "c89bf6d064d1d7f0f7db0ed5204932760fd8846819fc044b6587baef0d9e185b",
+    "data/biological/biological-assets-history-confina.js": "5c6b63a79650b942567f98031abaaac15e50e0c17643945c16bbd0a20ea91bf6",
+    "index.html": "60d5272040b9f79d3d5b7f1085e07d73d44b9988fff6c6b745458d68a26cd27b"
+  },
+  "payments": [
+    {
+      "date": "2026-11-03",
+      "operationId": "confina-cra-42-65-setembro",
+      "realLastro": "549937",
+      "managerialLastro": "537450",
+      "invoice": "PM1552026",
+      "amortization": 5318911.03,
+      "interestPaid": 21275.64,
+      "amount": 5340186.67,
+      "note": "Amortizacao total da 42a, no CRA 42/65 Setembro, seguindo o vinculo confirmado em 27/10. Recebimento do ativo lido separadamente no CSV."
+    },
+    {
+      "date": "2026-11-03",
+      "operationId": "confina-cras-carteira-50",
+      "component": "CRA Carteira 50mm 1 (1.8%)",
+      "realLastro": "479319",
+      "managerialLastro": "481207",
+      "invoice": "PM1552026",
+      "amortization": 3883763.4,
+      "interestPaid": 15535.05,
+      "amount": 3899298.45,
+      "note": "Amortizacao total da 59a no componente 1 da Carteira 50MM segregada. Lastro de origem 481207, conforme vinculo ja confirmado em outubro. Sem novo recebimento neste veiculo."
+    }
+  ],
+  "received": [
+    {
+      "operationId": "confina-cra-42-65-setembro",
+      "date": "2026-11-03",
+      "type": "portfolio_liquidation",
+      "amount": 1990518.51,
+      "titleId": "537450",
+      "note": "Liquidacao carteira NP 537450",
+      "source": "CRA_GER004 - Títulos (3).csv"
+    },
+    {
+      "operationId": "confina-cra-42-65-setembro",
+      "date": "2026-11-03",
+      "type": "portfolio_liquidation",
+      "amount": 271365.68,
+      "titleId": "537450",
+      "note": "Liquidacao carteira NP 537450",
+      "source": "CRA_GER004 - Títulos (3).csv"
+    },
+    {
+      "operationId": "confina-cra-42-65-setembro",
+      "date": "2026-11-03",
+      "type": "portfolio_liquidation",
+      "amount": 429356,
+      "titleId": "537450",
+      "note": "Liquidacao carteira NP 537450",
+      "source": "CRA_GER004 - Títulos (3).csv"
+    },
+    {
+      "operationId": "confina-cra-42-65-setembro",
+      "date": "2026-11-03",
+      "type": "portfolio_liquidation",
+      "amount": 242810.11,
+      "titleId": "537450",
+      "note": "Liquidacao carteira NP 537450",
+      "source": "CRA_GER004 - Títulos (3).csv"
+    },
+    {
+      "operationId": "confina-cra-42-65-setembro",
+      "date": "2026-11-03",
+      "type": "portfolio_liquidation",
+      "amount": 951559.95,
+      "titleId": "537450",
+      "note": "Liquidacao carteira NP 537450",
+      "source": "CRA_GER004 - Títulos (3).csv"
+    }
+  ],
+  "receiptTotal": 3885610.25,
+  "purchased": [
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 270120.14,
+      "titleId": "566494",
+      "note": "Compra carteira NP 566494",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 1188883.48,
+      "titleId": "566495",
+      "note": "Compra carteira NP 566495",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 432250,
+      "titleId": "566497",
+      "note": "Compra carteira NP 566497",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 765668,
+      "titleId": "566499",
+      "note": "Compra carteira NP 566499",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 848517.6,
+      "titleId": "566501",
+      "note": "Compra carteira NP 566501",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 3087775.84,
+      "titleId": "566569",
+      "note": "Compra carteira NP 566569",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 3076582.5,
+      "titleId": "566627",
+      "note": "Compra carteira NP 566627",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 170666.67,
+      "titleId": "566629",
+      "note": "Compra carteira NP 566629",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 864746.67,
+      "titleId": "566663",
+      "note": "Compra carteira NP 566663",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 594356.5,
+      "titleId": "566666",
+      "note": "Compra carteira NP 566666",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "date": "2026-11-03",
+      "type": "portfolio_purchase",
+      "amount": 1886840,
+      "titleId": "566695",
+      "note": "Compra carteira NP 566695",
+      "source": "CRA_GER004 - Títulos (3).csv",
+      "sourceDate": "2026-11-03"
+    }
+  ],
+  "purchaseTotal": 13186407.4,
+  "preservedMaturities": [
+    {
+      "id": "vencimento-a-confirmar-20261103-485010",
+      "operationId": "confina-cra-65-200",
+      "titleId": "485010",
+      "type": "title_override",
+      "maturityDate": "2026-10-19",
+      "reportedMaturityDate": "2026-11-30",
+      "note": "Preservar vencimento anterior: o relatorio continua sem indicar a data efetiva da prorrogacao."
+    },
+    {
+      "id": "vencimento-a-confirmar-20261103-484606",
+      "operationId": "confina-cra-65-200",
+      "titleId": "484606",
+      "type": "title_override",
+      "maturityDate": "2026-10-22",
+      "reportedMaturityDate": "2026-11-30",
+      "note": "Preservar vencimento anterior: o relatorio continua sem indicar a data efetiva da prorrogacao."
+    },
+    {
+      "id": "vencimento-a-confirmar-20261103-484607",
+      "operationId": "confina-cra-65-200",
+      "titleId": "484607",
+      "type": "title_override",
+      "maturityDate": "2026-10-23",
+      "reportedMaturityDate": "2026-11-30",
+      "note": "Preservar vencimento anterior: o relatorio continua sem indicar a data efetiva da prorrogacao."
+    },
+    {
+      "id": "vencimento-a-confirmar-20261103-484608",
+      "operationId": "confina-cra-65-200",
+      "titleId": "484608",
+      "type": "title_override",
+      "maturityDate": "2026-10-23",
+      "reportedMaturityDate": "2026-11-30",
+      "note": "Preservar vencimento anterior: o relatorio continua sem indicar a data efetiva da prorrogacao."
+    },
+    {
+      "id": "vencimento-a-confirmar-20261103-469703",
+      "operationId": "confina-cra-42-50",
+      "titleId": "469703",
+      "type": "title_override",
+      "maturityDate": "2026-10-24",
+      "reportedMaturityDate": "2026-11-30",
+      "note": "Preservar vencimento anterior: o relatorio continua sem indicar a data efetiva da prorrogacao."
+    }
+  ],
+  "deferredPurchases": [
+    {
+      "id": "compra-data-pendente-566696",
+      "type": "title_exclusion",
+      "operationId": "confina-cprf-50",
+      "titleId": "566696",
+      "sourcePurchaseDate": "2026-08-28",
+      "acquisitionValue": 1332825.98,
+      "sourceApprovalDate": "2026-11-04",
+      "note": "Cessao retroativa mas envio/aprovacao em 04/11. Fora da posicao de 03/11 ate confirmar a data efetiva do caixa."
+    },
+    {
+      "id": "compra-data-pendente-566697",
+      "type": "title_exclusion",
+      "operationId": "confina-cprf-50",
+      "titleId": "566697",
+      "sourcePurchaseDate": "2026-08-28",
+      "acquisitionValue": 2275455.6,
+      "sourceApprovalDate": "2026-11-04",
+      "note": "Cessao retroativa mas envio/aprovacao em 04/11. Fora da posicao de 03/11 ate confirmar a data efetiva do caixa."
+    },
+    {
+      "id": "compra-data-pendente-566707",
+      "type": "title_exclusion",
+      "operationId": "confina-cprf-50",
+      "titleId": "566707",
+      "sourcePurchaseDate": "2026-09-01",
+      "acquisitionValue": 640310,
+      "sourceApprovalDate": "2026-11-04",
+      "note": "Cessao retroativa mas envio/aprovacao em 04/11. Fora da posicao de 03/11 ate confirmar a data efetiva do caixa."
+    }
+  ],
+  "status": "verified",
+  "historyDays": 213,
+  "priorGuaranteeDates": [
+    "2026-09-27",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-06",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-13",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30"
+  ],
+  "quoteDate": "2026-10-30",
+  "guaranteeReconstruction": {
+    "priorDate": "2026-10-30",
+    "animals": {
+      "eligibleHeads": 142314,
+      "live": 128029,
+      "transit": 14285,
+      "futureDeparturesRolledBack": 71,
+      "duplicateAnimalRows": 56,
+      "invalidFutureProcessingDates": 103,
+      "preexistingNewSourceRowsDeferred": 1870,
+      "newDatedEligibleHeads": 319
+    },
+    "transit": {
+      "inTransitRows": 119,
+      "inTransitHeads": 8661,
+      "alreadyInAnimalReportExcluded": 685
+    }
+  },
+  "guaranteeSummary": {
+    "totalAnimalRows": 142314,
+    "liveRows": 128029,
+    "transitRows": 14285,
+    "purchasedTransitRows": 0,
+    "purchasedTransitTitleRows": 119,
+    "purchasedTransitTitleHeads": 8661,
+    "coverageRows": 142314,
+    "vehicles": 13,
+    "controlledVehicles": 10,
+    "biologicalOnlyVehicles": 3,
+    "connectionMethods": {
+      "transferencia_lastro_ativo": 74141,
+      "cra_one_two_para_65_200": 9054,
+      "transferencia_numero_titulo_ativo": 15510,
+      "lastro_veiculo_divergente": 2308,
+      "lastro_mesmo_veiculo": 21470,
+      "numero_titulo_veiculo_divergente": 1560,
+      "veiculo_nao_controlado": 18271,
+      "comprado_transito_titulo_ativo": 5937,
+      "comprado_transito_sem_titulo_ativo": 2724
+    },
+    "weightSources": {
+      "peso_projetado_ajustado_gmd_140": 2677,
+      "peso_projetado": 139567,
+      "peso_entrada": 58,
+      "sem_peso": 2,
+      "peso_projetado_fora_faixa": 1,
+      "peso_alvo": 9
+    },
+    "transferCandidates": 569,
+    "animalsInMultipleVehicles": 3,
+    "statusByVehicle": {
+      "Confina BTG 100 MM | PROCESSADO": 54729,
+      "Confina CRA TWO 41 MM - MAIO/2026 | PROCESSADO": 3981,
+      "Ceres Confina LTDA | PROCESSADO": 41882,
+      "Confina BTG 50MM - ABRIL/2026 | PROCESSADO": 24166,
+      "Confina BTG 50MM - ABRIL/2026 | AGUARDANDO ABATE": 4699,
+      "Super CRA - CONFINA 50 MM | PROCESSADO": 2222,
+      "Ceres Confina LTDA | AGUARDANDO ABATE": 2268,
+      "Confina CRA TWO 41 MM - MAIO/2026 | AGUARDANDO ABATE": 3570,
+      "Confina BTG 100 MM | AGUARDANDO ABATE": 2533,
+      "Confina CRA ONE 30MM - ABRIL/2026 | AGUARDANDO ABATE": 477,
+      "Confina CRA ONE 30MM - ABRIL/2026 | PROCESSADO": 1026,
+      "Sem veiculo | AGUARDANDO ABATE": 3,
+      "Ceres Confina LTDA | EM PROCESSAMENTO": 1,
+      "Super CRA - CONFINA 50 MM | AGUARDANDO ABATE": 735,
+      "Sem veiculo | PROCESSADO": 22
+    }
+  },
+  "totals": {
+    "cash": 54809860.37,
+    "vp": 739933215.13,
+    "funding": 775551482.04,
+    "sub": 22263696.29,
+    "day": 76640.61,
+    "guarantee": 1268290716.73
+  },
+  "visible": [
+    {
+      "id": "confina-cra-65-200",
+      "name": "CRA 65a R$ 200MM",
+      "cash": 752831.46,
+      "vp": 95881494.13,
+      "funding": 94604204.5,
+      "sub": 2030121.09,
+      "day": 19862.32,
+      "guarantee": 161647639.29
+    },
+    {
+      "id": "confina-cra-65-80",
+      "name": "CRA 65a R$ 80MM",
+      "cash": 0,
+      "vp": 78490057.41,
+      "funding": 78970974.15,
+      "sub": -480916.74,
+      "day": 35607.53,
+      "guarantee": 134892626.44
+    },
+    {
+      "id": "confina-cra-65-setembro",
+      "name": "CRA 65a Set/26",
+      "cash": 398003.23,
+      "vp": 65512712.24,
+      "funding": 66190256.09,
+      "sub": -279540.62,
+      "day": 16881.19,
+      "guarantee": 138887061.22
+    },
+    {
+      "id": "confina-cra-65-outubro",
+      "name": "CRA 65a Out/26",
+      "cash": 0,
+      "vp": 142509788.68,
+      "funding": 143467025.48,
+      "sub": -957236.8,
+      "day": 38186.84,
+      "guarantee": 261463088.32
+    },
+    {
+      "id": "confina-cra-42-65-setembro",
+      "name": "CRA 42/65 Set/26",
+      "cash": 3218145.36,
+      "vp": 40196337.22,
+      "funding": 43405859.94,
+      "sub": 8622.64,
+      "day": -31506.98,
+      "guarantee": 69495395.75
+    },
+    {
+      "id": "confina-cra-42a-59a-65a-out-2026",
+      "name": "CRA 42/59/65 Out/26",
+      "cash": 0,
+      "vp": 72254608.2,
+      "funding": 72799000.08,
+      "sub": -544391.88,
+      "day": 16186.19,
+      "guarantee": 110958407.14
+    },
+    {
+      "id": "confina-cras-carteira-10",
+      "name": "CRAs Carteira 10/2026",
+      "cash": 0,
+      "vp": 76901388.19,
+      "funding": 76913686.4,
+      "sub": -12298.21,
+      "day": 14740.83,
+      "guarantee": 126744875.16
+    },
+    {
+      "id": "confina-cra-42-50",
+      "name": "CRA 42a R$ 50MM",
+      "cash": 7266260.39,
+      "vp": 25871200.44,
+      "funding": 26707124.54,
+      "sub": 6430336.29,
+      "day": 43053.09,
+      "guarantee": 10988958.9
+    },
+    {
+      "id": "confina-cprf-100",
+      "name": "CPRF R$ 100MM",
+      "cash": 20895668.08,
+      "vp": 103306439.5,
+      "funding": 116512529.66,
+      "sub": 8798512.4,
+      "day": -16514.67,
+      "guarantee": 158083055.1
+    },
+    {
+      "id": "confina-cprf-50",
+      "name": "CPRF R$ 50MM",
+      "cash": 21397162.3,
+      "vp": 39009189.12,
+      "funding": 55980821.2,
+      "sub": 6388698.57,
+      "day": -60267.55,
+      "guarantee": 94247819.86
+    },
+    {
+      "id": "confina-caixa-operacao",
+      "name": "Caixa da operacao",
+      "cash": 881789.55,
+      "vp": 0,
+      "funding": 0,
+      "sub": 881789.55,
+      "day": 411.82,
+      "guarantee": 881789.55
+    }
+  ],
+  "mode": "official",
+  "appliedAt": "2026-11-04T20:27:43.568Z"
+}

@@ -1,6 +1,6 @@
 window.ceresFundingData = {
   "sourceWorkbook": "C:\\Users\\leonardo.silva\\Downloads\\funding confina.xlsx",
-  "positionDate": "2026-10-30",
+  "positionDate": "2026-11-03",
   "exportedAt": "2026-10-29T22:16:39.930Z",
   "operations": [
     {
