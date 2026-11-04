@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "source": "atualizacao_carteiras_2026_09_28",
   "description": "Ajustes persistidos, incluindo transferencia de 14/10 e correcao autorizada das seis confissoes em 30/09.",
   "events": [
@@ -5729,10 +5729,34 @@
       "type": "title_override",
       "settledDate": "2026-07-10",
       "note": "Baixa ja consolidada ate 28/10. Preservada na transicao para a leitura unificada sem inferir novas baixas pelo VP do sistema."
+    },
+    {
+      "id": "data-compra-confirmada-20261104-566696",
+      "operationId": "confina-cprf-50",
+      "titleId": "566696",
+      "type": "title_override",
+      "purchaseDate": "2026-11-04",
+      "note": "Compra e saida de caixa em 04/11 confirmadas pelo usuario. Nao usar a data de cessao anterior do CSV."
+    },
+    {
+      "id": "data-compra-confirmada-20261104-566697",
+      "operationId": "confina-cprf-50",
+      "titleId": "566697",
+      "type": "title_override",
+      "purchaseDate": "2026-11-04",
+      "note": "Compra e saida de caixa em 04/11 confirmadas pelo usuario. Nao usar a data de cessao anterior do CSV."
+    },
+    {
+      "id": "data-compra-confirmada-20261104-566707",
+      "operationId": "confina-cprf-50",
+      "titleId": "566707",
+      "type": "title_override",
+      "purchaseDate": "2026-11-04",
+      "note": "Compra e saida de caixa em 04/11 confirmadas pelo usuario. Nao usar a data de cessao anterior do CSV."
     }
   ],
   "totals": {
-    "rows": 432,
+    "rows": 435,
     "amount": 727957372.35
   }
 }
