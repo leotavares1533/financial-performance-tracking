@@ -450,6 +450,43 @@ def load_synthetic_titles(operation_id: str) -> list[dict[str, Any]]:
     return titles
 
 
+def reconcile_synthetic_titles(synthetic_titles, masters, column_map, title_overrides):
+    remaining = []
+    matched = set()
+    for item in synthetic_titles:
+        if not item.get("reconcileReported"):
+            remaining.append(item)
+            continue
+        origin = id_text(item.get("originalLastro") or item["titleId"])
+        invoice = normalize_text(item["invoice"])
+        candidates = []
+        for key, row in masters.items():
+            if is_pending(row_get(row, column_map, "Status do titulo")):
+                continue
+            same_origin = origin in {id_text(key), id_text(row_get(row, column_map, "Lastro de origem"))}
+            same_contract = (
+                normalize_text(row_get(row, column_map, "Numero NF")) in {invoice, invoice + " 1"}
+                and normalize_text(row_get(row, column_map, "Nome da cedente")) == normalize_text(item["cedente"])
+                and normalize_text(row_get(row, column_map, "Nome sacado")) == normalize_text(item["sacado"])
+            )
+            if same_origin and not same_contract:
+                raise ValueError(f"Cadastro divergente para o lastro transferido {origin}: {key}")
+            if same_contract:
+                candidates.append(key)
+        if not candidates:
+            remaining.append(item)
+            continue
+        if len(candidates) != 1 or candidates[0] in matched:
+            raise ValueError(f"Mais de um vinculo para o lastro transferido {origin}: {candidates}")
+        key = candidates[0]
+        reported_face = parse_number(row_get(masters[key], column_map, "Valor face"))
+        if reported_face and abs(reported_face - item["faceValue"]) > 0.01:
+            raise ValueError(f"Valor de face divergente para o lastro transferido {origin}: {key}")
+        matched.add(key)
+        title_overrides[id_text(key)] = {**item, **title_overrides.get(id_text(key), {})}
+    return remaining
+
+
 def title_override_partial_liquidations(title_override: dict[str, Any]) -> list[dict[str, Any]]:
     partials: list[dict[str, Any]] = []
     raw_items = title_override.get("partialLiquidations")
@@ -949,6 +986,7 @@ def build_import(path: Path, position_date_override: str = "", *,
     title_overrides = load_title_overrides(operation_id)
     title_exclusions = load_title_exclusions(operation_id)
 
+    masters = {}
     for key, grouped_rows in groups.items():
         candidate_rows = [
             row for row in grouped_rows
@@ -958,13 +996,21 @@ def build_import(path: Path, position_date_override: str = "", *,
         ]
         if not candidate_rows:
             candidate_rows = grouped_rows
-        master = choose_master_row(candidate_rows, column_map)
-        original_lastro = str(row_get(master, column_map, "Lastro de origem") or "").strip()
+        masters[key] = choose_master_row(candidate_rows, column_map)
+
+    synthetic_titles = reconcile_synthetic_titles(
+        load_synthetic_titles(operation_id), masters, column_map, title_overrides
+    )
+    for key, grouped_rows in groups.items():
+        master = masters[key]
+        title_override = title_overrides.get(id_text(key), {})
+        original_lastro = str(title_override.get("originalLastro") or row_get(master, column_map, "Lastro de origem") or "").strip()
         transfer_values: dict[str, Any] = {}
         if operation_id == "confina-cras-carteira-10":
             transfer_values = cra10_transfer_values_for(original_lastro or key)
         monthly_rate, effective_rate_annual, daily_rate, rate_source, accrual_base_days, accrual_day_count = normalized_rates(master, column_map, key)
-        title_override = title_overrides.get(id_text(key), {})
+        if title_override.get("reconcileReported"):
+            accrual_base_days = int(title_override.get("accrualBaseDays") or accrual_base_days)
         manual_monthly_rate = parse_monthly_rate_override(
             title_override.get("monthlyRate")
             or title_override.get("discountRateMonthly")
@@ -992,7 +1038,9 @@ def build_import(path: Path, position_date_override: str = "", *,
             effective_rate_annual = (1 + monthly_rate) ** 12 - 1
             daily_rate = daily_rate_from_monthly(monthly_rate, accrual_base_days)
             rate_source = "taxa_origem_transferencia"
-        accrual_periods_at_position, accrual_periods_day_count, accrual_periods_source = accrual_period_from_source(master, column_map)
+        accrual_periods_at_position, accrual_periods_day_count, accrual_periods_source = (
+            (0, "", "") if title_override.get("reconcileReported") else accrual_period_from_source(master, column_map)
+        )
         if accrual_periods_day_count:
             accrual_day_count = accrual_periods_day_count
         if title_override.get("accrualDayCount"):
@@ -1184,7 +1232,8 @@ def build_import(path: Path, position_date_override: str = "", *,
             "municipality": str(row_get(master, column_map, "Municipio sacado") or "").strip(),
             "validation": str(row_get(master, column_map, "Validacao do titulo") or "").strip(),
             "transferSourceVehicle": str(
-                transfer_values.get("sourceVehicle")
+                title_override.get("transferSourceVehicle")
+                or transfer_values.get("sourceVehicle")
                 or transfer_source_vehicle_from_observation(row_get(master, column_map, "Observacao manual"))
             ).strip(),
             "transferOriginValue": round(parse_number(transfer_values.get("acquisitionValue")), 2),
@@ -1274,7 +1323,9 @@ def build_import(path: Path, position_date_override: str = "", *,
                 "source": path.name,
             })
 
-    for adjustment in load_synthetic_titles(operation_id):
+    for adjustment in synthetic_titles:
+        if adjustment.get("reconcileReported") and date_key(parse_date(adjustment.get("purchaseDate"))) > position_date:
+            continue
         synthetic_title = synthetic_title_from_adjustment(adjustment, operation_id, position_date)
         if not synthetic_title:
             continue
