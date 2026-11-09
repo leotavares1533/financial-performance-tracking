@@ -1,8 +1,8 @@
 window.ceresCattleQuotes = {
   "sourceName": "DATAGRO Indicador do Boi",
   "sourcePageUrl": "https://www.indicadordoboi.com.br/pt-br#bulletin",
-  "exportedAt": "2026-11-09T11:26:38+00:00",
-  "syncedAt": "2026-11-09T11:28:40+00:00",
+  "exportedAt": "2026-11-09T12:10:05+00:00",
+  "syncedAt": "2026-11-09T12:11:18+00:00",
   "sourceDatabase": "C:\\Users\\leonardo.silva\\OneDrive - Ceres Investimentos\\Leonardo Tavares\\landing-page-responsiva\\financial-performance-tracking\\data\\pecuaria\\cotacoes-pecuaria.sqlite",
   "dateRule": "source_reference_date",
   "frozenGuaranteeQuotes": {
