@@ -392,7 +392,7 @@ def make_title_indexes(titles: list[dict]) -> tuple[dict[str, list[dict]], dict[
     by_lastro: dict[str, list[dict]] = defaultdict(list)
     by_number: dict[str, list[dict]] = defaultdict(list)
     for title in titles:
-        for field in ("id", "lastro", "originalLastro", "controlReferenceLastro"):
+        for field in ("id", "lastro", "originalLastro", "controlReferenceLastro", "sourceLastro"):
             key = digits(title.get(field))
             if key:
                 by_lastro[key].append(title)
@@ -641,7 +641,8 @@ def main() -> None:
                 candidate["titulosCarteira"].add(str(title.get("invoice") or title.get("id") or ""))
                 candidate["statusCarteira"].add(str(title.get("paymentStatus") or ""))
 
-        animal_key = str(row.get(tag_col) or row.get(sisbov_col) or f"linha-{row_index}")
+        sisbov_key = compact_number_id(row.get(sisbov_col))
+        animal_key = sisbov_key if sisbov_key not in {"", "0"} else f"{norm(row.get(farm_col))}|{str(row.get(tag_col) or '').strip()}"
         if animal_key:
             duplicate_animals[animal_key].add(operation_id)
 

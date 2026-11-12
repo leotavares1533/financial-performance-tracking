@@ -1,6 +1,6 @@
 window.ceresFundingData = {
   "sourceWorkbook": "C:\\Users\\leonardo.silva\\Downloads\\funding confina.xlsx",
-  "positionDate": "2026-11-03",
+  "positionDate": "2026-11-10",
   "exportedAt": "2026-10-29T22:16:39.930Z",
   "operations": [
     {
@@ -3272,6 +3272,68 @@ window.ceresFundingData = {
         }
       ],
       "fundingControlMode": "calculated_in_browser"
+    },
+    {
+      "id": "confina-cra-42-novembro",
+      "investor": "Ceres",
+      "name": "Confina CRA 42a - Novembro/2026",
+      "shortName": "CRA 42a Nov/26",
+      "account": "A cadastrar",
+      "positionDate": "2026-11-10",
+      "sourceSheets": [
+        "CESSAO_04_11_2026"
+      ],
+      "issueDate": "2026-11-04",
+      "maturityDate": null,
+      "fundingPrincipal": 59058345.61,
+      "fundingBalance": 59058345.61,
+      "fundingPrevious": 0,
+      "fundingMonthStart": 0,
+      "fundingRate": 1.7,
+      "fundingRateLabel": "1.70% a.m.",
+      "fundingRateType": "monthly_fixed",
+      "baseDays": 360,
+      "cash": 0,
+      "portfolioVp": 0,
+      "portfolioVn": 0,
+      "portfolioRate": 0,
+      "duration": 0,
+      "overdue": 0,
+      "warning": "ok",
+      "syntheticSub": -407553.41,
+      "previousSyntheticSub": 0,
+      "monthStartSyntheticSub": 0,
+      "portfolio": [],
+      "fundingComponents": [
+        {
+          "sheet": "CRA 42a Novembro/2026",
+          "operationLabel": "42/59/65-outubro",
+          "principal": 59058345.61,
+          "startDate": "2026-11-04",
+          "accrueOnStartDate": false,
+          "fundingBalance": 59058345.61,
+          "fundingRate": 1.7,
+          "fundingRateLabel": "1.70% a.m.",
+          "fundingRateType": "monthly_fixed",
+          "cdiRate": null,
+          "spreadRate": null,
+          "annualRate": 0.22419735005332386,
+          "baseDays": 360,
+          "issueDate": "2026-11-04",
+          "maturityDate": null,
+          "interestPaidToDate": 0,
+          "amortizationPaidToDate": 0,
+          "installmentPaidToDate": 0,
+          "events": [],
+          "rateSchedule": [],
+          "workbookBalanceAtPosition": 72553977.1,
+          "calculatedBalanceAtPosition": 72553977.1,
+          "validationDelta": 0,
+          "componentId": "42-59-65-outubro-20261028"
+        }
+      ],
+      "fundingControlMode": "calculated_in_browser",
+      "visibleFromDate": "2026-10-28"
     }
   ]
 };

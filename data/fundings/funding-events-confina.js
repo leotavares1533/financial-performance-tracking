@@ -1,5 +1,5 @@
 window.ceresFundingManualEvents = {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-11",
   "events": [
     {
       "operationId": "confina-cras-carteira-100",
@@ -586,6 +586,186 @@ window.ceresFundingManualEvents = {
       "interestPaid": 15535.05,
       "amount": 3899298.45,
       "note": "Amortizacao total da 59a no componente 1 da Carteira 50MM segregada. Lastro de origem 481207, conforme vinculo ja confirmado em outubro. Sem novo recebimento neste veiculo."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484617",
+      "invoice": "GF101",
+      "amortization": 1057343.91,
+      "interestPaid": 9516.1,
+      "amount": 1066860.01,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484618",
+      "invoice": "GF102",
+      "amortization": 118286.84,
+      "interestPaid": 0,
+      "amount": 118286.84,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "485214",
+      "invoice": "BP17",
+      "amortization": 888199.54,
+      "interestPaid": 3552.8,
+      "amount": 891752.34,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "494177",
+      "invoice": "BP18",
+      "amortization": 1360696.46,
+      "interestPaid": 4989.22,
+      "amount": 1365685.68,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-42-65-setembro",
+      "realLastro": "542592",
+      "invoice": "BP18",
+      "amortization": 1360696.46,
+      "interestPaid": 4989.22,
+      "amount": 1365685.68,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "485106",
+      "invoice": "BP19",
+      "amortization": 1916343.31,
+      "interestPaid": 2555.12,
+      "amount": 1918898.43,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-80",
+      "realLastro": "506654",
+      "invoice": "BP20",
+      "amortization": 61638.65,
+      "interestPaid": 0,
+      "amount": 61638.65,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-42-65-setembro",
+      "realLastro": "546510",
+      "invoice": "RM14",
+      "amortization": 27382.24,
+      "interestPaid": 0,
+      "amount": 27382.24,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-42-65-setembro",
+      "realLastro": "546511",
+      "invoice": "RM15",
+      "amortization": 252901.48,
+      "interestPaid": 0,
+      "amount": 252901.48,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-42-65-setembro",
+      "realLastro": "546513",
+      "invoice": "RM17",
+      "amortization": 569576.18,
+      "interestPaid": 0,
+      "amount": 569576.18,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-04",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "485223",
+      "invoice": "RM30",
+      "amortization": 414807.29,
+      "interestPaid": 0,
+      "amount": 414807.29,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484469",
+      "invoice": "GF104",
+      "amortization": 975434.1,
+      "interestPaid": 7803.47,
+      "amount": 983237.57,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484478",
+      "invoice": "GF108",
+      "amortization": 1250136.0,
+      "interestPaid": 2916.98,
+      "amount": 1253052.98,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484618",
+      "invoice": "GF102",
+      "amortization": 106921.26,
+      "interestPaid": 997.93,
+      "amount": 107919.19,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484620",
+      "invoice": "GF103",
+      "amortization": 217540.5,
+      "interestPaid": 1957.86,
+      "amount": 219498.36,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484623",
+      "invoice": "GF105",
+      "amortization": 793036.3,
+      "interestPaid": 4493.87,
+      "amount": 797530.17,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "484629",
+      "invoice": "GF107",
+      "amortization": 120698.6,
+      "interestPaid": 402.33,
+      "amount": 121100.93,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
+    },
+    {
+      "date": "2026-11-05",
+      "operationId": "confina-cra-65-200",
+      "realLastro": "485238",
+      "invoice": "GF106",
+      "amortization": 658573.42,
+      "interestPaid": 2634.29,
+      "amount": 661207.71,
+      "note": "Alocacao gerencial por titulo ou pelo criterio anterior da mesma emissao Green Farming. Dois BP18 em fundings distintos confirmados pelo usuario."
     }
   ]
 };

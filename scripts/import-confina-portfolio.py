@@ -458,14 +458,14 @@ def reconcile_synthetic_titles(synthetic_titles, masters, column_map, title_over
             remaining.append(item)
             continue
         origin = id_text(item.get("originalLastro") or item["titleId"])
-        invoice = normalize_text(item["invoice"])
+        invoice = normalize_text(re.sub(r"(?:-1)+$", "", str(item["invoice"]).strip()))
         candidates = []
         for key, row in masters.items():
             if is_pending(row_get(row, column_map, "Status do titulo")):
                 continue
             same_origin = origin in {id_text(key), id_text(row_get(row, column_map, "Lastro de origem"))}
             same_contract = (
-                normalize_text(row_get(row, column_map, "Numero NF")) in {invoice, invoice + " 1"}
+                normalize_text(re.sub(r"(?:-1)+$", "", str(row_get(row, column_map, "Numero NF") or "").strip())) == invoice
                 and normalize_text(row_get(row, column_map, "Nome da cedente")) == normalize_text(item["cedente"])
                 and normalize_text(row_get(row, column_map, "Nome sacado")) == normalize_text(item["sacado"])
             )
@@ -919,6 +919,7 @@ def synthetic_title_from_adjustment(
         "faceValue": face_value,
         "outstandingFaceValue": face_value,
         "acquisitionValue": acquisition_value,
+        "cashPurchaseAmount": max(0.0, round(parse_number(adjustment.get("cashPurchaseAmount", acquisition_value)), 2)),
         "presentValue": round(calculated_present_value, 2),
         "reportedPresentValue": round(parse_number(adjustment.get("reportedPresentValue")), 2),
         "partialLiquidationAmount": 0,
@@ -1258,10 +1259,13 @@ def build_import(path: Path, position_date_override: str = "", *,
 
         operation_start = OPERATION_START_DATES.get(operation_id, "")
         settled_before_start = bool(title["settledDate"] and operation_start and title["settledDate"] < operation_start)
+        cash_purchase_amount = max(0.0, round(parse_number(title_override.get("cashPurchaseAmount", title["acquisitionValue"])), 2))
+        if "cashPurchaseAmount" in title_override:
+            title["cashPurchaseAmount"] = cash_purchase_amount
 
         if (
             title["portfolioEligible"]
-            and title["acquisitionValue"] > 0
+            and cash_purchase_amount > 0
             and title["purchaseDate"]
             and title["purchaseDate"] <= position_date
             and not settled_before_start
@@ -1271,7 +1275,7 @@ def build_import(path: Path, position_date_override: str = "", *,
                 "operationId": operation_id,
                 "date": cash_purchase_date,
                 "type": "portfolio_purchase",
-                "amount": title["acquisitionValue"],
+                "amount": cash_purchase_amount,
                 "titleId": title["id"],
                 "note": f"Compra carteira {title['titleType']} {title['lastro']}".strip(),
                 "source": path.name,
@@ -1334,7 +1338,7 @@ def build_import(path: Path, position_date_override: str = "", *,
         titles.append(synthetic_title)
         if (
             synthetic_title["portfolioEligible"]
-            and synthetic_title["acquisitionValue"] > 0
+            and synthetic_title["cashPurchaseAmount"] > 0
             and synthetic_title["purchaseDate"]
             and synthetic_title["purchaseDate"] <= position_date
         ):
@@ -1342,7 +1346,7 @@ def build_import(path: Path, position_date_override: str = "", *,
                 "operationId": operation_id,
                 "date": synthetic_title["purchaseDate"],
                 "type": "portfolio_purchase",
-                "amount": synthetic_title["acquisitionValue"],
+                "amount": synthetic_title["cashPurchaseAmount"],
                 "titleId": synthetic_title["id"],
                 "note": str(adjustment.get("note") or f"Compra manual carteira {synthetic_title['titleType']} {synthetic_title['lastro']}").strip(),
                 "source": MANUAL_ADJUSTMENTS_PATH.name,
@@ -1495,6 +1499,8 @@ def merge_imports(imports: list[dict[str, Any]]) -> dict[str, Any]:
 def import_source(path: Path, position_date: str) -> list[dict[str, Any]]:
     rows = read_csv(path)
     columns = {normalize_text(header): header for header in rows[0] if header}
+    if "veiculo" in columns and "nome cra" not in columns:
+        raise ValueError("O novo formato GER004 por Veiculo requer reconciliacao incremental com o fechamento anterior; nao reimportar o historico nem tratar Valor Pago acumulado como recebimento novo.")
     by_vehicle: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for index, row in enumerate(rows, start=2):
         row["_sourceRow"] = index
