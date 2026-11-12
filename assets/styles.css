@@ -263,6 +263,132 @@ main {
   margin-top: 14px;
 }
 
+.result-composition {
+  margin: 0 0 18px;
+  padding: 0 0 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.result-composition h3 {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+}
+
+.result-composition-values {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.result-composition-item {
+  display: grid;
+  grid-template-rows: minmax(2em, auto) auto;
+  align-content: space-between;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px 10px;
+  border-left: 1px solid var(--line);
+}
+
+.result-composition-item:first-child {
+  border-left: 0;
+}
+
+.result-composition-item dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.result-composition-item dd {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.result-composition-assets,
+.result-composition-sub {
+  background: rgba(14, 61, 70, 0.05);
+}
+
+.result-composition-note {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1150px) {
+  .result-composition-values {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .result-composition-item:nth-child(3n + 1) {
+    border-left: 0;
+  }
+
+  .result-composition-item:nth-child(n + 4) {
+    border-top: 1px solid var(--line);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .result-composition-values {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .result-composition-item {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 9px 8px;
+    border-left: 0;
+  }
+
+  .result-composition-item + .result-composition-item {
+    border-top: 1px solid var(--line);
+  }
+
+  .result-composition-item dd {
+    font-size: 0.86rem;
+    text-align: right;
+  }
+}
+
+@media print {
+  .result-composition {
+    margin-bottom: 6pt;
+    padding-bottom: 5pt;
+    break-inside: avoid;
+  }
+
+  .result-composition h3 {
+    margin-bottom: 4pt;
+    font-size: 8pt;
+  }
+
+  .result-composition-item {
+    gap: 3pt;
+    padding: 4pt;
+  }
+
+  .result-composition-item dt,
+  .result-composition-note {
+    font-size: 6pt;
+  }
+
+  .result-composition-item dd {
+    font-size: 7pt;
+  }
+}
+
 .table-card {
   overflow: hidden;
   border-radius: 18px;

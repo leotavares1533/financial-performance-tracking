@@ -931,6 +931,8 @@ const nodes = {
   premiumView: document.getElementById("premium-view"),
   detailView: document.getElementById("detail-view"),
   managementDate: document.getElementById("management-date"),
+  resultCompositionValues: document.getElementById("result-composition-values"),
+  resultCompositionNote: document.getElementById("result-composition-note"),
   cashTable: document.getElementById("cash-table"),
   resultTable: document.getElementById("result-table"),
   resultCurrentHead: document.getElementById("result-current-head"),
@@ -4032,8 +4034,44 @@ function renderSummary() {
   `).join("");
 }
 
+function managementResultComposition(scopeOperations = laminaOperationsForDate()) {
+  const totals = scopeOperations.reduce((sum, operation) => ({
+    portfolio: sum.portfolio + Number(operation.portfolioVp || 0),
+    cash: sum.cash + Number(operation.cash || 0),
+    liabilities: sum.liabilities + Number(operation.fundingBalance || 0),
+    adjustments: sum.adjustments + Number(operation.syntheticAdjustment || 0)
+  }), { portfolio: 0, cash: 0, liabilities: 0, adjustments: 0 });
+  Object.keys(totals).forEach(key => { totals[key] = roundMoney(totals[key]); });
+  const assets = roundMoney(totals.portfolio + totals.cash);
+  const beforeAdjustments = roundMoney(assets - totals.liabilities);
+  return { ...totals, assets, beforeAdjustments, sub: roundMoney(beforeAdjustments + totals.adjustments) };
+}
+
+function renderManagementResultComposition(scopeOperations) {
+  if (!nodes.resultCompositionValues || !nodes.resultCompositionNote) return;
+  const totals = managementResultComposition(scopeOperations);
+  const items = [
+    ["portfolio", "Carteira VP", totals.portfolio],
+    ["cash", "Caixa", totals.cash],
+    ["assets", "Total do ativo", totals.assets],
+    ["liabilities", "(-) Passivo / funding", totals.liabilities],
+    ["adjustments", "Ajustes gerenciais", totals.adjustments],
+    ["sub", "(=) Resultado da sub", totals.sub]
+  ];
+  nodes.resultCompositionValues.innerHTML = items.map(([key, label, value]) => `
+    <div class="result-composition-item result-composition-${key}" data-composition-key="${key}" data-value="${value.toFixed(2)}">
+      <dt>${label}</dt><dd class="${key === "sub" || key === "adjustments" ? signedClass(value) : ""}">${formatCurrency(value, 2)}</dd>
+    </div>
+  `).join("");
+  const adjustmentSources = scopeOperations.filter(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005)
+    .map(operation => `${operation.shortName}: ${formatCurrency(operation.syntheticAdjustment, 2)}`);
+  nodes.resultCompositionNote.textContent = `Ativo - passivo: ${formatCurrency(totals.beforeAdjustments, 2)}.` +
+    (adjustmentSources.length ? ` Ajustes gerenciais: ${adjustmentSources.join("; ")}. Nao representam caixa nem carteira.` : " Sem ajustes gerenciais.");
+}
+
 function renderManagement() {
   const visibleOperations = laminaOperationsForDate();
+  renderManagementResultComposition(visibleOperations);
   nodes.managementDate.textContent = formatDate(state.dateKey);
   if (nodes.guaranteeHistoryDate) {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
