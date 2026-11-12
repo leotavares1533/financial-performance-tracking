@@ -111,7 +111,8 @@ window.ceresPortfolioData = {
         "weightedDaysToMaturity": 79.72296432462745,
         "overdueVp": 8067155.13,
         "cashPurchases": 213721841.57,
-        "cashLiquidations": 133885168.98
+        "cashLiquidations": 133885168.98,
+        "cashReconciliationAdjustments": -658822.33
       },
       "titles": [
         {
@@ -19091,6 +19092,126 @@ window.ceresPortfolioData = {
         },
         {
           "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": -1046824.34,
+          "titleId": "485013",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-recebimento-485013",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a baixa de Joao em 30/09 foi substituicao sem recebimento. Nao e pagamento bancario em 04/11; o historico ate 03/11 permanece intacto."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": -1330634.64,
+          "titleId": "485014",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-recebimento-485014",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a baixa de Joao em 30/09 foi substituicao sem recebimento. Nao e pagamento bancario em 04/11; o historico ate 03/11 permanece intacto."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": 287671.86,
+          "titleId": "542982",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-compra-confissao-542982",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a confissao faz parte da renegociacao sem pagamento. O ativo continua aberto. Nao e novo recebimento bancario em 04/11."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": 287671.86,
+          "titleId": "542983",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-compra-confissao-542983",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a confissao faz parte da renegociacao sem pagamento. O ativo continua aberto. Nao e novo recebimento bancario em 04/11."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": 287671.86,
+          "titleId": "542984",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-compra-confissao-542984",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a confissao faz parte da renegociacao sem pagamento. O ativo continua aberto. Nao e novo recebimento bancario em 04/11."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": 287671.86,
+          "titleId": "542985",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-compra-confissao-542985",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a confissao faz parte da renegociacao sem pagamento. O ativo continua aberto. Nao e novo recebimento bancario em 04/11."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": 287671.86,
+          "titleId": "542986",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-compra-confissao-542986",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a confissao faz parte da renegociacao sem pagamento. O ativo continua aberto. Nao e novo recebimento bancario em 04/11."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": 280277.35,
+          "titleId": "542987",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-compra-confissao-542987",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a confissao faz parte da renegociacao sem pagamento. O ativo continua aberto. Nao e novo recebimento bancario em 04/11."
+        },
+        {
+          "operationId": "confina-cra-65-200",
           "titleId": "484602",
           "date": "2026-11-04",
           "type": "portfolio_liquidation",
@@ -19115,6 +19236,21 @@ window.ceresPortfolioData = {
           "amount": 414807.29,
           "source": "GER004_20261111_incremental",
           "note": "Diferenca do Valor Pago acumulado contra o relatorio anterior; nunca repetir recebimentos ja fechados."
+        },
+        {
+          "operationId": "confina-cra-65-200",
+          "date": "2026-11-04",
+          "type": "synthetic_adjustment",
+          "amount": -4598262.31,
+          "titleId": "grupo-direitos-joao-denipoti",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-contrapartida-interna-65",
+          "reconciliationKind": "non_cash_opening_substitution",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Contrapartida das compensacoes a receber nos dois CRAs Carteira segregados. Saldo interno reciproco, sem caixa ou novo funding; impede classificar direitos recebidos de outro veiculo como rendimento."
         }
       ],
       "history": [
@@ -20088,10 +20224,10 @@ window.ceresPortfolioData = {
         }
       ],
       "manualAdjustments": {
-        "file": "adjustments-asof-2026-11-03.json",
-        "eventsApplied": 18,
-        "cashImpact": 15179710.09,
-        "syntheticImpact": 0,
+        "file": "manual-portfolio-adjustments-confina.json",
+        "eventsApplied": 27,
+        "cashImpact": 14520887.76,
+        "syntheticImpact": -4598262.31,
         "missingTitles": [
           "aquisicao-controle-cra65-200-2026-07-06"
         ],
@@ -71397,7 +71533,8 @@ window.ceresPortfolioData = {
         "weightedDaysToMaturity": 0.0,
         "overdueVp": 0,
         "cashPurchases": 100249807.82,
-        "cashLiquidations": 107115224.43
+        "cashLiquidations": 107115224.43,
+        "cashReconciliationAdjustments": -1732214.45
       },
       "titles": [
         {
@@ -78245,6 +78382,51 @@ window.ceresPortfolioData = {
           "titleId": "466118",
           "note": "Liquidacao carteira NP 466118",
           "source": "CRA_GER004 - Títulos (3).csv"
+        },
+        {
+          "operationId": "confina-cras-carteira-100",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": -680765.56,
+          "titleId": "466107",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-recebimento-466107",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a baixa de Joao em 30/09 foi substituicao sem recebimento. Nao e pagamento bancario em 04/11; o historico ate 03/11 permanece intacto."
+        },
+        {
+          "operationId": "confina-cras-carteira-100",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": -1051448.89,
+          "titleId": "466115",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-recebimento-466115",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a baixa de Joao em 30/09 foi substituicao sem recebimento. Nao e pagamento bancario em 04/11; o historico ate 03/11 permanece intacto."
+        },
+        {
+          "operationId": "confina-cras-carteira-100",
+          "date": "2026-11-04",
+          "type": "synthetic_adjustment",
+          "amount": 1732214.45,
+          "titleId": "grupo-direitos-joao-denipoti",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-direito-interno-confina-cras-carteira-100",
+          "reconciliationKind": "non_cash_opening_substitution",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Compensacao patrimonial a receber do CRA 65a 200MM pelos direitos transferidos no acordo Joao/Denipoti. Nao e caixa, funding novo ou ativo biologico. Sem accrual proprio."
         }
       ],
       "history": [
@@ -79986,10 +80168,10 @@ window.ceresPortfolioData = {
         }
       ],
       "manualAdjustments": {
-        "file": "adjustments-asof-2026-11-03.json",
-        "eventsApplied": 2,
-        "cashImpact": 905354.07,
-        "syntheticImpact": 0,
+        "file": "manual-portfolio-adjustments-confina.json",
+        "eventsApplied": 5,
+        "cashImpact": -826860.38,
+        "syntheticImpact": 1732214.45,
         "missingTitles": [
           "ajuste-caixa-recebido-2026-09-18-confina-cras-carteira-100"
         ],
@@ -80015,7 +80197,8 @@ window.ceresPortfolioData = {
         "weightedDaysToMaturity": 0.0,
         "overdueVp": 0,
         "cashPurchases": 48924483.44,
-        "cashLiquidations": 51526877.27
+        "cashLiquidations": 51526877.27,
+        "cashReconciliationAdjustments": -2866047.86
       },
       "titles": [
         {
@@ -82884,6 +83067,51 @@ window.ceresPortfolioData = {
           "titleId": "481199",
           "note": "Liquidacao carteira NP 481199",
           "source": "CRA_GER004 - Títulos (3).csv"
+        },
+        {
+          "operationId": "confina-cras-carteira-50",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": -1273709.63,
+          "titleId": "481185",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-recebimento-481185",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a baixa de Joao em 30/09 foi substituicao sem recebimento. Nao e pagamento bancario em 04/11; o historico ate 03/11 permanece intacto."
+        },
+        {
+          "operationId": "confina-cras-carteira-50",
+          "date": "2026-11-04",
+          "type": "cash_adjustment",
+          "amount": -1592338.23,
+          "titleId": "481199",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-estorno-recebimento-481199",
+          "reconciliationKind": "non_cash_historical_balance_correction",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Regularizacao prospectiva de saldo: a baixa de Joao em 30/09 foi substituicao sem recebimento. Nao e pagamento bancario em 04/11; o historico ate 03/11 permanece intacto."
+        },
+        {
+          "operationId": "confina-cras-carteira-50",
+          "date": "2026-11-04",
+          "type": "synthetic_adjustment",
+          "amount": 2866047.86,
+          "titleId": "grupo-direitos-joao-denipoti",
+          "source": "manual-portfolio-adjustments-confina.json",
+          "manualAdjustmentId": "conciliacao-joao-denipoti-20261104-direito-interno-confina-cras-carteira-50",
+          "reconciliationKind": "non_cash_opening_substitution",
+          "reconciliationId": "conciliacao-joao-denipoti-20261104",
+          "sourceEventDate": "2026-09-30",
+          "bankMovement": false,
+          "fundingImpact": 0,
+          "note": "Compensacao patrimonial a receber do CRA 65a 200MM pelos direitos transferidos no acordo Joao/Denipoti. Nao e caixa, funding novo ou ativo biologico. Sem accrual proprio."
         }
       ],
       "history": [
@@ -84049,10 +84277,10 @@ window.ceresPortfolioData = {
         }
       ],
       "manualAdjustments": {
-        "file": "adjustments-asof-2026-11-03.json",
-        "eventsApplied": 8,
-        "cashImpact": 48660829.41,
-        "syntheticImpact": 0,
+        "file": "manual-portfolio-adjustments-confina.json",
+        "eventsApplied": 11,
+        "cashImpact": 45794781.55,
+        "syntheticImpact": 2866047.86,
         "missingTitles": [
           "venda-cra4265-2026-09-25-cra-interno-50"
         ],

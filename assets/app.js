@@ -3958,6 +3958,12 @@ function renderManagement() {
   if (nodes.resultMonthHead) nodes.resultMonthHead.textContent = `Resultado 21 d.u. (${formatDate(state.dateKey)} - ${formatDate(monthStartKey)})`;
 
   const cashTotal = visibleOperations.reduce((sum, item) => sum + item.cash, 0);
+  const cashRegularizations = visibleOperations.map((operation) => ({
+    operation,
+    amount: operationCashEvents(operation, state.dateKey)
+      .filter((event) => event.reconciliationKind === "non_cash_historical_balance_correction" && event.date <= state.dateKey)
+      .reduce((sum, event) => sum + cashEventAmount(event), 0)
+  })).filter((item) => Math.abs(item.amount) >= 0.005);
   nodes.cashTable.innerHTML = visibleOperations.map((operation) => `
     <tr>
       <td>${operation.name}</td>
@@ -3968,11 +3974,23 @@ function renderManagement() {
       <td>TOTAL em caixa</td>
       <td class="num">${formatCurrency(cashTotal)}</td>
     </tr>
-  `;
+  ` + (cashRegularizations.length ? `
+    <tr class="cash-reconciliation-note">
+      <td colspan="2"><small>Regulariza&ccedil;&atilde;o de saldo anterior inclu&iacute;da no caixa:
+        ${cashRegularizations.map(({ operation, amount }) => `${escapeHtml(operation.shortName)} ${formatCurrency(amount, 2)}`).join("; ")}.
+        Sem fluxo banc&aacute;rio novo no dia.</small></td>
+    </tr>
+  ` : "");
 
   const resultTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub, 0);
   const dayTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub - item.previousSyntheticSub, 0);
   const monthTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub - item.monthStartSyntheticSub, 0);
+  const nonCashReconciliations = visibleOperations.map((operation) => ({
+    operation,
+    amount: operationCashEvents(operation, state.dateKey)
+      .filter((event) => event.reconciliationKind === "non_cash_opening_substitution" && event.date <= state.dateKey)
+      .reduce((sum, event) => sum + cashEventAmount(event), 0)
+  })).filter((item) => Math.abs(item.amount) >= 0.005);
   nodes.resultTable.innerHTML = visibleOperations.map((operation) => {
     const day = operation.syntheticSub - operation.previousSyntheticSub;
     const month = operation.syntheticSub - operation.monthStartSyntheticSub;
@@ -3992,7 +4010,13 @@ function renderManagement() {
       <td class="num ${signedClass(dayTotal)}">${formatCurrency(dayTotal)}</td>
       <td class="num ${signedClass(monthTotal)}">${formatCurrency(monthTotal)}</td>
     </tr>
-  `;
+  ` + (nonCashReconciliations.length ? `
+    <tr class="reconciliation-note">
+      <td colspan="5"><small>Compensa&ccedil;&atilde;o patrimonial interve&iacute;culos inclu&iacute;da na sub:
+        ${nonCashReconciliations.map(({ operation, amount }) => `${escapeHtml(operation.shortName)} ${formatCurrency(amount, 2)}`).join("; ")}.
+        Sem novo caixa ou funding.</small></td>
+    </tr>
+  ` : "");
 
   renderSeniorSubordinadaCharts();
   renderPartnerRiskChart();

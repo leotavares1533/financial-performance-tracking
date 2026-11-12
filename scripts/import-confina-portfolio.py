@@ -571,12 +571,12 @@ def apply_manual_adjustments(
         event_date = str(adjustment.get("date") or "").strip()
         title_id = str(adjustment.get("titleId") or adjustment.get("lastro") or "").strip()
         amount = round(parse_number(adjustment.get("amount")), 2)
-        is_synthetic_adjustment = event_type == "synthetic_adjustment"
+        is_signed_adjustment = event_type in {"synthetic_adjustment", "cash_adjustment"}
         if not event_type or not event_date or not title_id:
             continue
-        if is_synthetic_adjustment and amount == 0:
+        if is_signed_adjustment and amount == 0:
             continue
-        if not is_synthetic_adjustment and amount <= 0:
+        if not is_signed_adjustment and amount <= 0:
             continue
 
         title = title_by_id.get(title_id)
@@ -642,6 +642,9 @@ def apply_manual_adjustments(
             "note": str(adjustment.get("note") or "Ajuste manual de carteira").strip(),
             "source": MANUAL_ADJUSTMENTS_PATH.name,
             "manualAdjustmentId": str(adjustment.get("id") or "").strip(),
+            **{key: adjustment[key] for key in (
+                "reconciliationKind", "reconciliationId", "sourceEventDate", "bankMovement", "fundingImpact"
+            ) if key in adjustment},
         })
 
         if title and event_type == "portfolio_liquidation":
