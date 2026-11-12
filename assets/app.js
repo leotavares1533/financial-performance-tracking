@@ -579,6 +579,11 @@ const fundingData = window.ceresFundingData || { positionDate: "2026-09-03", ope
 const manualFundingEvents = window.ceresFundingManualEvents || { events: [] };
 const portfolioData = window.ceresPortfolioData || { operations: [] };
 const managementPresentationPolicy = window.ceresManagementPresentationPolicy || {};
+const positionReconciliation = window.ceresPositionReconciliation || {};
+const reconciledClosings = new Map((positionReconciliation.operationClosings || []).map(row => [row.operationId, row]));
+const reconciledSettlementDates = new Map((positionReconciliation.titleSettlements || []).map(row =>
+  [`${row.operationId}|${row.titleId}`, row.effectiveDate]));
+const removedSyntheticAdjustmentIds = new Set(positionReconciliation.removedSyntheticAdjustmentIds || []);
 const frozenPortfolioData = window.ceresFrozenPortfolioData || { operations: [] };
 const cashData = window.ceresCashData || {
   events: [],
@@ -1434,7 +1439,11 @@ function prepareFundingInputs(operation) {
   operation.fundingComponents = Array.isArray(operation.fundingComponents)
     ? operation.fundingComponents
     : [];
-  operation.fundingComponents.forEach(prepareFundingComponent);
+  operation.fundingComponents.forEach((component, index) => {
+    component.closingAnchor = (positionReconciliation.fundingAnchors || []).find(row =>
+      row.operationId === operation.id && row.component === index && row.sheet === component.sheet);
+    prepareFundingComponent(component);
+  });
 }
 
 function diAnnualRateFromRow(row) {
@@ -1511,6 +1520,11 @@ function calculateComponentBalance(component, dateKey) {
 
   let balance = Number(component.principal || 0);
   let currentKey = startKey;
+  const anchor = component.closingAnchor;
+  if (anchor && dateKey >= anchor.date) {
+    balance = Number(anchor.balance);
+    currentKey = addCalendarDays(anchor.date, 1);
+  }
   let guard = 0;
   while (currentKey <= dateKey && guard < 5000) {
     const isStartDate = currentKey === startKey;
@@ -1637,10 +1651,22 @@ function weightedFundingRateAtDate(operation, dateKey) {
   return weighted.principal ? weighted.principalRate / weighted.principal : 0;
 }
 
-function syntheticReturnOnFunding(operation, current, previous) {
+function syntheticReturnOnFunding(operation, current, previous, startKey = "", endKey = "") {
   const base = Math.abs(Number(operation.fundingBalance || 0));
   if (!base) return 0;
-  return ((Number(current || 0) - Number(previous || 0)) / base) * 100;
+  return (syntheticResultBetween(operation, startKey, endKey, current, previous) / base) * 100;
+}
+
+function syntheticResultBetween(operation, startKey, endKey, current, previous) {
+  let result = Number(current ?? syntheticAtDate(operation, endKey)) - Number(previous ?? syntheticAtDate(operation, startKey));
+  const effectiveDate = positionReconciliation.effectiveDate;
+  if (startKey && effectiveDate && startKey < effectiveDate && endKey >= effectiveDate) {
+    result -= Number(reconciledClosings.get(operation.id)?.equityReconciliation || 0);
+  }
+  result += (positionReconciliation.capitalDistributions || [])
+    .filter(event => event.operationId === operation.id && startKey && event.date > startKey && event.date <= endKey)
+    .reduce((sum, event) => sum + event.amount, 0);
+  return roundMoney(result);
 }
 
 function syntheticAtDay(operation, dayIndex) {
@@ -1700,9 +1726,9 @@ function buildDetailHistory(operation) {
       synthetic,
       result,
       fundingDay: fundingReturnFromInterest(fundingActivity.interestAccrued, fundingActivity.previousBalance, fundingActivity.drawdown),
-      syntheticDay: syntheticReturnOnFunding(operation, synthetic, syntheticPrevious),
+      syntheticDay: syntheticReturnOnFunding(operation, synthetic, syntheticPrevious, addBusinessDaysBack(dateKey, 1), dateKey),
       fundingMonth: fundingReturnBetween(operation, monthStartKey, dateKey),
-      syntheticMonth: syntheticReturnOnFunding(operation, synthetic, syntheticMonthStart)
+      syntheticMonth: syntheticReturnOnFunding(operation, synthetic, syntheticMonthStart, monthStartKey, dateKey)
     };
   });
 }
@@ -2087,6 +2113,8 @@ function portfolioTitleIsEligible(title) {
 
 function portfolioTitleIsOpenAtDate(title, dateKey, positionDate) {
   if (!portfolioTitleIsEligible(title)) return false;
+  const settledAt = reconciledSettlementDates.get(`${title.operationId}|${title.id}`);
+  if (settledAt && dateKey >= settledAt) return false;
   if (title.settledWithoutDate) return false;
   const purchaseDate = portfolioTitlePurchaseDate(title);
   if (purchaseDate && purchaseDate > dateKey) return false;
@@ -2336,10 +2364,37 @@ function cashEventAmount(event) {
 function operationSyntheticAdjustmentBalanceAtDate(operation, dateKey) {
   return operationCashEvents(operation, dateKey).reduce((sum, event) => {
     if (!event.date || event.date > dateKey) return sum;
+    if (!syntheticAdjustmentIsEffective(event, dateKey)) return sum;
     return normalizeCashEventType(event) === "syntheticAdjustment"
       ? sum + cashEventAmount(event)
       : sum;
   }, 0);
+}
+
+function syntheticAdjustmentIsEffective(event, dateKey) {
+  return !(positionReconciliation.effectiveDate && dateKey >= positionReconciliation.effectiveDate &&
+    removedSyntheticAdjustmentIds.has(event.manualAdjustmentId));
+}
+
+function reservedCash50AtDate(dateKey) {
+  const policy = positionReconciliation.cash50Policy;
+  if (!policy || dateKey < policy.effectiveDate) return null;
+  const operation = operations.find(row => row.id === policy.operationId);
+  if (!operation) return null;
+  operation._reservedCashCache = operation._reservedCashCache || new Map();
+  if (operation._reservedCashCache.has(dateKey)) return operation._reservedCashCache.get(dateKey);
+  let grossCash = Number(policy.grossBackingAtReference);
+  let currentKey = addCalendarDays(policy.effectiveDate, 1);
+  while (currentKey <= dateKey) {
+    const activity = operationCashEventActivity(operation, currentKey);
+    grossCash += fundingCashInflowAtDate(operation, currentKey) + activity.investorInflow - activity.portfolioPurchase +
+      activity.portfolioLiquidation - fundingAmortizationAtDate(operation, currentKey) - activity.fundingAmortization + activity.adjustment;
+    currentKey = addCalendarDays(currentKey, 1);
+  }
+  const funding = fundingBalanceAtDate(operation, dateKey);
+  const result = {grossCash: roundMoney(grossCash), funding, netOperatingCash: roundMoney(grossCash - funding)};
+  operation._reservedCashCache.set(dateKey, result);
+  return result;
 }
 
 function operationCashEventActivity(operation, dateKey) {
@@ -2525,7 +2580,7 @@ function operationCashDailyRows(operation, endDateKey) {
     const portfolioPurchase = cashActivity.portfolioPurchase;
     const portfolioLiquidation = cashActivity.portfolioLiquidation;
     const fundingAmortization = fundingAmortizationAtDate(operation, currentKey) + cashActivity.fundingAmortization;
-    const adjustment = cashActivity.adjustment;
+    let adjustment = cashActivity.adjustment;
     const cdiAnnualRate = cdiAnnualRateAtDate(currentKey);
     const cdiDailyRate = cashDailyApplicationRate(currentKey);
     const balanceBeforeIncome =
@@ -2537,8 +2592,37 @@ function operationCashDailyRows(operation, endDateKey) {
       fundingAmortization +
       adjustment;
     const earnsIncome = !operation.cashIncomeStartDate || currentKey >= operation.cashIncomeStartDate;
-    const investmentIncome = earnsIncome && balanceBeforeIncome > 0 ? balanceBeforeIncome * CASH_APPLIED_SHARE * cdiDailyRate : 0;
-    const currentBalance = roundMoney(balanceBeforeIncome + investmentIncome);
+    let investmentIncome = earnsIncome && balanceBeforeIncome > 0 ? balanceBeforeIncome * CASH_APPLIED_SHARE * cdiDailyRate : 0;
+    let currentBalance = roundMoney(balanceBeforeIncome + investmentIncome);
+    let closingReconciliation = 0;
+    let reserveReallocation = 0;
+    const capitalDistribution = (positionReconciliation.capitalDistributions || [])
+      .filter(event => event.operationId === operation.id && event.date === currentKey)
+      .reduce((sum, event) => sum + event.amount, 0);
+    const closing = reconciledClosings.get(operation.id);
+    const effectiveDate = positionReconciliation.effectiveDate;
+    if (closing && currentKey === effectiveDate) {
+      closingReconciliation = roundMoney(closing.cashBeforeDistribution - currentBalance);
+      currentBalance = roundMoney(closing.cashBeforeDistribution - capitalDistribution);
+      adjustment += closingReconciliation - capitalDistribution;
+    } else if (closing && currentKey > effectiveDate) {
+      const policy = positionReconciliation.cash50Policy;
+      if (operation.id === policy?.operationId) {
+        investmentIncome = 0;
+        currentBalance = reservedCash50AtDate(currentKey).funding;
+        reserveReallocation = roundMoney(currentBalance - balanceBeforeIncome);
+      } else if (operation.id === policy?.operatingOperationId) {
+        const previousNet = reservedCash50AtDate(addCalendarDays(currentKey, -1)).netOperatingCash;
+        const currentNet = reservedCash50AtDate(currentKey).netOperatingCash;
+        const incomeBearingCash = roundMoney(balanceBeforeIncome - previousNet);
+        investmentIncome = earnsIncome && incomeBearingCash > 0 ? incomeBearingCash * CASH_APPLIED_SHARE * cdiDailyRate : 0;
+        reserveReallocation = roundMoney(currentNet - previousNet);
+        currentBalance = roundMoney(incomeBearingCash + investmentIncome + currentNet - capitalDistribution);
+      } else {
+        currentBalance = roundMoney(currentBalance - capitalDistribution);
+      }
+      adjustment += reserveReallocation - capitalDistribution;
+    }
     const appliedBalance = roundMoney(currentBalance * CASH_APPLIED_SHARE);
     const freeBalance = roundMoney(currentBalance - appliedBalance);
 
@@ -2559,6 +2643,9 @@ function operationCashDailyRows(operation, endDateKey) {
       portfolioLiquidation: roundMoney(portfolioLiquidation),
       fundingAmortization: roundMoney(fundingAmortization),
       adjustment: roundMoney(adjustment),
+      closingReconciliation,
+      reserveReallocation,
+      capitalDistribution,
       investmentIncome: roundMoney(investmentIncome),
       currentBalance,
       appliedBalance,
@@ -3921,8 +4008,8 @@ function renderSummary() {
   const totalPortfolio = source.reduce((sum, item) => sum + item.portfolioVp, 0);
   const totalFunding = source.reduce((sum, item) => sum + item.fundingBalance, 0);
   const totalSynthetic = source.reduce((sum, item) => sum + item.syntheticSub, 0);
-  const dayResult = source.reduce((sum, item) => sum + item.syntheticSub - item.previousSyntheticSub, 0);
-  const monthResult = source.reduce((sum, item) => sum + item.syntheticSub - item.monthStartSyntheticSub, 0);
+  const dayResult = source.reduce((sum, item) => sum + syntheticResultBetween(item, addBusinessDaysBack(state.dateKey, 1), state.dateKey, item.syntheticSub, item.previousSyntheticSub), 0);
+  const monthResult = source.reduce((sum, item) => sum + syntheticResultBetween(item, rollingMonthReferenceKey(state.dateKey), state.dateKey, item.syntheticSub, item.monthStartSyntheticSub), 0);
   const scope = state.view === "individual" ? selected.shortName : "contas";
   const previousKey = addBusinessDaysBack(state.dateKey, 1);
   const monthStartKey = rollingMonthReferenceKey(state.dateKey);
@@ -3932,8 +4019,8 @@ function renderSummary() {
     ["Carteira VP", totalPortfolio, "Direitos crediticios ativos"],
     ["Funding", totalFunding, "Saldo devedor dos investidores"],
     ["Subordinada sintetica", totalSynthetic, "Carteira + caixa - funding"],
-    [`Delta dia vs ${formatDate(previousKey).slice(0, 5)}`, dayResult, `Variacao D-1 - ${scope}`],
-    [`Delta 21 d.u. vs ${formatDate(monthStartKey).slice(0, 5)}`, monthResult, "Variacao contra 21 dias uteis atras"]
+    [`Delta dia vs ${formatDate(previousKey).slice(0, 5)}`, dayResult, `Resultado D-1 - ${scope}`],
+    [`Delta 21 d.u. vs ${formatDate(monthStartKey).slice(0, 5)}`, monthResult, "Resultado contra 21 dias uteis atras"]
   ];
 
   nodes.summaryStrip.innerHTML = cards.map(([label, value, note], index) => `
@@ -3961,7 +4048,8 @@ function renderManagement() {
   const cashRegularizations = visibleOperations.map((operation) => ({
     operation,
     amount: operationCashEvents(operation, state.dateKey)
-      .filter((event) => event.reconciliationKind === "non_cash_historical_balance_correction" && event.date <= state.dateKey)
+      .filter((event) => event.reconciliationKind === "non_cash_historical_balance_correction" && event.date <= state.dateKey &&
+        !(positionReconciliation.effectiveDate && state.dateKey >= positionReconciliation.effectiveDate))
       .reduce((sum, event) => sum + cashEventAmount(event), 0)
   })).filter((item) => Math.abs(item.amount) >= 0.005);
   nodes.cashTable.innerHTML = visibleOperations.map((operation) => `
@@ -3980,20 +4068,23 @@ function renderManagement() {
         ${cashRegularizations.map(({ operation, amount }) => `${escapeHtml(operation.shortName)} ${formatCurrency(amount, 2)}`).join("; ")}.
         Sem fluxo banc&aacute;rio novo no dia.</small></td>
     </tr>
+  ` : "") + (positionReconciliation.effectiveDate && state.dateKey >= positionReconciliation.effectiveDate ? `
+    <tr class="cash-reconciliation-note"><td colspan="2"><small>Saldo conciliado em ${formatDate(positionReconciliation.effectiveDate)}.
+      Distribui&ccedil;&atilde;o de sub de R$ 3.000.000 nessa data. Caixa da opera&ccedil;&atilde;o inclui apenas a sobra l&iacute;quida da Carteira 50MM, ap&oacute;s reserva do funding.</small></td></tr>
   ` : "");
 
   const resultTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub, 0);
-  const dayTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub - item.previousSyntheticSub, 0);
-  const monthTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub - item.monthStartSyntheticSub, 0);
+  const dayTotal = visibleOperations.reduce((sum, item) => sum + syntheticResultBetween(item, previousKey, state.dateKey, item.syntheticSub, item.previousSyntheticSub), 0);
+  const monthTotal = visibleOperations.reduce((sum, item) => sum + syntheticResultBetween(item, monthStartKey, state.dateKey, item.syntheticSub, item.monthStartSyntheticSub), 0);
   const nonCashReconciliations = visibleOperations.map((operation) => ({
     operation,
     amount: operationCashEvents(operation, state.dateKey)
-      .filter((event) => event.reconciliationKind === "non_cash_opening_substitution" && event.date <= state.dateKey)
+      .filter((event) => event.reconciliationKind === "non_cash_opening_substitution" && event.date <= state.dateKey && syntheticAdjustmentIsEffective(event, state.dateKey))
       .reduce((sum, event) => sum + cashEventAmount(event), 0)
   })).filter((item) => Math.abs(item.amount) >= 0.005);
   nodes.resultTable.innerHTML = visibleOperations.map((operation) => {
-    const day = operation.syntheticSub - operation.previousSyntheticSub;
-    const month = operation.syntheticSub - operation.monthStartSyntheticSub;
+    const day = syntheticResultBetween(operation, previousKey, state.dateKey, operation.syntheticSub, operation.previousSyntheticSub);
+    const month = syntheticResultBetween(operation, monthStartKey, state.dateKey, operation.syntheticSub, operation.monthStartSyntheticSub);
     return `
       <tr>
         <td>${operation.investor}</td>
@@ -4018,6 +4109,10 @@ function renderManagement() {
     </tr>
   ` : "");
 
+  if (positionReconciliation.effectiveDate && state.dateKey >= positionReconciliation.effectiveDate) {
+    nodes.resultTable.innerHTML += `<tr class="reconciliation-note"><td colspan="5"><small>Resultado acumulado ap&oacute;s concilia&ccedil;&atilde;o de ${formatDate(positionReconciliation.effectiveDate)} e distribui&ccedil;&atilde;o de sub.
+      Resultado no dia e em 21 d.u. exclui ajustes de saldo e retirada de capital.</small></td></tr>`;
+  }
   renderSeniorSubordinadaCharts();
   renderPartnerRiskChart();
   renderPartnershipInsights();
@@ -4639,9 +4734,9 @@ function renderDetail() {
     {
       label: "Subordinada sintetica",
       balance: operation.syntheticSub,
-      day: syntheticReturnOnFunding(operation, operation.syntheticSub, operation.previousSyntheticSub),
-      month: syntheticReturnOnFunding(operation, operation.syntheticSub, operation.monthStartSyntheticSub),
-      thirty: syntheticReturnOnFunding(operation, operation.syntheticSub, syntheticThirtyStart)
+      day: syntheticReturnOnFunding(operation, operation.syntheticSub, operation.previousSyntheticSub, addBusinessDaysBack(state.dateKey, 1), state.dateKey),
+      month: syntheticReturnOnFunding(operation, operation.syntheticSub, operation.monthStartSyntheticSub, rollingMonthReferenceKey(state.dateKey), state.dateKey),
+      thirty: syntheticReturnOnFunding(operation, operation.syntheticSub, syntheticThirtyStart, fundingThirtyStartKey, state.dateKey)
     }
   ];
 
