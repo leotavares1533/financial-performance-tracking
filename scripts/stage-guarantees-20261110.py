@@ -1,4 +1,5 @@
 import collections
+import argparse
 import contextlib
 import copy
 import csv
@@ -11,12 +12,21 @@ from datetime import date
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT.parent/'outputs/processamento-confina-20261110'
+parser=argparse.ArgumentParser()
+parser.add_argument('--output',type=Path,default=ROOT.parent/'outputs/processamento-confina-20261110')
+parser.add_argument('--animal-csv',type=Path)
+parser.add_argument('--previous-csv',type=Path)
+parser.add_argument('--gta-csv',type=Path)
+parser.add_argument('--targets',nargs='+',default=['2026-11-04','2026-11-05','2026-11-06','2026-11-09','2026-11-10'])
+parser.add_argument('--extraction-date',default='2026-11-11')
+parser.add_argument('--source-reference-date',default='2026-11-12')
+args=parser.parse_args()
+OUT=args.output
 DOWNLOADS=Path.home()/'Downloads'
-ANIMALS=DOWNLOADS/'relatorio_GERANIMAL02.csv-11-11-2026_21-18-23.csv'
-PREVIOUS=DOWNLOADS/'relatorio_GERANIMAL02 (25).csv'
-GTA=DOWNLOADS/'relatorio_GERGTA01 (1).csv'
-TARGETS=['2026-11-04','2026-11-05','2026-11-06','2026-11-09','2026-11-10']
+ANIMALS=args.animal_csv or DOWNLOADS/'relatorio_GERANIMAL02.csv-11-11-2026_21-18-23.csv'
+PREVIOUS=args.previous_csv or DOWNLOADS/'relatorio_GERANIMAL02 (25).csv'
+GTA=args.gta_csv or DOWNLOADS/'relatorio_GERGTA01 (1).csv'
+TARGETS=args.targets
 
 
 def module(name, path):
@@ -68,9 +78,9 @@ def signature(r):
 def eligible_asof(r,target,stats,previous):
     entry=b.parse_date(r['Data de entrada'])
     processed=b.parse_date(r['Data do processamento de entrada'])
-    if processed>'2026-11-11' and previous is not None:
+    if processed>args.extraction_date and previous is not None:
         processed=b.parse_date(previous['Data do processamento de entrada'])
-        if processed>'2026-11-11':
+        if processed>args.extraction_date:
             processed=''
         stats['futureProcessingDateCarriedFromPrior']+=1
     if not entry or max(entry,processed)>target:
@@ -234,14 +244,14 @@ for target in TARGETS:
     snapshot=read_js(output)
     snapshot.update(sourceFile=ANIMALS.name,purchasedTransitSourceFile=GTA.name,
                     referenceDate=target,compositionReferenceDate=target,allocationReferenceDate=target,
-                    sourceExtractionDate='2026-11-11',sourceReferenceDate='2026-11-12',compositionEstimated=True,
+                    sourceExtractionDate=args.extraction_date,sourceReferenceDate=args.source_reference_date,compositionEstimated=True,
                     compositionPolicy='dated-asof-with-immutable-closed-history',
                     quoteUnavailableOnReferenceDate=snapshot['quoteDate']!=target,
                     reconstruction=dict(counts=dict(stats),unresolvedDuplicateIdentities=unresolved,
                                         duplicatePolicy='One animal per SISBOV. Dated eligibility first; preserve prior record when two versions remain eligible. GTA physical shipment counted once across lastros.'))
     write_js(output,'ceresBiologicalAssets',snapshot)
     daily[target]=dict(quoteDate=snapshot['quoteDate'],quoteFallback=snapshot['quoteDate']!=target,
-                      sourceReference='2026-11-12',counts=dict(stats),unresolved=unresolved,
+                      sourceReference=args.source_reference_date,counts=dict(stats),unresolved=unresolved,
                       summary=snapshot['summary'])
     print(json.dumps(dict(date=target,quote=snapshot['quoteDate'],counts=dict(stats),unresolved=len(unresolved)),ensure_ascii=True),flush=True)
     del snapshot

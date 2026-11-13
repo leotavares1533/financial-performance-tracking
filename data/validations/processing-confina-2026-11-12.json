@@ -1,0 +1,347 @@
+{
+  "status": "EFETIVADO_LOCAL",
+  "cutoff": "2026-11-10",
+  "through": "2026-11-12",
+  "dates": [
+    "2026-11-11",
+    "2026-11-12"
+  ],
+  "preservedDates": [
+    "2026-09-30",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-09",
+    "2026-11-10"
+  ],
+  "historicalPreservation": "Identical frozen input through cutoff; earlier archives unchanged; seven representative financial dates compared.",
+  "protectedHashes": {
+    "data/portfolio/portfolio-confina-frozen-2026-10-02.js": "247bace997134871207b9bec2e12313c369f63a4808abcd1beb0d32028e9f40c",
+    "data/management/position-reconciliation-confina.js": "58614e4d0584dff98d426c0b3b1699abe6e7e93dad48c5aa83b695895256ce5b",
+    "data/fundings/funding-events-confina.js": "fc605c2a834636e0bdd4bc1a35ff7e1ac313c16ce656b3e5a36909081fcdabd3",
+    "data/biological/biological-assets-history-confina.js": "bb05bd0971d7e077a114beafb377b810bf436275db90b4158f1c73ff754725f0",
+    "data/pecuaria/cotacoes-pecuaria-latest.js": "52a60a63339274b29993514250aebecee8c76d0801bc4714455b7fe1d34d21ac"
+  },
+  "closings": {
+    "2026-11-11": {
+      "composition": {
+        "portfolio": 849800516.03,
+        "cash": 83285625.17,
+        "liabilities": 916136068.8,
+        "adjustments": 3072102.83,
+        "assets": 933086141.2,
+        "beforeAdjustments": 16950072.4,
+        "sub": 20022175.23
+      },
+      "rows": [
+        {
+          "id": "confina-cra-65-200",
+          "portfolio": 96477847.16,
+          "cash": 1726312.16,
+          "funding": 97299538.11,
+          "adjustment": 0,
+          "sub": 904621.21
+        },
+        {
+          "id": "confina-cra-65-80",
+          "portfolio": 78855870.7,
+          "cash": 0,
+          "funding": 79046579.84,
+          "adjustment": 0,
+          "sub": -190709.14
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "portfolio": 65844084.26,
+          "cash": 361330.83,
+          "funding": 66000832.71,
+          "adjustment": 0,
+          "sub": 204582.38
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "portfolio": 142146329.22,
+          "cash": 985672.64,
+          "funding": 142695973.64,
+          "adjustment": 0,
+          "sub": 436028.22
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "portfolio": 38154574.69,
+          "cash": 2917868.18,
+          "funding": 41170649.97,
+          "adjustment": 0,
+          "sub": -98207.1
+        },
+        {
+          "id": "confina-cra-42a-59a-65a-out-2026",
+          "portfolio": 72615207.82,
+          "cash": 0,
+          "funding": 73080048.63,
+          "adjustment": 0,
+          "sub": -464840.81
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "portfolio": 76681257.79,
+          "cash": 0,
+          "funding": 77210615.52,
+          "adjustment": 0,
+          "sub": -529357.73
+        },
+        {
+          "id": "confina-cra-42-50",
+          "portfolio": 25989399.35,
+          "cash": 12718714.66,
+          "funding": 33768275.36,
+          "adjustment": 0,
+          "sub": 4939838.65
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "portfolio": 0,
+          "cash": 0,
+          "funding": 0,
+          "adjustment": 0,
+          "sub": 0
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "portfolio": 0,
+          "cash": 10023147.19,
+          "funding": 10023147.19,
+          "adjustment": 0,
+          "sub": 0
+        },
+        {
+          "id": "confina-cprf-100",
+          "portfolio": 88452051.19,
+          "cash": 35880309.41,
+          "funding": 117137773.5,
+          "adjustment": 1108934.48,
+          "sub": 8303521.58
+        },
+        {
+          "id": "confina-cprf-50",
+          "portfolio": 33110112.41,
+          "cash": 26897298.88,
+          "funding": 56281232.36,
+          "adjustment": 1963168.35,
+          "sub": 5689347.28
+        },
+        {
+          "id": "confina-cra-42-novembro",
+          "portfolio": 131473781.44,
+          "cash": 0,
+          "funding": 132444549.16,
+          "adjustment": 0,
+          "sub": -970767.72
+        },
+        {
+          "id": "confina-caixa-operacao",
+          "portfolio": 0,
+          "cash": 1798118.41,
+          "funding": 0,
+          "adjustment": 0,
+          "sub": 1798118.41
+        }
+      ],
+      "quoteDate": "2026-11-11"
+    },
+    "2026-11-12": {
+      "composition": {
+        "portfolio": 844910926.43,
+        "cash": 89072350.42,
+        "liabilities": 916662027.69,
+        "adjustments": 3072102.83,
+        "assets": 933983276.85,
+        "beforeAdjustments": 17321249.16,
+        "sub": 20393351.99
+      },
+      "rows": [
+        {
+          "id": "confina-cra-65-200",
+          "portfolio": 96532215,
+          "cash": 1727118.78,
+          "funding": 97354226.47,
+          "adjustment": 0,
+          "sub": 905107.31
+        },
+        {
+          "id": "confina-cra-65-80",
+          "portfolio": 78909456.63,
+          "cash": 0,
+          "funding": 79091008.9,
+          "adjustment": 0,
+          "sub": -181552.27
+        },
+        {
+          "id": "confina-cra-65-setembro",
+          "portfolio": 65885623.52,
+          "cash": 361499.66,
+          "funding": 66037929.25,
+          "adjustment": 0,
+          "sub": 209193.93
+        },
+        {
+          "id": "confina-cra-65-outubro",
+          "portfolio": 142236991.29,
+          "cash": 986133.2,
+          "funding": 142776177.6,
+          "adjustment": 0,
+          "sub": 446946.89
+        },
+        {
+          "id": "confina-cra-42-65-setembro",
+          "portfolio": 32767499.92,
+          "cash": 8673518.99,
+          "funding": 41193790.42,
+          "adjustment": 0,
+          "sub": 247228.49
+        },
+        {
+          "id": "confina-cra-42a-59a-65a-out-2026",
+          "portfolio": 72660409.34,
+          "cash": 0,
+          "funding": 73121124.13,
+          "adjustment": 0,
+          "sub": -460714.79
+        },
+        {
+          "id": "confina-cras-carteira-10",
+          "portfolio": 76728079.31,
+          "cash": 0,
+          "funding": 77254012.66,
+          "adjustment": 0,
+          "sub": -525933.35
+        },
+        {
+          "id": "confina-cra-42-50",
+          "portfolio": 26004214.07,
+          "cash": 12724657.47,
+          "funding": 33792604.52,
+          "adjustment": 0,
+          "sub": 4936267.02
+        },
+        {
+          "id": "confina-cras-carteira-100",
+          "portfolio": 0,
+          "cash": 0,
+          "funding": 0,
+          "adjustment": 0,
+          "sub": 0
+        },
+        {
+          "id": "confina-cras-carteira-50",
+          "portfolio": 0,
+          "cash": 10029109.37,
+          "funding": 10029109.37,
+          "adjustment": 0,
+          "sub": 0
+        },
+        {
+          "id": "confina-cprf-100",
+          "portfolio": 88505363.38,
+          "cash": 35897074.47,
+          "funding": 117207451.83,
+          "adjustment": 1108934.48,
+          "sub": 8303920.5
+        },
+        {
+          "id": "confina-cprf-50",
+          "portfolio": 33130376.41,
+          "cash": 26909866.63,
+          "funding": 56314710.73,
+          "adjustment": 1963168.35,
+          "sub": 5688700.66
+        },
+        {
+          "id": "confina-cra-42-novembro",
+          "portfolio": 131550697.56,
+          "cash": 0,
+          "funding": 132518991.18,
+          "adjustment": 0,
+          "sub": -968293.62
+        },
+        {
+          "id": "confina-caixa-operacao",
+          "portfolio": 0,
+          "cash": 1792481.22,
+          "funding": 0,
+          "adjustment": 0,
+          "sub": 1792481.22
+        }
+      ],
+      "quoteDate": "2026-11-11"
+    }
+  },
+  "authorization": {
+    "tradeDate": "2026-11-11",
+    "buyer": "confina-cra-42-novembro",
+    "fundingAmount": 73153450.3,
+    "fundingMonthlyRate": 0.017,
+    "destinationText": "NOVEMBRO",
+    "expectedCountsBySeller": {
+      "ceres-confina-ltda": 2,
+      "confina-cprf-100": 28,
+      "confina-cprf-50": 21
+    },
+    "cashBySeller": {
+      "ceres-confina-ltda": 2340478.57,
+      "confina-cprf-100": 52108342.21,
+      "confina-cprf-50": 18704629.51
+    },
+    "preserveConfessions": [
+      "542982",
+      "542983",
+      "542984",
+      "542985",
+      "542986",
+      "542987"
+    ],
+    "excludePendingHistoricalTitle": "537494",
+    "preserveClosedThrough": "2026-11-10",
+    "source": "Confirmacao expressa do usuario em 13/11/2026",
+    "roundingDifference": 0.01
+  },
+  "transfer": {
+    "date": "2026-11-11",
+    "groups": {
+      "ceres-confina-ltda": {
+        "count": 2,
+        "cash": 2340478.57,
+        "economicVp": 2314379.74,
+        "gain": null
+      },
+      "confina-cprf-100": {
+        "count": 28,
+        "cash": 52108342.21,
+        "economicVp": 51694634.03,
+        "gain": 413708.18
+      },
+      "confina-cprf-50": {
+        "count": 21,
+        "cash": 18704629.51,
+        "economicVp": 18561706.68,
+        "gain": 142922.83
+      }
+    },
+    "acquisition": 72570720.45,
+    "funding": 73153450.3,
+    "roundingDifference": 0.01
+  },
+  "quoteDates": {
+    "2026-11-11": "2026-11-11",
+    "2026-11-12": "2026-11-11"
+  },
+  "note": "Tres recebimentos de ativos em12/11 nao foram tratados como pagamentos de funding sem comprovante.",
+  "sourceHashes": {
+    "ger004-titulos-ativos-13-11-2026_20-18-11.csv": "b3c35c98d01b256d20ea1615ee66ec29052a2b113dc94825a24acc090108c7f5",
+    "ger004-titulos-ativos-11-11-2026_21-02-33.csv": "9f958ce85ffbceeaa861faba8da63158fb9eed7f778f9c65422b507977d00ade",
+    "relatorio_GERANIMAL02.csv-11-11-2026_21-18-23.csv": "9accc7a11da52d2822fb40bfa3c19a1f1f47f9d54e5abdab9c78be6e362a49b3",
+    "relatorio_GERANIMAL02.csv-13-11-2026_20-18-18.csv": "6cb69745d915945909738d4843c7af955ce3d1c5bc9a56c9bce4ff008a57d7df",
+    "relatorio_GERGTA01 (3).csv": "5468331ca321dc92e67e65a7d2a01aa9a4829245c9429b02e77c7179674e2192"
+  }
+}

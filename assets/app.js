@@ -4050,19 +4050,12 @@ function managementResultComposition(scopeOperations = laminaOperationsForDate()
 function renderManagementResultComposition(scopeOperations) {
   if (!nodes.resultCompositionValues || !nodes.resultCompositionNote) return;
   const totals = managementResultComposition(scopeOperations);
-  const items = [
-    ["portfolio", "Carteira VP", totals.portfolio],
-    ["cash", "Caixa", totals.cash],
-    ["assets", "Total do ativo", totals.assets],
-    ["liabilities", "(-) Passivo / funding", totals.liabilities],
-    ["adjustments", "Ajustes gerenciais", totals.adjustments],
-    ["sub", "(=) Resultado da sub", totals.sub]
-  ];
-  nodes.resultCompositionValues.innerHTML = items.map(([key, label, value]) => `
-    <div class="result-composition-item result-composition-${key}" data-composition-key="${key}" data-value="${value.toFixed(2)}">
-      <dt>${label}</dt><dd class="${key === "sub" || key === "adjustments" ? signedClass(value) : ""}">${formatCurrency(value, 2)}</dd>
-    </div>
-  `).join("");
+  const fields = ["portfolio", "cash", "assets", "liabilities", "adjustments", "sub"];
+  const cells = (row, total = false) => fields.map(key => `<td class="num ${key === "sub" || key === "adjustments" ? signedClass(row[key]) : ""}"
+    ${total ? `data-composition-key="${key}"` : `data-field="${key}"`} data-value="${row[key].toFixed(2)}">${formatCurrency(row[key], 2)}</td>`).join("");
+  nodes.resultCompositionValues.innerHTML = scopeOperations.map(operation => `<tr data-paper-id="${escapeHtml(operation.id)}">
+    <td>${escapeHtml(operation.shortName || operation.name)}</td>${cells(managementResultComposition([operation]))}
+  </tr>`).join("") + `<tr class="total-row"><td>TOTAL DA LAMINA</td>${cells(totals, true)}</tr>`;
   const adjustmentSources = scopeOperations.filter(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005)
     .map(operation => `${operation.shortName}: ${formatCurrency(operation.syntheticAdjustment, 2)}`);
   nodes.resultCompositionNote.textContent = `Ativo - passivo: ${formatCurrency(totals.beforeAdjustments, 2)}.` +

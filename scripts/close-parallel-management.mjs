@@ -102,7 +102,7 @@ for (const [file, hash] of Object.entries(dataHashes)) {
   assert.equal(crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex"), hash);
 }
 console.log(JSON.stringify({ file: target, preserved: data.positions.length, added: additions.length,
-  positions: data.positions.map((row) => ({ date: row.dateKey,
+  positions: (process.argv.includes("--verbose") ? data.positions : additions).map((row) => ({ date: row.dateKey,
     operatingCashReleased: Math.round(row.accounts.reduce((sum, account) => sum + account.operatingCashReleased, 0) * 100) / 100,
     cash: Math.round(row.accounts.reduce((sum, account) => sum + account.cash, 0) * 100) / 100,
     debt: Math.round(row.accounts.reduce((sum, account) => sum + account.debt, 0) * 100) / 100,
