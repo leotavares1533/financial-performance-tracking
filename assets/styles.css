@@ -311,6 +311,16 @@ main {
   white-space: nowrap;
 }
 
+@media screen and (max-width: 600px) {
+  .result-composition-table th:first-child {
+    width: 150px;
+  }
+
+  .result-composition-table th:not(:first-child) {
+    width: auto;
+  }
+}
+
 @media print {
   .result-composition-scroll {
     max-height: none;
