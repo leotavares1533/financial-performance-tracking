@@ -3715,14 +3715,14 @@ function renderPartnerRiskChart() {
   `;
 }
 
-function buildHistoryRows() {
+function buildHistoryRows(scopeOperations = laminaOperationsForDate()) {
   return Array.from({ length: 30 }, (_, index) => {
     const dayIndex = 30 - index;
     const dateKey = addBusinessDaysBack(state.dateKey, index);
     return {
       day: dayIndex,
       dateKey,
-      values: laminaOperationsForDate().map((operation) => syntheticAtDate(operation, dateKey) ?? syntheticAtDay(operation, dayIndex))
+      values: scopeOperations.map((operation) => syntheticAtDate(operation, dateKey) ?? syntheticAtDay(operation, dayIndex))
     };
   });
 }
@@ -4081,7 +4081,7 @@ function renderManagementResultComposition(scopeOperations) {
     ${total ? `data-composition-key="${key}"` : `data-field="${key}"`} data-value="${row[key].toFixed(2)}">${formatCurrency(row[key], 2)}</td>`).join("");
   nodes.resultCompositionValues.innerHTML = scopeOperations.map(operation => `<tr data-paper-id="${escapeHtml(operation.id)}">
     <td>${escapeHtml(operation.shortName || operation.name)}</td>${cells(managementResultComposition([operation]))}
-  </tr>`).join("") + `<tr class="total-row"><td>TOTAL DA LAMINA</td>${cells(totals, true)}</tr>`;
+  </tr>`).join("") + `<tr class="total-row"><td>TOTAL DOS PAPEIS</td>${cells(totals, true)}</tr>`;
   const adjustmentSources = scopeOperations.filter(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005)
     .map(operation => `${operation.shortName}: ${formatCurrency(operation.syntheticAdjustment, 2)}`);
   nodes.resultCompositionNote.textContent = `Ativo - passivo: ${formatCurrency(totals.beforeAdjustments, 2)}.` +
@@ -4136,7 +4136,7 @@ function managementGuaranteeRow({ operation, guarantee }, { print = false, total
     <td class="num guarantee-cell-total" data-coverage-value="${guarantee.coverageValue.toFixed(2)}">${formatCurrency(guarantee.coverageValue)}</td>
     <td class="num ${guarantee.hasFunding && !outside ? guaranteeValueClass(tone) : "neutral"}">${guarantee.hasFunding && !outside ? formatPercent(guarantee.coverage * 100, 1) : "-"}</td>
     <td class="num ${guarantee.hasFunding && !outside ? signedClass(guarantee.surplus) : "neutral"}">${guarantee.hasFunding && !outside ? formatCurrency(guarantee.surplus) : "-"}</td>
-    ${print ? "" : `<td>${outside ? '<span class="pill pending">Fora da cobertura</span>' : `<span class="pill ${tone}">${guaranteeLabel(tone)}</span>`}</td>`}
+    ${print ? "" : `<td>${outside ? "" : `<span class="pill ${tone}">${guaranteeLabel(tone)}</span>`}</td>`}
   </tr>`;
 }
 
@@ -4153,7 +4153,8 @@ function renderManagementGuarantees() {
 
 function renderManagement() {
   const visibleOperations = laminaOperationsForDate();
-  renderManagementResultComposition(visibleOperations);
+  const paperOperations = visibleOperations.filter(operation => !operation.cashOnly);
+  renderManagementResultComposition(paperOperations);
   nodes.managementDate.textContent = formatDate(state.dateKey);
   if (nodes.guaranteeHistoryDate) {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
@@ -4201,7 +4202,7 @@ function renderManagement() {
   ` : "");
 
   const resultTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub, 0);
-  const dayTotal = visibleOperations.reduce((sum, item) => sum + syntheticResultBetween(item, previousKey, state.dateKey, item.syntheticSub, item.previousSyntheticSub), 0);
+  const dayTotal = paperOperations.reduce((sum, item) => sum + syntheticResultBetween(item, previousKey, state.dateKey, item.syntheticSub, item.previousSyntheticSub), 0);
   const monthTotal = visibleOperations.reduce((sum, item) => sum + syntheticResultBetween(item, monthStartKey, state.dateKey, item.syntheticSub, item.monthStartSyntheticSub), 0);
   const nonCashReconciliations = visibleOperations.map((operation) => ({
     operation,
@@ -4210,14 +4211,14 @@ function renderManagement() {
       .reduce((sum, event) => sum + cashEventAmount(event), 0)
   })).filter((item) => Math.abs(item.amount) >= 0.005);
   nodes.resultTable.innerHTML = visibleOperations.map((operation) => {
-    const day = syntheticResultBetween(operation, previousKey, state.dateKey, operation.syntheticSub, operation.previousSyntheticSub);
+    const day = operation.cashOnly ? 0 : syntheticResultBetween(operation, previousKey, state.dateKey, operation.syntheticSub, operation.previousSyntheticSub);
     const month = syntheticResultBetween(operation, monthStartKey, state.dateKey, operation.syntheticSub, operation.monthStartSyntheticSub);
     return `
-      <tr>
+      <tr data-result-operation="${escapeHtml(operation.id)}">
         <td>${operation.investor}</td>
         <td>${operation.shortName}</td>
         <td class="num ${signedClass(operation.syntheticSub)}">${formatCurrency(operation.syntheticSub)}</td>
-        <td class="num ${signedClass(day)}">${formatCurrency(day)}</td>
+        <td class="num ${signedClass(day)}" data-result-day="${day.toFixed(2)}">${formatCurrency(day)}</td>
         <td class="num ${signedClass(month)}">${formatCurrency(month)}</td>
       </tr>
     `;
@@ -4225,7 +4226,7 @@ function renderManagement() {
     <tr class="total-row">
       <td colspan="2">TOTAL</td>
       <td class="num ${signedClass(resultTotal)}">${formatCurrency(resultTotal)}</td>
-      <td class="num ${signedClass(dayTotal)}">${formatCurrency(dayTotal)}</td>
+      <td class="num ${signedClass(dayTotal)}" data-result-day="${dayTotal.toFixed(2)}">${formatCurrency(dayTotal)}</td>
       <td class="num ${signedClass(monthTotal)}">${formatCurrency(monthTotal)}</td>
     </tr>
   ` + (nonCashReconciliations.length ? `
@@ -4250,14 +4251,14 @@ function renderManagement() {
     <tr>
       <th rowspan="2">Dias</th>
       <th rowspan="2">Data</th>
-      ${visibleOperations.map((operation) => `<th>${operation.investor}</th>`).join("")}
+      ${paperOperations.map((operation) => `<th>${operation.investor}</th>`).join("")}
     </tr>
     <tr>
-      ${visibleOperations.map((operation) => `<th>${operation.shortName}</th>`).join("")}
+      ${paperOperations.map((operation) => `<th data-history-operation="${escapeHtml(operation.id)}">${operation.shortName}</th>`).join("")}
     </tr>
   `;
   nodes.historyHead.innerHTML = headTop;
-  nodes.historyBody.innerHTML = buildHistoryRows().map((row) => `
+  nodes.historyBody.innerHTML = buildHistoryRows(paperOperations).map((row) => `
     <tr>
       <td>${row.day}</td>
       <td>${formatDate(row.dateKey)}</td>
