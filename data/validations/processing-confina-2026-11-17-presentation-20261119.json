@@ -1,0 +1,51 @@
+{
+  "status": "VALIDATED_FOR_AUTHORIZED_PUBLICATION",
+  "through": "2026-11-17",
+  "revisionDate": "2026-11-19",
+  "revision": "Noncash adjustment retirement and controlled-paper guarantee segregation",
+  "effectiveDate": "2026-11-17",
+  "preservedFinancialHistoryThrough": "2026-11-16",
+  "financialHistoryDatesChecked": 319,
+  "adjustmentsRetired": [
+    {
+      "operationId": "confina-cprf-100",
+      "amount": 1108934.48
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "amount": 1963168.35
+    }
+  ],
+  "retirementTotal": 3072102.83,
+  "retirementCashTransfer": 0,
+  "retirementIsInvestmentLoss": false,
+  "actualCapitalDistributionPreserved": {
+    "date": "2026-11-10",
+    "amount": 3000000
+  },
+  "composition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "guarantee": {
+    "controlledBiologicalValue": 866477263.28,
+    "controlledCash": 89953148.25,
+    "controlledTotal": 956430411.53,
+    "controlledFunding": 968504533.8,
+    "controlledCoverage": 0.9875332310292588,
+    "controlledSurplus": -12074122.27,
+    "othersOutsideCoverage": 90882713.88,
+    "operatingCashOutsideCoverage": 1772468.19,
+    "originalAnimalQuantitiesAndValuationsUnchanged": true,
+    "biologicalSnapshotsAndQuotesUnchanged": true
+  },
+  "cashPortfolioAndFundingUnchanged": true,
+  "dailyAndRollingInvestmentReturnsUnchanged": true,
+  "desktopMobileAndPrintVerified": true,
+  "privateParallelControlUnchanged": true
+}

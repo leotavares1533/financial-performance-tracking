@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Controle Ceres Confinamento</title>
-  <link rel="stylesheet" href="./assets/styles.css?v=20261118-confina-1117-cartilha">
+  <link rel="stylesheet" href="./assets/styles.css?v=20261119-sem-ajustes">
 </head>
 <body>
   <div class="app-shell">
@@ -55,7 +55,7 @@
               <thead><tr>
                 <th>Papel / conta</th><th class="num">Carteira VP</th><th class="num">Caixa</th>
                 <th class="num">Total do ativo</th><th class="num">(-) Passivo</th>
-                <th class="num">Ajustes gerenciais</th><th class="num">(=) Sub</th>
+                <th class="num" id="result-composition-adjustment-head">Ajustes gerenciais</th><th class="num">(=) Sub</th>
               </tr></thead>
               <tbody id="result-composition-values"></tbody>
             </table>
@@ -889,6 +889,7 @@
   <script src="./data/management/position-reconciliation-confina.js?v=20261112-fechamento-conciliado-1011"></script>
   <script src="./data/cash/cdi-confirmed-2026-11-17.js?v=20261118-confina-1117-cartilha"></script>
   <script src="./data/management/regularizations-confina-2026-11-17.js?v=20261118-confina-1117-cartilha"></script>
-  <script src="./assets/app.js?v=20261118-confina-1117-cartilha"></script>
+  <script src="./data/management/adjustment-retirements-confina.js?v=20261119-sem-ajustes"></script>
+  <script src="./assets/app.js?v=20261119-sem-ajustes"></script>
 </body>
 </html>

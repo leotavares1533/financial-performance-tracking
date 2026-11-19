@@ -584,6 +584,8 @@ const reconciledClosings = new Map((positionReconciliation.operationClosings || 
 const reconciledSettlementDates = new Map((positionReconciliation.titleSettlements || []).map(row =>
   [`${row.operationId}|${row.titleId}`, row.effectiveDate]));
 const removedSyntheticAdjustmentIds = new Set(positionReconciliation.removedSyntheticAdjustmentIds || []);
+const syntheticAdjustmentRetirements = new Map((positionReconciliation.syntheticAdjustmentRetirements || [])
+  .map(event => [event.manualAdjustmentId, event]));
 const frozenPortfolioData = window.ceresFrozenPortfolioData || { operations: [] };
 const cashData = window.ceresCashData || {
   events: [],
@@ -1683,6 +1685,10 @@ function syntheticResultBetween(operation, startKey, endKey, current, previous) 
   result -= (positionReconciliation.equityRegularizations || [])
     .filter(event => event.operationId === operation.id && startKey && event.date > startKey && event.date <= endKey)
     .reduce((sum, event) => sum + event.amount, 0);
+  // Retiring a noncash balance changes equity, not the investment return of the period.
+  result += [...syntheticAdjustmentRetirements.values()]
+    .filter(event => event.operationId === operation.id && startKey && event.effectiveDate > startKey && event.effectiveDate <= endKey)
+    .reduce((sum, event) => sum + event.amount, 0);
   return roundMoney(result);
 }
 
@@ -2389,6 +2395,8 @@ function operationSyntheticAdjustmentBalanceAtDate(operation, dateKey) {
 }
 
 function syntheticAdjustmentIsEffective(event, dateKey) {
+  const retirement = syntheticAdjustmentRetirements.get(event.manualAdjustmentId);
+  if (retirement && dateKey >= retirement.effectiveDate) return false;
   return !(positionReconciliation.effectiveDate && dateKey >= positionReconciliation.effectiveDate &&
     removedSyntheticAdjustmentIds.has(event.manualAdjustmentId));
 }
@@ -4065,7 +4073,10 @@ function managementResultComposition(scopeOperations = laminaOperationsForDate()
 function renderManagementResultComposition(scopeOperations) {
   if (!nodes.resultCompositionValues || !nodes.resultCompositionNote) return;
   const totals = managementResultComposition(scopeOperations);
-  const fields = ["portfolio", "cash", "assets", "liabilities", "adjustments", "sub"];
+  const hasAdjustments = scopeOperations.some(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005);
+  const adjustmentHead = document.getElementById("result-composition-adjustment-head");
+  if (adjustmentHead) adjustmentHead.hidden = !hasAdjustments;
+  const fields = ["portfolio", "cash", "assets", "liabilities", ...(hasAdjustments ? ["adjustments"] : []), "sub"];
   const cells = (row, total = false) => fields.map(key => `<td class="num ${key === "sub" || key === "adjustments" ? signedClass(row[key]) : ""}"
     ${total ? `data-composition-key="${key}"` : `data-field="${key}"`} data-value="${row[key].toFixed(2)}">${formatCurrency(row[key], 2)}</td>`).join("");
   nodes.resultCompositionValues.innerHTML = scopeOperations.map(operation => `<tr data-paper-id="${escapeHtml(operation.id)}">
@@ -4082,6 +4093,62 @@ function renderManagementResultComposition(scopeOperations) {
     nodes.resultCompositionNote.textContent += ` Acertos patrimoniais fora dos rendimentos: ${recognitions
       .map(event => `${formatDate(event.date)}: ${formatCurrency(event.amount, 2)}`).join("; ")}.`;
   }
+}
+
+function aggregateManagementGuarantees(rows) {
+  const fields = ["totalHeads", "totalWeightKg", "value", "transitHeads", "transitWeightKg", "transitValue",
+    "purchasedTransitHeads", "purchasedTransitWeightKg", "purchasedTransitValue", "cashCoverage", "coverageValue", "fundingBalance"];
+  const total = Object.fromEntries(fields.map(key => [key, rows.reduce((sum, row) => sum + Number(row.guarantee[key] || 0), 0)]));
+  for (const key of ["value", "transitValue", "purchasedTransitValue", "cashCoverage", "coverageValue", "fundingBalance"]) {
+    total[key] = roundMoney(total[key]);
+  }
+  return { ...total, hasFunding: total.fundingBalance > 0,
+    coverage: total.fundingBalance > 0 ? total.coverageValue / total.fundingBalance : 0,
+    surplus: roundMoney(total.coverageValue - total.fundingBalance),
+    lots: rows.flatMap(row => row.guarantee.lots), transitLots: rows.flatMap(row => row.guarantee.transitLots),
+    purchasedTransitLots: rows.flatMap(row => row.guarantee.purchasedTransitLots) };
+}
+
+function managementGuaranteeScope(dateKey = state.dateKey) {
+  const rows = guaranteeOperations(dateKey).map(operation => ({ operation, guarantee: guaranteeSummary(operation, dateKey) }));
+  const controlled = rows.filter(row => !row.operation.biologicalOnly && !row.operation.cashOnly);
+  const others = rows.filter(row => row.operation.biologicalOnly);
+  return { controlled,
+    controlledTotal: { operation: { id: "controlled-total", shortName: "TOTAL dos veiculos controlados" }, guarantee: aggregateManagementGuarantees(controlled) },
+    others: { operation: { id: "other-fundings", shortName: "Outros fundings", biologicalOnly: true }, guarantee: aggregateManagementGuarantees(others) },
+    cash: rows.filter(row => row.operation.cashOnly), hasOthers: others.length > 0 };
+}
+
+function managementGuaranteeRow({ operation, guarantee }, { print = false, total = false, outside = false } = {}) {
+  const lotCount = guarantee.lots.length + guarantee.transitLots.length + guarantee.purchasedTransitLots.length + (guarantee.cashCoverage > 0 ? 1 : 0);
+  const tone = guarantee.hasFunding ? guaranteeTone(guarantee.coverage, lotCount) : "pending";
+  const scope = outside ? (operation.cashOnly ? "cash" : "others") : "controlled";
+  const cells = (type, heads, weight, value) => `<td class="num guarantee-cell-${type}">${formatNumber(heads)}</td>` +
+    (print ? "" : `<td class="num guarantee-cell-${type}">${formatNumber(weight / 1000, 1)} t</td>`) +
+    `<td class="num guarantee-cell-${type}">${formatCurrency(value)}</td>`;
+  return `<tr class="${total ? "total-row" : outside ? "guarantee-outside-row" : ""}" data-guarantee-scope="${scope}"
+      ${total ? 'data-total-scope="controlled"' : `data-guarantee-operation="${escapeHtml(operation.id)}"`}>
+    <td>${escapeHtml(operation.shortName)}</td>
+    ${cells("live", guarantee.totalHeads, guarantee.totalWeightKg, guarantee.value)}
+    ${cells("transit", guarantee.transitHeads, guarantee.transitWeightKg, guarantee.transitValue)}
+    ${cells("purchased", guarantee.purchasedTransitHeads, guarantee.purchasedTransitWeightKg, guarantee.purchasedTransitValue)}
+    <td class="num guarantee-cell-cash">${operation.biologicalOnly ? "-" : formatCurrency(guarantee.cashCoverage)}</td>
+    <td class="num guarantee-cell-total" data-coverage-value="${guarantee.coverageValue.toFixed(2)}">${formatCurrency(guarantee.coverageValue)}</td>
+    <td class="num ${guarantee.hasFunding && !outside ? guaranteeValueClass(tone) : "neutral"}">${guarantee.hasFunding && !outside ? formatPercent(guarantee.coverage * 100, 1) : "-"}</td>
+    <td class="num ${guarantee.hasFunding && !outside ? signedClass(guarantee.surplus) : "neutral"}">${guarantee.hasFunding && !outside ? formatCurrency(guarantee.surplus) : "-"}</td>
+    ${print ? "" : `<td>${outside ? '<span class="pill pending">Fora da cobertura</span>' : `<span class="pill ${tone}">${guaranteeLabel(tone)}</span>`}</td>`}
+  </tr>`;
+}
+
+function renderManagementGuarantees() {
+  const scope = managementGuaranteeScope();
+  const render = (print = false) => scope.controlled.map(row => managementGuaranteeRow(row, { print })).join("") +
+    managementGuaranteeRow(scope.controlledTotal, { print, total: true }) +
+    (scope.hasOthers || scope.cash.length ? `<tr class="guarantee-outside-heading"><td colspan="${print ? 11 : 15}">Fora da cobertura dos papeis</td></tr>` : "") +
+    (scope.hasOthers ? managementGuaranteeRow(scope.others, { print, outside: true }) : "") +
+    scope.cash.map(row => managementGuaranteeRow(row, { print, outside: true })).join("");
+  nodes.guaranteeManagementTable.innerHTML = render();
+  if (nodes.guaranteeManagementPrintTable) nodes.guaranteeManagementPrintTable.innerHTML = render(true);
 }
 
 function renderManagement() {
@@ -4177,104 +4244,7 @@ function renderManagement() {
   renderPartnerRiskChart();
   renderPartnershipInsights();
 
-  const guaranteeRows = guaranteeOperations(state.dateKey);
-  const guaranteeSummaries = guaranteeRows.map((operation) => ({
-    operation,
-    guarantee: guaranteeSummary(operation, state.dateKey)
-  }));
-  const guaranteeTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.coverageValue, 0);
-  const guaranteeLiveHeadsTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.totalHeads, 0);
-  const guaranteeLiveWeightTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.totalWeightKg, 0);
-  const guaranteeLiveValueTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.value, 0);
-  const guaranteeCashTotal = guaranteeSummaries.reduce((sum, item) => sum + (item.operation.biologicalOnly ? 0 : item.guarantee.cashCoverage), 0);
-  const guaranteeTransitHeadsTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.transitHeads, 0);
-  const guaranteeTransitWeightTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.transitWeightKg, 0);
-  const guaranteeTransitValueTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.transitValue, 0);
-  const guaranteePurchasedTransitHeadsTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.purchasedTransitHeads, 0);
-  const guaranteePurchasedTransitWeightTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.purchasedTransitWeightKg, 0);
-  const guaranteePurchasedTransitValueTotal = guaranteeSummaries.reduce((sum, item) => sum + item.guarantee.purchasedTransitValue, 0);
-  nodes.guaranteeManagementTable.innerHTML = guaranteeSummaries.map(({ operation, guarantee }) => {
-    const hasGuarantee = guarantee.coverageValue > 0;
-    const hasFunding = guarantee.hasFunding;
-    const lotCount = guarantee.lots.length + guarantee.transitLots.length + guarantee.purchasedTransitLots.length + (guarantee.cashCoverage > 0 ? 1 : 0);
-    const tone = hasFunding ? guaranteeTone(guarantee.coverage, lotCount) : hasGuarantee ? "pending" : guaranteeTone(guarantee.coverage, lotCount);
-    const statusLabel = (operation.biologicalOnly || operation.cashOnly) && hasGuarantee ? "Sem funding" : guaranteeLabel(tone);
-    return `
-      <tr>
-        <td>${operation.shortName}</td>
-        <td class="num guarantee-cell-live">${formatNumber(guarantee.totalHeads)}</td>
-        <td class="num guarantee-cell-live">${formatNumber(guarantee.totalWeightKg / 1000, 1)} t</td>
-        <td class="num guarantee-cell-live">${formatCurrency(guarantee.value)}</td>
-        <td class="num guarantee-cell-transit">${formatNumber(guarantee.transitHeads)}</td>
-        <td class="num guarantee-cell-transit">${formatNumber(guarantee.transitWeightKg / 1000, 1)} t</td>
-        <td class="num guarantee-cell-transit">${formatCurrency(guarantee.transitValue)}</td>
-        <td class="num guarantee-cell-purchased">${formatNumber(guarantee.purchasedTransitHeads)}</td>
-        <td class="num guarantee-cell-purchased">${formatNumber(guarantee.purchasedTransitWeightKg / 1000, 1)} t</td>
-        <td class="num guarantee-cell-purchased">${formatCurrency(guarantee.purchasedTransitValue)}</td>
-        <td class="num guarantee-cell-cash">${operation.biologicalOnly ? "-" : formatCurrency(guarantee.cashCoverage)}</td>
-        <td class="num guarantee-cell-total">${formatCurrency(guarantee.coverageValue)}</td>
-        <td class="num ${hasFunding ? guaranteeValueClass(tone) : "neutral"}">${hasGuarantee && hasFunding ? formatPercent(guarantee.coverage * 100, 1) : "-"}</td>
-        <td class="num ${hasGuarantee && hasFunding ? signedClass(guarantee.surplus) : "neutral"}">${hasGuarantee && hasFunding ? formatCurrency(guarantee.surplus) : "-"}</td>
-        <td><span class="pill ${tone}">${statusLabel}</span></td>
-      </tr>
-    `;
-  }).join("") + `
-    <tr class="total-row">
-      <td>TOTAL geral da garantia</td>
-      <td class="num guarantee-cell-live">${formatNumber(guaranteeLiveHeadsTotal)}</td>
-      <td class="num guarantee-cell-live">${formatNumber(guaranteeLiveWeightTotal / 1000, 1)} t</td>
-      <td class="num guarantee-cell-live">${formatCurrency(guaranteeLiveValueTotal)}</td>
-      <td class="num guarantee-cell-transit">${formatNumber(guaranteeTransitHeadsTotal)}</td>
-      <td class="num guarantee-cell-transit">${formatNumber(guaranteeTransitWeightTotal / 1000, 1)} t</td>
-      <td class="num guarantee-cell-transit">${formatCurrency(guaranteeTransitValueTotal)}</td>
-      <td class="num guarantee-cell-purchased">${formatNumber(guaranteePurchasedTransitHeadsTotal)}</td>
-      <td class="num guarantee-cell-purchased">${formatNumber(guaranteePurchasedTransitWeightTotal / 1000, 1)} t</td>
-      <td class="num guarantee-cell-purchased">${formatCurrency(guaranteePurchasedTransitValueTotal)}</td>
-      <td class="num guarantee-cell-cash">${formatCurrency(guaranteeCashTotal)}</td>
-      <td class="num guarantee-cell-total">${formatCurrency(guaranteeTotal)}</td>
-      <td class="num neutral">-</td>
-      <td class="num neutral">-</td>
-      <td></td>
-    </tr>
-  `;
-
-  if (nodes.guaranteeManagementPrintTable) {
-    nodes.guaranteeManagementPrintTable.innerHTML = guaranteeSummaries.map(({ operation, guarantee }) => {
-      const hasGuarantee = guarantee.coverageValue > 0;
-      const hasFunding = guarantee.hasFunding;
-      const lotCount = guarantee.lots.length + guarantee.transitLots.length + guarantee.purchasedTransitLots.length + (guarantee.cashCoverage > 0 ? 1 : 0);
-      const tone = hasFunding ? guaranteeTone(guarantee.coverage, lotCount) : hasGuarantee ? "pending" : guaranteeTone(guarantee.coverage, lotCount);
-      return `
-        <tr>
-          <td>${operation.shortName}</td>
-          <td class="num guarantee-cell-live">${formatNumber(guarantee.totalHeads)}</td>
-          <td class="num guarantee-cell-live">${formatCurrency(guarantee.value)}</td>
-          <td class="num guarantee-cell-transit">${formatNumber(guarantee.transitHeads)}</td>
-          <td class="num guarantee-cell-transit">${formatCurrency(guarantee.transitValue)}</td>
-          <td class="num guarantee-cell-purchased">${formatNumber(guarantee.purchasedTransitHeads)}</td>
-          <td class="num guarantee-cell-purchased">${formatCurrency(guarantee.purchasedTransitValue)}</td>
-          <td class="num guarantee-cell-cash">${operation.biologicalOnly ? "-" : formatCurrency(guarantee.cashCoverage)}</td>
-          <td class="num guarantee-cell-total">${formatCurrency(guarantee.coverageValue)}</td>
-          <td class="num ${hasFunding ? guaranteeValueClass(tone) : "neutral"}">${hasGuarantee && hasFunding ? formatPercent(guarantee.coverage * 100, 1) : "-"}</td>
-          <td class="num ${hasGuarantee && hasFunding ? signedClass(guarantee.surplus) : "neutral"}">${hasGuarantee && hasFunding ? formatCurrency(guarantee.surplus) : "-"}</td>
-        </tr>
-      `;
-    }).join("") + `
-      <tr class="total-row">
-        <td>TOTAL geral da garantia</td>
-        <td class="num guarantee-cell-live">${formatNumber(guaranteeLiveHeadsTotal)}</td>
-        <td class="num guarantee-cell-live">${formatCurrency(guaranteeLiveValueTotal)}</td>
-        <td class="num guarantee-cell-transit">${formatNumber(guaranteeTransitHeadsTotal)}</td>
-        <td class="num guarantee-cell-transit">${formatCurrency(guaranteeTransitValueTotal)}</td>
-        <td class="num guarantee-cell-purchased">${formatNumber(guaranteePurchasedTransitHeadsTotal)}</td>
-        <td class="num guarantee-cell-purchased">${formatCurrency(guaranteePurchasedTransitValueTotal)}</td>
-        <td class="num guarantee-cell-cash">${formatCurrency(guaranteeCashTotal)}</td>
-        <td class="num guarantee-cell-total">${formatCurrency(guaranteeTotal)}</td>
-        <td class="num neutral">-</td>
-        <td class="num neutral">-</td>
-      </tr>
-    `;
-  }
+  renderManagementGuarantees();
 
   const headTop = `
     <tr>
