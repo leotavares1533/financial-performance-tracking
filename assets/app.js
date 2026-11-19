@@ -942,6 +942,7 @@ const nodes = {
   partnerRiskChart: document.getElementById("partner-risk-chart"),
   partnershipInsights: document.getElementById("partnership-insights"),
   guaranteeHistoryDate: document.getElementById("guarantee-history-date"),
+  guaranteePendingNote: document.getElementById("guarantee-pending-note"),
   guaranteeManagementTable: document.getElementById("guarantee-management-table"),
   guaranteeManagementPrintTable: document.getElementById("guarantee-management-print-table"),
   historyHead: document.getElementById("history-head"),
@@ -1194,6 +1195,15 @@ function fallbackRegionalQuote(category, rows) {
 
 function guaranteeQuoteForLot(row, asset, dateKey = state.dateKey) {
   const meta = row[6] || {};
+  if (meta.cartilhaValuation) {
+    return {
+      quotePerArroba: Number(meta.quotePerKg || 0) * Number(meta.liveArrobaKg || 30),
+      quoteCategory: meta.currentCategory || row[1],
+      quoteRegion: meta.quoteRegion || row[4] || "",
+      quoteDate: meta.quoteDate || asset.quoteDate || "",
+      quoteSource: meta.quotePerKg ? `DATAGRO reposicao ${meta.quoteDate}` : "Padrao de compra por cabeca"
+    };
+  }
   const category = guaranteeQuoteCategory(row[1]);
   const region = String(meta.uf || row[4] || "").trim().toUpperCase();
   const rows = guaranteeRegionalQuoteRows(dateKey);
@@ -1223,11 +1233,11 @@ function guaranteeLots(operation, lotKey = "lots", bucketLabel = "Gado vivo", da
     const heads = Number(row[2] || 0);
     const averageWeightKg = Number(row[3] || 0);
     const totalWeightKg = heads * averageWeightKg;
-    const arrobas = totalWeightKg / ARROBA_KG;
+    const arrobas = totalWeightKg / Number(meta.liveArrobaKg || ARROBA_KG);
     const quote = guaranteeQuoteForLot(row, asset, dateKey);
     const quotePerArroba = quote.quotePerArroba;
     const valueOverride = Number(meta.valueOverride || 0);
-    const value = valueOverride > 0 ? valueOverride : arrobas * quotePerArroba;
+    const value = meta.cartilhaValuation ? valueOverride : valueOverride > 0 ? valueOverride : arrobas * quotePerArroba;
     const isPartnershipGuarantee = Boolean(meta.isPartnershipGuarantee) ||
       (Array.isArray(meta.lastros) ? meta.lastros : [])
         .some((lastro) => partnershipTitleByLastro.has(String(lastro || "").trim()));
@@ -1235,7 +1245,9 @@ function guaranteeLots(operation, lotKey = "lots", bucketLabel = "Gado vivo", da
     const guaranteeFactor = manualGuaranteeFactor > 0
       ? manualGuaranteeFactor
       : isPartnershipGuarantee ? PARTNERSHIP_GUARANTEE_FACTOR : BIOLOGICAL_GUARANTEE_FACTOR;
-    const guaranteeValue = value * guaranteeFactor;
+    const guaranteeValue = meta.cartilhaValuation
+      ? Number(meta.guaranteeValueOverride || 0)
+      : value * guaranteeFactor;
 
     return {
       location: row[0],
@@ -1666,6 +1678,9 @@ function syntheticResultBetween(operation, startKey, endKey, current, previous) 
     result -= Number(reconciledClosings.get(operation.id)?.equityReconciliation || 0);
   }
   result += (positionReconciliation.capitalDistributions || [])
+    .filter(event => event.operationId === operation.id && startKey && event.date > startKey && event.date <= endKey)
+    .reduce((sum, event) => sum + event.amount, 0);
+  result -= (positionReconciliation.equityRegularizations || [])
     .filter(event => event.operationId === operation.id && startKey && event.date > startKey && event.date <= endKey)
     .reduce((sum, event) => sum + event.amount, 0);
   return roundMoney(result);
@@ -4060,6 +4075,13 @@ function renderManagementResultComposition(scopeOperations) {
     .map(operation => `${operation.shortName}: ${formatCurrency(operation.syntheticAdjustment, 2)}`);
   nodes.resultCompositionNote.textContent = `Ativo - passivo: ${formatCurrency(totals.beforeAdjustments, 2)}.` +
     (adjustmentSources.length ? ` Ajustes gerenciais: ${adjustmentSources.join("; ")}. Nao representam caixa nem carteira.` : " Sem ajustes gerenciais.");
+  const scopeIds = new Set(scopeOperations.map(operation => operation.id));
+  const recognitions = (positionReconciliation.equityRegularizations || [])
+    .filter(event => scopeIds.has(event.operationId) && event.date <= state.dateKey);
+  if (recognitions.length) {
+    nodes.resultCompositionNote.textContent += ` Acertos patrimoniais fora dos rendimentos: ${recognitions
+      .map(event => `${formatDate(event.date)}: ${formatCurrency(event.amount, 2)}`).join("; ")}.`;
+  }
 }
 
 function renderManagement() {
@@ -4068,6 +4090,13 @@ function renderManagement() {
   nodes.managementDate.textContent = formatDate(state.dateKey);
   if (nodes.guaranteeHistoryDate) {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
+  }
+  if (nodes.guaranteePendingNote) {
+    const pendingHeads = Number(biologicalAssetDataForDate(state.dateKey)?.summary?.pendingHeads || 0);
+    nodes.guaranteePendingNote.hidden = !pendingHeads;
+    nodes.guaranteePendingNote.textContent = pendingHeads
+      ? `${new Intl.NumberFormat("pt-BR").format(pendingHeads)} cabecas pendentes de identificacao/documentacao, fora do valor da garantia.`
+      : "";
   }
   const previousKey = addBusinessDaysBack(state.dateKey, 1);
   const monthStartKey = rollingMonthReferenceKey(state.dateKey);

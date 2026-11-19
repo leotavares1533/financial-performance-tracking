@@ -1,0 +1,112 @@
+{
+  "status": "VALIDATED_FOR_AUTHORIZED_PUBLICATION",
+  "cutoff": "2026-11-12",
+  "through": "2026-11-17",
+  "dates": [
+    {
+      "date": "2026-11-13",
+      "composition": {
+        "portfolio": 850390210.74,
+        "cash": 76846933.02,
+        "liabilities": 907015170.85,
+        "adjustments": 3072102.83,
+        "assets": 927237143.76,
+        "beforeAdjustments": 20221972.91,
+        "sub": 23294075.74
+      },
+      "guarantee": 998061468.41,
+      "quoteDate": "2026-11-13",
+      "pendingHeads": 15919
+    },
+    {
+      "date": "2026-11-16",
+      "composition": {
+        "portfolio": 875612679.77,
+        "cash": 92413316.49,
+        "liabilities": 947904026.03,
+        "adjustments": 3072102.83,
+        "assets": 968025996.26,
+        "beforeAdjustments": 20121970.23,
+        "sub": 23194073.06
+      },
+      "guarantee": 923610694,
+      "quoteDate": "2026-11-13",
+      "pendingHeads": 12503
+    },
+    {
+      "date": "2026-11-17",
+      "composition": {
+        "portfolio": 896788675.56,
+        "cash": 91725616.44,
+        "liabilities": 968504533.8,
+        "adjustments": 3072102.83,
+        "assets": 988514292,
+        "beforeAdjustments": 20009758.2,
+        "sub": 23081861.03
+      },
+      "guarantee": 957359977.16,
+      "quoteDate": "2026-11-17",
+      "pendingHeads": 11107
+    }
+  ],
+  "financialHistoryDatesChecked": 316,
+  "oldBiologicalSnapshotsUnchanged": 27,
+  "authorizedHistoricalRevisionDates": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-11",
+    "2026-11-12"
+  ],
+  "historicalChangesOutsideAuthorizations": false,
+  "newFunding": 61455091.99,
+  "transferTitles": 15,
+  "heldTitles": [
+    {
+      "operationId": "confina-cra-65-200",
+      "id": "484985"
+    },
+    {
+      "operationId": "confina-cprf-50",
+      "id": "567113"
+    },
+    {
+      "operationId": "confina-cra-65-outubro",
+      "id": "555170"
+    },
+    {
+      "operationId": "confina-cra-65-outubro",
+      "id": "559270"
+    }
+  ],
+  "pendingBiologicalHeads": 11107,
+  "equityRegularizations": [
+    {
+      "operationId": "confina-cra-65-200",
+      "date": "2026-11-12",
+      "amount": 2866420.5,
+      "source": "user_approved_omitted_asset_recognition",
+      "titleIds": [
+        "484481",
+        "484483"
+      ],
+      "note": "GF109/GF110 omitted principal recognized and liquidated on12Nov. Not capital, not cash purchase, not daily investment income."
+    }
+  ],
+  "finalVerification": "PASS",
+  "browserVerification": "PASS",
+  "sourceHashes": {
+    "ger001-titulos-ativos-18-11-2026_20-31-41.csv": "59c0d176f61f1d7be1510f6edc7385ecc011b7e5b0c0f3538e874dfd9960417e",
+    "ger004-titulos-ativos-13-11-2026_20-18-11.csv": "b3c35c98d01b256d20ea1615ee66ec29052a2b113dc94825a24acc090108c7f5"
+  },
+  "parallelControl": {
+    "updatedLocally": true,
+    "includedInPublicTotals": false,
+    "privatePagePublished": false
+  },
+  "localDetailedEvidencePreserved": true,
+  "publicationAuthorizedOn": "2026-11-18"
+}

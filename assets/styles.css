@@ -245,6 +245,14 @@ main {
 }
 
 .section-head,
+.guarantee-pending-note {
+  margin: 0;
+  padding: 0 16px 10px;
+  color: #586a71;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
 .card-head {
   display: flex;
   align-items: start;

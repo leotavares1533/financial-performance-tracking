@@ -1,0 +1,1 @@
+window.ceresPositionReconciliation.equityRegularizations = [{"operationId": "confina-cra-65-200", "date": "2026-11-12", "amount": 2866420.5, "source": "user_approved_omitted_asset_recognition", "titleIds": ["484481", "484483"], "note": "GF109/GF110 omitted principal recognized and liquidated on12Nov. Not capital, not cash purchase, not daily investment income."}];
