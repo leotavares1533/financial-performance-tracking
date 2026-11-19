@@ -1,0 +1,57 @@
+{
+  "status": "VALIDATED_FOR_PUBLICATION",
+  "through": "2026-11-17",
+  "revisionDate": "2026-11-19",
+  "displayOnly": true,
+  "priorFinancialValidation": "processing-confina-2026-11-17-presentation-20261119.json",
+  "financialEngineUnchanged": true,
+  "financialDataAndHistoricalSnapshotsUnchanged": true,
+  "datesChecked": [
+    "2026-11-03",
+    "2026-11-10",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "displayPolicy": {
+    "compositionIncludesOperatingCash": true,
+    "compositionTotalsIncludeOperatingCash": true,
+    "historyExcludesOperatingCash": true,
+    "operatingCashRemainsInOverallBalances": true,
+    "dailyDisplayZeroOnlyForOperatingCash": true,
+    "realDailyAndRollingReturnsUnchanged": true,
+    "guaranteeOutsideCoverageStatusBadgesHidden": true
+  },
+  "composition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "displayedConsolidatedComposition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "guarantee": {
+    "controlledBiologicalValue": 866477263.28,
+    "controlledCash": 89953148.25,
+    "controlledTotal": 956430411.53,
+    "controlledFunding": 968504533.8,
+    "controlledCoverage": 0.9875332310292588,
+    "controlledSurplus": -12074122.27,
+    "othersOutsideCoverage": 90882713.88,
+    "operatingCashOutsideCoverage": 1772468.19,
+    "originalAnimalQuantitiesAndValuationsUnchanged": true,
+    "biologicalSnapshotsAndQuotesUnchanged": true
+  },
+  "desktopMobileAndPrintVerified": true
+}

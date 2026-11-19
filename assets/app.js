@@ -4081,7 +4081,7 @@ function renderManagementResultComposition(scopeOperations) {
     ${total ? `data-composition-key="${key}"` : `data-field="${key}"`} data-value="${row[key].toFixed(2)}">${formatCurrency(row[key], 2)}</td>`).join("");
   nodes.resultCompositionValues.innerHTML = scopeOperations.map(operation => `<tr data-paper-id="${escapeHtml(operation.id)}">
     <td>${escapeHtml(operation.shortName || operation.name)}</td>${cells(managementResultComposition([operation]))}
-  </tr>`).join("") + `<tr class="total-row"><td>TOTAL DOS PAPEIS</td>${cells(totals, true)}</tr>`;
+  </tr>`).join("") + `<tr class="total-row"><td>TOTAL DA LAMINA</td>${cells(totals, true)}</tr>`;
   const adjustmentSources = scopeOperations.filter(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005)
     .map(operation => `${operation.shortName}: ${formatCurrency(operation.syntheticAdjustment, 2)}`);
   nodes.resultCompositionNote.textContent = `Ativo - passivo: ${formatCurrency(totals.beforeAdjustments, 2)}.` +
@@ -4154,7 +4154,7 @@ function renderManagementGuarantees() {
 function renderManagement() {
   const visibleOperations = laminaOperationsForDate();
   const paperOperations = visibleOperations.filter(operation => !operation.cashOnly);
-  renderManagementResultComposition(paperOperations);
+  renderManagementResultComposition(visibleOperations);
   nodes.managementDate.textContent = formatDate(state.dateKey);
   if (nodes.guaranteeHistoryDate) {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
