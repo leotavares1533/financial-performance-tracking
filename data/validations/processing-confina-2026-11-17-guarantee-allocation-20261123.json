@@ -1,0 +1,58 @@
+{
+  "status": "VALIDATED_FOR_AUTHORIZED_PUBLICATION",
+  "through": "2026-11-17",
+  "revisionDate": "2026-11-23",
+  "effectiveDate": "2026-11-17",
+  "preserveThrough": "2026-11-16",
+  "composition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "guarantee": {
+    "controlledBiologicalValue": 866866692.79,
+    "controlledCash": 89953148.25,
+    "controlledTotal": 956819841.04,
+    "controlledFunding": 968504533.8,
+    "controlledCoverage": 0.9879353246657977,
+    "controlledSurplus": -11684692.76,
+    "othersOutsideCoverage": 90493284.37,
+    "operatingCashOutsideCoverage": 1772468.19,
+    "originalAnimalQuantitiesAndValuationsUnchanged": true,
+    "biologicalSnapshotsAndQuotesUnchanged": true
+  },
+  "transfers": [
+    {
+      "source": "biologico-42a-cra-ceres",
+      "target": "confina-cra-42-50",
+      "heads": 14,
+      "value": 119368.13
+    },
+    {
+      "source": "biologico-57a-cra-carteira",
+      "target": "confina-cras-carteira-10",
+      "heads": 14,
+      "value": 69191.75
+    },
+    {
+      "source": "biologico-59a-cra-carteira",
+      "target": "confina-cras-carteira-10",
+      "heads": 23,
+      "value": 200869.63
+    }
+  ],
+  "allocationType": "Managerial guarantee allocation, not a financial title transfer",
+  "financialHistoryDatesChecked": 319,
+  "biologicalSnapshotsChecked": 30,
+  "sourceSnapshotsQuantitiesWeightsPricesAndValuationsUnchanged": true,
+  "lotInventoryConservedWithoutDuplication": true,
+  "fidcNotReallocated": true,
+  "financialPositionsAndReturnsUnchanged": true,
+  "guaranteeAttentionLabel": "Coberto",
+  "coverageThresholdsUnchanged": true,
+  "desktopMobileAndPrintVerified": true
+}

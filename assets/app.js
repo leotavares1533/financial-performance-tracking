@@ -595,6 +595,8 @@ const cashData = window.ceresCashData || {
 };
 const biologicalAssetData = window.ceresBiologicalAssets || { assetsByOperationId: {}, vehicles: [] };
 const biologicalAssetHistoryData = window.ceresBiologicalAssetsHistory || { snapshots: [] };
+const biologicalAllocationPolicy = window.ceresBiologicalAllocationPolicy || {};
+const biologicalAllocationCache = new WeakMap();
 const CASH_APPLIED_SHARE = Number(cashData.appliedShare ?? 1);
 const CASH_APPLICATION_CDI_SHARE = Number(cashData.applicationCdiShare ?? cashData.applicationRate ?? 0.92);
 const importedPortfolioOperations = Array.isArray(portfolioData.operations) ? portfolioData.operations : [];
@@ -754,12 +756,44 @@ function biologicalAssetDataForDate(dateKey = "") {
   return selected;
 }
 
+function biologicalAllocationTargetId(asset, dateKey = "") {
+  const effectiveKey = dateKey || biologicalAssetSnapshotDate(biologicalAssetData);
+  if (!biologicalAllocationPolicy.effectiveDate || effectiveKey < biologicalAllocationPolicy.effectiveDate) return "";
+  if (!asset || isExcludedGuaranteeAsset(asset) || operations.some(operation => operation.id === asset.operationId)) return "";
+  if ((biologicalAllocationPolicy.excludedSourceIds || []).includes(asset.operationId)) return "";
+  const name = [asset.name, asset.shortName, asset.sourceVehicleName, asset.operationId].filter(Boolean).map(normalizePartnerKey).join(" ");
+  if (name.includes("FIDC") || name.includes("DIREITOS CREDITORIOS")) return "";
+  const rules = biologicalAllocationPolicy.rules || [];
+  const emissions = new Set([...name.matchAll(/(?:^|[^0-9])(42|57|59|65|68|69)\s*(?:A|O|\u00aa|\u00ba)?(?=[^0-9]|$)/g)].map(match => Number(match[1])));
+  if (emissions.size !== 1) return "";
+  const emission = [...emissions][0];
+  const targetId = rules.find(rule => rule.emissions.includes(emission))?.targetOperationId || "";
+  return operations.some(operation => operation.id === targetId) ? targetId : "";
+}
+
 function biologicalAssetsForDate(dateKey = "") {
   const snapshot = biologicalAssetDataForDate(dateKey);
-  return {
+  const assets = {
     ...fallbackBiologicalAssets,
     ...(snapshot.assetsByOperationId || {})
   };
+  const effectiveKey = dateKey || biologicalAssetSnapshotDate(snapshot);
+  if (!biologicalAllocationPolicy.effectiveDate || effectiveKey < biologicalAllocationPolicy.effectiveDate) return assets;
+  if (biologicalAllocationCache.has(snapshot)) return biologicalAllocationCache.get(snapshot);
+  // Move each source once in a dated view; archived snapshots and lot records stay untouched.
+  for (const source of snapshot.vehicles || []) {
+    const targetId = biologicalAllocationTargetId(source, effectiveKey);
+    if (!targetId) continue;
+    const sourceAsset = assets[source.operationId] || source;
+    const target = { ...(assets[targetId] || {}) };
+    for (const bucket of ["lots", "transitLots", "purchasedTransitLots"]) {
+      target[bucket] = [...(target[bucket] || []), ...(sourceAsset[bucket] || [])];
+    }
+    assets[targetId] = target;
+    delete assets[source.operationId];
+  }
+  biologicalAllocationCache.set(snapshot, assets);
+  return assets;
 }
 
 function biologicalAssetForOperation(operation, dateKey = "") {
@@ -823,6 +857,7 @@ function biologicalOnlyOperationsForDate(dateKey = "") {
   const snapshot = biologicalAssetDataForDate(dateKey);
   return (Array.isArray(snapshot.vehicles) ? snapshot.vehicles : [])
     .filter((asset) => asset && asset.operationId && !operationIds.has(asset.operationId) && !isExcludedGuaranteeAsset(asset))
+    .filter((asset) => !biologicalAllocationTargetId(asset, dateKey))
     .map((asset) => ({
       id: asset.operationId,
       investor: asset.investor || "Ativo biologico",
@@ -1363,7 +1398,7 @@ function guaranteeTone(coverage, lotCount = 1) {
 function guaranteeLabel(tone) {
   if (tone === "pending") return "Pendente";
   if (tone === "ok") return "OK";
-  if (tone === "warn") return "Atencao";
+  if (tone === "warn") return "Coberto";
   return "Critico";
 }
 
