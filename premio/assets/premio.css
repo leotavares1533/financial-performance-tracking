@@ -181,8 +181,37 @@ main {
 }
 
 .premium-controls {
-  grid-template-columns: minmax(260px, 1.35fr) minmax(160px, 0.65fr);
+  grid-template-columns: minmax(260px, 1.35fr) repeat(2, minmax(160px, 0.65fr));
 }
+
+#premium-fee-dialog {
+  width: min(840px, calc(100% - 32px));
+  max-height: calc(100dvh - 40px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fff;
+  padding: 20px;
+}
+
+#premium-fee-dialog::backdrop { background: rgba(16, 32, 48, 0.5); }
+.fee-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.fee-dialog-head h2 { font-size: 1.15rem; }
+.fee-dialog-head button { padding: 8px 16px; border: 1px solid var(--line); border-radius: 6px; cursor: pointer; }
+.fee-table-wrap { max-height: 65dvh; overflow: auto; }
+.fee-table-wrap table { width: 100%; }
+.fee-table-wrap th { position: sticky; top: 0; background: var(--navy); z-index: 1; }
+.fee-table-wrap td:first-child { overflow-wrap: anywhere; }
+.fee-table-wrap input { width: 90px; padding: 8px; border: 1px solid var(--line); border-radius: 4px; font: inherit; }
+.fee-toggle input { width: 18px; height: 18px; accent-color: var(--navy); vertical-align: middle; }
+.discount-note { align-items: flex-start; padding: 8px 0; flex-wrap: wrap; }
+.discount-note textarea { width: 100%; min-height: 52px; resize: vertical; border: 1px solid var(--line); border-radius: 4px; padding: 8px; font: inherit; }
+.discount-print-note { display: none; }
+@media print {
+  .discount-note textarea { display: none; }
+  .discount-print-note { display: block; width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; }
+}
+button:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .allocation-controls {
   grid-template-columns: repeat(2, minmax(180px, 1fr));

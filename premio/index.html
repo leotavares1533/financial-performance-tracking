@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculo do Premio - Controle Ceres Confinamento</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d3947'/%3E%3Cpath d='M17 40c7-15 23-15 30 0' fill='none' stroke='%23fffaf4' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='26' r='8' fill='%23c76f2d'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./assets/premio.css">
+  <link rel="stylesheet" href="./assets/premio.css?v=20261124-termos-fees">
 </head>
 <body>
   <div class="app-shell">
@@ -18,6 +18,8 @@
         </div>
       </div>
       <div class="controls">
+        <button id="premium-fee-button" type="button">Fees por parceiro</button>
+        <button id="premium-confirmation-button" type="button" disabled>Gerar confirma&ccedil;&atilde;o de abate</button>
         <button id="print-button" type="button">Gerar PDF</button>
       </div>
     </header>
@@ -41,8 +43,13 @@
             <span>Data de sa&iacute;da real</span>
             <select id="premium-date-filter"></select>
           </label>
+          <label>
+            <span>Data de pagamento geral</span>
+            <input id="premium-payment-date-input" type="date">
+          </label>
         </div>
         <p id="premium-date-warning" class="cell-note" role="status" hidden></p>
+        <p id="premium-confirmation-status" class="cell-note" role="status"></p>
       </section>
 
       <section class="premium-kpis" id="premium-kpis"></section>
@@ -84,7 +91,7 @@
         <div class="card-head">
           <div>
             <h3>Memoria de calculo</h3>
-            <span id="premium-memory-subtitle">Agrupado por fazenda e titulo</span>
+            <span id="premium-memory-subtitle">Agrupado por termo</span>
           </div>
         </div>
         <div class="premium-memory-stack" id="premium-memory-table"></div>
@@ -122,6 +129,16 @@
   </div>
 
   <script src="./assets/jszip.min.js"></script>
-  <script src="./assets/premio.js?v=20261124-data-saida-real"></script>
+  <dialog id="premium-fee-dialog" aria-labelledby="premium-fee-title">
+    <form method="dialog" class="fee-dialog-head">
+      <h2 id="premium-fee-title">Fees por parceiro</h2>
+      <button type="submit">Fechar</button>
+    </form>
+    <p id="premium-fee-status" class="cell-note" role="status">Cadastro deste navegador</p>
+    <div class="table-wrap fee-table-wrap">
+      <table><thead><tr><th>Parceiro</th><th>Fee (%)</th></tr></thead><tbody id="premium-fee-table"></tbody></table>
+    </div>
+  </dialog>
+  <script src="./assets/premio.js?v=20261124-termos-fees"></script>
 </body>
 </html>
