@@ -135,14 +135,13 @@ const PREMIUM_FIELD_ALIASES = {
   "Parceiro": ["PARCEIRO", "NOME PARCEIRO", "NOME DO PARCEIRO", "CEDENTE", "PRODUTOR", "FORNECEDOR"],
   "Número do título": ["NUMERO DO TITULO", "N MERO DO T TULO", "NÚMERO DO TÍTULO", "N�MERO DO T�TULO", "N TITULO", "NO TITULO", "N DO TITULO", "NUM TITULO", "NUM. TITULO", "TITULO", "TÍTULO"],
   "Termo / NF": ["TERMO", "TERMO NF", "TERMO NUMERO DA NF", "NUMERO DA NF", "N MERO DA NF", "NUMERO NF", "NF", "NOTA FISCAL", "NOTA", "NUMERO NOTA FISCAL", "NUMERO DA NOTA", "NUMERO DA NOTA FISCAL", "N NOTA", "N NOTA FISCAL"],
+  "Data de saída real": ["DATA DE SAIDA REAL", "DATA SAIDA REAL", "DT SAIDA REAL", "DATA DO ABATE", "DT ABATE"],
   "Data de confirmação de abate": [
     "DATA DE CONFIRMACAO DE ABATE",
     "DATA DE CONFIRMACAO DE ABATE MORTE",
     "DATA DE CONFIRMA O DE ABATE",
     "DATA DE CONFIRMAÇÃO DE ABATE",
-    "DATA DE CONFIRMA��O DE ABATE",
-    "DATA DO ABATE",
-    "DT ABATE"
+    "DATA DE CONFIRMA��O DE ABATE"
   ],
   "Data de pagamento": ["DATA DE PAGAMENTO", "DATA PAGAMENTO", "DT PAGAMENTO", "DT PGTO", "DATA PGT ABATE", "PAGAMENTO DATA"],
   "Data de entrada": ["DATA DE ENTRADA"],
@@ -326,7 +325,8 @@ function normalizePremiumCsvRecord(raw) {
     lastro: String(premiumRowValue(normalized, "Lastro") || "").trim(),
     status: String(premiumRowValue(normalized, "STATUS ATUAL") || "").trim(),
     statusKey: normalizePremiumStatus(premiumRowValue(normalized, "STATUS ATUAL")),
-    abateDate: parseBrazilianDateKey(premiumRowValue(normalized, "Data de confirmação de abate")),
+    abateDate: parseBrazilianDateKey(premiumRowValue(normalized, "Data de saída real")),
+    abateConfirmationDate: parseBrazilianDateKey(premiumRowValue(normalized, "Data de confirmação de abate")),
     paymentDate: parseBrazilianDateKey(premiumRowValue(normalized, "Data de pagamento")),
     entryDate: parseBrazilianDateKey(premiumRowValue(normalized, "Data de entrada")),
     lotDate: parseBrazilianDateKey(premiumRowValue(normalized, "Dia do lote")),
@@ -1179,6 +1179,18 @@ function renderPremium() {
     : premiumState.fileName
       ? `Arquivo lido - nao encontrei a tabela de animais em ${sourceLabel}`
       : "Aguardando arquivo";
+
+  const dateWarning = document.getElementById("premium-date-warning");
+  if (dateWarning) {
+    const invalidDates = premiumState.rows.filter((row) =>
+      premiumRowIsAbated(row) && row.entryDate && premiumRowReferenceDate(row) < row.entryDate
+    );
+    const selectedInvalidDates = invalidDates.filter((row) => premiumRowReferenceDate(row) === premiumState.selectedDate);
+    dateWarning.hidden = !invalidDates.length;
+    dateWarning.textContent = invalidDates.length
+      ? `${formatNumber(invalidDates.length)} animais com saida real anterior a entrada; ${formatNumber(selectedInvalidDates.length)} na data selecionada. Datas do arquivo preservadas. Calculo sujeito a conferencia.`
+      : "";
+  }
 
   nodes.memorySubtitle.textContent = rows.length
     ? `Abate ${dateLabel} - ${formatNumber(farmCount)} fazenda${farmCount === 1 ? "" : "s"}`
