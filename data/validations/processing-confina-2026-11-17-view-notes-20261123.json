@@ -1,0 +1,71 @@
+{
+  "status": "VALIDATED_FOR_PUBLICATION",
+  "through": "2026-11-17",
+  "revisionDate": "2026-11-23",
+  "displayOnly": true,
+  "priorFinancialValidation": "processing-confina-2026-11-17-pending-exception-20261123.json",
+  "financialEngineUnchanged": true,
+  "financialDataAndHistoricalSnapshotsUnchanged": true,
+  "datesChecked": [
+    "2026-11-03",
+    "2026-11-10",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "displayPolicy": {
+    "requestedObservationsRemovedFromScreenAndPrint": true,
+    "auditMetadataPreserved": true,
+    "compositionIncludesOperatingCash": true,
+    "compositionTotalsIncludeOperatingCash": true,
+    "historyExcludesOperatingCash": true,
+    "operatingCashRemainsInOverallBalances": true,
+    "dailyDisplayZeroOnlyForOperatingCash": true,
+    "realDailyAndRollingReturnsUnchanged": true,
+    "guaranteeOutsideCoverageStatusBadgesHidden": true
+  },
+  "composition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "displayedConsolidatedComposition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "guarantee": {
+    "controlledBiologicalValue": 909732471.03,
+    "controlledCash": 89953148.25,
+    "controlledTotal": 999685619.28,
+    "controlledFunding": 968504533.8,
+    "controlledCoverage": 1.0321950846813888,
+    "controlledSurplus": 31181085.48,
+    "othersOutsideCoverage": 126505330.3,
+    "operatingCashOutsideCoverage": 1772468.19
+  },
+  "desktopMobileAndPrintVerified": true,
+  "managerialPricingException": {
+    "heads": 11107,
+    "weightedHeads": 10963,
+    "purchaseStandardHeads": 144,
+    "biologicalGuaranteeIncrease": 78877824.17,
+    "documentationValidated": false,
+    "documentaryDeficienciesRemainDisclosed": true,
+    "duplicateIdentitiesCountedOnce": 2,
+    "sourceRowsAndKnownIdentifiersNotDoubleCounted": true,
+    "physicalIdentityUniquenessVerified": false,
+    "unverifiedIndividualIdentityHeads": 10961,
+    "unchangedPreviouslyPricedLots": true,
+    "quoteDatesAndPartnershipFactorsUnchanged": true
+  }
+}

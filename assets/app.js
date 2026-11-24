@@ -4106,7 +4106,7 @@ function managementResultComposition(scopeOperations = laminaOperationsForDate()
 }
 
 function renderManagementResultComposition(scopeOperations) {
-  if (!nodes.resultCompositionValues || !nodes.resultCompositionNote) return;
+  if (!nodes.resultCompositionValues) return;
   const totals = managementResultComposition(scopeOperations);
   const hasAdjustments = scopeOperations.some(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005);
   const adjustmentHead = document.getElementById("result-composition-adjustment-head");
@@ -4117,17 +4117,6 @@ function renderManagementResultComposition(scopeOperations) {
   nodes.resultCompositionValues.innerHTML = scopeOperations.map(operation => `<tr data-paper-id="${escapeHtml(operation.id)}">
     <td>${escapeHtml(operation.shortName || operation.name)}</td>${cells(managementResultComposition([operation]))}
   </tr>`).join("") + `<tr class="total-row"><td>TOTAL DA LAMINA</td>${cells(totals, true)}</tr>`;
-  const adjustmentSources = scopeOperations.filter(operation => Math.abs(Number(operation.syntheticAdjustment || 0)) >= 0.005)
-    .map(operation => `${operation.shortName}: ${formatCurrency(operation.syntheticAdjustment, 2)}`);
-  nodes.resultCompositionNote.textContent = `Ativo - passivo: ${formatCurrency(totals.beforeAdjustments, 2)}.` +
-    (adjustmentSources.length ? ` Ajustes gerenciais: ${adjustmentSources.join("; ")}. Nao representam caixa nem carteira.` : " Sem ajustes gerenciais.");
-  const scopeIds = new Set(scopeOperations.map(operation => operation.id));
-  const recognitions = (positionReconciliation.equityRegularizations || [])
-    .filter(event => scopeIds.has(event.operationId) && event.date <= state.dateKey);
-  if (recognitions.length) {
-    nodes.resultCompositionNote.textContent += ` Acertos patrimoniais fora dos rendimentos: ${recognitions
-      .map(event => `${formatDate(event.date)}: ${formatCurrency(event.amount, 2)}`).join("; ")}.`;
-  }
 }
 
 function aggregateManagementGuarantees(rows) {
@@ -4194,16 +4183,6 @@ function renderManagement() {
   if (nodes.guaranteeHistoryDate) {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
   }
-  if (nodes.guaranteePendingNote) {
-    const summary = biologicalAssetDataForDate(state.dateKey)?.summary || {};
-    const pendingHeads = Number(summary.pendingHeads || 0);
-    const exceptionHeads = Number(summary.manageriallyPricedHeads || 0);
-    nodes.guaranteePendingNote.hidden = !pendingHeads && !exceptionHeads;
-    nodes.guaranteePendingNote.textContent = [
-      pendingHeads ? `${new Intl.NumberFormat("pt-BR").format(pendingHeads)} cabecas pendentes de identificacao/documentacao, fora do valor da garantia.` : "",
-      exceptionHeads ? `${new Intl.NumberFormat("pt-BR").format(exceptionHeads)} cabecas precificadas por excecao gerencial, com identificacao/documentacao pendente. SISBOV repetido contado uma unica vez.` : ""
-    ].filter(Boolean).join(" ");
-  }
   const previousKey = addBusinessDaysBack(state.dateKey, 1);
   const monthStartKey = rollingMonthReferenceKey(state.dateKey);
   if (nodes.resultCurrentHead) nodes.resultCurrentHead.textContent = `Resultado acumulado sub em ${formatDate(state.dateKey)}`;
@@ -4234,9 +4213,6 @@ function renderManagement() {
         ${cashRegularizations.map(({ operation, amount }) => `${escapeHtml(operation.shortName)} ${formatCurrency(amount, 2)}`).join("; ")}.
         Sem fluxo banc&aacute;rio novo no dia.</small></td>
     </tr>
-  ` : "") + (positionReconciliation.effectiveDate && state.dateKey >= positionReconciliation.effectiveDate ? `
-    <tr class="cash-reconciliation-note"><td colspan="2"><small>Saldo conciliado em ${formatDate(positionReconciliation.effectiveDate)}.
-      Distribui&ccedil;&atilde;o de sub de R$ 3.000.000 nessa data. Caixa da opera&ccedil;&atilde;o inclui apenas a sobra l&iacute;quida da Carteira 50MM, ap&oacute;s reserva do funding.</small></td></tr>
   ` : "");
 
   const resultTotal = visibleOperations.reduce((sum, item) => sum + item.syntheticSub, 0);
@@ -4275,10 +4251,6 @@ function renderManagement() {
     </tr>
   ` : "");
 
-  if (positionReconciliation.effectiveDate && state.dateKey >= positionReconciliation.effectiveDate) {
-    nodes.resultTable.innerHTML += `<tr class="reconciliation-note"><td colspan="5"><small>Resultado acumulado ap&oacute;s concilia&ccedil;&atilde;o de ${formatDate(positionReconciliation.effectiveDate)} e distribui&ccedil;&atilde;o de sub.
-      Resultado no dia e em 21 d.u. exclui ajustes de saldo e retirada de capital.</small></td></tr>`;
-  }
   renderSeniorSubordinadaCharts();
   renderPartnerRiskChart();
   renderPartnershipInsights();
