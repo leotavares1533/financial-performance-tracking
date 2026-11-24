@@ -848,7 +848,7 @@ function premiumCalculatedRows() {
     const days = Math.max(0, dateDiffDays(issueDate, periodEndDate));
     const periodRate = Math.pow(1 + dailyRate, days) - 1;
     const costPerHead = premiumNumberOverride(overrideKey, "costPerHead", group.acquisitionCostWeight ? reportCostPerHead : defaults?.costPerHead || 0);
-    const deaths = premiumHasOverride(overrideKey, "deaths") ? premiumNumberOverride(overrideKey, "deaths", 0) : null;
+    const deaths = premiumNumberOverride(overrideKey, "deaths", 0);
     const hasManualGta = premiumHasOverride(overrideKey, "gtaCost");
     const hasManualPayment = premiumHasOverride(overrideKey, "paymentAmount");
     const allocatedPaymentAmount = Number(allocation?.paymentAmount || 0);
