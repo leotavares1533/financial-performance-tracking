@@ -4195,11 +4195,14 @@ function renderManagement() {
     nodes.guaranteeHistoryDate.textContent = guaranteeSnapshotLabel(state.dateKey);
   }
   if (nodes.guaranteePendingNote) {
-    const pendingHeads = Number(biologicalAssetDataForDate(state.dateKey)?.summary?.pendingHeads || 0);
-    nodes.guaranteePendingNote.hidden = !pendingHeads;
-    nodes.guaranteePendingNote.textContent = pendingHeads
-      ? `${new Intl.NumberFormat("pt-BR").format(pendingHeads)} cabecas pendentes de identificacao/documentacao, fora do valor da garantia.`
-      : "";
+    const summary = biologicalAssetDataForDate(state.dateKey)?.summary || {};
+    const pendingHeads = Number(summary.pendingHeads || 0);
+    const exceptionHeads = Number(summary.manageriallyPricedHeads || 0);
+    nodes.guaranteePendingNote.hidden = !pendingHeads && !exceptionHeads;
+    nodes.guaranteePendingNote.textContent = [
+      pendingHeads ? `${new Intl.NumberFormat("pt-BR").format(pendingHeads)} cabecas pendentes de identificacao/documentacao, fora do valor da garantia.` : "",
+      exceptionHeads ? `${new Intl.NumberFormat("pt-BR").format(exceptionHeads)} cabecas precificadas por excecao gerencial, com identificacao/documentacao pendente. SISBOV repetido contado uma unica vez.` : ""
+    ].filter(Boolean).join(" ");
   }
   const previousKey = addBusinessDaysBack(state.dateKey, 1);
   const monthStartKey = rollingMonthReferenceKey(state.dateKey);

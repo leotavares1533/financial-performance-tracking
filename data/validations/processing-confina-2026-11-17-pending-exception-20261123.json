@@ -1,0 +1,51 @@
+{
+  "status": "VALIDATED_FOR_AUTHORIZED_PUBLICATION",
+  "through": "2026-11-17",
+  "revisionDate": "2026-11-23",
+  "effectiveDate": "2026-11-17",
+  "preserveThrough": "2026-11-16",
+  "composition": {
+    "portfolio": 896788675.56,
+    "cash": 91725616.44,
+    "liabilities": 968504533.8,
+    "adjustments": 0,
+    "assets": 988514292,
+    "beforeAdjustments": 20009758.2,
+    "sub": 20009758.2
+  },
+  "guarantee": {
+    "controlledBiologicalValue": 909732471.03,
+    "controlledCash": 89953148.25,
+    "controlledTotal": 999685619.28,
+    "controlledFunding": 968504533.8,
+    "controlledCoverage": 1.0321950846813888,
+    "controlledSurplus": 31181085.48,
+    "othersOutsideCoverage": 126505330.3,
+    "operatingCashOutsideCoverage": 1772468.19
+  },
+  "transfers": [],
+  "allocationType": "Managerial guarantee allocation, not a financial title transfer",
+  "financialHistoryDatesChecked": 319,
+  "biologicalSnapshotsChecked": 30,
+  "sourceSnapshotsQuantitiesWeightsPricesAndValuationsUnchanged": false,
+  "fidcNotReallocated": true,
+  "financialPositionsAndReturnsUnchanged": true,
+  "guaranteeAttentionLabel": "Coberto",
+  "coverageThresholdsUnchanged": true,
+  "desktopMobileAndPrintVerified": true,
+  "managerialPricingException": {
+    "heads": 11107,
+    "weightedHeads": 10963,
+    "purchaseStandardHeads": 144,
+    "biologicalGuaranteeIncrease": 78877824.17,
+    "documentationValidated": false,
+    "documentaryDeficienciesRemainDisclosed": true,
+    "duplicateIdentitiesCountedOnce": 2,
+    "sourceRowsAndKnownIdentifiersNotDoubleCounted": true,
+    "physicalIdentityUniquenessVerified": false,
+    "unverifiedIndividualIdentityHeads": 10961,
+    "unchangedPreviouslyPricedLots": true,
+    "quoteDatesAndPartnershipFactorsUnchanged": true
+  },
+  "totalBiologicalGuarantee": 1036237801.33
+}
