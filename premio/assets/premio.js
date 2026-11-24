@@ -147,6 +147,8 @@ const PREMIUM_FIELD_ALIASES = {
   "Valor Pago": ["VALOR PAGO", "PGT ABATE", "PGT DE ABATE", "PAGAMENTO ABATE", "ABATE"],
   "Preço/cabeça": ["PRECO CABECA", "PRECO CB", "CB R", "CB R$", "PREÇO CABEÇA", "PREÇO/CABEÇA"],
   "Valor de aquisição por cabeça": ["VALOR DE AQUISICAO POR CABECA", "VALOR AQUISICAO POR CABECA", "VALOR AQUISICAO CABECA", "VALOR DE AQUISIÇÃO POR CABEÇA", "VA CABECA", "CUSTO CABECA", "CUSTO/CABECA", "PRECO AQUISICAO CABECA", "PRECO DE AQUISICAO POR CABECA"],
+  "Aquisição total do termo": ["VALOR DE AQUISICAO", "VALOR AQUISICAO", "VALOR TOTAL DE AQUISICAO", "VALOR DE AQUISICAO DO TERMO"],
+  "Quantidade original do termo": ["QUANTIDADE ORIGINAL DO TERMO", "QUANTIDADE ORIGINAL DE CABECAS DO TERMO", "QUANTIDADE ORIGINAL DE ANIMAIS DO TERMO", "QUANTIDADE DE CABECAS DO TERMO", "QUANTIDADE DE ANIMAIS DO TERMO", "QTD CABECAS DO TERMO", "QUANTIDADE ORIGINAL DE CABECAS", "QUANTIDADE ORIGINAL DE ANIMAIS", "QUANTIDADE DE ANIMAIS DO LOTE"],
   "Taxa de cessão": ["TAXA DE CESSAO", "TAXA DO TERMO DE CESSAO", "TX CESSAO", "TAXA CESSAO", "TAXA DE CESSÃO", "TAXA MES", "TAXA A M", "TAXA AM", "TAXA"],
   "VP na data do abate": ["VP NA DATA DO ABATE", "VP DATA ABATE", "VP ABATE", "VALOR PRESENTE NA DATA DO ABATE", "VALOR PRESENTE ABATE", "VP SISTEMA", "VP CALCULADO SISTEMA"],
   "Fee monitoramento": ["FEE MONITORAMENTO", "FEE DE MONITORAMENTO", "TAXA MONITORAMENTO", "FEE"]
@@ -224,6 +226,20 @@ function parsePercentRate(value) {
   if (!Number.isFinite(number)) return 0;
   if (text.includes("%") || number > 1) return number / 100;
   return number;
+}
+
+function premiumAssignmentRate(value) {
+  const text = String(value ?? "").trim();
+  const annual = /(?:a\.?\s*a\.?|anual|ao ano)\s*$/i.test(text);
+  const monthly = /(?:a\.?\s*m\.?|mensal|ao mes)\s*$/i.test(text);
+  const numberText = text.replace(/(?:a\.?\s*a\.?|a\.?\s*m\.?|anual|mensal|ao ano|ao mes)\s*$/i, "").trim();
+  const validText = /^\+?\d+(?:[.,]\d+)?\s*%?$/.test(numberText);
+  const number = Number(numberText.replace(/[%\s]/g, "").replace(",", "."));
+  const rate = numberText.includes("%") || number > 1 ? number / 100 : number;
+  if (!text || !validText || !Number.isFinite(rate) || rate < 0) return { original: null, monthly: null, basis: "invalid" };
+  const inferredAnnual = !annual && !monthly && rate > 0.025;
+  return { original: rate, monthly: annual || inferredAnnual ? Math.pow(1 + rate, 1 / 12) - 1 : rate,
+    basis: annual ? "annual-reported" : inferredAnnual ? "annual-inferred" : "monthly" };
 }
 
 function premiumPartnerFeeRate(partner) {
@@ -318,7 +334,10 @@ function normalizePremiumCsvRecord(raw) {
   const paymentAmount = parsePtNumber(premiumRowValue(normalized, "Valor Pago"));
   const pricePerHeadRaw = premiumRowValue(normalized, "Preço/cabeça");
   const acquisitionValuePerHeadRaw = premiumRowValue(normalized, "Valor de aquisição por cabeça");
+  const acquisitionTotalRaw = premiumRowValue(normalized, "Aquisição total do termo");
+  const originalHeadCountRaw = premiumRowValue(normalized, "Quantidade original do termo");
   const assignmentRateRaw = premiumRowValue(normalized, "Taxa de cessão");
+  const assignmentRate = premiumAssignmentRate(assignmentRateRaw);
   const pricePerHead = parsePtNumber(pricePerHeadRaw);
   const partner = String(premiumRowValue(normalized, "Parceiro") || "").trim();
   const feeRaw = premiumRowValue(normalized, "Fee monitoramento");
@@ -349,7 +368,13 @@ function normalizePremiumCsvRecord(raw) {
     hasPricePerHead: pricePerHeadRaw !== "",
     acquisitionValuePerHead: parsePtNumber(acquisitionValuePerHeadRaw),
     hasAcquisitionValuePerHead: acquisitionValuePerHeadRaw !== "",
-    assignmentRate: parsePercentRate(assignmentRateRaw),
+    acquisitionTotal: parsePtNumber(acquisitionTotalRaw),
+    hasAcquisitionTotal: acquisitionTotalRaw !== "",
+    originalHeadCount: parsePtNumber(originalHeadCountRaw),
+    hasOriginalHeadCount: originalHeadCountRaw !== "",
+    assignmentRate: assignmentRate.monthly,
+    originalAssignmentRate: assignmentRate.original,
+    assignmentRateBasis: assignmentRate.basis,
     hasAssignmentRate: assignmentRateRaw !== "",
     systemVpAtAbate: parsePtNumber(premiumRowValue(normalized, "VP na data do abate")),
     reportFeeRate,
@@ -709,7 +734,7 @@ function premiumGroupRows() {
       current.weightedAcquisitionCost += Number(row.acquisitionValuePerHead || 0) * heads;
       current.acquisitionCostWeight += heads;
     }
-    if (row.hasAssignmentRate) {
+    if (row.hasAssignmentRate && row.assignmentRate !== null) {
       current.weightedAssignmentRate += Number(row.assignmentRate || 0) * heads;
       current.assignmentRateWeight += heads;
     }
@@ -829,25 +854,33 @@ function premiumCalculatedRows() {
   const allocationByKey = new Map(allocationRows.map((row) => [row.key, row]));
 
   return groups.map((group) => {
-    const defaults = premiumTermDefault(group.title || group.term);
     const overrideKey = `${premiumState.selectedDate}__${group.key}`;
     const allocation = allocationByKey.get(group.key);
     const termSettings = premiumState.termSettings[group.key] || {};
     const termDates = Array.from(new Set(group.rows.map((row) => row.termDate).filter(Boolean)));
-    const issueDate = termSettings.issueDate || (termDates.length === 1 ? termDates[0] : "");
+    const issueDate = termDates.length === 1 ? termDates[0] : "";
     const reportCostPerHead = premiumWeightedAverage(group.weightedAcquisitionCost, group.acquisitionCostWeight);
     const reportAssignmentRate = premiumWeightedAverage(group.weightedAssignmentRate, group.assignmentRateWeight);
-    const termRates = new Set(group.rows.filter((row) => row.hasAssignmentRate).map((row) => row.assignmentRate));
-    const monthlyRate = premiumNumberOverride(overrideKey, "monthlyRate", group.assignmentRateWeight ? reportAssignmentRate : defaults?.monthlyRate || premiumState.monthlyRate || PREMIUM_DEFAULT_MONTHLY_RATE);
-    const dailyRate = Math.pow(1 + monthlyRate, 1 / 30) - 1;
+    const termRates = new Set(group.rows.filter((row) => row.hasAssignmentRate && row.assignmentRate !== null).map((row) => row.assignmentRate.toPrecision(12)));
+    const monthlyRate = group.assignmentRateWeight ? reportAssignmentRate : null;
+    const dailyRate = Math.pow(1 + (monthlyRate || 0), 1 / 30) - 1;
     const reportPaymentDatesLabel = Array.from(group.paymentDates).filter(Boolean).sort().map(formatDate).join(", ");
-    const paymentDate = premiumState.paymentDate || premiumTextOverride(overrideKey, "paymentDate", Array.from(group.paymentDates).filter(Boolean).sort()[0] || "");
+    const reportPaymentDates = Array.from(group.paymentDates).filter(Boolean).sort();
+    const paymentDate = premiumState.paymentDate || (reportPaymentDates.length === 1 ? reportPaymentDates[0] : "");
     const paymentDatesLabel = paymentDate ? formatDate(paymentDate) : reportPaymentDatesLabel;
     const periodEndDate = paymentDate || premiumState.selectedDate;
     const periodEndLabel = paymentDate ? "pagamento" : "abate sem data de pagamento";
     const days = Math.max(0, dateDiffDays(issueDate, periodEndDate));
     const periodRate = Math.pow(1 + dailyRate, days) - 1;
-    const costPerHead = premiumNumberOverride(overrideKey, "costPerHead", group.acquisitionCostWeight ? reportCostPerHead : defaults?.costPerHead || 0);
+    const acquisitionTotals = Array.from(new Set(group.rows.filter((row) => row.hasAcquisitionTotal).map((row) => row.acquisitionTotal)));
+    const originalCounts = Array.from(new Set(group.rows.filter((row) => row.hasOriginalHeadCount).map((row) => row.originalHeadCount)));
+    const acquisitionTotal = acquisitionTotals.length === 1 && acquisitionTotals[0] > 0 ? acquisitionTotals[0] : null;
+    const originalHeadCount = originalCounts.length === 1 ? originalCounts[0] : 0;
+    const validOriginalHeadCount = Number.isInteger(originalHeadCount) && originalHeadCount > 0;
+    const costPerHead = acquisitionTotal !== null && validOriginalHeadCount ? acquisitionTotal / originalHeadCount : group.acquisitionCostWeight ? reportCostPerHead : 0;
+    const acquisitionBasis = acquisitionTotal !== null && validOriginalHeadCount
+      ? `${formatCurrency(acquisitionTotal, 2)} / ${formatNumber(originalHeadCount)} cabecas do termo, sem somar repeticoes`
+      : group.acquisitionCostWeight ? "Coluna de aquisicao por cabeca do relatorio" : "Aquisicao total e quantidade do termo necessarias no relatorio";
     const deaths = premiumNumberOverride(overrideKey, "deaths", 0);
     const hasManualGta = premiumHasOverride(overrideKey, "gtaCost");
     const hasManualPayment = premiumHasOverride(overrideKey, "paymentAmount");
@@ -875,7 +908,7 @@ function premiumCalculatedRows() {
     const paymentAmount = premiumNumberOverride(overrideKey, "paymentAmount", allocatedPaymentAmount || group.paymentAmount || 0);
     const pricePerHead = reportPricePerHead || (paymentAmount && group.heads ? paymentAmount / group.heads : 0);
     const grossPrincipal = roundMoney(group.heads * costPerHead);
-    const validPeriod = Boolean(issueDate && periodEndDate >= issueDate);
+    const validPeriod = Boolean(issueDate && periodEndDate >= issueDate && monthlyRate !== null);
     const calculatedVpAtAbate = validPeriod ? roundMoney(grossPrincipal * (1 + periodRate)) : null;
     const systemVpAtAbate = roundMoney(group.systemVpAtAbate);
     const vpDifference = systemVpAtAbate && validPeriod ? roundMoney(systemVpAtAbate - calculatedVpAtAbate) : null;
@@ -893,11 +926,23 @@ function premiumCalculatedRows() {
     if (!costPerHead) pendingReasons.push("Aquisicao por cabeca ausente");
     if (!revenue) pendingReasons.push("Valor pago ausente");
     if (feeEnabled && missingFee) pendingReasons.push("Fee do parceiro nao cadastrado");
-    if (termRates.size > 1 && !premiumHasOverride(overrideKey, "monthlyRate")) pendingReasons.push("Taxas do termo divergentes");
+    if (monthlyRate === null) pendingReasons.push("Taxa do termo ausente ou invalida");
+    if (group.rows.some((row) => row.hasAssignmentRate && row.assignmentRate === null)) pendingReasons.push("Taxa do termo invalida");
+    if (termRates.size > 1) pendingReasons.push("Taxas do termo divergentes");
+    if (!premiumState.paymentDate && reportPaymentDates.length > 1) pendingReasons.push("Datas de pagamento divergentes");
+    if (acquisitionTotals.length > 1) pendingReasons.push("Aquisicoes totais divergentes no termo");
+    if (originalCounts.length > 1) pendingReasons.push("Quantidades originais divergentes no termo");
+    if (originalCounts.length && !validOriginalHeadCount) pendingReasons.push("Quantidade original invalida");
     if (additionalDiscount > 0 && !discountNote.trim()) pendingReasons.push("Observacao do desconto ausente");
     const discount = roundMoney(-additionalDiscount);
     const premium = pendingReasons.length ? null : roundMoney(revenue + principal + operationCost + gta + tags + monitoringFee + deathCost + discount);
     const partnersLabel = Array.from(group.partners).filter(Boolean).join(", ");
+    const warnings = [];
+    if (costPerHead > 5000) warnings.push("Aquisicao acima de R$ 5.000 por cabeca: conferir o total e a quantidade original");
+    const rateNotes = Array.from(new Set(group.rows.filter((row) => row.assignmentRateBasis.startsWith("annual")).map((row) =>
+      `${formatNumber(row.originalAssignmentRate * 100, 6)}% a.a.${row.assignmentRateBasis === "annual-inferred" ? " presumida" : ""} convertida para mensal`
+    )));
+    if (monthlyRate > 0.025) warnings.push("Taxa mensal acima de 2,50% apos validar a periodicidade");
     return {
       ...group,
       overrideKey,
@@ -913,6 +958,12 @@ function premiumCalculatedRows() {
       periodRate,
       pricePerHead,
       costPerHead,
+      acquisitionTotal,
+      originalHeadCount,
+      originalHeadsFromReport: originalCounts.length > 0,
+      acquisitionBasis,
+      warnings,
+      rateNotes,
       deaths,
       gtaCost,
       hasManualGta,
@@ -1087,13 +1138,15 @@ function premiumStatement(row) {
         <span>${formatCurrency(row.pricePerHead, 2)}/cab.</span>
       </div>
       <div class="statement-lines">
-        ${premiumStatementDateInputLine(row, "Data do termo de cessao", "issueDate", row.issueDate)}
-        ${premiumStatementDateInputLine(row, "Data pagamento", "paymentDate", row.paymentDate)}
+        ${premiumStatementLine("Data do termo de cessao", formatDate(row.issueDate), { className: "term-date" })}
+        ${premiumStatementLine("Data pagamento", row.paymentDate ? formatDate(row.paymentDate) : "-", { className: "payment-date" })}
         ${premiumStatementOptionalInputLine(row, "Valor pago", "paymentAmount", row.paymentAmount, "0.01", paymentNote, !row.hasManualPayment && !row.paymentAmount)}
         ${premiumStatementOptionalInputLine(row, "Custo GTA", "gtaCost", row.gtaCost, "0.01", gtaNote, !row.hasManualGta && !row.gtaCost)}
         ${premiumStatementLine("Receita total", formatCurrency(row.revenue, 2), { className: "is-result", valueClass: "positive" })}
-        ${premiumStatementOptionalInputLine(row, "Valor aquis./cabeca", "costPerHead", row.costPerHead, "0.01")}
-        ${premiumStatementLine("Taxa de cessao", `${formatNumber(row.monthlyRate * 100, 4)}% a.m.`, { note: `ate ${row.periodEndLabel} em ${formatDate(row.periodEndDate)} · periodo ${formatNumber(row.periodRate * 100, 2)}%` })}
+        ${premiumStatementLine("Aquisicao total do termo", row.acquisitionTotal !== null ? formatCurrency(row.acquisitionTotal, 2) : "-")}
+        ${premiumStatementLine("Quantidade do termo", row.originalHeadCount ? formatNumber(row.originalHeadCount) : "-")}
+        ${premiumStatementLine("Valor aquis./cabeca", row.costPerHead ? formatCurrency(row.costPerHead, 2) : "Pendente", { className: "acquisition-per-head", note: row.acquisitionBasis })}
+        ${premiumStatementLine("Taxa de cessao", row.monthlyRate === null ? "Pendente" : `${formatNumber(row.monthlyRate * 100, 6)}% a.m.`, { className: "assignment-rate", note: [...row.rateNotes, `ate ${row.periodEndLabel} em ${formatDate(row.periodEndDate)} · periodo ${formatNumber(row.periodRate * 100, 2)}%`].join("; ") })}
         ${premiumStatementLine("Principal", formatCurrency(row.principal, 2), { valueClass: "negative", note: "quantidade x aquisicao/cabeca" })}
         ${premiumStatementLine("Custo da operacao", premiumResultMoney(row.operationCost), { valueClass: "negative" })}
         ${premiumStatementLine("VP calculado no pagamento", premiumResultMoney(row.calculatedVpAtAbate), { note: "principal atualizado pela taxa de cessao" })}
@@ -1109,7 +1162,7 @@ function premiumStatement(row) {
         ${premiumStatementLine("Premio", premiumResultMoney(row.premium), { className: "is-result", valueClass: signedClass(row.premium) })}
         ${premiumStatementLine("Amortizacao", premiumResultMoney(row.amortization), { className: "is-result" })}
       </div>
-      <div class="statement-foot">${row.pendingReasons.length ? `Pendente: ${escapeHtml(row.pendingReasons.join("; "))}` : `Composicao: lotes ${escapeHtml(row.lotsLabel || "-")}`}</div>
+      <div class="statement-foot">${row.pendingReasons.length ? `Pendente: ${escapeHtml(row.pendingReasons.join("; "))}` : `Composicao: lotes ${escapeHtml(row.lotsLabel || "-")}`}${row.warnings.length ? `<p class="pricing-warning">${escapeHtml(row.warnings.join("; "))}</p>` : ""}</div>
     </article>
   `;
 }
@@ -1395,6 +1448,7 @@ nodes.memoryTable.addEventListener("change", (event) => {
   if (!input.checkValidity()) { input.reportValidity(); return; }
   const termKey = input.dataset.premiumTerm;
   if (termKey) {
+    if (input.dataset.premiumField !== "feeEnabled") return;
     premiumState.termSettings[termKey] = { ...(premiumState.termSettings[termKey] || {}),
       [input.dataset.premiumField]: input.type === "checkbox" ? input.checked : input.value };
     renderPremium();
@@ -1403,6 +1457,7 @@ nodes.memoryTable.addEventListener("change", (event) => {
   const rowKey = input.dataset.premiumKey;
   if (!rowKey) return;
   const field = input.dataset.premiumField;
+  if (!["deaths", "paymentAmount", "gtaCost", "additionalDiscount", "discountNote"].includes(field)) return;
   const nextValue = input.type === "date" || field === "discountNote"
     ? input.value
     : input.value === ""

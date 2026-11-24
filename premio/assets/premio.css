@@ -207,6 +207,7 @@ main {
 .discount-note { align-items: flex-start; padding: 8px 0; flex-wrap: wrap; }
 .discount-note textarea { width: 100%; min-height: 52px; resize: vertical; border: 1px solid var(--line); border-radius: 4px; padding: 8px; font: inherit; }
 .discount-print-note { display: none; }
+.pricing-warning { color: #9c3418; background: #fff1e8; padding: 8px; border-left: 3px solid #b84b20; margin: 8px 0 0; border-radius: 0; overflow-wrap: anywhere; }
 @media print {
   .discount-note textarea { display: none; }
   .discount-print-note { display: block; width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; }
