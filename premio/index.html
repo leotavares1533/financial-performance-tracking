@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculo do Premio - Controle Ceres Confinamento</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d3947'/%3E%3Cpath d='M17 40c7-15 23-15 30 0' fill='none' stroke='%23fffaf4' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='26' r='8' fill='%23c76f2d'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./assets/premio.css?v=20261124-fontes-taxas">
+  <link rel="stylesheet" href="./assets/premio.css?v=20261125-valor-animal">
 </head>
 <body>
   <div class="app-shell">
@@ -28,8 +28,7 @@
       <section class="panel">
         <div class="section-head">
           <div>
-            <p class="eyebrow">arquivo e premissas</p>
-            <h2>Memoria de calculo da evidencia</h2>
+            <h2>Base do calculo</h2>
           </div>
           <span id="premium-status">Aguardando arquivo</span>
         </div>
@@ -71,7 +70,9 @@
             <input id="premium-allocation-gta-input" type="text" inputmode="decimal" autocomplete="off" data-premium-mask="money">
           </label>
         </div>
-        <div class="table-wrap">
+        <details class="support-details">
+          <summary>Distribuicao por termo</summary>
+          <div class="table-wrap">
           <table class="wide-table allocation-table">
             <thead>
               <tr>
@@ -84,10 +85,11 @@
             </thead>
             <tbody id="premium-allocation-table"></tbody>
           </table>
-        </div>
+          </div>
+        </details>
       </section>
 
-      <section class="table-card">
+      <section class="table-card premium-memory-card">
         <div class="card-head">
           <div>
             <h3>Memoria de calculo</h3>
@@ -97,13 +99,8 @@
         <div class="premium-memory-stack" id="premium-memory-table"></div>
       </section>
 
-      <section class="table-card">
-        <div class="card-head">
-          <div>
-            <h3>Conferencia dos lotes</h3>
-            <span>Base animal usada na evidencia</span>
-          </div>
-        </div>
+      <details class="table-card support-details">
+        <summary>Conferencia dos lotes</summary>
         <div class="table-wrap">
           <table class="wide-table">
             <thead>
@@ -124,7 +121,7 @@
             <tbody id="premium-lot-table"></tbody>
           </table>
         </div>
-      </section>
+      </details>
     </main>
   </div>
 
@@ -139,6 +136,6 @@
       <table><thead><tr><th>Parceiro</th><th>Fee (%)</th></tr></thead><tbody id="premium-fee-table"></tbody></table>
     </div>
   </dialog>
-  <script src="./assets/premio.js?v=20261124-fontes-taxas"></script>
+  <script src="./assets/premio.js?v=20261125-valor-animal"></script>
 </body>
 </html>
