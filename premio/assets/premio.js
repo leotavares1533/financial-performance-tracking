@@ -1226,7 +1226,9 @@ function premiumTotalStatement(totals) {
 }
 
 function premiumTermSections(rows) {
-  return `<div class="premium-memory-grid">${rows.map(premiumStatement).join("")}</div>`;
+  const pairs = [];
+  for (let index = 0; index < rows.length; index += 2) pairs.push(`<div class="premium-term-pair">${rows.slice(index, index + 2).map(premiumStatement).join("")}</div>`);
+  return `<div class="premium-memory-grid">${pairs.join("")}</div>`;
 }
 
 function renderPremiumFees() {

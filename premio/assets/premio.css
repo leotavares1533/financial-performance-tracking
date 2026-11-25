@@ -1,7 +1,7 @@
 :root {
-  --bg: #f3f5f5;
-  --surface: #ffffff;
-  --surface-soft: #f7f9f9;
+  --bg: #f3f0eb;
+  --surface: #fffdf9;
+  --surface-soft: #f6f3ee;
   --ink: #102030;
   --muted: #60717c;
   --line: rgba(16, 32, 48, 0.12);
@@ -48,8 +48,9 @@ select {
   gap: 18px;
   padding: 18px 22px;
   color: #fffaf4;
-  background: var(--navy);
-  border-radius: 8px;
+  background: linear-gradient(120deg, var(--navy), var(--blue));
+  border-radius: 24px;
+  box-shadow: 0 10px 24px rgba(13, 57, 71, 0.12);
 }
 
 .brand {
@@ -121,7 +122,7 @@ h3 {
   display: inline-flex;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.24);
-  border-radius: 6px;
+  border-radius: 12px;
   color: #fff;
   background: rgba(255, 255, 255, 0.12);
   padding: 0 12px;
@@ -144,7 +145,7 @@ main {
 
 .panel {
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 20px;
   margin-bottom: 14px;
 }
 
@@ -250,7 +251,8 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   align-content: space-between;
   gap: 7px;
   padding: 13px;
-  border-radius: 8px;
+  border-radius: 16px;
+  box-shadow: 0 5px 16px rgba(16, 32, 48, 0.04);
 }
 
 .premium-kpi span {
@@ -273,7 +275,7 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .table-card {
   padding: 14px;
-  border-radius: 8px;
+  border-radius: 18px;
   margin-bottom: 14px;
 }
 
@@ -308,9 +310,11 @@ table {
 
 .premium-memory-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
+
+.premium-term-pair { display: contents; }
 
 .premium-farm-group {
   display: grid;
@@ -339,7 +343,7 @@ table {
 .premium-statement {
   overflow: hidden;
   border: 1px solid rgba(16, 32, 48, 0.12);
-  border-radius: 6px;
+  border-radius: 14px;
   background: var(--surface);
   min-width: 0;
 }
@@ -360,7 +364,7 @@ table {
 }
 
 .premium-statement.is-total .premium-statement-head {
-  background: var(--navy);
+  background: linear-gradient(120deg, var(--navy), var(--blue));
 }
 
 .premium-statement-head strong {
@@ -418,7 +422,7 @@ table {
   gap: 10px;
   min-height: 38px;
   border-bottom: 1px solid rgba(16, 32, 48, 0.08);
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
 }
 
 .statement-line:last-child {
@@ -443,16 +447,24 @@ table {
 .statement-line strong {
   text-align: right;
   white-space: nowrap;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
 }
 
 .statement-line.is-result {
   margin: 5px -2px 0;
   border-bottom: 0;
-  border-radius: 4px;
-  background: rgba(13, 57, 71, 0.07);
+  border-radius: 8px;
+  background: #e3f1e7;
   padding: 7px 8px;
 }
+
+.statement-line.is-result:last-child { background: #e5eef7; }
+.statement-line.is-editable,
+.fee-toggle { background: #fff2d9; border-radius: 8px; padding: 4px 7px; margin: 2px 0; }
+.term-date,
+.payment-date,
+.assignment-rate { background: #edf2f5; border-radius: 8px; padding: 4px 7px; margin: 2px 0; }
+.acquisition-per-head > .statement-line { margin: 2px 0; }
 
 .statement-line.is-check {
   margin: 3px -2px;
@@ -527,17 +539,17 @@ td strong {
 }
 
 .inline-number {
-  width: 128px;
+  width: 104px;
   max-width: 46%;
   flex: 0 0 auto;
   min-height: 32px;
   border: 1px solid rgba(16, 32, 48, 0.16);
   border-radius: 8px;
   color: var(--ink);
-  background: rgba(255, 255, 255, 0.86);
+  background: #fffefb;
   padding: 0 7px;
   text-align: right;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   font-weight: 600;
 }
 
@@ -567,8 +579,11 @@ td strong {
   font-weight: 900;
 }
 
+@media (max-width: 1199px) {
+  .premium-memory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 @media (max-width: 980px) {
-  .premium-memory-grid { grid-template-columns: 1fr; }
   .topbar {
     align-items: flex-start;
     flex-direction: column;
@@ -589,6 +604,7 @@ td strong {
 }
 
 @media (max-width: 620px) {
+  .premium-memory-grid { grid-template-columns: 1fr; }
   .app-shell {
     width: min(100% - 24px, 1380px);
     padding-top: 18px;
@@ -614,13 +630,20 @@ td strong {
 }
 
 @page {
-  size: A4 landscape;
-  margin: 6mm;
+  size: A4 portrait;
+  margin: 10mm 9mm 13mm;
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font: 8pt Arial, sans-serif;
+    color: #60717c;
+  }
 }
 
 @media print {
   body {
     background: #fff;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
   }
 
   body::before,
@@ -628,6 +651,9 @@ td strong {
   .file-input-label {
     display: none !important;
   }
+
+  .panel,
+  .premium-allocation-card { display: none; }
 
   .app-shell {
     width: 100%;
@@ -745,12 +771,25 @@ td strong {
   }
 
   .premium-memory-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 4pt;
+    display: block;
   }
+
+  .premium-term-pair {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3mm;
+    margin-bottom: 3mm;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .premium-memory-card { padding: 0; }
+  .premium-memory-card > .card-head { break-after: avoid; margin-bottom: 3mm; }
+  .premium-statement.is-total .statement-lines { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 5mm; }
 
   .premium-statement {
     break-inside: avoid;
+    page-break-inside: avoid;
     border-radius: 5pt;
   }
 
@@ -789,7 +828,7 @@ td strong {
   }
 
   .statement-line {
-    min-height: 10pt;
+    min-height: 12pt;
     gap: 3pt;
     font-size: 7.5pt;
   }
@@ -808,6 +847,13 @@ td strong {
     border-radius: 4pt;
     padding: 2pt 3pt;
   }
+
+  .statement-line.is-editable,
+  .fee-toggle,
+  .term-date,
+  .payment-date,
+  .assignment-rate { padding: 2pt 3pt; margin: 1pt 0; }
+  .fee-toggle input { display: none; }
 
   .statement-foot,
   .premium-empty {
@@ -841,7 +887,7 @@ td strong {
     width: 40pt;
   }
 
-  .inline-number { width: 72pt; font-size: 7.5pt; appearance: textfield; }
+  .inline-number { width: 60pt; min-height: 12pt; padding: 0; border: 0; background: transparent; font-size: 7.5pt; appearance: textfield; }
   .inline-number::-webkit-inner-spin-button,
   .inline-number::-webkit-outer-spin-button { display: none; }
 
